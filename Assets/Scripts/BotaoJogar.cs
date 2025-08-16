@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
 
-public class BotãoJogar : MonoBehaviour
+public class BotaoJogar : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

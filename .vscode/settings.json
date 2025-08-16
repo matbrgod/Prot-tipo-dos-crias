@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Prótotipo dos crias.sln"
+    "dotnet.defaultSolution": "Prot-tipo-dos-crias.sln"
 }
