@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     public int healthEnemy;
+    public int maxHealthEnemy = 30;
     public float speed = 2f;
     public Transform player;
 
@@ -11,7 +12,7 @@ public class EnemyMove : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        healthEnemy = 30;
+        healthEnemy = maxHealthEnemy;
     }
 
     void FixedUpdate()
@@ -21,23 +22,22 @@ public class EnemyMove : MonoBehaviour
             Vector2 direction = (player.position - transform.position).normalized;
             rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
         }
-        if(healthEnemy <= 0)
-            {
-                Destroy(gameObject);
-            }
+           
+       
+       
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Bullet"))
         {
-            healthEnemy -= 10; // Assuming each bullet reduces health by 10
+            healthEnemy -= 10;// Assuming each bullet reduces health by 10
             if(healthEnemy <= 0)
             {
                 Destroy(gameObject);
             }
 
-            Destroy(gameObject);
+            
         }
     }
 }

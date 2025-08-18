@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4499748802747334147}
   - component: {fileID: 6900329727869111007}
   - component: {fileID: 6550461995691034947}
-  - component: {fileID: 7457056732184708500}
+  - component: {fileID: 8041634103149370106}
   m_Layer: 0
   m_Name: pedra atualizada_3
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6489817534311924623}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.9816451, y: 1.0139132, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -116,8 +116,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &7457056732184708500
-BoxCollider2D:
+--- !u!70 &8041634103149370106
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -151,14 +151,5 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8888889, y: 0.41666666}
-    newSize: {x: 0.8888889, y: 0.41666666}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   m_Size: {x: 0.8888889, y: 0.41666666}
-  m_EdgeRadius: 0
+  m_Direction: 0

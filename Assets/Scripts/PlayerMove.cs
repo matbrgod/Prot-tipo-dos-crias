@@ -6,8 +6,8 @@ using System.Collections.Generic;
 public class PlayerMovement : MonoBehaviour
 {
     public int healthPlayer = 100;
-    public int damage = 10;
-    public float attackRange = 1.5f;
+    //public int damage = 10;
+    //public float attackRange = 1.5f;
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
 
