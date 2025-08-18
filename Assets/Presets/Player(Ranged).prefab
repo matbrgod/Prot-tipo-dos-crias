@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4613594130532737336}
   - component: {fileID: 811127705558363441}
-  - component: {fileID: 3675816241967192796}
   - component: {fileID: 1474180916201148705}
   - component: {fileID: 4577782479327688703}
+  - component: {fileID: 2104107239499801925}
   m_Layer: 6
-  m_Name: Player
+  m_Name: Player(Ranged)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,24 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3675816241967192796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5068427433506322255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46cb5aea84758bc49b0f8a71cb0262b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPlayer: 100
-  damage: 10
-  attackRange: 1.5
-  moveSpeed: 5
-  rb: {fileID: 1474180916201148705}
-  weapon: {fileID: 762468596578870077}
 --- !u!50 &1474180916201148705
 Rigidbody2D:
   serializedVersion: 5
@@ -173,6 +155,22 @@ CapsuleCollider2D:
   m_Offset: {x: -0.011669397, y: 0.024236917}
   m_Size: {x: 0.93716383, y: 0.9407544}
   m_Direction: 0
+--- !u!114 &2104107239499801925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5068427433506322255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03b485a5588ecc43b6bf55ded15d15c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPlayer: 100
+  moveSpeed: 5
+  rb: {fileID: 1474180916201148705}
+  weapon: {fileID: 762468596578870077}
 --- !u!1001 &8585140241929857719
 PrefabInstance:
   m_ObjectHideFlags: 0

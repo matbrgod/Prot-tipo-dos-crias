@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
  
-public class PlayerMovement : MonoBehaviour
+public class PlayerMove1 : MonoBehaviour
 {
     public int healthPlayer = 100;
     //public int damage = 10;
@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 moveDirection;
 
     Vector2 mousePosition;
-    public WeaponParent WeaponParent;
+    //public WeaponParent WeaponParent;
 
     void Update()
     {
@@ -29,10 +29,10 @@ public class PlayerMovement : MonoBehaviour
             weapon.Fire();
         }
 
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            WeaponParent.Attack();
-        }
+        //if(Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    WeaponParent.Attack();
+       // }
 
         moveDirection = new Vector2(moveX, moveY).normalized;
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -54,9 +54,9 @@ public class PlayerMovement : MonoBehaviour
         {
             // Movement
             rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
-        //Vector2 aimDirection = mousePosition - rb.position;
-        //float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
-       // rb.rotation = aimAngle;
+        Vector2 aimDirection = mousePosition - rb.position;
+        float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
+        rb.rotation = aimAngle;
         }
     
 }
