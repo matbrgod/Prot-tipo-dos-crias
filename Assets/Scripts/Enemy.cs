@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    public int healthEnemy;
-    public int maxHealthEnemy = 30;
+    public float healthEnemy;
+    public float maxHealthEnemy = 3f;
     public float speed = 2f;
     public Transform player;
 
@@ -22,22 +22,32 @@ public class EnemyMove : MonoBehaviour
             Vector2 direction = (player.position - transform.position).normalized;
             rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
         }
-           
-       
-       
+
+
+
+    }
+
+    public void TakeDamage(float damage)
+    {
+        healthEnemy -= damage;
+        if (healthEnemy <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Bullet"))
         {
-            healthEnemy -= 10;// Assuming each bullet reduces health by 10
-            if(healthEnemy <= 0)
+           healthEnemy -= 1;// Assuming each bullet reduces health by 1
+           if (healthEnemy <= 0)
             {
                 Destroy(gameObject);
             }
 
-            
+
         }
     }
 }
+   

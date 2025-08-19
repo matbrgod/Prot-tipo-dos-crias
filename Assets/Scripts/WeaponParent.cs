@@ -13,8 +13,16 @@ public class WeaponParent : MonoBehaviour
     public float delay = 0.5f;
     private bool attackBlocked;
 
+    bool isAttacking = false;
+
+    float atkduration = 0.5f;
+    float atkTimer = 0f;
+    public GameObject Melee;
+
     private void Update()
     {
+        CheckMeleeTimer();
+
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         difference.Normalize();
         float rotation_z = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
@@ -37,6 +45,8 @@ public class WeaponParent : MonoBehaviour
         if (attackBlocked) return;
         animator.SetTrigger("Attack");
         attackBlocked = true;
+        Melee.SetActive(true);
+        isAttacking = true;
         StartCoroutine(AttackDelay());
 
     }
@@ -45,5 +55,20 @@ public class WeaponParent : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         attackBlocked = false;
+    }
+
+    void CheckMeleeTimer()
+    {
+        if (isAttacking)
+        {
+            atkTimer += Time.deltaTime;
+            if (atkTimer >= atkduration)
+            {
+                atkTimer = 0f;
+                isAttacking = false;
+                Melee.SetActive(false);
+                                
+            }
+        }
     }
 }
