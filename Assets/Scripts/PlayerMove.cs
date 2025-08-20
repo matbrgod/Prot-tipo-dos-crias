@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 mousePosition;
     public WeaponParent WeaponParent;
+    
 
     void Update()
     {
@@ -29,9 +30,10 @@ public class PlayerMovement : MonoBehaviour
             weapon.Fire();
         }
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             WeaponParent.Attack();
+            
         }
 
         moveDirection = new Vector2(moveX, moveY).normalized;

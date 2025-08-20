@@ -166,6 +166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthEnemy: 0
-  maxHealthEnemy: 3
+  maxHealthEnemy: 1
   speed: 2
   player: {fileID: 0}

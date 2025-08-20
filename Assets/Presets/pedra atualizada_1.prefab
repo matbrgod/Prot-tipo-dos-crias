@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5918875036837104102}
   - component: {fileID: 6494830496842637878}
   - component: {fileID: 8143345106700024444}
+  - component: {fileID: 79834313085758371}
   m_Layer: 0
   m_Name: pedra atualizada_1
   m_TagString: Untagged
@@ -153,3 +154,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.8611111, y: 0.5555556}
   m_Direction: 0
+--- !u!114 &79834313085758371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828405162660030072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c93727ade71908469ed40c9e19104ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetoADrop: {fileID: 1970077547507814248, guid: 3f2056c095c555d438d011f002073a7f, type: 3}
+  vidaMaxima: 3
+  vidaAtual: 0
+  barraDeVida: {fileID: 0}

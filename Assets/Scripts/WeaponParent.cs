@@ -15,7 +15,7 @@ public class WeaponParent : MonoBehaviour
 
     bool isAttacking = false;
 
-    float atkduration = 0.5f;
+    float atkduration = 0.3f;
     float atkTimer = 0f;
     public GameObject Melee;
 
@@ -46,6 +46,14 @@ public class WeaponParent : MonoBehaviour
         animator.SetTrigger("Attack");
         attackBlocked = true;
         Melee.SetActive(true);
+        var collider = Melee.GetComponent<Collider2D>();
+        if (collider != null)
+        {
+            collider.enabled = false;
+            collider.enabled = true;
+        }
+        Physics2D.SyncTransforms();
+        
         isAttacking = true;
         StartCoroutine(AttackDelay());
 
