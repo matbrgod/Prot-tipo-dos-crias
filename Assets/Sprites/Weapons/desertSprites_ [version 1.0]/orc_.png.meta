@@ -180,6 +180,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -834,7 +860,36 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      orc__0: 8770226528601773871
+      orc__1: -5723545830325061082
+      orc__10: -5144179011119193350
+      orc__11: -5711606278172444926
+      orc__12: -7521081729566528647
+      orc__13: 2141607239579183487
+      orc__14: 846581737429697925
+      orc__15: 534123487116694869
+      orc__16: -1177464804335747464
+      orc__17: -844166263443177383
+      orc__18: 112712861432928679
+      orc__19: -2963255731844088488
+      orc__2: 876116957873498725
+      orc__20: -5361110789018191414
+      orc__21: 2981496879796773007
+      orc__22: -926208287372502883
+      orc__23: -6611951097374208860
+      orc__24: -8666386841943458729
+      orc__25: 1412464560599517921
+      orc__26: -3657379211735688104
+      orc__27: 1573288013455277804
+      orc__28: 4137416940985088549
+      orc__3: 583359759298039202
+      orc__4: 152260066507439376
+      orc__5: 3319930565589523020
+      orc__6: -7935668839382035496
+      orc__7: -837319378169773351
+      orc__8: -8816478798289844247
+      orc__9: 6024367283376968595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

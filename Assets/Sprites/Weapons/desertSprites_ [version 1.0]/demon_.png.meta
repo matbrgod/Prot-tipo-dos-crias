@@ -195,6 +195,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -959,7 +985,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      demon__0: -2949734772146081381
+      demon__1: -4487573290498758945
+      demon__10: 7105194168835080828
+      demon__11: -1967542118999924813
+      demon__12: 4867575801980939788
+      demon__13: 1784015576806999944
+      demon__14: -3842046579055818828
+      demon__15: 5122769137637385546
+      demon__16: 2131293799751919942
+      demon__17: -4112493910250199515
+      demon__18: 9167139421618821742
+      demon__19: -1883466392605221271
+      demon__2: 5272162882092763126
+      demon__20: -2631680802425174045
+      demon__21: 5074289628018368322
+      demon__22: -7358110999727742373
+      demon__23: -7899029253611769068
+      demon__24: 9090999660695537975
+      demon__25: -6244124124313127662
+      demon__26: -564213469788772704
+      demon__27: 3979608667108730344
+      demon__28: 6803784554416209207
+      demon__29: 4395340334284222138
+      demon__3: -9155529997385287157
+      demon__30: -2095194881930782588
+      demon__31: -6768252059898444256
+      demon__32: 2500153431871455955
+      demon__33: -7855442494261584718
+      demon__4: -3073458822499828074
+      demon__5: 7521782184601749043
+      demon__6: -1658818431393528824
+      demon__7: -2147298034204671509
+      demon__8: 3163386790231575427
+      demon__9: 428878525937619436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

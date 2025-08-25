@@ -192,6 +192,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -934,7 +960,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bandit__0: 9219882572253508970
+      bandit__1: -2827130833517225309
+      bandit__10: 763971220612475087
+      bandit__11: -7040801413592556890
+      bandit__12: -6933687082590298292
+      bandit__13: 1923047580943508384
+      bandit__14: 5539608936808888247
+      bandit__15: 6861605202016936584
+      bandit__16: 8623497446573873072
+      bandit__17: 3006025998547224251
+      bandit__18: 2710405173919699240
+      bandit__19: 6303877400140315731
+      bandit__2: -1179087649630740672
+      bandit__20: -2515958539613834146
+      bandit__21: 7487643406698046399
+      bandit__22: -4744687154340626773
+      bandit__23: 5742431247126895261
+      bandit__24: -3276620972154079077
+      bandit__25: 8106526934521757679
+      bandit__26: -4282773479595879598
+      bandit__27: 7691801272119349630
+      bandit__28: 2926983184033465850
+      bandit__29: 332208530113096337
+      bandit__3: 2437250791237139795
+      bandit__30: -4431137591371533902
+      bandit__31: -7488456266981092161
+      bandit__32: 1531646601824662172
+      bandit__4: 8981226329300189265
+      bandit__5: 4052839601493921335
+      bandit__6: -2589876630232813354
+      bandit__7: 8150119289899486004
+      bandit__8: 5579771959302009692
+      bandit__9: -715997200556850079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

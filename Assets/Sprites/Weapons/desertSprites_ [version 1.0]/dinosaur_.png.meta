@@ -216,6 +216,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1134,7 +1160,48 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dinosaur__0: -5447372916170113900
+      dinosaur__1: 6718706465442162768
+      dinosaur__10: 5767025163950629368
+      dinosaur__11: 3717294222528591981
+      dinosaur__12: 6694514726352389887
+      dinosaur__13: -1810107879286603992
+      dinosaur__14: -6001669760439493265
+      dinosaur__15: 7695000447596876735
+      dinosaur__16: -8279645362696938909
+      dinosaur__17: 5164476646963135481
+      dinosaur__18: -7760456586980111211
+      dinosaur__19: 2418653776346444799
+      dinosaur__2: 5722226906004503204
+      dinosaur__20: 641168654190771591
+      dinosaur__21: -1956403700886014128
+      dinosaur__22: -5562610538570454041
+      dinosaur__23: -1891349756105811596
+      dinosaur__24: 4582921242242805384
+      dinosaur__25: 2183525638272319370
+      dinosaur__26: -6753517953818966441
+      dinosaur__27: -8833837970196522552
+      dinosaur__28: 4738859412873397344
+      dinosaur__29: -7664232232131350112
+      dinosaur__3: -3844093059148819904
+      dinosaur__30: -6596884980198046506
+      dinosaur__31: -8440057292575215063
+      dinosaur__32: 7827190745972527270
+      dinosaur__33: -4770065739218175094
+      dinosaur__34: -8289994110770688103
+      dinosaur__35: 261860423290453692
+      dinosaur__36: 4787684977997215811
+      dinosaur__37: -1858832770863522597
+      dinosaur__38: -4495890253227403131
+      dinosaur__39: 3682129440642868028
+      dinosaur__4: -4129549933018407055
+      dinosaur__40: 4919606325117315183
+      dinosaur__5: -4689341939535080082
+      dinosaur__6: -8641351610031282885
+      dinosaur__7: 3129488601822974336
+      dinosaur__8: 665757564477516419
+      dinosaur__9: 128266055344723913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
