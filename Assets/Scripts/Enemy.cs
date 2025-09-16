@@ -4,8 +4,11 @@ public class Enemy : MonoBehaviour
 {
     public float healthEnemy;
     public float maxHealthEnemy = 3f;
-    public float speed = 2f;
-    public Transform player;
+    public float speed;
+    public GameObject player;
+    public float distanceBetween;
+
+    private float distance;
 
     private Rigidbody2D rb;
 
@@ -14,15 +17,26 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         healthEnemy = maxHealthEnemy;
     }
+    void Update()
+    {
+        
+        distance = Vector2.Distance(transform.position, player.transform.position);
+        Vector2 direction = player.transform.position - transform.position;
+        direction.Normalize();
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+        
+
+        if (distance < distanceBetween)
+        {
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+            transform.rotation = Quaternion.Euler(Vector3.forward * (angle-180));
+        }
+    }
 
     void FixedUpdate()
     {
-        if (player != null)
-        {
-            Vector2 direction = (player.position - transform.position).normalized;
-            rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
-        }
-
+        
 
 
     }

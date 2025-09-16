@@ -29,6 +29,7 @@ public class WeaponParent : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, rotation_z + offset);
         Vector2 scale = transform.localScale;
 
+        //usar quaternion para rotacionar o personagem
         if (Mathf.Abs(rotation_z) > 90)
         {
             scale.y = -1;
@@ -37,7 +38,7 @@ public class WeaponParent : MonoBehaviour
         {
             scale.y = 1;
         }
-        transform.localScale = scale;
+       transform.localScale = scale;
 
     }
     public void Attack()

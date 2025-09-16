@@ -18,12 +18,16 @@ public class PlayerMovement : MonoBehaviour
     Vector2 mousePosition;
     public WeaponParent WeaponParent;
     
+    public bool interact = false;
+    
+
 
     void Update()
     {
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        
 
          if (Input.GetMouseButtonDown(0))
         {
@@ -35,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
             WeaponParent.Attack();
             
         }
+        
+        interact = Input.GetKeyDown(KeyCode.E);
 
         moveDirection = new Vector2(moveX, moveY).normalized;
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

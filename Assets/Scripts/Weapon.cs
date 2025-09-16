@@ -8,7 +8,8 @@ public class Weapon : MonoBehaviour
     public float fireForce = 20f;
     public void Fire()
     {
-        Vector2 fireDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - firePoint.position).normalized;
+        Vector2 fireDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - firePoint.position);
+        fireDirection.Normalize();
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         if (rb != null)
