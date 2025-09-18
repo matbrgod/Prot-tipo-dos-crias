@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class Collectable : MonoBehaviour
+public class Botao : MonoBehaviour
 {
     private Player player;
+    public GameObject porta;
 
     //ao ENTRAR na área de trigger
     private void OnTriggerEnter2D(Collider2D objectThatEntered)
@@ -17,10 +18,12 @@ public class Collectable : MonoBehaviour
     private void OnTriggerStay2D(Collider2D objectThatStayed)
     {
         if (objectThatStayed.CompareTag("Player") && player.interact)
-        {
-            //realiza a ação do coletável
-            //deleta ele da cena
-            Debug.Log("Player pegou o coletavel");
+        {   
+            if (porta != null)
+            {
+                porta.SetActive(true);
+            }
+
             Destroy(gameObject, 0.15f);
         }
     }
