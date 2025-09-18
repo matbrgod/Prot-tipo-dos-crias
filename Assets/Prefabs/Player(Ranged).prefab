@@ -178,7 +178,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7750368599562749041}
   - component: {fileID: 5058938303822325976}
-  - component: {fileID: 9091206683252312486}
   m_Layer: 6
   m_Name: WeaponParent
   m_TagString: Untagged
@@ -218,22 +217,6 @@ MonoBehaviour:
   animator: {fileID: 0}
   delay: 0.5
   Melee: {fileID: 0}
---- !u!114 &9091206683252312486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4726452522150211018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a1fbb6e28a140445889d74ce93d9b0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offset: 0
-  animator: {fileID: 0}
-  delay: 0.5
-  Melee: {fileID: 0}
 --- !u!1 &5068427433506322255
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +229,7 @@ GameObject:
   - component: {fileID: 811127705558363441}
   - component: {fileID: 1474180916201148705}
   - component: {fileID: 4577782479327688703}
-  - component: {fileID: 1221231243726641990}
+  - component: {fileID: 6053698984496014216}
   m_Layer: 6
   m_Name: Player(Ranged)
   m_TagString: Untagged
@@ -390,7 +373,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.011669397, y: 0.024236917}
   m_Size: {x: 0.93716383, y: 0.9407544}
   m_Direction: 0
---- !u!114 &1221231243726641990
+--- !u!114 &6053698984496014216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -399,7 +382,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5068427433506322255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46cb5aea84758bc49b0f8a71cb0262b3, type: 3}
+  m_Script: {fileID: 11500000, guid: ecf48dc527ef76a439106efb77d7bfe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthPlayer: 100
@@ -407,6 +390,7 @@ MonoBehaviour:
   rb: {fileID: 1474180916201148705}
   weapon: {fileID: 8779678612834602157}
   WeaponParent: {fileID: 0}
+  interact: 0
 --- !u!1001 &317487938055390503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -481,7 +465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9056842988438325642, guid: 8deabbe6031a6dd46a44143fa28cf7c8, type: 3}
       propertyPath: fireForce
-      value: 50
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 9153636000746110915, guid: 8deabbe6031a6dd46a44143fa28cf7c8, type: 3}
       propertyPath: m_LocalPosition.x

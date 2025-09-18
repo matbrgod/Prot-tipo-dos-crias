@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    private PlayerMovement player;
+    private Player player;
 
     //ao ENTRAR na área de trigger
     private void OnTriggerEnter2D(Collider2D objectThatEntered)
@@ -10,7 +10,7 @@ public class Collectable : MonoBehaviour
         //if (objectThatEntered.tag == "Jogador")//nojinho :(
         if (objectThatEntered.CompareTag("Player"))//:)
         {
-            player = objectThatEntered.GetComponent<PlayerMovement>();
+            player = objectThatEntered.GetComponent<Player>();
         }
     }
     //caso FIQUE na área de trigger

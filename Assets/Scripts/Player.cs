@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
  
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public int healthPlayer = 100;
     //public int damage = 10;
