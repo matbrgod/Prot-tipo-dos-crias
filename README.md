@@ -1,13 +1,13 @@
 # Projeto "Fungas" (trabalho final segundo semestre 2025)
 
 INTEGRANTES:
-André Luiz Lopes Silva Campos
-Matheus Costa Barroso
-Gustavo Tashima Basílio
-Renan Takeo Togashi
-Luan Tambara Velho Zollner Holmo
-Julia Marques de Freitas Montenegro
-Thales Martins Ferreira
+- André Luiz Lopes Silva Campos
+- Matheus Costa Barroso
+- Gustavo Tashima Basílio
+- Renan Takeo Togashi
+- Luan Tambara Velho Zollner Holmo
+- Julia Marques de Freitas Montenegro
+- Thales Martins Ferreira <br>
 
 ## Sumário do Projeto 
 
