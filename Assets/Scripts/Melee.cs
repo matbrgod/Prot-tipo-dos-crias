@@ -42,5 +42,26 @@ public class Melee : MonoBehaviour
             rock.ReceberDano(damage);
             hitThisAttack.Add(collision);
         }
+
+        planta planta = collision.GetComponent<planta>();
+        if (planta != null)
+        {
+            planta.TakeDamage(damage);
+            hitThisAttack.Add(collision);
+        }
+
+        ácido ácido = collision.GetComponent<ácido>();
+        if (ácido != null)
+        {
+            ácido.TakeDamage(damage);
+            hitThisAttack.Add(collision);
+        }
+        
+        Voador voador = collision.GetComponent<Voador>();
+        if (voador != null)
+        {
+            voador.TakeDamage(damage);
+            hitThisAttack.Add(collision);
+        }
     }
 }

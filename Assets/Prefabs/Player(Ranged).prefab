@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 6053698984496014216}
   m_Layer: 6
   m_Name: Player(Ranged)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -386,6 +386,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPlayer: 100
+  maxHealthPlayer: 100
+  healthText: {fileID: 0}
   moveSpeed: 5
   rb: {fileID: 1474180916201148705}
   weapon: {fileID: 8779678612834602157}

@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.021197503, g: 0.13207549, b: 0.014328947, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -103,6 +103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9dd6b3fa92a7042bb0d82e967b41a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthEnemy: 0
+  maxHealthEnemy: 1
   velocidade: 3
   tempoDeVida: 4
   prefabAoDestruir: {fileID: 1652246744130661341, guid: 7ada7f023a35c82488dadfe50502c21f, type: 3}

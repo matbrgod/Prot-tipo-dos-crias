@@ -2,12 +2,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
- 
+using TMPro;
+
 public class Player : MonoBehaviour
 {
-    public int healthPlayer = 100;
+    public int healthPlayer;
+
+    public int maxHealthPlayer = 100;
     //public int damage = 10;
     //public float attackRange = 1.5f;
+    public TMP_Text healthText;
+
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
 
@@ -21,6 +26,11 @@ public class Player : MonoBehaviour
     public bool interact = false;
     
 
+    void Start()
+    {
+        healthPlayer = maxHealthPlayer;
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     void Update()
     {
@@ -45,26 +55,46 @@ public class Player : MonoBehaviour
         moveDirection = new Vector2(moveX, moveY).normalized;
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-               
-        Collider2D collision = Physics2D.OverlapCircle(transform.position, 0.5f, 128);
-        if (collision)
+        healthText.text = "Health: " + healthPlayer;    
+        
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+        {            
+                if (collision.collider.CompareTag("Enemy") || collision.collider.CompareTag("Veneno"))
+                {
+                    healthPlayer -= 10; // Diminui 10 de vida
+                    if (healthPlayer <= 0)
+                    {
+                        SceneManager.LoadScene("Menu");
+                    }
+                    //Destroy(collision.gameObject); // Opcional
+                }
+            
+        }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Veneno"))
         {
-            if (collision.CompareTag("Enemy") || collision.CompareTag("Trap"))
+            healthPlayer -= 10; // Diminui 10 de vida
+            if (healthPlayer <= 0)
             {
-                healthPlayer -= 100; // Diminui 10 de vida
                 SceneManager.LoadScene("Menu");
-                //Destroy(collision.gameObject); // Opcional
             }
+            //Destroy(collision.gameObject); // Opcional
         }
     }
 
-        void FixedUpdate()
-        {
-            // Movement
-            rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+    void FixedUpdate()
+    {
+        // Movement
+        rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
         //Vector2 aimDirection = mousePosition - rb.position;
         //float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
-       // rb.rotation = aimAngle;
-        }
+        // rb.rotation = aimAngle;
+       
+
+    }
     
 }
