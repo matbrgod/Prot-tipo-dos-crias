@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class planta : MonoBehaviour
 {
+    public float healthEnemy;
+    public float maxHealthEnemy = 3f;
     public float distanciaParaAtacar = 5f;
     public float tempoEntreTiros = 2f;
     public GameObject projetilPrefab;
@@ -19,6 +21,7 @@ public class planta : MonoBehaviour
 
     void Start()
     {
+        healthEnemy = maxHealthEnemy;
         GameObject objJogador = GameObject.FindGameObjectWithTag("Player");
         if (objJogador != null)
             jogador = objJogador.transform;
@@ -57,6 +60,28 @@ public class planta : MonoBehaviour
         {
             Instantiate(projetilPrefab, pontoDeDisparo.position, Quaternion.identity);
             tempoUltimoTiro = Time.time;
+        }
+    }
+    public void TakeDamage(float damage)
+    {
+        healthEnemy -= damage;
+        if (healthEnemy <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Bullet"))
+        {
+           healthEnemy -= 1;// Assuming each bullet reduces health by 1
+           if (healthEnemy <= 0)
+            {
+                Destroy(gameObject);
+            }
+
+
         }
     }
 }

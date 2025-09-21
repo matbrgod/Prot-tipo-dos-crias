@@ -570,6 +570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPlayer: 100
+  maxHealthPlayer: 100
+  healthText: {fileID: 0}
   moveSpeed: 5
   rb: {fileID: 4325779455027966413}
   weapon: {fileID: 0}

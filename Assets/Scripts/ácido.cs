@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ácido : MonoBehaviour
 {
+    public float healthEnemy;
+    public float maxHealthEnemy = 1f;
     public float velocidade = 3f;
     public float tempoDeVida = 2f;
     public GameObject prefabAoDestruir;
@@ -76,6 +78,28 @@ public class ácido : MonoBehaviour
                 }
             }
             estadoAtual = Estado.ColidiuComPlayer;
+        }
+    }
+    public void TakeDamage(float damage)
+    {
+        healthEnemy -= damage;
+        if (healthEnemy <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Bullet"))
+        {
+           healthEnemy -= 1;// Assuming each bullet reduces health by 1
+           if (healthEnemy <= 0)
+            {
+                Destroy(gameObject);
+            }
+
+
         }
     }
 }       
