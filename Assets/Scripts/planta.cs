@@ -8,7 +8,6 @@ public class planta : MonoBehaviour
     public float tempoEntreTiros = 2f;
     public GameObject projetilPrefab;
     public Transform pontoDeDisparo;
-    public Animator anim;
 
     private Transform jogador;
     private float tempoUltimoTiro;
@@ -22,7 +21,6 @@ public class planta : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponent<Animator>();
         healthEnemy = maxHealthEnemy;
         GameObject objJogador = GameObject.FindGameObjectWithTag("Player");
         if (objJogador != null)
