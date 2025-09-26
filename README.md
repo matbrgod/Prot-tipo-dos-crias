@@ -12,4 +12,5 @@ INTEGRANTES:
 ## Sumário do Projeto 
 
 milestone 01 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_01.md"> documento </a>
+milestone 02 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_02.md"> documento </a>
 
