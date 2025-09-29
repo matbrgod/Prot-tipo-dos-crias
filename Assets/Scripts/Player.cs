@@ -39,15 +39,14 @@ public class Player : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
         
 
-         if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
-            weapon.Fire();
+           weapon.Fire();
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            WeaponParent.Attack();
-            
+            WeaponParent.Attack();            
         }
         
         interact = Input.GetKeyDown(KeyCode.E);
