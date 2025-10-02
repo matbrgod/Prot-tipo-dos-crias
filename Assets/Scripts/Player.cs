@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
+    Vector2 movement;
 
     public Weapon weapon;
  
@@ -25,11 +26,13 @@ public class Player : MonoBehaviour
     
     public bool interact = false;
     
+    SpriteRenderer spriteRenderer;
 
     void Start()
     {
         healthPlayer = maxHealthPlayer;
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -37,11 +40,10 @@ public class Player : MonoBehaviour
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
-        
-
+      
         if (Input.GetMouseButtonDown(0))
         {
-           weapon.Fire();
+            weapon.Fire();
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -53,6 +55,13 @@ public class Player : MonoBehaviour
 
         moveDirection = new Vector2(moveX, moveY).normalized;
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if (mouseWorldPos.x > transform.position.x)
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        else 
+            transform.rotation = Quaternion.Euler(0, -180, 0);
 
         healthText.text = "Health: " + healthPlayer;    
         
