@@ -74,7 +74,7 @@ public class Player : MonoBehaviour
                     healthPlayer -= 10; // Diminui 10 de vida
                     if (healthPlayer <= 0)
                     {
-                        SceneManager.LoadScene("Menu");
+                        SceneManager.LoadScene("Menu"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
                 }
