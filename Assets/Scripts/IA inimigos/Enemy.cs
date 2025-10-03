@@ -19,15 +19,15 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
-        
+
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
-        
 
-        if (distance > distanceBetween)
+
+        if (distance < distanceBetween)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
             //transform.rotation = Quaternion.Euler(Vector3.forward * (angle-180));
@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+
 
 
     }
@@ -54,8 +54,8 @@ public class Enemy : MonoBehaviour
     {
         if (collision.collider.CompareTag("Bullet"))
         {
-           healthEnemy -= 1;// Assuming each bullet reduces health by 1
-           if (healthEnemy <= 0)
+            healthEnemy -= 1;// Assuming each bullet reduces health by 1
+            if (healthEnemy <= 0)
             {
                 Destroy(gameObject);
             }
@@ -63,5 +63,4 @@ public class Enemy : MonoBehaviour
 
         }
     }
-}
-   
+}s
