@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
         
 
-        if (distance < distanceBetween)
+        if (distance > distanceBetween)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
             //transform.rotation = Quaternion.Euler(Vector3.forward * (angle-180));
