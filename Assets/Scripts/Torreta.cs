@@ -45,7 +45,7 @@ public class Torreta : MonoBehaviour
         if (mirar)
         {
             Vector2 aimDirection = (Vector2)playerPosition.position - rb.position;
-            float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
+            float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg -90f;
             rb.rotation = aimAngle;
         }
     }
