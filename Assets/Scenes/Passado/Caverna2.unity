@@ -1946,6 +1946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168fcbecde3662147a7394dc849e4c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PortaA: {fileID: 0}
+  PortaB: {fileID: 0}
 --- !u!58 &1322497971
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1976,7 +1978,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3291,6 +3293,7 @@ GameObject:
   - component: {fileID: 2044340029}
   - component: {fileID: 2044340030}
   - component: {fileID: 2044340031}
+  - component: {fileID: 2044340032}
   m_Layer: 0
   m_Name: "ch\xE3o"
   m_TagString: Untagged
@@ -29657,6 +29660,19 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &2044340032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044340028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5b54faa7757dc43bab111b194d1126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  porta: {fileID: 0}
 --- !u!1001 &2068982089
 PrefabInstance:
   m_ObjectHideFlags: 0

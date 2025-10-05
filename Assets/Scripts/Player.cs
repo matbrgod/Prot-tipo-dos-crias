@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     public WeaponParent WeaponParent;
     
     public bool interact = false;
-    
+    public GameObject objetoParaColocar; // Arraste o prefab no Inspector
 
     void Start()
     {
@@ -56,6 +56,12 @@ public class Player : MonoBehaviour
 
         healthText.text = "Health: " + healthPlayer;    
         
+        if (Input.GetKeyDown(KeyCode.B)) // Troque 'B' pela tecla desejada
+        {
+            Vector3 posMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            posMouse.z = 0f; // Garante que o objeto fique no plano 2D
+            Instantiate(objetoParaColocar, posMouse, Quaternion.identity);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
