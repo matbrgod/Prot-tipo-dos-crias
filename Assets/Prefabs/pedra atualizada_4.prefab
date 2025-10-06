@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8577182897624199003}
   - component: {fileID: 8962816626728470362}
   - component: {fileID: 1302611943713944391}
-  - component: {fileID: 5836757630657136339}
   - component: {fileID: 3897235227515089525}
+  - component: {fileID: 3850914174420276060}
   m_Layer: 0
   m_Name: pedra atualizada_4
   m_TagString: Untagged
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3332409920977461700, guid: 3c1a41f31bcbc264fbfde1971e83f1f7, type: 3}
+  m_Sprite: {fileID: 5653742466506191600, guid: a8afd43a5d9cd014d9de05850cd6e159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,8 +117,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &5836757630657136339
-CapsuleCollider2D:
+--- !u!114 &3897235227515089525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230718238802595460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c93727ade71908469ed40c9e19104ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetoADrop: {fileID: 1970077547507814248, guid: 3f2056c095c555d438d011f002073a7f, type: 3}
+  vidaMaxima: 3
+  vidaAtual: 0
+  barraDeVida: {fileID: 0}
+--- !u!60 &3850914174420276060
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -151,22 +167,35 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0069069862, y: 0}
-  m_Size: {x: 0.88888884, y: 0.88888884}
-  m_Direction: 0
---- !u!114 &3897235227515089525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2230718238802595460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c93727ade71908469ed40c9e19104ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objetoADrop: {fileID: 1970077547507814248, guid: 3f2056c095c555d438d011f002073a7f, type: 3}
-  vidaMaxima: 3
-  vidaAtual: 0
-  barraDeVida: {fileID: 0}
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.46875, y: 1.59375}
+    newSize: {x: 0.8888889, y: 0.6666667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.2905779, y: 0.61421776}
+      - {x: 0.045181274, y: 0.7921915}
+      - {x: -0.1395073, y: 0.60662365}
+      - {x: -0.33133984, y: 0.5972967}
+      - {x: -0.44383717, y: 0.46564102}
+      - {x: -0.56576824, y: -0.14046621}
+      - {x: -0.7220392, y: -0.31847954}
+      - {x: -0.7203245, y: -0.5360527}
+      - {x: -0.6562891, y: -0.6172867}
+      - {x: -0.21573734, y: -0.6201086}
+      - {x: -0.2174139, y: -0.7172551}
+      - {x: -0.14412975, y: -0.7706065}
+      - {x: 0.10933876, y: -0.761909}
+      - {x: 0.19399357, y: -0.72336864}
+      - {x: 0.6188221, y: -0.60953426}
+      - {x: 0.7109575, y: -0.5594702}
+      - {x: 0.7062731, y: -0.26700068}
+      - {x: 0.5013809, y: 0.20498657}
+      - {x: 0.3156891, y: 0.3533163}
+  m_UseDelaunayMesh: 0
