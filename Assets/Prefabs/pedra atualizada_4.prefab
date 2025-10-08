@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c93727ade71908469ed40c9e19104ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoADrop: {fileID: 1970077547507814248, guid: 3f2056c095c555d438d011f002073a7f, type: 3}
+  objetoADrop: {fileID: 1970077547507814248, guid: 6a8fe7c040d60054792d4b65b5c69cd0, type: 3}
   vidaMaxima: 3
   vidaAtual: 0
   barraDeVida: {fileID: 0}
