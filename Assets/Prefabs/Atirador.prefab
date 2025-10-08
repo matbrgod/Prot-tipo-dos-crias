@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365495872072008412}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.85, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.8500004, z: 0}
   m_LocalScale: {x: 0.2, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -355,6 +355,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthEnemy: 0
   maxHealthEnemy: 3
-  speed: 2
+  speed: 4
   player: {fileID: 0}
   distanceBetween: 5
