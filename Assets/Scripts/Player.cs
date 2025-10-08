@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.Mathematics;
 
 public class Player : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
     public WeaponParent WeaponParent;
     
     public bool interact = false;
+    public GameManager gameManager;
     
     SpriteRenderer spriteRenderer;
 

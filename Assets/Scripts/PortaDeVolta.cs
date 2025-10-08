@@ -9,7 +9,7 @@ public class PortaDeVolta : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Cenario 01");
+            SceneManager.LoadScene("Cima2");
             Debug.Log("Collision detected with" + collision.gameObject.name);
         }
 
