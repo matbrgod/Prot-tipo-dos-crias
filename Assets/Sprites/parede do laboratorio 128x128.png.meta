@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      parede do laboratorio 128x128_0: -7672989117446958562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
