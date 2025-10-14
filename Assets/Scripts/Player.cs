@@ -27,8 +27,10 @@ public class Player : MonoBehaviour
     
     public bool interact = false;
     public GameManager gameManager;
-    
+
     SpriteRenderer spriteRenderer;
+
+    public GameObject trigger;
 
     void Start()
     {
@@ -65,7 +67,7 @@ public class Player : MonoBehaviour
         else 
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
-        healthText.text = "Health: " + healthPlayer;    
+        healthText.text = "" + healthPlayer;    
         
     }
 
@@ -93,6 +95,17 @@ public class Player : MonoBehaviour
                 SceneManager.LoadScene("Menu");
             }
             //Destroy(collision.gameObject); // Opcional
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D objectThatStayed)
+    {
+        if (objectThatStayed.CompareTag("rato"))
+        {   
+            if (trigger != null)
+            {
+                trigger.SetActive(true);
+            }
         }
     }
 

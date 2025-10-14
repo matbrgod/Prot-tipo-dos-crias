@@ -1,17 +1,18 @@
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class LoadAct1 : MonoBehaviour
 {
-    void Update()
+     void Start()
     {
-        if(Input.anyKeyDown)
-        {
-        
-            SceneManager.LoadScene("Cenario 01");
+        StartCoroutine(LoadSceneAfterDelay());
+    }
 
-        }
-
+    IEnumerator LoadSceneAfterDelay()
+    {
+        yield return new WaitForSeconds(10f);
+        SceneManager.LoadScene("Cenario 01");
     }
 }

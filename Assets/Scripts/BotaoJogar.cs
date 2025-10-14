@@ -16,7 +16,7 @@ public class BotaoJogar : MonoBehaviour
         if(Input.anyKeyDown)
         {
         
-            SceneManager.LoadScene("Intro");
+            SceneManager.LoadScene("tutorial nave");
 
         }
 

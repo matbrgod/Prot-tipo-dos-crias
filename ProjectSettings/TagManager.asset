@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - Melee
   - Veneno
+  - Slot
+  - rato
   layers:
   - Default
   - TransparentFX
