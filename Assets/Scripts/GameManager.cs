@@ -3,9 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     public GameObject playerPrefab;
     public Transform posicaoInicialDoPlayer;
     public int limiteDeFPS;
+
+    void Awake()
+    {
+        if(instance != null)
+        {
+            Destroy(instance);
+        }
+        instance = this;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,4 +36,3 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Gameplay Level 2");
     }
 }
-
