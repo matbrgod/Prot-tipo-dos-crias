@@ -20,6 +20,8 @@ INTEGRANTES:
 ## Proposta
 - Boss, estrutura de esqueleto, menu, intro e seleção. <br>
 
+Descrição da milestone:
+
 - Nesta etapa do jogo, um mapa para um futuro tutorial foi adicionado junto de um mini-boss simples, com mecânicas apenas de correr aleatoriamente e atacar o jogador. Sua simplicidade se deve ao fato dele ser o primeiro inimigo de todo o jogo, e sua função é acostumar o jogador a combates na escuridão no futuro. 
 
 - Narrativamente, a sucessão de cenas ocorrerá da seguinte forma na versão final: a protagonista acorda, e somos introduzidos ao sistema de movimento do jogo. Ela irá para uma sala de reuniões, onde o jogador será introduzido ao universo do jogo e missões de tutorial. Ao chegar na sala onde ele deveria apenas consertar fiações estranhamente fora de lugar, a personagem encontrará um rato, e este será o mini-boss. O teor cômico da cena serve para contraste do restante do jogo. 
