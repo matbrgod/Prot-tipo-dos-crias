@@ -88,9 +88,9 @@ public class Player : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
         {            
-                if (collision.CompareTag("Enemy") || collision.CompareTag("Veneno"))
+                if (collision.collider.CompareTag("Enemy"))
                 {
                     healthPlayer -= 10; // Diminui 10 de vida
                     if (healthPlayer <= 0)
