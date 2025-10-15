@@ -27,8 +27,13 @@ public class Player : MonoBehaviour
     
     public bool interact = false;
     public GameManager gameManager;
-    
+
     SpriteRenderer spriteRenderer;
+
+    public GameObject trigger;
+
+    private float triggerTickTimer = 0f;
+    public float triggerTickInterval = 1f;
 
     void Start()
     {
@@ -42,6 +47,11 @@ public class Player : MonoBehaviour
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+
+        if (healthPlayer <= 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }
       
         if (Input.GetMouseButtonDown(0))
         {
@@ -65,7 +75,7 @@ public class Player : MonoBehaviour
         else 
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
-        healthText.text = "Health: " + healthPlayer;    
+        healthText.text = "" + healthPlayer;    
         
     }
 
@@ -83,18 +93,42 @@ public class Player : MonoBehaviour
             
         }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Veneno"))
+    
+
+    private void OnTriggerStay2D(Collider2D objectThatStayed)
+    {   
+        triggerTickTimer += Time.deltaTime;
+        if (triggerTickTimer >= triggerTickInterval)
         {
-            healthPlayer -= 10; // Diminui 10 de vida
-            if (healthPlayer <= 0)
+            if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
             {
-                SceneManager.LoadScene("Menu");
+                healthPlayer -= 10; // Diminui 10 de vida
+
             }
-            //Destroy(collision.gameObject); // Opcional
+
+            triggerTickTimer = 0f;
         }
+        
+        if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+            {
+                moveSpeed = 2f;
+            }
+            else
+            {
+                moveSpeed = 5f;
+            }
+
+        if (objectThatStayed.CompareTag("rato"))
+        {
+            if (trigger != null)
+            {
+                trigger.SetActive(true);
+            }
+        }
+        
     }
+    
+   
 
     void FixedUpdate()
     {
