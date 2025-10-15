@@ -33,8 +33,8 @@ RectTransform:
   m_Children:
   - {fileID: 454789402103354138}
   - {fileID: 9199521671452298375}
-  - {fileID: 1559991358140665440}
   - {fileID: 6802218653187720706}
+  - {fileID: 1559991358140665440}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
