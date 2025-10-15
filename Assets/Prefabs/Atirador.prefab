@@ -340,7 +340,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1908612860010088771}
-  weapon: {fileID: 5820305637971919128}
+  bulletPrefab: {fileID: 4194906159117577996, guid: b9c5dae0a4a57684799dc4737d7adfd7, type: 3}
+  firePoint: {fileID: 7328217463355751977}
+  fireForce: 20
 --- !u!114 &7213109338461693924
 MonoBehaviour:
   m_ObjectHideFlags: 0

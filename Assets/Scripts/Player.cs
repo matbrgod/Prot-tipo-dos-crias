@@ -32,6 +32,9 @@ public class Player : MonoBehaviour
 
     public GameObject trigger;
 
+    private float triggerTickTimer = 0f;
+    public float triggerTickInterval = 1f;
+
     void Start()
     {
         healthPlayer = maxHealthPlayer;
@@ -44,6 +47,11 @@ public class Player : MonoBehaviour
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+
+        if (healthPlayer <= 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }
       
         if (Input.GetMouseButtonDown(0))
         {
@@ -85,29 +93,42 @@ public class Player : MonoBehaviour
             
         }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Veneno"))
-        {
-            healthPlayer -= 10; // Diminui 10 de vida
-            if (healthPlayer <= 0)
-            {
-                SceneManager.LoadScene("Menu");
-            }
-            //Destroy(collision.gameObject); // Opcional
-        }
-    }
+    
 
     private void OnTriggerStay2D(Collider2D objectThatStayed)
-    {
+    {   
+        triggerTickTimer += Time.deltaTime;
+        if (triggerTickTimer >= triggerTickInterval)
+        {
+            if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+            {
+                healthPlayer -= 10; // Diminui 10 de vida
+
+            }
+
+            triggerTickTimer = 0f;
+        }
+        
+        if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+            {
+                moveSpeed = 2f;
+            }
+            else
+            {
+                moveSpeed = 5f;
+            }
+
         if (objectThatStayed.CompareTag("rato"))
-        {   
+        {
             if (trigger != null)
             {
                 trigger.SetActive(true);
             }
         }
+        
     }
+    
+   
 
     void FixedUpdate()
     {
