@@ -20,6 +20,8 @@ public class Ranged
     float atkTimer = 0f;
     public GameObject Melee;
 
+    public SpriteRenderer spriteRenderer;
+
     private void Update()
     {
         CheckMeleeTimer();
@@ -29,6 +31,16 @@ public class Ranged
         float rotation_z = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotation_z + offset);
         Vector2 scale = transform.localScale;
+
+        if (Mathf.Abs(rotation_z) > 90)
+        {
+            spriteRenderer.flipY = true;
+        }
+        else if (Mathf.Abs(rotation_z) < 90)
+        {
+            spriteRenderer.flipY = false;
+        }
+        transform.localScale = scale;
 
         
 
