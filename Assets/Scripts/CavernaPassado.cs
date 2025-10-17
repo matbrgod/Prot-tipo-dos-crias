@@ -9,7 +9,7 @@ public class CavernaPassado : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Cima2");
+            SceneManager.LoadScene("Laboratório 1");
             Debug.Log("Collision detected with" + collision.gameObject.name);
         }
 

@@ -18,6 +18,13 @@ public class WeaponParent : MonoBehaviour
     float atkduration = 0.3f;
     float atkTimer = 0f;
     public GameObject Melee;
+    public Vector3 difference;
+    public float rotation_z;
+
+    public SpriteRenderer spriteRenderer;
+
+    
+
 
     private void Update()
     {
@@ -38,7 +45,7 @@ public class WeaponParent : MonoBehaviour
         {
             scale.y = 1;
         }
-       transform.localScale = scale;
+        transform.localScale = scale;
 
     }
     public void Attack()
