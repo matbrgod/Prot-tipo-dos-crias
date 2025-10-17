@@ -4,11 +4,11 @@ public class spaceBar_trigger : MonoBehaviour
 {
    public GameObject spaceBar;
 
-    private void OnTriggerStay2D(Collider2D triggerCollider)
+    private void OnTriggerEnter2D(Collider2D triggerCollider)
     {
         if (triggerCollider.gameObject.CompareTag("Player"))
         {
-            spaceBar.SetActive(true);
+            spaceBar.SetActive(!spaceBar.activeSelf);
         }
     }
 }
