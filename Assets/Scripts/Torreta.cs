@@ -3,7 +3,6 @@ using UnityEngine;
 public class Torreta : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public Weapon weapon;
     private bool atirar = false;
     private bool mirar = false;
     private float fireCooldown = 1;
@@ -11,6 +10,10 @@ public class Torreta : MonoBehaviour
 
     Vector2 moveDirection;
     private Transform playerPosition;
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float fireForce = 20f;
+    
 
     // Update is called once per frame
     void Start()
@@ -22,12 +25,18 @@ public class Torreta : MonoBehaviour
         if (atirar == true)
         {
             fireTimer += Time.deltaTime;
-            if(fireTimer >= fireCooldown)
+            if (fireTimer >= fireCooldown)
             {
-                weapon.Fire();
+                Atirar();
                 fireTimer = 0f;
             }
         }
+    }
+    
+    public void Atirar()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
