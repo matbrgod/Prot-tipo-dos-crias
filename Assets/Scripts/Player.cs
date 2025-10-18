@@ -116,7 +116,7 @@ public class Player : MonoBehaviour
         triggerTickTimer = 0f;
     }
 
-    if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+    if (objectThatStayed.CompareTag("fio"))
     {
         moveSpeed = 2f;
     }

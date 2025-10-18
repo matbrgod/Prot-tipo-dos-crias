@@ -6,7 +6,7 @@ public class BotaoJogar : MonoBehaviour
 {
     public void Play()
     {
-            SceneManager.LoadScene("Cenario 01");
+            SceneManager.LoadScene("tutorial nave");
     }
     public void Credits()
     {

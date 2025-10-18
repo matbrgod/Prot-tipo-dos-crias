@@ -178,7 +178,8 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 347189647477551579, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3225656883133176054, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
@@ -194,6 +195,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2353996366314824284, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5541276831636748090}
+    - targetCorrespondingSourceObject: {fileID: 2353996366314824284, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2782582302293312282}
   m_SourcePrefab: {fileID: 100100000, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
 --- !u!4 &1233953704467946530 stripped
 Transform:
@@ -284,6 +288,23 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &2782582302293312282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123206131393619592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2544ea4afff272640b07f8e1d1c6c615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEnemy: 0
+  maxHealthEnemy: 3
+  speed: 4
+  player: {fileID: 3974784362447125391, guid: dc15e3502593f9b4396aaf0efd75bef3, type: 3}
+  distanceBetween: 7
 --- !u!1001 &4833414050835117846
 PrefabInstance:
   m_ObjectHideFlags: 0
