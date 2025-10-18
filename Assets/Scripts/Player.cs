@@ -30,9 +30,9 @@ public class Player : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
 
-    public GameObject trigger;
+    //public GameObject trigger;
 
-    public GameObject animacao;
+    //public GameObject animacao;
 
     private float triggerTickTimer = 0f;
     public float triggerTickInterval = 1f;
@@ -125,23 +125,14 @@ public class Player : MonoBehaviour
         moveSpeed = 5f;
     }
 
-    if (objectThatStayed.CompareTag("rato"))
-    {
-        if (animacao != null && !animacao.activeSelf)
-        {
-            animacao.SetActive(true);
-            StartCoroutine(ActivateTriggerWithDelay());
-        }
-    }
-}
-
-private IEnumerator ActivateTriggerWithDelay()
-{
-    yield return new WaitForSeconds(1f);
-    if (trigger != null)
-    {
-        trigger.SetActive(true);
-    }
+    //if (objectThatStayed.CompareTag("rato"))
+    //{
+    //    if (animacao != null && !animacao.activeSelf)
+    //    {
+    //        animacao.SetActive(true);
+    //        StartCoroutine(ActivateTriggerWithDelay());
+    //    }
+    
 }
     
    
