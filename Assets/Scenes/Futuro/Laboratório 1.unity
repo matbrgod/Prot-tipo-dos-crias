@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &91335467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3528983855640665526, guid: 995aa585732313340bef1b3cf5e43fd2, type: 3}
+  m_PrefabInstance: {fileID: 4908713744785017336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &162817192 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6185681976049338491, guid: 8d366e7ccd259e640bb265acead6843b, type: 3}
@@ -37470,6 +37475,10 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1291483337}
+    - target: {fileID: 530039340737883040, guid: bf7ad0419afa9794da22fc6c998df9d0, type: 3}
+      propertyPath: WeaponParent
+      value: 
+      objectReference: {fileID: 91335467}
     - target: {fileID: 6831615967293345570, guid: bf7ad0419afa9794da22fc6c998df9d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.566201
