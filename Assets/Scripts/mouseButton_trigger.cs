@@ -21,5 +21,7 @@ public class mouseButton_trigger : MonoBehaviour
         yield return new WaitForSeconds(seconds);
         mouseButton.SetActive(false);
         disableCoroutine = null;
+        yield return new WaitForSeconds(2f);
+        Object.Destroy(this.gameObject);
     }
 }

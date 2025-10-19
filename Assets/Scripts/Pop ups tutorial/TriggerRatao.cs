@@ -17,11 +17,7 @@ public class TriggerRatao : MonoBehaviour
                 animacao.SetActive(true);
                 StartCoroutine(ActivateTriggerWithDelay());
             }
-            if (porta != null && !porta.activeSelf)
-            {
-                porta.SetActive(true);
-                
-            }
+            
         }
     }
 
@@ -32,5 +28,7 @@ public class TriggerRatao : MonoBehaviour
         {
             vidaDoBoss.SetActive(true);
         }
+        yield return new WaitForSeconds(1f);
+        Object.Destroy(this.gameObject);
     }
 }
