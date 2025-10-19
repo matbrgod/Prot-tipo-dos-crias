@@ -129,7 +129,7 @@ MonoBehaviour:
   maxHealthEnemy: 1
   speed: 5
   player: {fileID: 0}
-  distanceBetween: 8
+  distanceBetween: 15
 --- !u!61 &1036273093148684099
 BoxCollider2D:
   m_ObjectHideFlags: 0

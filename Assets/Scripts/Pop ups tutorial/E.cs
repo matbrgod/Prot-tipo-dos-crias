@@ -6,9 +6,9 @@ public class E : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D triggerCollider)
     {
-        if (triggerCollider.gameObject.CompareTag("Player"))
+        if (triggerCollider.gameObject.CompareTag("Player") && !e.activeSelf)
         {
-            e.SetActive(!e.activeSelf);
+            e.SetActive(true);
         }
     }
 }

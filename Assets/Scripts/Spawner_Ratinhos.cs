@@ -1,16 +1,16 @@
 using UnityEngine;
 using System.Collections;
 
-// ...existing code...
+
 public class Spawner_Ratinhos : MonoBehaviour
 {
     public GameObject ratinhoPrefab;
     public Transform[] spawnPoints;
-    public float spawnInterval = 5f; // seconds between spawns
+    public float spawnInterval = 3f; // seconds between spawns
 
     void Start()
     {
-        // ...existing code...
+       
         if (ratinhoPrefab == null || spawnPoints == null || spawnPoints.Length == 0) return;
         StartCoroutine(SpawnRoutine());
     }
@@ -31,8 +31,4 @@ public class Spawner_Ratinhos : MonoBehaviour
         Instantiate(ratinhoPrefab, spawnPoints[i].position, spawnPoints[i].rotation);
     }
 
-    void Update()
-    {
-        // ...existing code...
-    }
 }
