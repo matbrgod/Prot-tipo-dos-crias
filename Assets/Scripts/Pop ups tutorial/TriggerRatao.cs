@@ -5,7 +5,8 @@ public class TriggerRatao : MonoBehaviour
 {
     public GameObject vidaDoBoss;
     public GameObject animacao;
-    public GameObject porta;
+    
+    public GameObject SpawnerRatinhos;
 
     private void OnTriggerStay2D(Collider2D objectThatStayed)
     {
@@ -17,6 +18,7 @@ public class TriggerRatao : MonoBehaviour
                 animacao.SetActive(true);
                 StartCoroutine(ActivateTriggerWithDelay());
             }
+            SpawnerRatinhos.SetActive(true);
             
         }
     }
