@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     Vector2 movement;
 
     public Weapon weapon;
+    public float timerTiro = 0f;
+    public float tiroCooldown = 1f;
  
     Vector2 moveDirection;
 
@@ -63,9 +65,11 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("Menu");
         }
-      
-        if (Input.GetMouseButtonDown(0))
+
+        timerTiro += Time.deltaTime;
+        if (Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
         {
+            timerTiro = 0f;
             weapon.Fire();
         }
 
