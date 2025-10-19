@@ -4,7 +4,6 @@ public class Pause : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject pauseMenu;
-    public GameObject WeaponParent;
     void Start()
     {
         
@@ -24,7 +23,6 @@ public class Pause : MonoBehaviour
             {
                 Time.timeScale = 1f; // Resume the game
             }
-            WeaponParent.SetActive(!WeaponParent.activeSelf);
         }
     }
 }

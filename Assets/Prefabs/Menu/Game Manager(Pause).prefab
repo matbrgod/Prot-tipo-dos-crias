@@ -46,7 +46,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
-  WeaponParent: {fileID: 0}
 --- !u!114 &8501666236230728935
 MonoBehaviour:
   m_ObjectHideFlags: 0
