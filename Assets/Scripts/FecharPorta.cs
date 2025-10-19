@@ -10,11 +10,10 @@ public class FecharPorta : MonoBehaviour
     {
         if (objectThatEntered.CompareTag("Player"))
         {
-            player = objectThatEntered.GetComponent<Player>();
+            porta.SetActive(true);   
+            Object.Destroy(this.gameObject);
         }
-        //Instantiate(porta, transform.position, Quaternion.identity); 
-        porta.SetActive(true);   
-        Object.Destroy(this.gameObject);   
+                   
     }
 }
 
