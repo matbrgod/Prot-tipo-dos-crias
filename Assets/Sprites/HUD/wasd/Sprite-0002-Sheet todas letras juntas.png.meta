@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: 55a6d8f24ce74e048946aaeeb01deccd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4662883993270438522
+    second: Sprite-0002-Sheet todas letras juntas_0
+  - first:
+      213: 6352815511778583544
+    second: Sprite-0002-Sheet todas letras juntas_1
+  - first:
+      213: -98587663215710751
+    second: Sprite-0002-Sheet todas letras juntas_2
+  - first:
+      213: -4918163780862236583
+    second: Sprite-0002-Sheet todas letras juntas_3
+  - first:
+      213: 1028189193821400784
+    second: Sprite-0002-Sheet todas letras juntas_4
+  - first:
+      213: 5446127608261348769
+    second: Sprite-0002-Sheet todas letras juntas_5
+  - first:
+      213: -2329668410853998783
+    second: Sprite-0002-Sheet todas letras juntas_6
+  - first:
+      213: 6403127648770718058
+    second: Sprite-0002-Sheet todas letras juntas_7
+  - first:
+      213: 3685784070371547184
+    second: Sprite-0002-Sheet todas letras juntas_8
+  - first:
+      213: -3521071256129356252
+    second: Sprite-0002-Sheet todas letras juntas_9
+  - first:
+      213: -4225530275477581428
+    second: Sprite-0002-Sheet todas letras juntas_10
+  - first:
+      213: 9038834632837117229
+    second: Sprite-0002-Sheet todas letras juntas_11
+  - first:
+      213: 9159462281050105756
+    second: Sprite-0002-Sheet todas letras juntas_12
+  - first:
+      213: 2575881559703602192
+    second: Sprite-0002-Sheet todas letras juntas_13
+  - first:
+      213: 134305016196975940
+    second: Sprite-0002-Sheet todas letras juntas_14
+  - first:
+      213: -6195256300512869220
+    second: Sprite-0002-Sheet todas letras juntas_15
+  - first:
+      213: 130913068308468329
+    second: Sprite-0002-Sheet todas letras juntas_16
+  - first:
+      213: -9205852360699827833
+    second: Sprite-0002-Sheet todas letras juntas_17
+  - first:
+      213: -5748011410085756757
+    second: Sprite-0002-Sheet todas letras juntas_18
+  - first:
+      213: 3870340625673317738
+    second: Sprite-0002-Sheet todas letras juntas_19
+  - first:
+      213: 9033461798287074999
+    second: Sprite-0002-Sheet todas letras juntas_20
+  - first:
+      213: -4886647917792744692
+    second: Sprite-0002-Sheet todas letras juntas_21
+  - first:
+      213: -8425930873150312539
+    second: Sprite-0002-Sheet todas letras juntas_22
+  - first:
+      213: -3593004945479821320
+    second: Sprite-0002-Sheet todas letras juntas_23
+  - first:
+      213: -3955051115759008734
+    second: Sprite-0002-Sheet todas letras juntas_24
+  - first:
+      213: -827055353513176434
+    second: Sprite-0002-Sheet todas letras juntas_25
+  - first:
+      213: -4847611684643603548
+    second: Sprite-0002-Sheet todas letras juntas_26
+  - first:
+      213: -432320994815963136
+    second: Sprite-0002-Sheet todas letras juntas_27
+  - first:
+      213: 2344909497705988408
+    second: Sprite-0002-Sheet todas letras juntas_28
+  - first:
+      213: 8507263067080151798
+    second: Sprite-0002-Sheet todas letras juntas_29
+  - first:
+      213: -1998628870718305813
+    second: Sprite-0002-Sheet todas letras juntas_30
+  - first:
+      213: 6100900417985035319
+    second: Sprite-0002-Sheet todas letras juntas_31
+  - first:
+      213: 2976087722623192005
+    second: Sprite-0002-Sheet todas letras juntas_32
+  - first:
+      213: 8218483308211600185
+    second: Sprite-0002-Sheet todas letras juntas_33
+  - first:
+      213: -491772450900835797
+    second: Sprite-0002-Sheet todas letras juntas_34
+  - first:
+      213: 963148200947990473
+    second: Sprite-0002-Sheet todas letras juntas_35
+  - first:
+      213: 5713682445573069254
+    second: Sprite-0002-Sheet todas letras juntas_36
+  - first:
+      213: -2473495149582253724
+    second: Sprite-0002-Sheet todas letras juntas_37
+  - first:
+      213: 6880642939407405417
+    second: Sprite-0002-Sheet todas letras juntas_38
+  - first:
+      213: 5360461607016967616
+    second: Sprite-0002-Sheet todas letras juntas_39
+  - first:
+      213: -8361658230216149352
+    second: Sprite-0002-Sheet todas letras juntas_40
+  - first:
+      213: 7322421500736465527
+    second: Sprite-0002-Sheet todas letras juntas_41
+  - first:
+      213: -3767102035343135051
+    second: Sprite-0002-Sheet todas letras juntas_42
+  - first:
+      213: -2814330292216206310
+    second: Sprite-0002-Sheet todas letras juntas_43
+  - first:
+      213: -2908104012331717138
+    second: Sprite-0002-Sheet todas letras juntas_44
+  - first:
+      213: -4009234033997669456
+    second: Sprite-0002-Sheet todas letras juntas_45
+  - first:
+      213: 4000708485623080873
+    second: Sprite-0002-Sheet todas letras juntas_46
+  - first:
+      213: 458100646831326237
+    second: Sprite-0002-Sheet todas letras juntas_47
+  - first:
+      213: 6010486230285206357
+    second: Sprite-0002-Sheet todas letras juntas_48
+  - first:
+      213: 1759880802787472432
+    second: Sprite-0002-Sheet todas letras juntas_49
+  - first:
+      213: 9094330299578542305
+    second: Sprite-0002-Sheet todas letras juntas_50
+  - first:
+      213: 3355058306270532153
+    second: Sprite-0002-Sheet todas letras juntas_51
+  - first:
+      213: -447350664430075295
+    second: Sprite-0002-Sheet todas letras juntas_52
+  - first:
+      213: -4430646699898345893
+    second: Sprite-0002-Sheet todas letras juntas_53
+  - first:
+      213: 1672601152582443661
+    second: Sprite-0002-Sheet todas letras juntas_54
+  - first:
+      213: 7439343333123000148
+    second: Sprite-0002-Sheet todas letras juntas_55
+  - first:
+      213: -6760709887213513614
+    second: Sprite-0002-Sheet todas letras juntas_56
+  - first:
+      213: 4103298866699606129
+    second: Sprite-0002-Sheet todas letras juntas_57
+  - first:
+      213: 5236856867202023464
+    second: Sprite-0002-Sheet todas letras juntas_58
+  - first:
+      213: 4721637879925888554
+    second: Sprite-0002-Sheet todas letras juntas_59
+  - first:
+      213: 5230136069274998883
+    second: Sprite-0002-Sheet todas letras juntas_60
+  - first:
+      213: 3100412971075205292
+    second: Sprite-0002-Sheet todas letras juntas_61
+  - first:
+      213: -6920706987977813775
+    second: Sprite-0002-Sheet todas letras juntas_62
+  - first:
+      213: 8002304150150896677
+    second: Sprite-0002-Sheet todas letras juntas_63
+  - first:
+      213: 1349979690677851466
+    second: Sprite-0002-Sheet todas letras juntas_64
+  - first:
+      213: -7943178552837778200
+    second: Sprite-0002-Sheet todas letras juntas_65
+  - first:
+      213: -7755640169684750687
+    second: Sprite-0002-Sheet todas letras juntas_66
+  - first:
+      213: -8233120792107216590
+    second: Sprite-0002-Sheet todas letras juntas_67
+  - first:
+      213: -545888623395527118
+    second: Sprite-0002-Sheet todas letras juntas_68
+  - first:
+      213: -6961071518389530090
+    second: Sprite-0002-Sheet todas letras juntas_69
+  - first:
+      213: -3034609491523273921
+    second: Sprite-0002-Sheet todas letras juntas_70
+  - first:
+      213: -8384726621964938912
+    second: Sprite-0002-Sheet todas letras juntas_71
+  - first:
+      213: 2532619254956294550
+    second: Sprite-0002-Sheet todas letras juntas_72
+  - first:
+      213: 2521432476652107841
+    second: Sprite-0002-Sheet todas letras juntas_73
+  - first:
+      213: 609980728841779712
+    second: Sprite-0002-Sheet todas letras juntas_74
+  - first:
+      213: 1804455412844896240
+    second: Sprite-0002-Sheet todas letras juntas_75
+  - first:
+      213: 707636189799527026
+    second: Sprite-0002-Sheet todas letras juntas_76
+  - first:
+      213: -1826118147601289579
+    second: Sprite-0002-Sheet todas letras juntas_77
+  - first:
+      213: 958054800184878068
+    second: Sprite-0002-Sheet todas letras juntas_78
+  - first:
+      213: -7797926350866382199
+    second: Sprite-0002-Sheet todas letras juntas_79
+  - first:
+      213: -8375736935813571690
+    second: Sprite-0002-Sheet todas letras juntas_80
+  - first:
+      213: -7929707784427941972
+    second: Sprite-0002-Sheet todas letras juntas_81
+  - first:
+      213: 7552198637066548957
+    second: Sprite-0002-Sheet todas letras juntas_82
+  - first:
+      213: 6027736181572154198
+    second: Sprite-0002-Sheet todas letras juntas_83
+  - first:
+      213: -3799726785499860199
+    second: Sprite-0002-Sheet todas letras juntas_84
+  - first:
+      213: -7306018420880541762
+    second: Sprite-0002-Sheet todas letras juntas_85
+  - first:
+      213: -7358611050899242819
+    second: Sprite-0002-Sheet todas letras juntas_86
+  - first:
+      213: 2160174571214156661
+    second: Sprite-0002-Sheet todas letras juntas_87
+  - first:
+      213: 4689103534991651094
+    second: Sprite-0002-Sheet todas letras juntas_88
+  - first:
+      213: -2551586379817280704
+    second: Sprite-0002-Sheet todas letras juntas_89
+  - first:
+      213: -3592803783829194264
+    second: Sprite-0002-Sheet todas letras juntas_90
+  - first:
+      213: -4470033103962947380
+    second: Sprite-0002-Sheet todas letras juntas_91
+  - first:
+      213: -8212748704225464148
+    second: Sprite-0002-Sheet todas letras juntas_92
+  - first:
+      213: 9024029793179828840
+    second: Sprite-0002-Sheet todas letras juntas_93
+  - first:
+      213: 5531756417731040140
+    second: Sprite-0002-Sheet todas letras juntas_94
+  - first:
+      213: -2572379279649406276
+    second: Sprite-0002-Sheet todas letras juntas_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a4dbf6944e5b040800000000000000
+      internalID: 4662883993270438522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3672f9c0cb92850800000000000000
+      internalID: 6352815511778583544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edaacaea0fb1aef0800000000000000
+      internalID: -98587663215710751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958a38e491c2fbbb0800000000000000
+      internalID: -4918163780862236583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deae9bcf9cd44e00800000000000000
+      internalID: 1028189193821400784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad8dd37438849b40800000000000000
+      internalID: 5446127608261348769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f39966cea5bafd0800000000000000
+      internalID: -2329668410853998783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69f57cdbaa7cd850800000000000000
+      internalID: 6403127648770718058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0381a497519862330800000000000000
+      internalID: 3685784070371547184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e32951954a22fc0800000000000000
+      internalID: -3521071256129356252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81108e2a96eb55c0800000000000000
+      internalID: -4225530275477581428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2531c17534607d70800000000000000
+      internalID: 9038834632837117229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97a49b6a62fc1f70800000000000000
+      internalID: 9159462281050105756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014cc9581ae5fb320800000000000000
+      internalID: 2575881559703602192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d49fd53b52dd100800000000000000
+      internalID: 134305016196975940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c940e63f737060aa0800000000000000
+      internalID: -6195256300512869220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9629bf4fdb811d100800000000000000
+      internalID: 130913068308468329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789abc97d0e3e3080800000000000000
+      internalID: -9205852360699827833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba042f8a316fa30b0800000000000000
+      internalID: -5748011410085756757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d65090b4636b530800000000000000
+      internalID: 3870340625673317738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b666fae4ad4d5d70800000000000000
+      internalID: 9033461798287074999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0baf8dfb932f2cb0800000000000000
+      internalID: -4886647917792744692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe0eb6384111b80800000000000000
+      internalID: -8425930873150312539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002-Sheet todas letras juntas_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f71474e905132ec0800000000000000
+      internalID: -3593004945479821320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1cd56843f9bca214199984123022fcf0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite-0002-Sheet todas letras juntas_0: 4662883993270438522
+      Sprite-0002-Sheet todas letras juntas_1: 6352815511778583544
+      Sprite-0002-Sheet todas letras juntas_10: -4225530275477581428
+      Sprite-0002-Sheet todas letras juntas_11: 9038834632837117229
+      Sprite-0002-Sheet todas letras juntas_12: 9159462281050105756
+      Sprite-0002-Sheet todas letras juntas_13: 2575881559703602192
+      Sprite-0002-Sheet todas letras juntas_14: 134305016196975940
+      Sprite-0002-Sheet todas letras juntas_15: -6195256300512869220
+      Sprite-0002-Sheet todas letras juntas_16: 130913068308468329
+      Sprite-0002-Sheet todas letras juntas_17: -9205852360699827833
+      Sprite-0002-Sheet todas letras juntas_18: -5748011410085756757
+      Sprite-0002-Sheet todas letras juntas_19: 3870340625673317738
+      Sprite-0002-Sheet todas letras juntas_2: -98587663215710751
+      Sprite-0002-Sheet todas letras juntas_20: 9033461798287074999
+      Sprite-0002-Sheet todas letras juntas_21: -4886647917792744692
+      Sprite-0002-Sheet todas letras juntas_22: -8425930873150312539
+      Sprite-0002-Sheet todas letras juntas_23: -3593004945479821320
+      Sprite-0002-Sheet todas letras juntas_3: -4918163780862236583
+      Sprite-0002-Sheet todas letras juntas_4: 1028189193821400784
+      Sprite-0002-Sheet todas letras juntas_5: 5446127608261348769
+      Sprite-0002-Sheet todas letras juntas_6: -2329668410853998783
+      Sprite-0002-Sheet todas letras juntas_7: 6403127648770718058
+      Sprite-0002-Sheet todas letras juntas_8: 3685784070371547184
+      Sprite-0002-Sheet todas letras juntas_9: -3521071256129356252
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
