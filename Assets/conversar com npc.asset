@@ -21,3 +21,8 @@ MonoBehaviour:
     type: 0
     requiredAmount: 5
     currentAmount: 0
+  - objectiveID: 1
+    description: pegue pedra
+    type: 0
+    requiredAmount: 5
+    currentAmount: 0

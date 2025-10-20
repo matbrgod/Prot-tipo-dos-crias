@@ -11,7 +11,7 @@ public class QuestUI : MonoBehaviour
 
     public Quest testQuest;
     public int testQuestAmount;
-    private List<QuestProgress> testQuests= new();
+    private List<QuestProgress> testQuests = new();
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,6 +35,8 @@ public class QuestUI : MonoBehaviour
             GameObject entry = Instantiate(questEntryPrefab, questListContent);
             TMP_Text questNameText = entry.transform.Find("QuestName").GetComponent<TMP_Text>();
             Transform objectiveList = entry.transform.Find("ObjectiveList");
+
+            questNameText.text = quest.quest.name;
 
             foreach (var objective in quest.objectives)
             {
