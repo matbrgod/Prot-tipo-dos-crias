@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
@@ -41,8 +40,10 @@ public class QuestUI : MonoBehaviour
             foreach (var objective in quest.objectives)
             {
                 GameObject objTextGO = Instantiate(questEntryPrefab, objectiveList);
-                TMP_Text objText = objTextGO.GetComponent<TMP_Text>();
+                TMP_Text objText = objTextGO.GetComponentInChildren<TMP_Text>();
                 objText.text = $"{objective.description} ({objective.currentAmount}/{objective.requiredAmount})";
+                Debug.Log(objective.description);
+                Debug.Log(objTextGO.name, objTextGO);
 
                 questNameText.text = quest.quest.name;
             }

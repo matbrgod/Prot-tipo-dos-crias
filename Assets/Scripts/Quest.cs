@@ -1,5 +1,4 @@
 using System;
-using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
@@ -20,7 +19,7 @@ public class Quest : ScriptableObject
         }
     }
 }
-[System.Serializable]
+[Serializable]
 public class QuestObjective
 {
     public string objectiveID;
@@ -34,7 +33,7 @@ public class QuestObjective
 
 public enum ObjectiveType { CollectItem, DefeatEnemy, ReachLocation, TalkNPC, Custom }
 
-[System.Serializable]
+[Serializable]
 public class QuestProgress
 {
     public Quest quest;
