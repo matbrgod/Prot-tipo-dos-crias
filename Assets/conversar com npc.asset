@@ -10,9 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3f323288a59dcd4b9973495fa73e2e8, type: 3}
-  m_Name: New Quest
+  m_Name: conversar com npc
   m_EditorClassIdentifier: 
-  questID: 
-  questName: 
-  description: 
-  objectives: []
+  questID: Fale com Persephone97c580a1-9b07-41b9-9eee-a4f6e2fa8d3d
+  questName: Fale com Persephone
+  description: "Persephone est\xE1 na sala de reuni\xE3o"
+  objectives:
+  - objectiveID: 2
+    description: pegue madeira
+    type: 0
+    requiredAmount: 5
+    currentAmount: 0
