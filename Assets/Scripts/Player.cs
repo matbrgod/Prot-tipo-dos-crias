@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
 
     private float triggerTickTimer = 0f;
     public float triggerTickInterval = 1f;
+    private float originalMoveSpeed;
     public Animator animator;
 
     void Start()
@@ -46,6 +47,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        originalMoveSpeed = moveSpeed;
     }
 
     void Update()
@@ -89,6 +91,11 @@ public class Player : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
         healthText.text = "" + healthPlayer;    
+
+        if (healthPlayer <= 0)
+                    {
+                        SceneManager.LoadScene("Game Over"); 
+                    }
         
     }
 
@@ -106,40 +113,38 @@ public class Player : MonoBehaviour
             
         }
 
-    
+
 
     private void OnTriggerStay2D(Collider2D objectThatStayed)
-{
-    triggerTickTimer += Time.deltaTime;
-    if (triggerTickTimer >= triggerTickInterval)
     {
-        if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+        triggerTickTimer += Time.deltaTime;
+        if (triggerTickTimer >= triggerTickInterval)
         {
-            healthPlayer -= 10;
+            if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+            {
+                healthPlayer -= 10;
+            }
+            triggerTickTimer = 0f;
         }
-        triggerTickTimer = 0f;
+        
     }
 
-    if (objectThatStayed.CompareTag("fio"))
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        moveSpeed = 2f;
-    }
-    else
-    {
-        moveSpeed = 5f;
+        if (other.CompareTag("fio") || other.CompareTag("Veneno"))
+        {
+            moveSpeed = 2f;
+        }
     }
 
-    //if (objectThatStayed.CompareTag("rato"))
-    //{
-    //    if (animacao != null && !animacao.activeSelf)
-    //    {
-    //        animacao.SetActive(true);
-    //        StartCoroutine(ActivateTriggerWithDelay());
-    //    }
-    
-}
-    
-   
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("fio") || other.CompareTag("Veneno"))
+        {
+            moveSpeed = originalMoveSpeed;
+        }
+    }
+
 
     void FixedUpdate()
     {

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 303518982272855741}
   - component: {fileID: 1036273093148684099}
   - component: {fileID: 8172773653798837504}
+  - component: {fileID: -1808618223401300644}
   m_Layer: 0
   m_Name: Ratinho
   m_TagString: Enemy
@@ -129,7 +130,7 @@ MonoBehaviour:
   maxHealthEnemy: 1
   speed: 5
   player: {fileID: 0}
-  distanceBetween: 8
+  distanceBetween: 15
 --- !u!61 &1036273093148684099
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -203,3 +204,65 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-1808618223401300644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4838106184693608544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_Priority: 4
+  m_ComponentVersion: 5
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.43799043, y: -0.20235443, z: 0}
+  - {x: -0.41649723, y: -0.04650712, z: 0}
+  - {x: -0.5033107, y: 0.06717706, z: 0}
+  - {x: -0.38424897, y: 0.23129201, z: 0}
+  - {x: 0.06304312, y: 0.23046875, z: 0}
+  - {x: 0.1436553, y: 0.14158845, z: 0}
+  - {x: 0.3007462, y: 0.13538742, z: 0}
+  - {x: 0.5248039, y: 0.018392801, z: 0}
+  - {x: 0.2490716, y: 0.029971361, z: 0}
+  - {x: 0.09280419, y: -0.18788528, z: 0}
+  - {x: -0.091980696, y: -0.1953299, z: 0}
+  - {x: -0.098181725, y: -0.10851669, z: 0}
+  - {x: -0.1746602, y: -0.102315664, z: 0}
+  - {x: -0.26767445, y: -0.19946384, z: 0}
+  m_ShapePathHash: 1919523761
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 0}
+  m_ShadowShape2DProvider:
+    rid: -2
+  m_ShadowCastingSource: 1
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: 0.010746598, y: 0.014468789, z: 0}
+      m_Extent: {x: 0.5140573, y: 0.21682322, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0.05
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0.05
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 1
+  m_PreviousShadowShape2DSource: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
