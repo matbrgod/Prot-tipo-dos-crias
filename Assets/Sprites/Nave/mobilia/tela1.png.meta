@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 83aeb7f1f92d5434ca57139637f8643f
+guid: 148e827a63e060140b25d77347310678
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7137947433870476772
-    second: "po\xE7adeagua-Sheet_0"
-  - first:
-      213: 8904209066958139174
-    second: "po\xE7adeagua-Sheet_1"
-  - first:
-      213: -7097718393840550756
-    second: "po\xE7adeagua-Sheet_2"
+      213: 6414977575835000326
+    second: tela1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "po\xE7adeagua-Sheet_0"
+      name: tela1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 10
         width: 32
-        height: 32
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e5c2456f551f0360800000000000000
-      internalID: 7137947433870476772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "po\xE7adeagua-Sheet_1"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62f2ad948fa129b70800000000000000
-      internalID: 8904209066958139174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "po\xE7adeagua-Sheet_2"
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9cb063e9b6df7d90800000000000000
-      internalID: -7097718393840550756
+      spriteID: 60eddb10e14960950800000000000000
+      internalID: 6414977575835000326
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8bde842fb81302348a5302ebcde570a8
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "po\xE7adeagua-Sheet_0": 7137947433870476772
-      "po\xE7adeagua-Sheet_1": 8904209066958139174
-      "po\xE7adeagua-Sheet_2": -7097718393840550756
+      tela1_0: 6414977575835000326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

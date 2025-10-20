@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 83aeb7f1f92d5434ca57139637f8643f
+guid: 2c317b371098a8c459f04643f2cbbb45
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7137947433870476772
-    second: "po\xE7adeagua-Sheet_0"
+      213: -5951786526266909225
+    second: sujeirachao_0
   - first:
-      213: 8904209066958139174
-    second: "po\xE7adeagua-Sheet_1"
+      213: 7066222307646707887
+    second: sujeirachao_1
   - first:
-      213: -7097718393840550756
-    second: "po\xE7adeagua-Sheet_2"
+      213: 997470712266483972
+    second: sujeirachao_2
+  - first:
+      213: -9192511857523052639
+    second: sujeirachao_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "po\xE7adeagua-Sheet_0"
+      name: sujeirachao_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 2
+        y: 12
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e5c2456f551f0360800000000000000
-      internalID: 7137947433870476772
+      spriteID: 7dd97e230b1076da0800000000000000
+      internalID: -5951786526266909225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "po\xE7adeagua-Sheet_1"
+      name: sujeirachao_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 5
+        y: 17
+        width: 18
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62f2ad948fa129b70800000000000000
-      internalID: 8904209066958139174
+      spriteID: fa8193710c3401260800000000000000
+      internalID: 7066222307646707887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "po\xE7adeagua-Sheet_2"
+      name: sujeirachao_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 6
+        y: 4
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +168,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9cb063e9b6df7d90800000000000000
-      internalID: -7097718393840550756
+      spriteID: 409ef76f35ab7dd00800000000000000
+      internalID: 997470712266483972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sujeirachao_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afa5ca6b23ad6080800000000000000
+      internalID: -9192511857523052639
       vertices: []
       indices: 
       edges: []
@@ -175,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8bde842fb81302348a5302ebcde570a8
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "po\xE7adeagua-Sheet_0": 7137947433870476772
-      "po\xE7adeagua-Sheet_1": 8904209066958139174
-      "po\xE7adeagua-Sheet_2": -7097718393840550756
+      sujeirachao_0: -5951786526266909225
+      sujeirachao_1: 7066222307646707887
+      sujeirachao_2: 997470712266483972
+      sujeirachao_3: -9192511857523052639
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

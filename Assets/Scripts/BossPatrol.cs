@@ -15,6 +15,11 @@ public class BoosPatrol : MonoBehaviour
     public GameObject porta;
     public GameObject vidaDoBoss;
     public GameObject TriggerDoE;
+
+    public GameObject spawnRatinhos;
+    public GameObject musica;
+
+    public GameObject alarme;
     
     void Start()
     {
@@ -89,6 +94,9 @@ public class BoosPatrol : MonoBehaviour
                 porta.SetActive(false);
                 vidaDoBoss.SetActive(false);
                 TriggerDoE.SetActive(true);
+                spawnRatinhos.SetActive(false);
+                musica.SetActive(false);
+                alarme.SetActive(false);
             }
 
 

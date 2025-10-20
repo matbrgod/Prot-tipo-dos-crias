@@ -91,6 +91,11 @@ public class Player : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
         healthText.text = "" + healthPlayer;    
+
+        if (healthPlayer <= 0)
+                    {
+                        SceneManager.LoadScene("Game Over"); 
+                    }
         
     }
 
