@@ -3,10 +3,11 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.Mathematics;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
+
     public int healthPlayer;
 
     public int maxHealthPlayer = 100;
@@ -41,13 +42,23 @@ public class Player : MonoBehaviour
     private float originalMoveSpeed;
     public Animator animator;
 
-    void Start()
+    void Awake()
     {
-        healthPlayer = maxHealthPlayer;
+        if (instance != null)
+        {
+            Destroy(instance);
+        }
+        instance = this;
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+    }
+
+    void Start()
+    {
+        healthPlayer = maxHealthPlayer;
         originalMoveSpeed = moveSpeed;
+        healthText.text = "" + healthPlayer;
     }
 
     void Update()
@@ -90,7 +101,7 @@ public class Player : MonoBehaviour
         else 
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
-        healthText.text = "" + healthPlayer;    
+            
 
         if (healthPlayer <= 0)
                     {
@@ -105,7 +116,8 @@ public class Player : MonoBehaviour
                 {
                     healthPlayer -= 10; // Diminui 10 de vida
                     if (healthPlayer <= 0)
-                    {
+            {
+                        healthText.text = "" + healthPlayer;
                         SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
@@ -123,6 +135,7 @@ public class Player : MonoBehaviour
             if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
             {
                 healthPlayer -= 10;
+                healthText.text = "" + healthPlayer;
             }
             triggerTickTimer = 0f;
         }
