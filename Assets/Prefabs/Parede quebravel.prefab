@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6113781035170534874}
   - component: {fileID: 2226074898386248402}
   - component: {fileID: 8748813726035722121}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Parede quebravel
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

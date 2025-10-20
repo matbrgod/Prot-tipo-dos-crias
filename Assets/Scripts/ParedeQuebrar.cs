@@ -22,15 +22,15 @@ public class ParedeQuebrar : MonoBehaviour
     // Para colisão 2D
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Bullet"))
+        if (collision.collider.CompareTag("Bullet") || collision.collider.CompareTag("Melee"))
         {
-            SofrerDano(1f);
+            this.SofrerDano(1f);
         }
     }
 
     public void TakeDamage(float damage)
     {
-        SofrerDano(damage);
+        this.SofrerDano(damage);
     }
 
     private void SofrerDano(float dano)

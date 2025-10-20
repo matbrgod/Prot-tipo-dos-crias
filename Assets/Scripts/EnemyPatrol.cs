@@ -10,6 +10,9 @@ public class EnemyPatrol : MonoBehaviour
     public int maxHealthEnemy;
 
     public HealthBar healthBar;
+    public GameObject porta;
+    public GameObject vidaDoBoss;
+    public GameObject TriggerDoE;
     
     void Start()
     {
@@ -70,8 +73,11 @@ public class EnemyPatrol : MonoBehaviour
             healthBar.SetHealth(healthEnemy);
            if (healthEnemy <= 0)
             {
-                SceneManager.LoadScene("Intro");
+                //SceneManager.LoadScene("Intro");
                 Destroy(gameObject);
+                porta.SetActive(false);
+                vidaDoBoss.SetActive(false);
+                TriggerDoE.SetActive(true);
             }
 
 

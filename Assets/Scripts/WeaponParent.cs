@@ -21,6 +21,11 @@ public class WeaponParent : MonoBehaviour
     public Vector3 difference;
     public float rotation_z;
 
+    public SpriteRenderer spriteRenderer;
+
+    
+
+
     private void Update()
     {
         CheckMeleeTimer();

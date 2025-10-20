@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     Vector2 movement;
 
     public Weapon weapon;
+    public float timerTiro = 0f;
+    public float tiroCooldown = 1f;
  
     Vector2 moveDirection;
 
@@ -30,12 +32,13 @@ public class Player : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
 
-    public GameObject trigger;
+    //public GameObject trigger;
 
-    public GameObject animacao;
+    //public GameObject animacao;
 
     private float triggerTickTimer = 0f;
     public float triggerTickInterval = 1f;
+    private float originalMoveSpeed;
     public Animator animator;
 
     void Start()
@@ -44,6 +47,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        originalMoveSpeed = moveSpeed;
     }
 
     void Update()
@@ -61,9 +65,11 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("Menu");
         }
-      
-        if (Input.GetMouseButtonDown(0))
+
+        timerTiro += Time.deltaTime;
+        if (Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
         {
+            timerTiro = 0f;
             weapon.Fire();
         }
 
@@ -85,6 +91,11 @@ public class Player : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
         healthText.text = "" + healthPlayer;    
+
+        if (healthPlayer <= 0)
+                    {
+                        SceneManager.LoadScene("Game Over"); 
+                    }
         
     }
 
@@ -95,56 +106,45 @@ public class Player : MonoBehaviour
                     healthPlayer -= 10; // Diminui 10 de vida
                     if (healthPlayer <= 0)
                     {
-                        SceneManager.LoadScene("Menu"); 
+                        SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
                 }
             
         }
 
-    
+
 
     private void OnTriggerStay2D(Collider2D objectThatStayed)
-{
-    triggerTickTimer += Time.deltaTime;
-    if (triggerTickTimer >= triggerTickInterval)
     {
-        if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+        triggerTickTimer += Time.deltaTime;
+        if (triggerTickTimer >= triggerTickInterval)
         {
-            healthPlayer -= 10;
+            if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+            {
+                healthPlayer -= 10;
+            }
+            triggerTickTimer = 0f;
         }
-        triggerTickTimer = 0f;
+        
     }
 
-    if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        moveSpeed = 2f;
-    }
-    else
-    {
-        moveSpeed = 5f;
-    }
-
-    if (objectThatStayed.CompareTag("rato"))
-    {
-        if (animacao != null && !animacao.activeSelf)
+        if (other.CompareTag("fio") || other.CompareTag("Veneno"))
         {
-            animacao.SetActive(true);
-            StartCoroutine(ActivateTriggerWithDelay());
+            moveSpeed = 2f;
         }
     }
-}
 
-private IEnumerator ActivateTriggerWithDelay()
-{
-    yield return new WaitForSeconds(1f);
-    if (trigger != null)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        trigger.SetActive(true);
+        if (other.CompareTag("fio") || other.CompareTag("Veneno"))
+        {
+            moveSpeed = originalMoveSpeed;
+        }
     }
-}
-    
-   
+
 
     void FixedUpdate()
     {

@@ -3,14 +3,38 @@ using UnityEngine.SceneManagement;
 
 public class PortaTutorial : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D collision)
+    private Player player;
+
+    //ao ENTRAR na área de trigger
+    private void OnTriggerEnter2D(Collider2D objectThatEntered)
     {
-        if (collision.CompareTag("Player"))
+        //if (objectThatEntered.tag == "Jogador")//nojinho :(
+        if (objectThatEntered.CompareTag("Player"))//:)
         {
-            SceneManager.LoadScene("Intro");
-            Debug.Log("Collision detected with" + collision.gameObject.name);
+            player = objectThatEntered.GetComponent<Player>();
         }
-
-
     }
+    //caso FIQUE na área de trigger
+    private void OnTriggerStay2D(Collider2D objectThatStayed)
+    {
+        if (objectThatStayed.CompareTag("Player") && player.interact)
+        {
+            //realiza a ação do coletável
+            //deleta ele da cena
+            Debug.Log("Player dormiu na cama");
+            SceneManager.LoadScene("Intro");
+        }
+    }
+    //ao SAIR da área de trigger
+    private void OnTriggerExit2D(Collider2D objectThatExit)
+    {
+        if (objectThatExit.CompareTag("Player"))
+        {
+            //Debug.Log("Jogador saiu da área");
+            player = null;
+        }
+    }
+    
+            
+          
 }

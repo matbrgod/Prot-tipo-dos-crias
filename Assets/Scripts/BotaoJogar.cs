@@ -4,21 +4,20 @@ using UnityEngine.SceneManagement;
 
 public class BotaoJogar : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Play()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.anyKeyDown)
-        {
-        
             SceneManager.LoadScene("tutorial nave");
-
-        }
-
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene("Game Over");
+    }
+    public void Leave()
+    {
+        Application.Quit();
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }

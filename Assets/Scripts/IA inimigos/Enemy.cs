@@ -12,10 +12,13 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         healthEnemy = maxHealthEnemy;
+        player = GameObject.FindGameObjectWithTag("Player");
+       
     }
     void Update()
     {
@@ -26,6 +29,10 @@ public class Enemy : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
+        if (direction.x > 0)
+            transform.rotation = Quaternion.Euler(0, -180, 0); // Facing right
+        else if (direction.x < 0)
+            transform.rotation = Quaternion.Euler(0, 0, 0);  // Facing left
 
         if (distance < distanceBetween)
         {
