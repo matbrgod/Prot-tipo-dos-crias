@@ -12,14 +12,18 @@ public class BoosPatrol : MonoBehaviour
     public GameObject player;
 
     public HealthBar healthBar;
-    public GameObject porta;
-    public GameObject vidaDoBoss;
-    public GameObject TriggerDoE;
+    
+    [Header("Componentes para desativar ao morrer")]
+    [SerializeField] private GameObject porta;
+    [SerializeField] private GameObject vidaDoBoss;
+    [SerializeField] private GameObject TriggerDoE;
 
-    public GameObject spawnRatinhos;
-    public GameObject musica;
+    [SerializeField] private GameObject mouseTrigger;
 
-    public GameObject alarme;
+    [SerializeField] private GameObject spawnRatinhos;
+    [SerializeField] private GameObject musica;
+
+    [SerializeField] private GameObject alarme;
     
     void Start()
     {
@@ -97,6 +101,7 @@ public class BoosPatrol : MonoBehaviour
                 spawnRatinhos.SetActive(false);
                 musica.SetActive(false);
                 alarme.SetActive(false);
+                mouseTrigger.SetActive(false);
             }
 
 

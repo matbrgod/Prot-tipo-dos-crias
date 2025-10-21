@@ -31,12 +31,6 @@ public class Player : MonoBehaviour
     public bool interact = false;
     public GameManager gameManager;
 
-    SpriteRenderer spriteRenderer;
-
-    //public GameObject trigger;
-
-    //public GameObject animacao;
-
     private float triggerTickTimer = 0f;
     public float triggerTickInterval = 1f;
     private float originalMoveSpeed;
@@ -50,7 +44,6 @@ public class Player : MonoBehaviour
         }
         instance = this;
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
     }
 
@@ -101,12 +94,6 @@ public class Player : MonoBehaviour
         else 
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
-            
-
-        if (healthPlayer <= 0)
-                    {
-                        SceneManager.LoadScene("Game Over"); 
-                    }
         
     }
 

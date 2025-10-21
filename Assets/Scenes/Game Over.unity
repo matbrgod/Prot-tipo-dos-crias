@@ -376,7 +376,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0.305
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
@@ -1106,6 +1106,10 @@ PrefabInstance:
     - target: {fileID: 4770538878382145875, guid: 80b41ab480e063040a976f86f32c6c88, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150039893326068544, guid: 80b41ab480e063040a976f86f32c6c88, type: 3}
+      propertyPath: 'm_DirectAudioVolumes.Array.data[0]'
+      value: 0.305
       objectReference: {fileID: 0}
     - target: {fileID: 8792019018186672111, guid: 80b41ab480e063040a976f86f32c6c88, type: 3}
       propertyPath: m_Name
