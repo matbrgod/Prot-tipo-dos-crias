@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     public float triggerTickInterval = 1f;
     private float originalMoveSpeed;
     public Animator animator;
+    [SerializeField] private GameObject reloadingUI;
 
     void Awake()
     {
@@ -77,6 +78,9 @@ public class Player : MonoBehaviour
             weapon.Fire();
         }
 
+        if (reloadingUI != null)
+            reloadingUI.SetActive(timerTiro < tiroCooldown);
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             WeaponParent.Attack();            
@@ -102,9 +106,10 @@ public class Player : MonoBehaviour
                 if (collision.collider.CompareTag("Enemy"))
                 {
                     healthPlayer -= 10; // Diminui 10 de vida
+                    healthText.text = "" + healthPlayer;
                     if (healthPlayer <= 0)
-            {
-                        healthText.text = "" + healthPlayer;
+                    {
+                        
                         SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
