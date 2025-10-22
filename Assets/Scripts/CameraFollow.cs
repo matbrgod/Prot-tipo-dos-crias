@@ -8,6 +8,14 @@ public class CameraFollow : MonoBehaviour
 
     private Vector3 velocity = Vector3.zero;
 
+    void Start()
+    {
+        if (target == null && Player.instance != null)
+        {
+            target = Player.instance.transform;
+        }
+    }
+    
     void LateUpdate()
     {
         if (target != null)

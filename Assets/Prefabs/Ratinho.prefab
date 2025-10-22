@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1036273093148684099}
   - component: {fileID: 8172773653798837504}
   - component: {fileID: -1808618223401300644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ratinho
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthEnemy: 0
   maxHealthEnemy: 1
-  speed: 5
+  speed: 4
   player: {fileID: 0}
   distanceBetween: 15
 --- !u!61 &1036273093148684099

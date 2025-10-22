@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4859930717429556171}
   - component: {fileID: 5027798803050847541}
   - component: {fileID: 3841063805242570231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: "P\xE1ssaro"
   m_TagString: Enemy
   m_Icon: {fileID: 0}
