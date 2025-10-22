@@ -27,8 +27,8 @@ public class BossPatrol : MonoBehaviour
     void Start()
     {
         targetPoint = 0;
-        healthBar.SetMaxHealth(maxHealthEnemy);
         healthEnemy = maxHealthEnemy;
+        healthBar.SetMaxHealth(maxHealthEnemy);
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
