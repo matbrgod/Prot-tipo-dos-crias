@@ -18,7 +18,7 @@ public class BotaoJogar : MonoBehaviour
     }
     public void Credits()
     {
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene("Creditos");
     }
     public void Leave()
     {
