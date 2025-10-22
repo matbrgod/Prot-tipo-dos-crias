@@ -35,17 +35,21 @@ public class Player : MonoBehaviour
     public float triggerTickInterval = 1f;
     private float originalMoveSpeed;
     public Animator animator;
+    private bool isInvincible;                 
+    public float invincibleDuration;
+    public SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject reloadingUI;
 
     void Awake()
     {
         if (instance != null)
         {
-            Destroy(instance);
+            Destroy(instance.gameObject);
         }
         instance = this;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Start()
@@ -53,6 +57,11 @@ public class Player : MonoBehaviour
         healthPlayer = maxHealthPlayer;
         originalMoveSpeed = moveSpeed;
         healthText.text = "" + healthPlayer;
+        isInvincible = false;
+
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, false);
     }
 
     void Update()
@@ -68,7 +77,7 @@ public class Player : MonoBehaviour
 
         if (healthPlayer <= 0)
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Game Over");
         }
 
         timerTiro += Time.deltaTime;
@@ -107,12 +116,16 @@ public class Player : MonoBehaviour
                 {
                     healthPlayer -= 10; // Diminui 10 de vida
                     healthText.text = "" + healthPlayer;
+                    
+                    StartCoroutine(InvincibilityCoroutine());
+                    
                     if (healthPlayer <= 0)
                     {
                         
                         SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
+                    
                 }
             
         }
@@ -128,6 +141,7 @@ public class Player : MonoBehaviour
             {
                 healthPlayer -= 10;
                 healthText.text = "" + healthPlayer;
+                StartCoroutine(InvincibilityCoroutine());
             }
             triggerTickTimer = 0f;
         }
@@ -148,6 +162,47 @@ public class Player : MonoBehaviour
         {
             moveSpeed = originalMoveSpeed;
         }
+    }
+
+    private IEnumerator InvincibilityCoroutine()
+    {
+        isInvincible = true;
+
+        int playerLayer = gameObject.layer;
+        int enemyLayer = LayerMask.NameToLayer("Enemy"); // ensure your enemies use this layer
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
+
+        // optional visual feedback
+        if (spriteRenderer != null) spriteRenderer.color = Color.red;
+
+        yield return new WaitForSeconds(invincibleDuration);
+
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
+
+        isInvincible = false;
+        if (spriteRenderer != null) spriteRenderer.color = Color.white;
+    }
+
+    private void OnDisable()
+    {
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, false);
+
+        // stop any running invincibility coroutine and reset visuals/state
+        StopAllCoroutines();
+        isInvincible = false;
+        if (spriteRenderer != null) spriteRenderer.color = Color.white;
+    }
+
+    private void OnDestroy()
+    {
+        // same safety on destroy
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, false);
     }
 
 

@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 0d70b3c7cef53cb4d88ec600f7f0c45c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2323667145223364460
+    second: MENU MORTE reference_0
+  - first:
+      213: -3826734476958169583
+    second: MENU MORTE reference_1
+  - first:
+      213: 29886898443662020
+    second: MENU MORTE reference_2
+  - first:
+      213: 2154724904649428968
+    second: MENU MORTE reference_3
+  - first:
+      213: -4319430298406769616
+    second: MENU MORTE reference_4
+  - first:
+      213: 7158899000496972058
+    second: MENU MORTE reference_5
+  - first:
+      213: 1657427549305260667
+    second: MENU MORTE reference_6
+  - first:
+      213: 8706547333215581767
+    second: MENU MORTE reference_7
+  - first:
+      213: 8189645429823045090
+    second: MENU MORTE reference_8
+  - first:
+      213: -6493288436830899783
+    second: MENU MORTE reference_9
+  - first:
+      213: -2446231330864736568
+    second: MENU MORTE reference_10
+  - first:
+      213: 2571934709227597593
+    second: MENU MORTE reference_11
+  - first:
+      213: -1413039382548848732
+    second: MENU MORTE reference_12
+  - first:
+      213: -7089254044419569353
+    second: MENU MORTE reference_13
+  - first:
+      213: 1438710877204114751
+    second: MENU MORTE reference_14
+  - first:
+      213: -5816083331562858321
+    second: MENU MORTE reference_15
+  - first:
+      213: 4608026980175800436
+    second: MENU MORTE reference_16
+  - first:
+      213: 8179528269628390621
+    second: MENU MORTE reference_17
+  - first:
+      213: -3437648423523294747
+    second: MENU MORTE reference_18
+  - first:
+      213: -4025825143350558002
+    second: MENU MORTE reference_19
+  - first:
+      213: -2704069934035827619
+    second: MENU MORTE reference_20
+  - first:
+      213: 8798501741127244264
+    second: MENU MORTE reference_21
+  - first:
+      213: -1151276231769079443
+    second: MENU MORTE reference_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MENU MORTE reference_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fd84f05f25f3020800000000000000
+      internalID: 2323667145223364460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1160b23a445b4eac0800000000000000
+      internalID: -3826734476958169583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c23c2dc9fd2a6000800000000000000
+      internalID: 29886898443662020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef015272ee17ed10800000000000000
+      internalID: 2154724904649428968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ca767670d4e04c0800000000000000
+      internalID: -4319430298406769616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 87
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11658326b4895360800000000000000
+      internalID: 7158899000496972058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a494d139d500710800000000000000
+      internalID: 1657427549305260667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74670789baed3d870800000000000000
+      internalID: 8706547333215581767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 87
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edf009b02777a170800000000000000
+      internalID: 8189645429823045090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1fa82d19433e5a0800000000000000
+      internalID: -6493288436830899783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c65065b09d3d0ed0800000000000000
+      internalID: -2446231330864736568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f2209cdf851b320800000000000000
+      internalID: 2571934709227597593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afd98d0b20e36ce0800000000000000
+      internalID: -1413039382548848732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 87
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739cedfc109ed9d90800000000000000
+      internalID: -7089254044419569353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 87
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ded329be357f310800000000000000
+      internalID: 1438710877204114751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 87
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8102e560f194fa0800000000000000
+      internalID: -5816083331562858321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 72
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4786bc4cf1003ff30800000000000000
+      internalID: 4608026980175800436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 72
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc377dcf95838170800000000000000
+      internalID: 8179528269628390621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 72
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e16635e8f40b40d0800000000000000
+      internalID: -3437648423523294747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 72
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec201c2ac556128c0800000000000000
+      internalID: -4025825143350558002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 72
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d540bf5c8b6397ad0800000000000000
+      internalID: -2704069934035827619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 72
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e99b8397be8a1a70800000000000000
+      internalID: 8798501741127244264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reference_22
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 72
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61cd0fed58d500f0800000000000000
+      internalID: -1151276231769079443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MENU MORTE reference_0: 2323667145223364460
+      MENU MORTE reference_1: -3826734476958169583
+      MENU MORTE reference_10: -2446231330864736568
+      MENU MORTE reference_11: 2571934709227597593
+      MENU MORTE reference_12: -1413039382548848732
+      MENU MORTE reference_13: -7089254044419569353
+      MENU MORTE reference_14: 1438710877204114751
+      MENU MORTE reference_15: -5816083331562858321
+      MENU MORTE reference_16: 4608026980175800436
+      MENU MORTE reference_17: 8179528269628390621
+      MENU MORTE reference_18: -3437648423523294747
+      MENU MORTE reference_19: -4025825143350558002
+      MENU MORTE reference_2: 29886898443662020
+      MENU MORTE reference_20: -2704069934035827619
+      MENU MORTE reference_21: 8798501741127244264
+      MENU MORTE reference_22: -1151276231769079443
+      MENU MORTE reference_3: 2154724904649428968
+      MENU MORTE reference_4: -4319430298406769616
+      MENU MORTE reference_5: 7158899000496972058
+      MENU MORTE reference_6: 1657427549305260667
+      MENU MORTE reference_7: 8706547333215581767
+      MENU MORTE reference_8: 8189645429823045090
+      MENU MORTE reference_9: -6493288436830899783
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

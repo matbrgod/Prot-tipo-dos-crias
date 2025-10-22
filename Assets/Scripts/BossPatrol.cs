@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class BoosPatrol : MonoBehaviour
+
+public class BossPatrol : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public Transform[] patrolPoints;
     public int targetPoint;
     public float speed;
@@ -12,50 +12,38 @@ public class BoosPatrol : MonoBehaviour
     public GameObject player;
 
     public HealthBar healthBar;
-    
-    [Header("Componentes para desativar ao morrer")]
+    [Header("Componentes para desativar/ativar ao morrer")]
     [SerializeField] private GameObject porta;
     [SerializeField] private GameObject vidaDoBoss;
     [SerializeField] private GameObject TriggerDoE;
-
-    [SerializeField] private GameObject mouseTrigger;
-
     [SerializeField] private GameObject spawnRatinhos;
     [SerializeField] private GameObject musica;
+    //[SerializeField] private GameObject alarme;
+    public GameObject quest;
 
-    [SerializeField] private GameObject alarme;
-    
     void Start()
     {
         targetPoint = 0;
         healthBar.SetMaxHealth(maxHealthEnemy);
         healthEnemy = maxHealthEnemy;
         player = GameObject.FindGameObjectWithTag("Player");
-        
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (transform.position == patrolPoints[targetPoint].position)
-        {
             IncreaseTargetInt();
-        }
+
+        if (atacar)
         {
-            if (transform.position == patrolPoints[targetPoint].position)
-            {
-                targetPoint = 0;
-            }
-        }
-        if (atacar == true)
-        {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         }
         else
         {
             Vector2 direction = patrolPoints[targetPoint].position - transform.position;
             transform.position = Vector2.MoveTowards(transform.position, patrolPoints[targetPoint].position, speed * Time.deltaTime);
-            // Flip enemy depending on movement direction
+
+            // flip using spriteRenderer if you have one; shown here using rotation as before
             if (direction.x > 0)
                 transform.rotation = Quaternion.Euler(0, -180, 0); // Facing right
             else if (direction.x < 0)
@@ -73,42 +61,57 @@ public class BoosPatrol : MonoBehaviour
         }
     }
 
-    //public void TakeDamage(int damage)
-    //{
-    //    healthEnemy -= damage;
-//
- //       healthBar.SetHealth(healthEnemy);
-  //      if (healthEnemy <= 0)
-  //      {
-   //         Destroy(gameObject);
-      //  }
-    //}
-    
+    // centralize damage + death handling
+    public void TakeDamage(int damage)
+{
+    healthEnemy -= damage;
+    Debug.Log($"{name} took {damage} dmg, health now {healthEnemy} (object={gameObject.name})");
+    if (healthBar != null) healthBar.SetHealth(healthEnemy);
+
+    if (healthEnemy <= 0)
+    {
+        Die();
+    }
+}
+
+private void Die()
+{
+    Debug.Log($"{name} Die() called on {gameObject.name}");
+
+    if (porta != null) porta.SetActive(false); else Debug.Log("porta is null");
+    if (vidaDoBoss != null) vidaDoBoss.SetActive(false); else Debug.Log("vidaDoBoss is null");
+    if (TriggerDoE != null) TriggerDoE.SetActive(true); else Debug.Log("TriggerDoE is null");
+    if (spawnRatinhos != null) spawnRatinhos.SetActive(false); else Debug.Log("spawnRatinhos is null");
+    if (musica != null) musica.SetActive(false); else Debug.Log("musica is null");
+    //if (alarme != null) alarme.SetActive(false); else Debug.Log("alarme is null");
+    if (quest != null) quest.SetActive(true); else Debug.Log("quest is null");
+
+    Destroy(gameObject);
+}
+
+    // Use whichever callback matches your bullet (Collision or Trigger)
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Bullet"))
         {
             atacar = false;
-            healthEnemy -= 1;// Assuming each bullet reduces health by 1
-            healthBar.SetHealth(healthEnemy);
-            if (healthEnemy <= 0)
-            {
-                //SceneManager.LoadScene("Intro");
-                Destroy(gameObject);
-                porta.SetActive(false);
-                vidaDoBoss.SetActive(false);
-                TriggerDoE.SetActive(true);
-                spawnRatinhos.SetActive(false);
-                musica.SetActive(false);
-                alarme.SetActive(false);
-                mouseTrigger.SetActive(false);
-            }
-
-
+            TakeDamage(1);
         }
         if (collision.collider.CompareTag("Player"))
         {
             atacar = false;
         }
     }
+
+    // If bullets are triggers, uncomment and use this instead:
+    /*
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Bullet"))
+        {
+            atacar = false;
+            TakeDamage(1);
+        }
+    }
+    */
 }

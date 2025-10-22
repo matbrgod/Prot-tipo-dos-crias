@@ -397,6 +397,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1507781714629061698, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
+      propertyPath: invincibleDuration
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1727862922666759955, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_Size.x
       value: 0.55543387

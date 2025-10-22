@@ -1,0 +1,1074 @@
+fileFormatVersion: 2
+guid: 9b353b6065a6f224d9c1e27355028a2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2579141423286252709
+    second: MENU MORTE reboot 23 frames sheet_0
+  - first:
+      213: 8195714038557236274
+    second: MENU MORTE reboot 23 frames sheet_1
+  - first:
+      213: 7399193611363118909
+    second: MENU MORTE reboot 23 frames sheet_2
+  - first:
+      213: 7087375589595676216
+    second: MENU MORTE reboot 23 frames sheet_3
+  - first:
+      213: -1587286530130063285
+    second: MENU MORTE reboot 23 frames sheet_4
+  - first:
+      213: -710402241409060648
+    second: MENU MORTE reboot 23 frames sheet_5
+  - first:
+      213: -7336988124241562219
+    second: MENU MORTE reboot 23 frames sheet_6
+  - first:
+      213: -4552550468053850644
+    second: MENU MORTE reboot 23 frames sheet_7
+  - first:
+      213: -4607264554290967779
+    second: MENU MORTE reboot 23 frames sheet_8
+  - first:
+      213: -7655573777340312393
+    second: MENU MORTE reboot 23 frames sheet_9
+  - first:
+      213: -5507828942165059197
+    second: MENU MORTE reboot 23 frames sheet_10
+  - first:
+      213: 4620533136806838107
+    second: MENU MORTE reboot 23 frames sheet_11
+  - first:
+      213: -4128746053959113175
+    second: MENU MORTE reboot 23 frames sheet_12
+  - first:
+      213: -5729902540276906365
+    second: MENU MORTE reboot 23 frames sheet_13
+  - first:
+      213: 3306580882336341212
+    second: MENU MORTE reboot 23 frames sheet_14
+  - first:
+      213: -1113794281226514307
+    second: MENU MORTE reboot 23 frames sheet_15
+  - first:
+      213: 8748886848848139672
+    second: MENU MORTE reboot 23 frames sheet_16
+  - first:
+      213: 7875168375192757542
+    second: MENU MORTE reboot 23 frames sheet_17
+  - first:
+      213: 4437719088186244918
+    second: MENU MORTE reboot 23 frames sheet_18
+  - first:
+      213: -874993432440845452
+    second: MENU MORTE reboot 23 frames sheet_19
+  - first:
+      213: 554411420760098188
+    second: MENU MORTE reboot 23 frames sheet_20
+  - first:
+      213: 2162483502371004018
+    second: MENU MORTE reboot 23 frames sheet_21
+  - first:
+      213: 1380093177160424142
+    second: MENU MORTE reboot 23 frames sheet_22
+  - first:
+      213: -6438493792100815616
+    second: MENU MORTE reboot 23 frames sheet_23
+  - first:
+      213: 5117532104969300049
+    second: MENU MORTE reboot 23 frames sheet_24
+  - first:
+      213: 8957733000834119318
+    second: MENU MORTE reboot 23 frames sheet_25
+  - first:
+      213: -1609946194777312339
+    second: MENU MORTE reboot 23 frames sheet_26
+  - first:
+      213: -1768413429096229352
+    second: MENU MORTE reboot 23 frames sheet_27
+  - first:
+      213: -4027098178311339026
+    second: MENU MORTE reboot 23 frames sheet_28
+  - first:
+      213: 3143973720053435289
+    second: MENU MORTE reboot 23 frames sheet_29
+  - first:
+      213: -33653811898033117
+    second: MENU MORTE reboot 23 frames sheet_30
+  - first:
+      213: 1215824744325157997
+    second: MENU MORTE reboot 23 frames sheet_31
+  - first:
+      213: -4944379765573953287
+    second: MENU MORTE reboot 23 frames sheet_32
+  - first:
+      213: -2595647626722418047
+    second: MENU MORTE reboot 23 frames sheet_33
+  - first:
+      213: -8014353982356353673
+    second: MENU MORTE reboot 23 frames sheet_34
+  - first:
+      213: 7458462771621848675
+    second: MENU MORTE reboot 23 frames sheet_35
+  - first:
+      213: 5059707819667766661
+    second: MENU MORTE reboot 23 frames sheet_36
+  - first:
+      213: 3634751052226966168
+    second: MENU MORTE reboot 23 frames sheet_37
+  - first:
+      213: 3638508188044261838
+    second: MENU MORTE reboot 23 frames sheet_38
+  - first:
+      213: -4985674494357033429
+    second: MENU MORTE reboot 23 frames sheet_39
+  - first:
+      213: 6102349147368944013
+    second: MENU MORTE reboot 23 frames sheet_40
+  - first:
+      213: -2370372120719459925
+    second: MENU MORTE reboot 23 frames sheet_41
+  - first:
+      213: -4000536632557752629
+    second: MENU MORTE reboot 23 frames sheet_42
+  - first:
+      213: 8875661300152529953
+    second: MENU MORTE reboot 23 frames sheet_43
+  - first:
+      213: -7462788765028556242
+    second: MENU MORTE reboot 23 frames sheet_44
+  - first:
+      213: 5971166533316691905
+    second: MENU MORTE reboot 23 frames sheet_45
+  - first:
+      213: -6072283712983593247
+    second: MENU MORTE reboot 23 frames sheet_46
+  - first:
+      213: -2101017605335233501
+    second: MENU MORTE reboot 23 frames sheet_47
+  - first:
+      213: 5551519518959528723
+    second: MENU MORTE reboot 23 frames sheet_48
+  - first:
+      213: -5796302148521226666
+    second: MENU MORTE reboot 23 frames sheet_49
+  - first:
+      213: -4401412995063429351
+    second: MENU MORTE reboot 23 frames sheet_50
+  - first:
+      213: 8456549860775484566
+    second: MENU MORTE reboot 23 frames sheet_51
+  - first:
+      213: -8510482541430431685
+    second: MENU MORTE reboot 23 frames sheet_52
+  - first:
+      213: -5005170571447810561
+    second: MENU MORTE reboot 23 frames sheet_53
+  - first:
+      213: -3311375258068899809
+    second: MENU MORTE reboot 23 frames sheet_54
+  - first:
+      213: 4671181063060020931
+    second: MENU MORTE reboot 23 frames sheet_55
+  - first:
+      213: 6678655006283126008
+    second: MENU MORTE reboot 23 frames sheet_56
+  - first:
+      213: -4356891171706013538
+    second: MENU MORTE reboot 23 frames sheet_57
+  - first:
+      213: -6429981637172442371
+    second: MENU MORTE reboot 23 frames sheet_58
+  - first:
+      213: -5954671068816986683
+    second: MENU MORTE reboot 23 frames sheet_59
+  - first:
+      213: 7623857440453295231
+    second: MENU MORTE reboot 23 frames sheet_60
+  - first:
+      213: -7208200113096470695
+    second: MENU MORTE reboot 23 frames sheet_61
+  - first:
+      213: -6332283929588508362
+    second: MENU MORTE reboot 23 frames sheet_62
+  - first:
+      213: -2266923556661578183
+    second: MENU MORTE reboot 23 frames sheet_63
+  - first:
+      213: -3678563909128922110
+    second: MENU MORTE reboot 23 frames sheet_64
+  - first:
+      213: -2386295519637552767
+    second: MENU MORTE reboot 23 frames sheet_65
+  - first:
+      213: -3723315624840269118
+    second: MENU MORTE reboot 23 frames sheet_66
+  - first:
+      213: -3233089382452390476
+    second: MENU MORTE reboot 23 frames sheet_67
+  - first:
+      213: 7536575830207815012
+    second: MENU MORTE reboot 23 frames sheet_68
+  - first:
+      213: 1027632742375953559
+    second: MENU MORTE reboot 23 frames sheet_69
+  - first:
+      213: -8987862927739343778
+    second: MENU MORTE reboot 23 frames sheet_70
+  - first:
+      213: -8251520870692212094
+    second: MENU MORTE reboot 23 frames sheet_71
+  - first:
+      213: -3767918318908808979
+    second: MENU MORTE reboot 23 frames sheet_72
+  - first:
+      213: -2821369056061787474
+    second: MENU MORTE reboot 23 frames sheet_73
+  - first:
+      213: 6807900706551631273
+    second: MENU MORTE reboot 23 frames sheet_74
+  - first:
+      213: -3348634399065525779
+    second: MENU MORTE reboot 23 frames sheet_75
+  - first:
+      213: 688237655552109503
+    second: MENU MORTE reboot 23 frames sheet_76
+  - first:
+      213: -6817986142766916111
+    second: MENU MORTE reboot 23 frames sheet_77
+  - first:
+      213: -281334622474388288
+    second: MENU MORTE reboot 23 frames sheet_78
+  - first:
+      213: -4014139193021727462
+    second: MENU MORTE reboot 23 frames sheet_79
+  - first:
+      213: 8784389906552717571
+    second: MENU MORTE reboot 23 frames sheet_80
+  - first:
+      213: -7224692078706781878
+    second: MENU MORTE reboot 23 frames sheet_81
+  - first:
+      213: 6367103509322536538
+    second: MENU MORTE reboot 23 frames sheet_82
+  - first:
+      213: 1565632043221407638
+    second: MENU MORTE reboot 23 frames sheet_83
+  - first:
+      213: 5130143489110245641
+    second: MENU MORTE reboot 23 frames sheet_84
+  - first:
+      213: 5977791048076195057
+    second: MENU MORTE reboot 23 frames sheet_85
+  - first:
+      213: 437160831676453809
+    second: MENU MORTE reboot 23 frames sheet_86
+  - first:
+      213: -8727164620560514108
+    second: MENU MORTE reboot 23 frames sheet_87
+  - first:
+      213: 9000636801366771034
+    second: MENU MORTE reboot 23 frames sheet_88
+  - first:
+      213: 4319170302116123336
+    second: MENU MORTE reboot 23 frames sheet_89
+  - first:
+      213: 1173842581210091383
+    second: MENU MORTE reboot 23 frames sheet_90
+  - first:
+      213: 9098417934333371594
+    second: MENU MORTE reboot 23 frames sheet_91
+  - first:
+      213: -6003354661256684371
+    second: MENU MORTE reboot 23 frames sheet_92
+  - first:
+      213: 2894175506663478181
+    second: MENU MORTE reboot 23 frames sheet_93
+  - first:
+      213: 675586508028439533
+    second: MENU MORTE reboot 23 frames sheet_94
+  - first:
+      213: 5893988822750583331
+    second: MENU MORTE reboot 23 frames sheet_95
+  - first:
+      213: -3278480573707344710
+    second: MENU MORTE reboot 23 frames sheet_96
+  - first:
+      213: 7896950930331742748
+    second: MENU MORTE reboot 23 frames sheet_97
+  - first:
+      213: 2074514211036860348
+    second: MENU MORTE reboot 23 frames sheet_98
+  - first:
+      213: -3960415234253181980
+    second: MENU MORTE reboot 23 frames sheet_99
+  - first:
+      213: -8063051008195430253
+    second: MENU MORTE reboot 23 frames sheet_100
+  - first:
+      213: 567500998876123179
+    second: MENU MORTE reboot 23 frames sheet_101
+  - first:
+      213: -7968798185603898839
+    second: MENU MORTE reboot 23 frames sheet_102
+  - first:
+      213: 1548567416718210940
+    second: MENU MORTE reboot 23 frames sheet_103
+  - first:
+      213: -794016051174777856
+    second: MENU MORTE reboot 23 frames sheet_104
+  - first:
+      213: 4326408593864754095
+    second: MENU MORTE reboot 23 frames sheet_105
+  - first:
+      213: -1652263484173421494
+    second: MENU MORTE reboot 23 frames sheet_106
+  - first:
+      213: 7709742135144642510
+    second: MENU MORTE reboot 23 frames sheet_107
+  - first:
+      213: -5635678843669819155
+    second: MENU MORTE reboot 23 frames sheet_108
+  - first:
+      213: -2536303761504531741
+    second: MENU MORTE reboot 23 frames sheet_109
+  - first:
+      213: -8515611915585244512
+    second: MENU MORTE reboot 23 frames sheet_110
+  - first:
+      213: 6713889246863085606
+    second: MENU MORTE reboot 23 frames sheet_111
+  - first:
+      213: 9221280722163380347
+    second: MENU MORTE reboot 23 frames sheet_112
+  - first:
+      213: 4277432042501291571
+    second: MENU MORTE reboot 23 frames sheet_113
+  - first:
+      213: -2594183061422846410
+    second: MENU MORTE reboot 23 frames sheet_114
+  - first:
+      213: -3027231075581016097
+    second: MENU MORTE reboot 23 frames sheet_115
+  - first:
+      213: -3341535091350054986
+    second: MENU MORTE reboot 23 frames sheet_116
+  - first:
+      213: 2747989596082975012
+    second: MENU MORTE reboot 23 frames sheet_117
+  - first:
+      213: -8814639373126106459
+    second: MENU MORTE reboot 23 frames sheet_118
+  - first:
+      213: 7372537561282096574
+    second: MENU MORTE reboot 23 frames sheet_119
+  - first:
+      213: -6792964221335914151
+    second: MENU MORTE reboot 23 frames sheet_120
+  - first:
+      213: 4528267106563071928
+    second: MENU MORTE reboot 23 frames sheet_121
+  - first:
+      213: 8169741877452213350
+    second: MENU MORTE reboot 23 frames sheet_122
+  - first:
+      213: 2042648924745138526
+    second: MENU MORTE reboot 23 frames sheet_123
+  - first:
+      213: -1181070311613524900
+    second: MENU MORTE reboot 23 frames sheet_124
+  - first:
+      213: 1466248658650298253
+    second: MENU MORTE reboot 23 frames sheet_125
+  - first:
+      213: 4216573509125775652
+    second: MENU MORTE reboot 23 frames sheet_126
+  - first:
+      213: 403162510051168794
+    second: MENU MORTE reboot 23 frames sheet_127
+  - first:
+      213: -4552787475705514251
+    second: MENU MORTE reboot 23 frames sheet_128
+  - first:
+      213: -4823984519789465755
+    second: MENU MORTE reboot 23 frames sheet_129
+  - first:
+      213: -6253408175233841234
+    second: MENU MORTE reboot 23 frames sheet_130
+  - first:
+      213: -501621653444945478
+    second: MENU MORTE reboot 23 frames sheet_131
+  - first:
+      213: -8279158416671321797
+    second: MENU MORTE reboot 23 frames sheet_132
+  - first:
+      213: -6353645221500986931
+    second: MENU MORTE reboot 23 frames sheet_133
+  - first:
+      213: -7271433651044588035
+    second: MENU MORTE reboot 23 frames sheet_134
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b07875a8c053cd0800000000000000
+      internalID: -2579141423286252709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cd2ecce760db170800000000000000
+      internalID: 8195714038557236274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f63ad03673fa660800000000000000
+      internalID: 7399193611363118909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83eff975c8a6b5260800000000000000
+      internalID: 7087375589595676216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40d5d68f43d8f9e0800000000000000
+      internalID: -1587286530130063285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0fb21ece42426f0800000000000000
+      internalID: -710402241409060648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595725d8c28cd2a90800000000000000
+      internalID: -7336988124241562219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5ac91487712d0c0800000000000000
+      internalID: -4552550468053850644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b0d375c45bf00c0800000000000000
+      internalID: -4607264554290967779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4d5d1e530f1c590800000000000000
+      internalID: -7655573777340312393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389d2a242c24093b0800000000000000
+      internalID: -5507828942165059197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ffa44486e6f1040800000000000000
+      internalID: 4620533136806838107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926a8f5c65fb3b6c0800000000000000
+      internalID: -4128746053959113175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386cf297ffb4b70b0800000000000000
+      internalID: -5729902540276906365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc51c02bc553ed20800000000000000
+      internalID: 3306580882336341212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70d1aa90020b80f0800000000000000
+      internalID: -1113794281226514307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_16
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8951ea54c3a4a6970800000000000000
+      internalID: 8748886848848139672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62521cda9e73a4d60800000000000000
+      internalID: 7875168375192757542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_18
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fbf48aff1f59d30800000000000000
+      internalID: 4437719088186244918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b409eeb166bd3f0800000000000000
+      internalID: -874993432440845452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8543d1ff3aa1b700800000000000000
+      internalID: 554411420760098188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_21
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e577fb94fa20e10800000000000000
+      internalID: 2162483502371004018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca569dbe63172310800000000000000
+      internalID: 1380093177160424142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE reboot 23 frames sheet_23
+      rect:
+        serializedVersion: 2
+        x: 7360
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87eae2dc134269488750a3de90a8963
+      internalID: -6438493792100815616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3dc681340d1e74e4983b763d96b70246
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MENU MORTE reboot 23 frames sheet_0: -2579141423286252709
+      MENU MORTE reboot 23 frames sheet_1: 8195714038557236274
+      MENU MORTE reboot 23 frames sheet_10: -5507828942165059197
+      MENU MORTE reboot 23 frames sheet_11: 4620533136806838107
+      MENU MORTE reboot 23 frames sheet_12: -4128746053959113175
+      MENU MORTE reboot 23 frames sheet_13: -5729902540276906365
+      MENU MORTE reboot 23 frames sheet_14: 3306580882336341212
+      MENU MORTE reboot 23 frames sheet_15: -1113794281226514307
+      MENU MORTE reboot 23 frames sheet_16: 8748886848848139672
+      MENU MORTE reboot 23 frames sheet_17: 7875168375192757542
+      MENU MORTE reboot 23 frames sheet_18: 4437719088186244918
+      MENU MORTE reboot 23 frames sheet_19: -874993432440845452
+      MENU MORTE reboot 23 frames sheet_2: 7399193611363118909
+      MENU MORTE reboot 23 frames sheet_20: 554411420760098188
+      MENU MORTE reboot 23 frames sheet_21: 2162483502371004018
+      MENU MORTE reboot 23 frames sheet_22: 1380093177160424142
+      MENU MORTE reboot 23 frames sheet_23: -6438493792100815616
+      MENU MORTE reboot 23 frames sheet_3: 7087375589595676216
+      MENU MORTE reboot 23 frames sheet_4: -1587286530130063285
+      MENU MORTE reboot 23 frames sheet_5: -710402241409060648
+      MENU MORTE reboot 23 frames sheet_6: -7336988124241562219
+      MENU MORTE reboot 23 frames sheet_7: -4552550468053850644
+      MENU MORTE reboot 23 frames sheet_8: -4607264554290967779
+      MENU MORTE reboot 23 frames sheet_9: -7655573777340312393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
