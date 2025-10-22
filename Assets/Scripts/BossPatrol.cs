@@ -10,6 +10,9 @@ public class BossPatrol : MonoBehaviour
     public int maxHealthEnemy;
     private bool atacar = false;
     public GameObject player;
+    [SerializeField] private ParticleSystem sangue;
+    private ParticleSystem sangueParticleSystemInstance;
+
 
     public HealthBar healthBar;
     [Header("Componentes para desativar/ativar ao morrer")]
@@ -64,6 +67,7 @@ public class BossPatrol : MonoBehaviour
     // centralize damage + death handling
     public void TakeDamage(int damage)
 {
+    SpawnParticlesSangue();
     healthEnemy -= damage;
     Debug.Log($"{name} took {damage} dmg, health now {healthEnemy} (object={gameObject.name})");
     if (healthBar != null) healthBar.SetHealth(healthEnemy);
@@ -101,6 +105,11 @@ private void Die()
         {
             atacar = false;
         }
+    }
+
+    void SpawnParticlesSangue()
+    {
+        sangueParticleSystemInstance = Instantiate(sangue,transform.position, Quaternion.identity);
     }
 
     // If bullets are triggers, uncomment and use this instead:

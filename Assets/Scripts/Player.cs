@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 
 public class Player : MonoBehaviour
 {
@@ -39,6 +40,8 @@ public class Player : MonoBehaviour
     public float invincibleDuration;
     public SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject reloadingUI;
+    [SerializeField] private ParticleSystem sangue;
+    private ParticleSystem sangueParticleSystemInstance;
 
     void Awake()
     {
@@ -114,6 +117,7 @@ public class Player : MonoBehaviour
         {            
                 if (collision.collider.CompareTag("Enemy"))
                 {
+                    SpawnParticlesSangue();
                     healthPlayer -= 10; // Diminui 10 de vida
                     healthText.text = "" + healthPlayer;
                     
@@ -217,6 +221,11 @@ public class Player : MonoBehaviour
 
     }
 
-    
-    
+    void SpawnParticlesSangue()
+    {
+        sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
+    }
+
+
+
 }

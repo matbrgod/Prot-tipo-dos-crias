@@ -374,6 +374,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1507781714629061698, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
+      propertyPath: sangue
+      value: 
+      objectReference: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
+    - target: {fileID: 1507781714629061698, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: weapon
       value: 
       objectReference: {fileID: 6096164332642524529}
