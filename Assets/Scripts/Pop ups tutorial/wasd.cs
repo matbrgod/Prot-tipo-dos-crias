@@ -9,7 +9,7 @@ public class wasd : MonoBehaviour
     {
         if (player != null)
         {
-            transform.position = player.position + offset;
+            transform.position = player.transform.position + offset;
         }
     }
 }

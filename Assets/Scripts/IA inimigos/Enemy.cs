@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
     public float healthEnemy;
     public float maxHealthEnemy = 3f;
     public float speed;
-    public GameObject player;
+    //public GameObject player;
     public float distanceBetween;
 
     private float distance;
@@ -17,14 +17,14 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         healthEnemy = maxHealthEnemy;
-        player = GameObject.FindGameObjectWithTag("Player");
+        //player = GameObject.FindGameObjectWithTag("Player");
        
     }
     void Update()
     {
 
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
+        distance = Vector2.Distance(transform.position, Player.instance.transform.position);
+        Vector2 direction = Player.instance.transform.position - transform.position;
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
 
         if (distance < distanceBetween)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(this.transform.position, Player.instance.transform.position, speed * Time.deltaTime);
             //transform.rotation = Quaternion.Euler(Vector3.forward * (angle-180));
         }
     }

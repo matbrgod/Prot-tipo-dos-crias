@@ -1,0 +1,2026 @@
+fileFormatVersion: 2
+guid: a39b1e516f176b64aa5e1339b7fd103e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6319505454226112134
+    second: MENU MORTE-Sheet 22 frames_0
+  - first:
+      213: -9104291376641189225
+    second: MENU MORTE-Sheet 22 frames_1
+  - first:
+      213: -157128638753592859
+    second: MENU MORTE-Sheet 22 frames_2
+  - first:
+      213: 5234537604713052130
+    second: MENU MORTE-Sheet 22 frames_3
+  - first:
+      213: -6750554037301844337
+    second: MENU MORTE-Sheet 22 frames_4
+  - first:
+      213: 2945247850928367619
+    second: MENU MORTE-Sheet 22 frames_5
+  - first:
+      213: -7018202160950281817
+    second: MENU MORTE-Sheet 22 frames_6
+  - first:
+      213: -5432268097162208526
+    second: MENU MORTE-Sheet 22 frames_7
+  - first:
+      213: 6748768082066513313
+    second: MENU MORTE-Sheet 22 frames_8
+  - first:
+      213: 590445578750211613
+    second: MENU MORTE-Sheet 22 frames_9
+  - first:
+      213: -5706218105997358748
+    second: MENU MORTE-Sheet 22 frames_10
+  - first:
+      213: -8773847549721217460
+    second: MENU MORTE-Sheet 22 frames_11
+  - first:
+      213: 8669764281807034258
+    second: MENU MORTE-Sheet 22 frames_12
+  - first:
+      213: 7406601050726203576
+    second: MENU MORTE-Sheet 22 frames_13
+  - first:
+      213: -7942687392573314727
+    second: MENU MORTE-Sheet 22 frames_14
+  - first:
+      213: -1500408933099453154
+    second: MENU MORTE-Sheet 22 frames_15
+  - first:
+      213: 7957196985180065702
+    second: MENU MORTE-Sheet 22 frames_16
+  - first:
+      213: 6870326542145862435
+    second: MENU MORTE-Sheet 22 frames_17
+  - first:
+      213: -5243760002201586342
+    second: MENU MORTE-Sheet 22 frames_18
+  - first:
+      213: -142950310778008753
+    second: MENU MORTE-Sheet 22 frames_19
+  - first:
+      213: 8985427482014534469
+    second: MENU MORTE-Sheet 22 frames_20
+  - first:
+      213: -8260109211968829188
+    second: MENU MORTE-Sheet 22 frames_21
+  - first:
+      213: -2049155855682257077
+    second: MENU MORTE-Sheet 22 frames_22
+  - first:
+      213: -248831745051383377
+    second: MENU MORTE-Sheet 22 frames_23
+  - first:
+      213: -7458893505018294446
+    second: MENU MORTE-Sheet 22 frames_24
+  - first:
+      213: -8617949279247867669
+    second: MENU MORTE-Sheet 22 frames_25
+  - first:
+      213: -3242706224741716616
+    second: MENU MORTE-Sheet 22 frames_26
+  - first:
+      213: 3059485376751101139
+    second: MENU MORTE-Sheet 22 frames_27
+  - first:
+      213: -894736166387034102
+    second: MENU MORTE-Sheet 22 frames_28
+  - first:
+      213: -3176118963976948310
+    second: MENU MORTE-Sheet 22 frames_29
+  - first:
+      213: -7492997910352807833
+    second: MENU MORTE-Sheet 22 frames_30
+  - first:
+      213: 2849772169054664571
+    second: MENU MORTE-Sheet 22 frames_31
+  - first:
+      213: -7085283486430281827
+    second: MENU MORTE-Sheet 22 frames_32
+  - first:
+      213: -3549109582718909461
+    second: MENU MORTE-Sheet 22 frames_33
+  - first:
+      213: 6274631467926417676
+    second: MENU MORTE-Sheet 22 frames_34
+  - first:
+      213: 4726041297881924646
+    second: MENU MORTE-Sheet 22 frames_35
+  - first:
+      213: 3890067412318070165
+    second: MENU MORTE-Sheet 22 frames_36
+  - first:
+      213: -4961330495835971573
+    second: MENU MORTE-Sheet 22 frames_37
+  - first:
+      213: -2368330764949015538
+    second: MENU MORTE-Sheet 22 frames_38
+  - first:
+      213: 1254466240895826884
+    second: MENU MORTE-Sheet 22 frames_39
+  - first:
+      213: -737421149010902508
+    second: MENU MORTE-Sheet 22 frames_40
+  - first:
+      213: -7339486243831841507
+    second: MENU MORTE-Sheet 22 frames_41
+  - first:
+      213: 7157303468258881820
+    second: MENU MORTE-Sheet 22 frames_42
+  - first:
+      213: -2408264626233204238
+    second: MENU MORTE-Sheet 22 frames_43
+  - first:
+      213: 914478374646740872
+    second: MENU MORTE-Sheet 22 frames_44
+  - first:
+      213: -7708925674291286202
+    second: MENU MORTE-Sheet 22 frames_45
+  - first:
+      213: -5413488406165209223
+    second: MENU MORTE-Sheet 22 frames_46
+  - first:
+      213: -608171592815806842
+    second: MENU MORTE-Sheet 22 frames_47
+  - first:
+      213: -7884429405719862806
+    second: MENU MORTE-Sheet 22 frames_48
+  - first:
+      213: -3326077268887787032
+    second: MENU MORTE-Sheet 22 frames_49
+  - first:
+      213: -1999549007669715061
+    second: MENU MORTE-Sheet 22 frames_50
+  - first:
+      213: -3973514373294878935
+    second: MENU MORTE-Sheet 22 frames_51
+  - first:
+      213: 2256907401845802185
+    second: MENU MORTE-Sheet 22 frames_52
+  - first:
+      213: -1250121731677163502
+    second: MENU MORTE-Sheet 22 frames_53
+  - first:
+      213: 3951390061305709499
+    second: MENU MORTE-Sheet 22 frames_54
+  - first:
+      213: 6329275975974874108
+    second: MENU MORTE-Sheet 22 frames_55
+  - first:
+      213: -6130640493749554417
+    second: MENU MORTE-Sheet 22 frames_56
+  - first:
+      213: 6734301187443091604
+    second: MENU MORTE-Sheet 22 frames_57
+  - first:
+      213: 5292199306115987284
+    second: MENU MORTE-Sheet 22 frames_58
+  - first:
+      213: 3775156810631609388
+    second: MENU MORTE-Sheet 22 frames_59
+  - first:
+      213: -1347743840233223873
+    second: MENU MORTE-Sheet 22 frames_60
+  - first:
+      213: 4951805681879827441
+    second: MENU MORTE-Sheet 22 frames_61
+  - first:
+      213: -2171439074581013
+    second: MENU MORTE-Sheet 22 frames_62
+  - first:
+      213: 8211532767224994327
+    second: MENU MORTE-Sheet 22 frames_63
+  - first:
+      213: 4913284537819402758
+    second: MENU MORTE-Sheet 22 frames_64
+  - first:
+      213: 7063346954750792093
+    second: MENU MORTE-Sheet 22 frames_65
+  - first:
+      213: 6143934961011431289
+    second: MENU MORTE-Sheet 22 frames_66
+  - first:
+      213: 6278455764630306012
+    second: MENU MORTE-Sheet 22 frames_67
+  - first:
+      213: 363799929110127968
+    second: MENU MORTE-Sheet 22 frames_68
+  - first:
+      213: -172893476758311213
+    second: MENU MORTE-Sheet 22 frames_69
+  - first:
+      213: 1477535833837773043
+    second: MENU MORTE-Sheet 22 frames_70
+  - first:
+      213: -6167031230187332083
+    second: MENU MORTE-Sheet 22 frames_71
+  - first:
+      213: 2178372699772273165
+    second: MENU MORTE-Sheet 22 frames_72
+  - first:
+      213: 7368677259446940823
+    second: MENU MORTE-Sheet 22 frames_73
+  - first:
+      213: -7417641051314856944
+    second: MENU MORTE-Sheet 22 frames_74
+  - first:
+      213: -2444053806554100649
+    second: MENU MORTE-Sheet 22 frames_75
+  - first:
+      213: -7767989959019100949
+    second: MENU MORTE-Sheet 22 frames_76
+  - first:
+      213: 8877131338783370032
+    second: MENU MORTE-Sheet 22 frames_77
+  - first:
+      213: 1579303313366453662
+    second: MENU MORTE-Sheet 22 frames_78
+  - first:
+      213: -3562740051450892178
+    second: MENU MORTE-Sheet 22 frames_79
+  - first:
+      213: 7331242768964364891
+    second: MENU MORTE-Sheet 22 frames_80
+  - first:
+      213: 1167657491799342282
+    second: MENU MORTE-Sheet 22 frames_81
+  - first:
+      213: 7615336470568650936
+    second: MENU MORTE-Sheet 22 frames_82
+  - first:
+      213: -1844493564315876013
+    second: MENU MORTE-Sheet 22 frames_83
+  - first:
+      213: 3063018796079937391
+    second: MENU MORTE-Sheet 22 frames_84
+  - first:
+      213: -8255772799687975568
+    second: MENU MORTE-Sheet 22 frames_85
+  - first:
+      213: -972639854076341642
+    second: MENU MORTE-Sheet 22 frames_86
+  - first:
+      213: 5464063330433209659
+    second: MENU MORTE-Sheet 22 frames_87
+  - first:
+      213: -2179380504382891425
+    second: MENU MORTE-Sheet 22 frames_88
+  - first:
+      213: -980505561724306502
+    second: MENU MORTE-Sheet 22 frames_89
+  - first:
+      213: -7903959882865853348
+    second: MENU MORTE-Sheet 22 frames_90
+  - first:
+      213: -2974797709912499222
+    second: MENU MORTE-Sheet 22 frames_91
+  - first:
+      213: 8388918544027666790
+    second: MENU MORTE-Sheet 22 frames_92
+  - first:
+      213: 2843014759335797475
+    second: MENU MORTE-Sheet 22 frames_93
+  - first:
+      213: -8126659847894499646
+    second: MENU MORTE-Sheet 22 frames_94
+  - first:
+      213: -4269024120508168941
+    second: MENU MORTE-Sheet 22 frames_95
+  - first:
+      213: -2189835263975339184
+    second: MENU MORTE-Sheet 22 frames_96
+  - first:
+      213: -748785649732373535
+    second: MENU MORTE-Sheet 22 frames_97
+  - first:
+      213: 4906084485000847904
+    second: MENU MORTE-Sheet 22 frames_98
+  - first:
+      213: -7363965202916203636
+    second: MENU MORTE-Sheet 22 frames_99
+  - first:
+      213: -8696031471206574534
+    second: MENU MORTE-Sheet 22 frames_100
+  - first:
+      213: 868964241514254914
+    second: MENU MORTE-Sheet 22 frames_101
+  - first:
+      213: 3269792173773514092
+    second: MENU MORTE-Sheet 22 frames_102
+  - first:
+      213: -3302960387259946451
+    second: MENU MORTE-Sheet 22 frames_103
+  - first:
+      213: -7643897795395434776
+    second: MENU MORTE-Sheet 22 frames_104
+  - first:
+      213: -8196075352827670223
+    second: MENU MORTE-Sheet 22 frames_105
+  - first:
+      213: 4036886786315830326
+    second: MENU MORTE-Sheet 22 frames_106
+  - first:
+      213: -711444723598373133
+    second: MENU MORTE-Sheet 22 frames_107
+  - first:
+      213: 3266137292253279569
+    second: MENU MORTE-Sheet 22 frames_108
+  - first:
+      213: 1267084469880360829
+    second: MENU MORTE-Sheet 22 frames_109
+  - first:
+      213: -5523164329867311065
+    second: MENU MORTE-Sheet 22 frames_110
+  - first:
+      213: 3307103016176298864
+    second: MENU MORTE-Sheet 22 frames_111
+  - first:
+      213: 7541931523846277787
+    second: MENU MORTE-Sheet 22 frames_112
+  - first:
+      213: 1709513383360928828
+    second: MENU MORTE-Sheet 22 frames_113
+  - first:
+      213: -9064564106146912721
+    second: MENU MORTE-Sheet 22 frames_114
+  - first:
+      213: 6058780663644009718
+    second: MENU MORTE-Sheet 22 frames_115
+  - first:
+      213: 2648322255823724002
+    second: MENU MORTE-Sheet 22 frames_116
+  - first:
+      213: 5817357725404450720
+    second: MENU MORTE-Sheet 22 frames_117
+  - first:
+      213: -2512694387384121789
+    second: MENU MORTE-Sheet 22 frames_118
+  - first:
+      213: -8148513416985343723
+    second: MENU MORTE-Sheet 22 frames_119
+  - first:
+      213: -8090183314251914005
+    second: MENU MORTE-Sheet 22 frames_120
+  - first:
+      213: -6627011691952115649
+    second: MENU MORTE-Sheet 22 frames_121
+  - first:
+      213: -4537757042610094014
+    second: MENU MORTE-Sheet 22 frames_122
+  - first:
+      213: 7070316077438264824
+    second: MENU MORTE-Sheet 22 frames_123
+  - first:
+      213: 1499753000516353469
+    second: MENU MORTE-Sheet 22 frames_124
+  - first:
+      213: -519430805471598567
+    second: MENU MORTE-Sheet 22 frames_125
+  - first:
+      213: -9175967810055831842
+    second: MENU MORTE-Sheet 22 frames_126
+  - first:
+      213: 1060051666571360204
+    second: MENU MORTE-Sheet 22 frames_127
+  - first:
+      213: -8234823852821923355
+    second: MENU MORTE-Sheet 22 frames_128
+  - first:
+      213: -660191945199523002
+    second: MENU MORTE-Sheet 22 frames_129
+  - first:
+      213: -5013875136016339063
+    second: MENU MORTE-Sheet 22 frames_130
+  - first:
+      213: -5425341226742350869
+    second: MENU MORTE-Sheet 22 frames_131
+  - first:
+      213: 982911424148618478
+    second: MENU MORTE-Sheet 22 frames_132
+  - first:
+      213: 8782268971901478286
+    second: MENU MORTE-Sheet 22 frames_133
+  - first:
+      213: 3864761330185379969
+    second: MENU MORTE-Sheet 22 frames_134
+  - first:
+      213: 8577183340692191009
+    second: MENU MORTE-Sheet 22 frames_135
+  - first:
+      213: 3268321084608855679
+    second: MENU MORTE-Sheet 22 frames_136
+  - first:
+      213: -2929864099769501526
+    second: MENU MORTE-Sheet 22 frames_137
+  - first:
+      213: 569272351657066386
+    second: MENU MORTE-Sheet 22 frames_138
+  - first:
+      213: -8660138192969432372
+    second: MENU MORTE-Sheet 22 frames_139
+  - first:
+      213: -1579933001114397875
+    second: MENU MORTE-Sheet 22 frames_140
+  - first:
+      213: -1654483531184447573
+    second: MENU MORTE-Sheet 22 frames_141
+  - first:
+      213: 4730787351348267177
+    second: MENU MORTE-Sheet 22 frames_142
+  - first:
+      213: -4271636685416179793
+    second: MENU MORTE-Sheet 22 frames_143
+  - first:
+      213: -2477849187627315211
+    second: MENU MORTE-Sheet 22 frames_144
+  - first:
+      213: 1107121546690490052
+    second: MENU MORTE-Sheet 22 frames_145
+  - first:
+      213: -4510726951752159212
+    second: MENU MORTE-Sheet 22 frames_146
+  - first:
+      213: -4724065960399890983
+    second: MENU MORTE-Sheet 22 frames_147
+  - first:
+      213: 1719791760044783463
+    second: MENU MORTE-Sheet 22 frames_148
+  - first:
+      213: 4057958283250968546
+    second: MENU MORTE-Sheet 22 frames_149
+  - first:
+      213: -5349978443365242525
+    second: MENU MORTE-Sheet 22 frames_150
+  - first:
+      213: 6312672624980971942
+    second: MENU MORTE-Sheet 22 frames_151
+  - first:
+      213: -3457052742341034401
+    second: MENU MORTE-Sheet 22 frames_152
+  - first:
+      213: -6807188026509870607
+    second: MENU MORTE-Sheet 22 frames_153
+  - first:
+      213: -645972964176441025
+    second: MENU MORTE-Sheet 22 frames_154
+  - first:
+      213: -6938529405835973757
+    second: MENU MORTE-Sheet 22 frames_155
+  - first:
+      213: -2167550814212658519
+    second: MENU MORTE-Sheet 22 frames_156
+  - first:
+      213: 4009498142155638386
+    second: MENU MORTE-Sheet 22 frames_157
+  - first:
+      213: -8090847943362865592
+    second: MENU MORTE-Sheet 22 frames_158
+  - first:
+      213: 4046930186998801658
+    second: MENU MORTE-Sheet 22 frames_159
+  - first:
+      213: 5849385099184799723
+    second: MENU MORTE-Sheet 22 frames_160
+  - first:
+      213: 7091486047535313659
+    second: MENU MORTE-Sheet 22 frames_161
+  - first:
+      213: 3355157539218594318
+    second: MENU MORTE-Sheet 22 frames_162
+  - first:
+      213: -3295783753519400038
+    second: MENU MORTE-Sheet 22 frames_163
+  - first:
+      213: -4344036518774484750
+    second: MENU MORTE-Sheet 22 frames_164
+  - first:
+      213: 5559974373268531952
+    second: MENU MORTE-Sheet 22 frames_165
+  - first:
+      213: -3571635139452077166
+    second: MENU MORTE-Sheet 22 frames_166
+  - first:
+      213: 2267356660303427077
+    second: MENU MORTE-Sheet 22 frames_167
+  - first:
+      213: -5504609551505222389
+    second: MENU MORTE-Sheet 22 frames_168
+  - first:
+      213: -3669655417419427860
+    second: MENU MORTE-Sheet 22 frames_169
+  - first:
+      213: -1342824136003015114
+    second: MENU MORTE-Sheet 22 frames_170
+  - first:
+      213: 6361004747577140861
+    second: MENU MORTE-Sheet 22 frames_171
+  - first:
+      213: 5906260334219390662
+    second: MENU MORTE-Sheet 22 frames_172
+  - first:
+      213: -7926038579094617341
+    second: MENU MORTE-Sheet 22 frames_173
+  - first:
+      213: 2069393789805368793
+    second: MENU MORTE-Sheet 22 frames_174
+  - first:
+      213: 6447986475800260459
+    second: MENU MORTE-Sheet 22 frames_175
+  - first:
+      213: -3140365897877764769
+    second: MENU MORTE-Sheet 22 frames_176
+  - first:
+      213: -6257785933442957571
+    second: MENU MORTE-Sheet 22 frames_177
+  - first:
+      213: 3305215668008424569
+    second: MENU MORTE-Sheet 22 frames_178
+  - first:
+      213: -4355214736775148435
+    second: MENU MORTE-Sheet 22 frames_179
+  - first:
+      213: -4193397000344433191
+    second: MENU MORTE-Sheet 22 frames_180
+  - first:
+      213: -1489041553228173983
+    second: MENU MORTE-Sheet 22 frames_181
+  - first:
+      213: -912591909954022885
+    second: MENU MORTE-Sheet 22 frames_182
+  - first:
+      213: 4696423034522731756
+    second: MENU MORTE-Sheet 22 frames_183
+  - first:
+      213: -5850351741443644714
+    second: MENU MORTE-Sheet 22 frames_184
+  - first:
+      213: -7466872695605804882
+    second: MENU MORTE-Sheet 22 frames_185
+  - first:
+      213: 4855043309644978553
+    second: MENU MORTE-Sheet 22 frames_186
+  - first:
+      213: 8859594757353235337
+    second: MENU MORTE-Sheet 22 frames_187
+  - first:
+      213: 2957517650302982959
+    second: MENU MORTE-Sheet 22 frames_188
+  - first:
+      213: -8829879411019790800
+    second: MENU MORTE-Sheet 22 frames_189
+  - first:
+      213: -7971336483883794665
+    second: MENU MORTE-Sheet 22 frames_190
+  - first:
+      213: 4983120198780122389
+    second: MENU MORTE-Sheet 22 frames_191
+  - first:
+      213: -5457020452902488251
+    second: MENU MORTE-Sheet 22 frames_192
+  - first:
+      213: 2894368264659555262
+    second: MENU MORTE-Sheet 22 frames_193
+  - first:
+      213: -2856386690297141612
+    second: MENU MORTE-Sheet 22 frames_194
+  - first:
+      213: 7585315260185536907
+    second: MENU MORTE-Sheet 22 frames_195
+  - first:
+      213: -7707885619705167238
+    second: MENU MORTE-Sheet 22 frames_196
+  - first:
+      213: 9078402191456695578
+    second: MENU MORTE-Sheet 22 frames_197
+  - first:
+      213: 8595933121169748062
+    second: MENU MORTE-Sheet 22 frames_198
+  - first:
+      213: 2386129773272216913
+    second: MENU MORTE-Sheet 22 frames_199
+  - first:
+      213: -7376302688477933243
+    second: MENU MORTE-Sheet 22 frames_200
+  - first:
+      213: 5573556278662065342
+    second: MENU MORTE-Sheet 22 frames_201
+  - first:
+      213: 9221590733501747825
+    second: MENU MORTE-Sheet 22 frames_202
+  - first:
+      213: 654572797538468753
+    second: MENU MORTE-Sheet 22 frames_203
+  - first:
+      213: 1331881530637533958
+    second: MENU MORTE-Sheet 22 frames_204
+  - first:
+      213: 2108691687823611555
+    second: MENU MORTE-Sheet 22 frames_205
+  - first:
+      213: -566824372958031385
+    second: MENU MORTE-Sheet 22 frames_206
+  - first:
+      213: -4504155800032225883
+    second: MENU MORTE-Sheet 22 frames_207
+  - first:
+      213: 7344348523227988149
+    second: MENU MORTE-Sheet 22 frames_208
+  - first:
+      213: -1215618640704301052
+    second: MENU MORTE-Sheet 22 frames_209
+  - first:
+      213: 4532886039047990499
+    second: MENU MORTE-Sheet 22 frames_210
+  - first:
+      213: -4051332843382951983
+    second: MENU MORTE-Sheet 22 frames_211
+  - first:
+      213: -2125526788864972240
+    second: MENU MORTE-Sheet 22 frames_212
+  - first:
+      213: -3481684631463521203
+    second: MENU MORTE-Sheet 22 frames_213
+  - first:
+      213: -9160204690374602240
+    second: MENU MORTE-Sheet 22 frames_214
+  - first:
+      213: -5478932189088398376
+    second: MENU MORTE-Sheet 22 frames_215
+  - first:
+      213: 1855196007233196294
+    second: MENU MORTE-Sheet 22 frames_216
+  - first:
+      213: -8108698967563454646
+    second: MENU MORTE-Sheet 22 frames_217
+  - first:
+      213: -1211547190929421939
+    second: MENU MORTE-Sheet 22 frames_218
+  - first:
+      213: -5767003185749753581
+    second: MENU MORTE-Sheet 22 frames_219
+  - first:
+      213: 67235009316375588
+    second: MENU MORTE-Sheet 22 frames_220
+  - first:
+      213: -9001188767542661787
+    second: MENU MORTE-Sheet 22 frames_221
+  - first:
+      213: -8086969312521868094
+    second: MENU MORTE-Sheet 22 frames_222
+  - first:
+      213: 4079101402798612968
+    second: MENU MORTE-Sheet 22 frames_223
+  - first:
+      213: 8240319029131999851
+    second: MENU MORTE-Sheet 22 frames_224
+  - first:
+      213: 5447683461243155844
+    second: MENU MORTE-Sheet 22 frames_225
+  - first:
+      213: -4773706843150952478
+    second: MENU MORTE-Sheet 22 frames_226
+  - first:
+      213: 4396520583588884
+    second: MENU MORTE-Sheet 22 frames_227
+  - first:
+      213: 6507037753498635326
+    second: MENU MORTE-Sheet 22 frames_228
+  - first:
+      213: 6521408034051327123
+    second: MENU MORTE-Sheet 22 frames_229
+  - first:
+      213: 7095496983944983697
+    second: MENU MORTE-Sheet 22 frames_230
+  - first:
+      213: 6301120448032827814
+    second: MENU MORTE-Sheet 22 frames_231
+  - first:
+      213: -5031769315390720325
+    second: MENU MORTE-Sheet 22 frames_232
+  - first:
+      213: 4180024869334422759
+    second: MENU MORTE-Sheet 22 frames_233
+  - first:
+      213: 5762067723397832791
+    second: MENU MORTE-Sheet 22 frames_234
+  - first:
+      213: -9148146059019388858
+    second: MENU MORTE-Sheet 22 frames_235
+  - first:
+      213: -1331974594157514251
+    second: MENU MORTE-Sheet 22 frames_236
+  - first:
+      213: 7701887991285666128
+    second: MENU MORTE-Sheet 22 frames_237
+  - first:
+      213: -3450975154918950088
+    second: MENU MORTE-Sheet 22 frames_238
+  - first:
+      213: 6692012309195605887
+    second: MENU MORTE-Sheet 22 frames_239
+  - first:
+      213: 5734251564849265510
+    second: MENU MORTE-Sheet 22 frames_240
+  - first:
+      213: -210069073765052303
+    second: MENU MORTE-Sheet 22 frames_241
+  - first:
+      213: -2116125654808744596
+    second: MENU MORTE-Sheet 22 frames_242
+  - first:
+      213: 7205960721528168903
+    second: MENU MORTE-Sheet 22 frames_243
+  - first:
+      213: 7505164412264158695
+    second: MENU MORTE-Sheet 22 frames_244
+  - first:
+      213: -2956715597792637446
+    second: MENU MORTE-Sheet 22 frames_245
+  - first:
+      213: -3434136402595125948
+    second: MENU MORTE-Sheet 22 frames_246
+  - first:
+      213: 1245864007902244745
+    second: MENU MORTE-Sheet 22 frames_247
+  - first:
+      213: 7529187695743242417
+    second: MENU MORTE-Sheet 22 frames_248
+  - first:
+      213: -8569999898488535482
+    second: MENU MORTE-Sheet 22 frames_249
+  - first:
+      213: 5456254794349580770
+    second: MENU MORTE-Sheet 22 frames_250
+  - first:
+      213: 8161526908957591337
+    second: MENU MORTE-Sheet 22 frames_251
+  - first:
+      213: 1648730411901085731
+    second: MENU MORTE-Sheet 22 frames_252
+  - first:
+      213: -7331303818729863162
+    second: MENU MORTE-Sheet 22 frames_253
+  - first:
+      213: -493032365917803176
+    second: MENU MORTE-Sheet 22 frames_254
+  - first:
+      213: -1073512821499661237
+    second: MENU MORTE-Sheet 22 frames_255
+  - first:
+      213: -8908346517707454538
+    second: MENU MORTE-Sheet 22 frames_256
+  - first:
+      213: 5268360606707551318
+    second: MENU MORTE-Sheet 22 frames_257
+  - first:
+      213: 7104809405921761341
+    second: MENU MORTE-Sheet 22 frames_258
+  - first:
+      213: -2430134607856528930
+    second: MENU MORTE-Sheet 22 frames_259
+  - first:
+      213: 8282541414463129553
+    second: MENU MORTE-Sheet 22 frames_260
+  - first:
+      213: 8617911436297060794
+    second: MENU MORTE-Sheet 22 frames_261
+  - first:
+      213: 8130052499382576943
+    second: MENU MORTE-Sheet 22 frames_262
+  - first:
+      213: 2279524630187822761
+    second: MENU MORTE-Sheet 22 frames_263
+  - first:
+      213: 4068454169056684042
+    second: MENU MORTE-Sheet 22 frames_264
+  - first:
+      213: -101673245997604263
+    second: MENU MORTE-Sheet 22 frames_265
+  - first:
+      213: -2022701295193305547
+    second: MENU MORTE-Sheet 22 frames_266
+  - first:
+      213: 1183170145918675764
+    second: MENU MORTE-Sheet 22 frames_267
+  - first:
+      213: 4423308420830542044
+    second: MENU MORTE-Sheet 22 frames_268
+  - first:
+      213: -3280745939162336525
+    second: MENU MORTE-Sheet 22 frames_269
+  - first:
+      213: 7127492611306415869
+    second: MENU MORTE-Sheet 22 frames_270
+  - first:
+      213: -7605365113371762369
+    second: MENU MORTE-Sheet 22 frames_271
+  - first:
+      213: -3269734129467348898
+    second: MENU MORTE-Sheet 22 frames_272
+  - first:
+      213: 205536961434288284
+    second: MENU MORTE-Sheet 22 frames_273
+  - first:
+      213: 6708899668719396455
+    second: MENU MORTE-Sheet 22 frames_274
+  - first:
+      213: -4896644561261007333
+    second: MENU MORTE-Sheet 22 frames_275
+  - first:
+      213: 3177570943475727655
+    second: MENU MORTE-Sheet 22 frames_276
+  - first:
+      213: 1555265803055278474
+    second: MENU MORTE-Sheet 22 frames_277
+  - first:
+      213: -7365856883781507565
+    second: MENU MORTE-Sheet 22 frames_278
+  - first:
+      213: 2663592408973129174
+    second: MENU MORTE-Sheet 22 frames_279
+  - first:
+      213: 1361157658830734769
+    second: MENU MORTE-Sheet 22 frames_280
+  - first:
+      213: -4964460205680654009
+    second: MENU MORTE-Sheet 22 frames_281
+  - first:
+      213: 6768940872721604950
+    second: MENU MORTE-Sheet 22 frames_282
+  - first:
+      213: -3505619042509156276
+    second: MENU MORTE-Sheet 22 frames_283
+  - first:
+      213: -7051148502786607435
+    second: MENU MORTE-Sheet 22 frames_284
+  - first:
+      213: -3529929652149606490
+    second: MENU MORTE-Sheet 22 frames_285
+  - first:
+      213: 1496756732471997058
+    second: MENU MORTE-Sheet 22 frames_286
+  - first:
+      213: 4466369849987190490
+    second: MENU MORTE-Sheet 22 frames_287
+  - first:
+      213: -2243976155964127773
+    second: MENU MORTE-Sheet 22 frames_288
+  - first:
+      213: 8480861713879877893
+    second: MENU MORTE-Sheet 22 frames_289
+  - first:
+      213: -7396134191482129275
+    second: MENU MORTE-Sheet 22 frames_290
+  - first:
+      213: -2084035930781414385
+    second: MENU MORTE-Sheet 22 frames_291
+  - first:
+      213: 3187812787613008051
+    second: MENU MORTE-Sheet 22 frames_292
+  - first:
+      213: -771175764688110119
+    second: MENU MORTE-Sheet 22 frames_293
+  - first:
+      213: 5426806794151813225
+    second: MENU MORTE-Sheet 22 frames_294
+  - first:
+      213: -7727910763229839307
+    second: MENU MORTE-Sheet 22 frames_295
+  - first:
+      213: 401768371812863126
+    second: MENU MORTE-Sheet 22 frames_296
+  - first:
+      213: -328214711138932701
+    second: MENU MORTE-Sheet 22 frames_297
+  - first:
+      213: 4061599813721131786
+    second: MENU MORTE-Sheet 22 frames_298
+  - first:
+      213: -6722766350987937136
+    second: MENU MORTE-Sheet 22 frames_299
+  - first:
+      213: -1467946298875786887
+    second: MENU MORTE-Sheet 22 frames_300
+  - first:
+      213: -2010463186564052422
+    second: MENU MORTE-Sheet 22 frames_301
+  - first:
+      213: 8775645584607341415
+    second: MENU MORTE-Sheet 22 frames_302
+  - first:
+      213: -6777171868677963177
+    second: MENU MORTE-Sheet 22 frames_303
+  - first:
+      213: 3782892065682261739
+    second: MENU MORTE-Sheet 22 frames_304
+  - first:
+      213: -8394632986724929194
+    second: MENU MORTE-Sheet 22 frames_305
+  - first:
+      213: 5083076351589381806
+    second: MENU MORTE-Sheet 22 frames_306
+  - first:
+      213: -3025927194562095198
+    second: MENU MORTE-Sheet 22 frames_307
+  - first:
+      213: 3055394157483228653
+    second: MENU MORTE-Sheet 22 frames_308
+  - first:
+      213: 2290539180649863292
+    second: MENU MORTE-Sheet 22 frames_309
+  - first:
+      213: 8343647029060753951
+    second: MENU MORTE-Sheet 22 frames_310
+  - first:
+      213: 4459085804430656003
+    second: MENU MORTE-Sheet 22 frames_311
+  - first:
+      213: 3097853223011234735
+    second: MENU MORTE-Sheet 22 frames_312
+  - first:
+      213: 2196766858431996584
+    second: MENU MORTE-Sheet 22 frames_313
+  - first:
+      213: 6059999571901501553
+    second: MENU MORTE-Sheet 22 frames_314
+  - first:
+      213: -9151746194811851776
+    second: MENU MORTE-Sheet 22 frames_315
+  - first:
+      213: -6981210954977898771
+    second: MENU MORTE-Sheet 22 frames_316
+  - first:
+      213: 6876774665134420109
+    second: MENU MORTE-Sheet 22 frames_317
+  - first:
+      213: -4041134660957656354
+    second: MENU MORTE-Sheet 22 frames_318
+  - first:
+      213: 487099892137381209
+    second: MENU MORTE-Sheet 22 frames_319
+  - first:
+      213: 4006546527218186827
+    second: MENU MORTE-Sheet 22 frames_320
+  - first:
+      213: 1613560339332352863
+    second: MENU MORTE-Sheet 22 frames_321
+  - first:
+      213: -244349957895385798
+    second: MENU MORTE-Sheet 22 frames_322
+  - first:
+      213: -3179617350390146227
+    second: MENU MORTE-Sheet 22 frames_323
+  - first:
+      213: -4790035456332191927
+    second: MENU MORTE-Sheet 22 frames_324
+  - first:
+      213: 5612588912855298191
+    second: MENU MORTE-Sheet 22 frames_325
+  - first:
+      213: 2205846634165409947
+    second: MENU MORTE-Sheet 22 frames_326
+  - first:
+      213: -6436108454703006796
+    second: MENU MORTE-Sheet 22 frames_327
+  - first:
+      213: -1819959267916275897
+    second: MENU MORTE-Sheet 22 frames_328
+  - first:
+      213: -3339305333024950064
+    second: MENU MORTE-Sheet 22 frames_329
+  - first:
+      213: 1631866911624278836
+    second: MENU MORTE-Sheet 22 frames_330
+  - first:
+      213: 1688320547838546702
+    second: MENU MORTE-Sheet 22 frames_331
+  - first:
+      213: -7797279984854333533
+    second: MENU MORTE-Sheet 22 frames_332
+  - first:
+      213: -3496568636946449613
+    second: MENU MORTE-Sheet 22 frames_333
+  - first:
+      213: 1770468188967963525
+    second: MENU MORTE-Sheet 22 frames_334
+  - first:
+      213: 3089254945535965880
+    second: MENU MORTE-Sheet 22 frames_335
+  - first:
+      213: -3646024753797321795
+    second: MENU MORTE-Sheet 22 frames_336
+  - first:
+      213: 5462938653367324071
+    second: MENU MORTE-Sheet 22 frames_337
+  - first:
+      213: -9056132276645600278
+    second: MENU MORTE-Sheet 22 frames_338
+  - first:
+      213: 3718862102219688444
+    second: MENU MORTE-Sheet 22 frames_339
+  - first:
+      213: 4403006088765195817
+    second: MENU MORTE-Sheet 22 frames_340
+  - first:
+      213: 132724394377624010
+    second: MENU MORTE-Sheet 22 frames_341
+  - first:
+      213: -1622650870927809498
+    second: MENU MORTE-Sheet 22 frames_342
+  - first:
+      213: -8464823257487981052
+    second: MENU MORTE-Sheet 22 frames_343
+  - first:
+      213: 8979647803410636919
+    second: MENU MORTE-Sheet 22 frames_344
+  - first:
+      213: -8502147840076954833
+    second: MENU MORTE-Sheet 22 frames_345
+  - first:
+      213: 7461712636952355109
+    second: MENU MORTE-Sheet 22 frames_346
+  - first:
+      213: -3945285502972678299
+    second: MENU MORTE-Sheet 22 frames_347
+  - first:
+      213: -4926502458400911308
+    second: MENU MORTE-Sheet 22 frames_348
+  - first:
+      213: -3096781749808644412
+    second: MENU MORTE-Sheet 22 frames_349
+  - first:
+      213: 7982907517708941734
+    second: MENU MORTE-Sheet 22 frames_350
+  - first:
+      213: 5543060574766064861
+    second: MENU MORTE-Sheet 22 frames_351
+  - first:
+      213: -677846515233077257
+    second: MENU MORTE-Sheet 22 frames_352
+  - first:
+      213: -670856769665463566
+    second: MENU MORTE-Sheet 22 frames_353
+  - first:
+      213: -821871562006872261
+    second: MENU MORTE-Sheet 22 frames_354
+  - first:
+      213: 9139619997293686594
+    second: MENU MORTE-Sheet 22 frames_355
+  - first:
+      213: 7809883109482673521
+    second: MENU MORTE-Sheet 22 frames_356
+  - first:
+      213: -4528450680812499612
+    second: MENU MORTE-Sheet 22 frames_357
+  - first:
+      213: -2089742811671604118
+    second: MENU MORTE-Sheet 22 frames_358
+  - first:
+      213: -3900260523360128195
+    second: MENU MORTE-Sheet 22 frames_359
+  - first:
+      213: 3946841783767447953
+    second: MENU MORTE-Sheet 22 frames_360
+  - first:
+      213: 1546664691863117194
+    second: MENU MORTE-Sheet 22 frames_361
+  - first:
+      213: -2131277800285239768
+    second: MENU MORTE-Sheet 22 frames_362
+  - first:
+      213: -9179276210946416348
+    second: MENU MORTE-Sheet 22 frames_363
+  - first:
+      213: 2203429334695998704
+    second: MENU MORTE-Sheet 22 frames_364
+  - first:
+      213: -2705866652729824402
+    second: MENU MORTE-Sheet 22 frames_365
+  - first:
+      213: 6626129995885395622
+    second: MENU MORTE-Sheet 22 frames_366
+  - first:
+      213: -4427843858812810932
+    second: MENU MORTE-Sheet 22 frames_367
+  - first:
+      213: 7373530306802170665
+    second: MENU MORTE-Sheet 22 frames_368
+  - first:
+      213: 3635012272946553434
+    second: MENU MORTE-Sheet 22 frames_369
+  - first:
+      213: 735362449674899088
+    second: MENU MORTE-Sheet 22 frames_370
+  - first:
+      213: 8345968829547849066
+    second: MENU MORTE-Sheet 22 frames_371
+  - first:
+      213: 1452090902026273136
+    second: MENU MORTE-Sheet 22 frames_372
+  - first:
+      213: -8037325644277789602
+    second: MENU MORTE-Sheet 22 frames_373
+  - first:
+      213: -5801802217580150251
+    second: MENU MORTE-Sheet 22 frames_374
+  - first:
+      213: 4319375368840355159
+    second: MENU MORTE-Sheet 22 frames_375
+  - first:
+      213: -4666039555270088875
+    second: MENU MORTE-Sheet 22 frames_376
+  - first:
+      213: -7051466972234746767
+    second: MENU MORTE-Sheet 22 frames_377
+  - first:
+      213: 3088461264862721317
+    second: MENU MORTE-Sheet 22 frames_378
+  - first:
+      213: 8830961552220246687
+    second: MENU MORTE-Sheet 22 frames_379
+  - first:
+      213: 1712412528023184669
+    second: MENU MORTE-Sheet 22 frames_380
+  - first:
+      213: 2227964660278956253
+    second: MENU MORTE-Sheet 22 frames_381
+  - first:
+      213: 8080628419027308565
+    second: MENU MORTE-Sheet 22 frames_382
+  - first:
+      213: 8529650074486770715
+    second: MENU MORTE-Sheet 22 frames_383
+  - first:
+      213: 3473043281573977653
+    second: MENU MORTE-Sheet 22 frames_384
+  - first:
+      213: 1138468784411846017
+    second: MENU MORTE-Sheet 22 frames_385
+  - first:
+      213: -7109600786624016107
+    second: MENU MORTE-Sheet 22 frames_386
+  - first:
+      213: -1188679427482628315
+    second: MENU MORTE-Sheet 22 frames_387
+  - first:
+      213: -2262875739118847586
+    second: MENU MORTE-Sheet 22 frames_388
+  - first:
+      213: -4414936614711073512
+    second: MENU MORTE-Sheet 22 frames_389
+  - first:
+      213: 9083966085391897569
+    second: MENU MORTE-Sheet 22 frames_390
+  - first:
+      213: 6734384307794547210
+    second: MENU MORTE-Sheet 22 frames_391
+  - first:
+      213: -256234838185299024
+    second: MENU MORTE-Sheet 22 frames_392
+  - first:
+      213: -1429533359001561700
+    second: MENU MORTE-Sheet 22 frames_393
+  - first:
+      213: 4953965701539238661
+    second: MENU MORTE-Sheet 22 frames_394
+  - first:
+      213: -9121237104392999003
+    second: MENU MORTE-Sheet 22 frames_395
+  - first:
+      213: -31753009910537125
+    second: MENU MORTE-Sheet 22 frames_396
+  - first:
+      213: 1337174796191310876
+    second: MENU MORTE-Sheet 22 frames_397
+  - first:
+      213: 3153708169192775207
+    second: MENU MORTE-Sheet 22 frames_398
+  - first:
+      213: -2160875547726318432
+    second: MENU MORTE-Sheet 22 frames_399
+  - first:
+      213: -6421695486540063249
+    second: MENU MORTE-Sheet 22 frames_400
+  - first:
+      213: 2101649274508058970
+    second: MENU MORTE-Sheet 22 frames_401
+  - first:
+      213: 1899458451113758500
+    second: MENU MORTE-Sheet 22 frames_402
+  - first:
+      213: -1440561802356392724
+    second: MENU MORTE-Sheet 22 frames_403
+  - first:
+      213: -7118580044707838136
+    second: MENU MORTE-Sheet 22 frames_404
+  - first:
+      213: 3466608982822998854
+    second: MENU MORTE-Sheet 22 frames_405
+  - first:
+      213: 7378928953843596801
+    second: MENU MORTE-Sheet 22 frames_406
+  - first:
+      213: -8117872168627894271
+    second: MENU MORTE-Sheet 22 frames_407
+  - first:
+      213: 7156674206819798388
+    second: MENU MORTE-Sheet 22 frames_408
+  - first:
+      213: 6427263125689870520
+    second: MENU MORTE-Sheet 22 frames_409
+  - first:
+      213: -4770039431392398847
+    second: MENU MORTE-Sheet 22 frames_410
+  - first:
+      213: 866983636836642973
+    second: MENU MORTE-Sheet 22 frames_411
+  - first:
+      213: 5494804642672322571
+    second: MENU MORTE-Sheet 22 frames_412
+  - first:
+      213: -5167627263760820600
+    second: MENU MORTE-Sheet 22 frames_413
+  - first:
+      213: 6087530057707438684
+    second: MENU MORTE-Sheet 22 frames_414
+  - first:
+      213: 6162982753975280240
+    second: MENU MORTE-Sheet 22 frames_415
+  - first:
+      213: -3785103338817102742
+    second: MENU MORTE-Sheet 22 frames_416
+  - first:
+      213: 2121392355592837417
+    second: MENU MORTE-Sheet 22 frames_417
+  - first:
+      213: 41078177250213248
+    second: MENU MORTE-Sheet 22 frames_418
+  - first:
+      213: -2352646382584638761
+    second: MENU MORTE-Sheet 22 frames_419
+  - first:
+      213: 5745642790343211845
+    second: MENU MORTE-Sheet 22 frames_420
+  - first:
+      213: 4188509964486944282
+    second: MENU MORTE-Sheet 22 frames_421
+  - first:
+      213: 3620432799400741402
+    second: MENU MORTE-Sheet 22 frames_422
+  - first:
+      213: 182435138370541133
+    second: MENU MORTE-Sheet 22 frames_423
+  - first:
+      213: -3374118584712945207
+    second: MENU MORTE-Sheet 22 frames_424
+  - first:
+      213: -8393166452269902365
+    second: MENU MORTE-Sheet 22 frames_425
+  - first:
+      213: 7006541251098886144
+    second: MENU MORTE-Sheet 22 frames_426
+  - first:
+      213: -5005028546281422115
+    second: MENU MORTE-Sheet 22 frames_427
+  - first:
+      213: -3624977490227023084
+    second: MENU MORTE-Sheet 22 frames_428
+  - first:
+      213: -7189482698147228143
+    second: MENU MORTE-Sheet 22 frames_429
+  - first:
+      213: -8720180727720765262
+    second: MENU MORTE-Sheet 22 frames_430
+  - first:
+      213: -2783731698852894409
+    second: MENU MORTE-Sheet 22 frames_431
+  - first:
+      213: 3172546837196677326
+    second: MENU MORTE-Sheet 22 frames_432
+  - first:
+      213: -2826334597863654839
+    second: MENU MORTE-Sheet 22 frames_433
+  - first:
+      213: -8559791063577810090
+    second: MENU MORTE-Sheet 22 frames_434
+  - first:
+      213: 610385098966748605
+    second: MENU MORTE-Sheet 22 frames_435
+  - first:
+      213: -5492476055127043613
+    second: MENU MORTE-Sheet 22 frames_436
+  - first:
+      213: 9122914365681595015
+    second: MENU MORTE-Sheet 22 frames_437
+  - first:
+      213: 3787303092400008600
+    second: MENU MORTE-Sheet 22 frames_438
+  - first:
+      213: -5512857368425392935
+    second: MENU MORTE-Sheet 22 frames_439
+  - first:
+      213: 1204227868523674797
+    second: MENU MORTE-Sheet 22 frames_440
+  - first:
+      213: 8932096906769364156
+    second: MENU MORTE-Sheet 22 frames_441
+  - first:
+      213: -6923155781838940025
+    second: MENU MORTE-Sheet 22 frames_442
+  - first:
+      213: -636340674340338345
+    second: MENU MORTE-Sheet 22 frames_443
+  - first:
+      213: 7711982485083000753
+    second: MENU MORTE-Sheet 22 frames_444
+  - first:
+      213: 4304241922821043484
+    second: MENU MORTE-Sheet 22 frames_445
+  - first:
+      213: 1552848913532124421
+    second: MENU MORTE-Sheet 22 frames_446
+  - first:
+      213: 2372195771304217597
+    second: MENU MORTE-Sheet 22 frames_447
+  - first:
+      213: 2236870985477562590
+    second: MENU MORTE-Sheet 22 frames_448
+  - first:
+      213: 2108704382276980878
+    second: MENU MORTE-Sheet 22 frames_449
+  - first:
+      213: -6923832191882692902
+    second: MENU MORTE-Sheet 22 frames_450
+  - first:
+      213: -1682476787552808398
+    second: MENU MORTE-Sheet 22 frames_451
+  - first:
+      213: 797528568565417269
+    second: MENU MORTE-Sheet 22 frames_452
+  - first:
+      213: -3734230356719044969
+    second: MENU MORTE-Sheet 22 frames_453
+  - first:
+      213: -15771032710015067
+    second: MENU MORTE-Sheet 22 frames_454
+  - first:
+      213: 1425878231429065830
+    second: MENU MORTE-Sheet 22 frames_455
+  - first:
+      213: -2895484292237274940
+    second: MENU MORTE-Sheet 22 frames_456
+  - first:
+      213: 5943867129226030808
+    second: MENU MORTE-Sheet 22 frames_457
+  - first:
+      213: 6470366318782224693
+    second: MENU MORTE-Sheet 22 frames_458
+  - first:
+      213: -8214532286872379525
+    second: MENU MORTE-Sheet 22 frames_459
+  - first:
+      213: 8018693643040954517
+    second: MENU MORTE-Sheet 22 frames_460
+  - first:
+      213: -2520342377869217971
+    second: MENU MORTE-Sheet 22 frames_461
+  - first:
+      213: 305084138376039363
+    second: MENU MORTE-Sheet 22 frames_462
+  - first:
+      213: -348633544383533004
+    second: MENU MORTE-Sheet 22 frames_463
+  - first:
+      213: 581125285268740283
+    second: MENU MORTE-Sheet 22 frames_464
+  - first:
+      213: 328585532526937030
+    second: MENU MORTE-Sheet 22 frames_465
+  - first:
+      213: 205076278784630097
+    second: MENU MORTE-Sheet 22 frames_466
+  - first:
+      213: -2986912648957368536
+    second: MENU MORTE-Sheet 22 frames_467
+  - first:
+      213: -2248068437504399482
+    second: MENU MORTE-Sheet 22 frames_468
+  - first:
+      213: 2733741459272437179
+    second: MENU MORTE-Sheet 22 frames_469
+  - first:
+      213: 8235250283521457645
+    second: MENU MORTE-Sheet 22 frames_470
+  - first:
+      213: 3680425651178666852
+    second: MENU MORTE-Sheet 22 frames_471
+  - first:
+      213: 7192775915991876902
+    second: MENU MORTE-Sheet 22 frames_472
+  - first:
+      213: -7071065316184532881
+    second: MENU MORTE-Sheet 22 frames_473
+  - first:
+      213: 3838428844841636242
+    second: MENU MORTE-Sheet 22 frames_474
+  - first:
+      213: -5575406628169937144
+    second: MENU MORTE-Sheet 22 frames_475
+  - first:
+      213: -2759408808836106504
+    second: MENU MORTE-Sheet 22 frames_476
+  - first:
+      213: -6225886358803653305
+    second: MENU MORTE-Sheet 22 frames_477
+  - first:
+      213: -8633916027057902426
+    second: MENU MORTE-Sheet 22 frames_478
+  - first:
+      213: -5046941866418132184
+    second: MENU MORTE-Sheet 22 frames_479
+  - first:
+      213: -7056830069350704010
+    second: MENU MORTE-Sheet 22 frames_480
+  - first:
+      213: 5462040117711429627
+    second: MENU MORTE-Sheet 22 frames_481
+  - first:
+      213: -6172710959333535966
+    second: MENU MORTE-Sheet 22 frames_482
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e7a4b7ab463b750800000000000000
+      internalID: 6319505454226112134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a56a3ca3f07a180800000000000000
+      internalID: -9104291376641189225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e92d07e554c1ddf0800000000000000
+      internalID: -157128638753592859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7785cb730d4a840800000000000000
+      internalID: 5234537604713052130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f866b897ed63152a0800000000000000
+      internalID: -6750554037301844337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308611ad05f9fd820800000000000000
+      internalID: 2945247850928367619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9fda291565a9e90800000000000000
+      internalID: -7018202160950281817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa95ff62f4bc94b0800000000000000
+      internalID: -5432268097162208526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_8
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad911b60d078ad50800000000000000
+      internalID: 6748768082066513313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_9
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d163b94202fa13800800000000000000
+      internalID: 590445578750211613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469002d8dd07fc0b0800000000000000
+      internalID: -5706218105997358748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_11
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c467f6da3280d3680800000000000000
+      internalID: -8773847549721217460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_12
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2975a7f0ea0315870800000000000000
+      internalID: 8669764281807034258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_13
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0029de96889c660800000000000000
+      internalID: 7406601050726203576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_14
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959a1bb06e7e5c190800000000000000
+      internalID: -7942687392573314727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_15
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15c8cc560a7d2be0800000000000000
+      internalID: -1500408933099453154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_16
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af877dbf74ad6e60800000000000000
+      internalID: 7957196985180065702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_17
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bba8be69d485f50800000000000000
+      internalID: 6870326542145862435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_18
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a557f558f0c6a37b0800000000000000
+      internalID: -5243760002201586342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 22 frames_19
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b8b812373240ef0800000000000000
+      internalID: -142950310778008753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f2c13c6cd0ccb2342b3ff90d735acfa5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MENU MORTE-Sheet 22 frames_0: 6319505454226112134
+      MENU MORTE-Sheet 22 frames_1: -9104291376641189225
+      MENU MORTE-Sheet 22 frames_10: -5706218105997358748
+      MENU MORTE-Sheet 22 frames_11: -8773847549721217460
+      MENU MORTE-Sheet 22 frames_12: 8669764281807034258
+      MENU MORTE-Sheet 22 frames_13: 7406601050726203576
+      MENU MORTE-Sheet 22 frames_14: -7942687392573314727
+      MENU MORTE-Sheet 22 frames_15: -1500408933099453154
+      MENU MORTE-Sheet 22 frames_16: 7957196985180065702
+      MENU MORTE-Sheet 22 frames_17: 6870326542145862435
+      MENU MORTE-Sheet 22 frames_18: -5243760002201586342
+      MENU MORTE-Sheet 22 frames_19: -142950310778008753
+      MENU MORTE-Sheet 22 frames_2: -157128638753592859
+      MENU MORTE-Sheet 22 frames_3: 5234537604713052130
+      MENU MORTE-Sheet 22 frames_4: -6750554037301844337
+      MENU MORTE-Sheet 22 frames_5: 2945247850928367619
+      MENU MORTE-Sheet 22 frames_6: -7018202160950281817
+      MENU MORTE-Sheet 22 frames_7: -5432268097162208526
+      MENU MORTE-Sheet 22 frames_8: 6748768082066513313
+      MENU MORTE-Sheet 22 frames_9: 590445578750211613
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

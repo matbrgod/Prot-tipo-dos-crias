@@ -11,4 +11,11 @@ public class E : MonoBehaviour
             e.SetActive(true);
         }
     }
+    private void OnTriggerExit2D(Collider2D triggerCollider)
+    {
+        if (triggerCollider.gameObject.CompareTag("Player") && e.activeSelf)
+        {
+            e.SetActive(false);
+        }
+    }
 }
