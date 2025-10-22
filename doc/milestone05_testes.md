@@ -38,5 +38,11 @@ Um youtuber russo gravou e publicou o vídeo. Por barreira linguística, não en
 Já ciente das críticas passadas, ele tentou fazer algo mais técnico, como propositalmente "quebrar" o jogo. Ele fez uma crítica em relação a câmera do jogo: ao invés de mirar em todas as direções com o mouse, a câmera poderia ficar travada e mexer apenas quando o jogador decide. Também acha que a mira deve ficar travada em meio a diálogos.
 
 - Heric -->
-O jogador teve grandes queixas sobre a dificuldade do mini boss (rato), além da falta de feedback em relação às ações do player. Ambas as questões já estão sendo trabalhadas: adicionamos um feedback visual sobre o delay entre os tiros do jogador, reduzimos a dificuldade do boss e estamos implementando partículas que mostrem quando um objeto toma dano, seja um inimigo ou uma pedra destrutível.
+O jogador teve grandes queixas sobre a dificuldade do mini boss (rato), além da falta de feedback em relação às ações do player. Ambas as questões já estão sendo trabalhadas: adicionamos um feedback visual sobre o delay entre os tiros do jogador, reduzimos a dificuldade do boss e estamos implementando partículas que mostrem quando um objeto toma dano, seja um inimigo ou uma pedra destrutível. <br>
+
+
+Bugs corrigidos:
+- Impedimos que o jogador atravessasse as paredes sendo empurrado pelos inimigos, implementando frames de invencibilidade para quando o jogador recebe dano. 
+- Corrigimos elementos de interface do tutorial que as vezes ficavam um em cima do outro.
+- Corrigimos um bug em que a vida do jogador não era atualizada quando ele tomava dano.
 
