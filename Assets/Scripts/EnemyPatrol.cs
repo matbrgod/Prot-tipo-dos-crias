@@ -6,19 +6,14 @@ public class EnemyPatrol : MonoBehaviour
     public Transform[] patrolPoints;
     public int targetPoint;
     public float speed;
-    public int healthEnemy;
-    public int maxHealthEnemy;
+ 
 
-    public HealthBar healthBar;
-    public GameObject porta;
-    public GameObject vidaDoBoss;
-    public GameObject TriggerDoE;
+   
     
     void Start()
     {
         targetPoint = 0;
-        healthBar.SetMaxHealth(maxHealthEnemy);
-        healthEnemy = maxHealthEnemy;
+       
         
     }
 
@@ -54,33 +49,5 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
-    //public void TakeDamage(int damage)
-    //{
-    //    healthEnemy -= damage;
-//
- //       healthBar.SetHealth(healthEnemy);
-  //      if (healthEnemy <= 0)
-  //      {
-   //         Destroy(gameObject);
-      //  }
-    //}
-    
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Bullet"))
-        {
-            healthEnemy -= 1;// Assuming each bullet reduces health by 1
-            healthBar.SetHealth(healthEnemy);
-           if (healthEnemy <= 0)
-            {
-                //SceneManager.LoadScene("Intro");
-                Destroy(gameObject);
-                porta.SetActive(false);
-                vidaDoBoss.SetActive(false);
-                TriggerDoE.SetActive(true);
-            }
 
-
-        }
-    }
 }
