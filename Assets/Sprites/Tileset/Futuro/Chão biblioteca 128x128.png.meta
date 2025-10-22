@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a5c4ea2218b50214d92dc9b5ff873af5
+guid: 8166183739bc4314482a2f1d4299bb8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4308507567439672582
-    second: "Ch\xE3o da igreja 128x128_0"
+      213: -7916858520370623326
+    second: "Ch\xE3o biblioteca 128x128_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ch\xE3o da igreja 128x128_0"
+      name: "Ch\xE3o biblioteca 128x128_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afa0da2e13b1534c0800000000000000
-      internalID: -4308507567439672582
+      spriteID: 2acc84cfe1ba12290800000000000000
+      internalID: -7916858520370623326
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Ch\xE3o da igreja 128x128_0": -4308507567439672582
+      "Ch\xE3o biblioteca 128x128_0": -7916858520370623326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

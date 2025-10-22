@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: a09a054c73e058642b54ac95546805b3
+guid: 9bb3965711de55e4bb90548d600d23b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1019909357264224788
-    second: Quina Lab 32x32_0
+      213: -5797398783512865666
+    second: Quina Biblioteca 32x32_0
   - first:
-      213: 5582677525866526802
-    second: Quina Lab 32x32_1
+      213: -5711547478457292729
+    second: Quina Biblioteca 32x32_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Quina Lab 32x32_0
+      name: Quina Biblioteca 32x32_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 412c4de1822772e00800000000000000
-      internalID: 1019909357264224788
+      spriteID: e741f67b5808b8fa0800000000000000
+      internalID: -5797398783512865666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_1
+      name: Quina Biblioteca 32x32_1
       rect:
         serializedVersion: 2
         x: 32
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 258b4d8a1a7a97d40800000000000000
-      internalID: 5582677525866526802
+      spriteID: 74866c454d18cb0b0800000000000000
+      internalID: -5711547478457292729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_2
+      name: Quina Biblioteca 32x32_2
       rect:
         serializedVersion: 2
         x: 64
@@ -175,14 +175,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0da2a422a79c144680c528ffbc4a0b6
-      internalID: 770888273
+      spriteID: cc24990d9ee4f164ba68fea3b3f2f13f
+      internalID: -2091914903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_3
+      name: Quina Biblioteca 32x32_3
       rect:
         serializedVersion: 2
         x: 96
@@ -197,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87cd67c9623cf15489f67eb15997297b
-      internalID: 667583795
+      spriteID: 579df6e7b2cf9c347a1e5732ffb782a7
+      internalID: -1875439154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_4
+      name: Quina Biblioteca 32x32_4
       rect:
         serializedVersion: 2
         x: 128
@@ -219,14 +219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d7d39bf67082d4a917204db2bc26af
-      internalID: 806072434
+      spriteID: da76d9409a5054f4f88109fcdd74ec81
+      internalID: -1396212610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_5
+      name: Quina Biblioteca 32x32_5
       rect:
         serializedVersion: 2
         x: 160
@@ -241,14 +241,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8acff34022792dc4384377570541a4a6
-      internalID: 1193821565
+      spriteID: 7434a501b25eb8849a968c0a83cdf6cb
+      internalID: -1757422659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_6
+      name: Quina Biblioteca 32x32_6
       rect:
         serializedVersion: 2
         x: 192
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eef1f0ef74bca6a449d0b7f8336c44b3
-      internalID: 352514246
+      spriteID: 316985106853d2e48bbfcdb7827ff1bc
+      internalID: -1252925207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_7
+      name: Quina Biblioteca 32x32_7
       rect:
         serializedVersion: 2
         x: 224
@@ -285,8 +285,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32ba7ee5b9e65148a5df738e6d8550a
-      internalID: -701174979
+      spriteID: 7fca73adcc30d674580b1a9b8d04c3a6
+      internalID: 1269758558
       vertices: []
       indices: 
       edges: []
@@ -295,7 +295,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6b610aba06c6a414980c7890737eedb9
+    spriteID: 10ff2cab91ce72f46a17c7cd106fa215
     internalID: 0
     vertices: []
     indices: 
@@ -305,14 +305,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Quina Lab 32x32_0: 1019909357264224788
-      Quina Lab 32x32_1: 5582677525866526802
-      Quina Lab 32x32_2: 770888273
-      Quina Lab 32x32_3: 667583795
-      Quina Lab 32x32_4: 806072434
-      Quina Lab 32x32_5: 1193821565
-      Quina Lab 32x32_6: 352514246
-      Quina Lab 32x32_7: -701174979
+      Quina Biblioteca 32x32_0: -5797398783512865666
+      Quina Biblioteca 32x32_1: -5711547478457292729
+      Quina Biblioteca 32x32_2: -2091914903
+      Quina Biblioteca 32x32_3: -1875439154
+      Quina Biblioteca 32x32_4: -1396212610
+      Quina Biblioteca 32x32_5: -1757422659
+      Quina Biblioteca 32x32_6: -1252925207
+      Quina Biblioteca 32x32_7: 1269758558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

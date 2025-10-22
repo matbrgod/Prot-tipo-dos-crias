@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2000b86e7b57e8f41ab0081092f13a5e
+guid: ed1b1fca92a07124ab803570c7762ecc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4588756151954559463
-    second: Parede Lab de fora 116x128_0
+      213: 8108967068391176334
+    second: Parede Biblioteca 116x128_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Parede Lab de fora 116x128_0
+      name: Parede Biblioteca 116x128_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 116
+        width: 116
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91e2cd197967150c0800000000000000
-      internalID: -4588756151954559463
+      spriteID: e88fbc6e596d88070800000000000000
+      internalID: 8108967068391176334
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Parede Lab de fora 116x128_0: -4588756151954559463
+      Parede Biblioteca 116x128_0: 8108967068391176334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
