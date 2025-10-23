@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
     public float invincibleDuration;
     public SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject reloadingUI;
+    [SerializeField] private GameObject efeitoTiro;
     [SerializeField] private ParticleSystem sangue;
     private ParticleSystem sangueParticleSystemInstance;
 
@@ -88,10 +89,16 @@ public class Player : MonoBehaviour
         {
             timerTiro = 0f;
             weapon.Fire();
+            
+
         }
 
         if (reloadingUI != null)
             reloadingUI.SetActive(timerTiro < tiroCooldown);
+
+        if(efeitoTiro != null)
+            efeitoTiro.SetActive(timerTiro < 0.2f);
+            
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -187,6 +194,12 @@ public class Player : MonoBehaviour
 
         isInvincible = false;
         if (spriteRenderer != null) spriteRenderer.color = Color.white;
+    }
+
+    private IEnumerator EfeitoTiroCoroutine()
+    {
+        yield return new WaitForSeconds(0.2f);
+        efeitoTiro.SetActive(false);
     }
 
     private void OnDisable()

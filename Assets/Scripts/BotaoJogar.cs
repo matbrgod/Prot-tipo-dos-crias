@@ -5,15 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class BotaoJogar : MonoBehaviour
 {
-    [SerializeField] private GameObject loadingScreen;
+    //[SerializeField] private GameObject loadingScreen;
     [SerializeField] private GameObject Error;
+    public GameObject yesButton;
+    public GameObject noButton;
+
     public void Play()
     {
         if (Error != null)
             Error.SetActive(false);
-        if (loadingScreen != null)
-            loadingScreen.SetActive(true);
-        StartCoroutine(systemLoading());
+        
+        if (yesButton != null)
+            yesButton.SetActive(false);
+        if (noButton != null)
+            noButton.SetActive(false);    
+        SceneManager.LoadScene("tutorial nave");
+        //StartCoroutine(systemLoading());
             
     }
     public void Credits()
@@ -31,7 +38,7 @@ public class BotaoJogar : MonoBehaviour
 
     private IEnumerator systemLoading()
     {
-        yield return new WaitForSeconds(2.67f);
+        yield return new WaitForSeconds(2.5f);
         SceneManager.LoadScene("tutorial nave");
     }
 }
