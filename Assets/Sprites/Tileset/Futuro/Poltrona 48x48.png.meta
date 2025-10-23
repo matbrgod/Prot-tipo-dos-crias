@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 30f8563faab353d48ab411bf2bff38de
+guid: a3f35d2e49e9be447b93e4ff19b5dbd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5390372371000429769
-    second: "Laborat\xF3rio3_0"
+      213: -1854301124726712394
+    second: Poltrona 48x48_0
+  - first:
+      213: 3238583057307366004
+    second: Poltrona 48x48_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Laborat\xF3rio3_0"
+      name: Poltrona 48x48_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 8
         y: 0
-        width: 1152
-        height: 648
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cc8f8cac137eca40800000000000000
-      internalID: 5390372371000429769
+      spriteID: 6b79e0a93f23446e0800000000000000
+      internalID: -1854301124726712394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poltrona 48x48_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4727762c122c1fc20800000000000000
+      internalID: 3238583057307366004
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Laborat\xF3rio3_0": 5390372371000429769
+      Poltrona 48x48_0: -1854301124726712394
+      Poltrona 48x48_1: 3238583057307366004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

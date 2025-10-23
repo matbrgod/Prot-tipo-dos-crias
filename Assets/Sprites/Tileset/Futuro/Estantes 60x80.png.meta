@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 563f5a38ce8f4f44cbf45069ed316d0e
+guid: f0d66d772b134b544a61888c3617c300
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7043220980079917017
-    second: Npc 34x42_0
-  - first:
-      213: -4161164850974495587
-    second: Npc 34x42_1
+      213: -7758891919548194939
+    second: Estantes 60x80_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Npc 34x42_0
+      name: Estantes 60x80_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 27
-        height: 43
+        width: 180
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d7fd303a2c8eb160800000000000000
-      internalID: 7043220980079917017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc 34x42_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 31
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9ce2d56d929046c0800000000000000
-      internalID: -4161164850974495587
+      spriteID: 58f5ea458e0e25490800000000000000
+      internalID: -7758891919548194939
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Npc 34x42_0: 7043220980079917017
-      Npc 34x42_1: -4161164850974495587
+      Estantes 60x80_0: -7758891919548194939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

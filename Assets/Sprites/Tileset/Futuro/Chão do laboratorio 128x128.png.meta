@@ -1,13 +1,34 @@
 fileFormatVersion: 2
-guid: 0f341dfecccd2e24c95ef47c747f86c0
+guid: 29998aa134e71d642b19053aa1f7be70
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5611616287626361577
-    second: Quina Igreja 32x32_0
+      213: 4566480066340175108
+    second: "Ch\xE3o do laboratorio 128x128_0"
   - first:
-      213: -1323161091505830810
-    second: Quina Igreja 32x32_1
+      213: -8828129486886719440
+    second: "Ch\xE3o do laboratorio 128x128_1"
+  - first:
+      213: -5469809928227615783
+    second: "Ch\xE3o do laboratorio 128x128_2"
+  - first:
+      213: 2758762846657797191
+    second: "Ch\xE3o do laboratorio 128x128_3"
+  - first:
+      213: 8110868457800150744
+    second: "Ch\xE3o do laboratorio 128x128_4"
+  - first:
+      213: 3019444064859860647
+    second: "Ch\xE3o do laboratorio 128x128_5"
+  - first:
+      213: 3844593666444824120
+    second: "Ch\xE3o do laboratorio 128x128_6"
+  - first:
+      213: 5023252390458799064
+    second: "Ch\xE3o do laboratorio 128x128_7"
+  - first:
+      213: -8207586126878444657
+    second: "Ch\xE3o do laboratorio 128x128_8"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,61 +133,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Quina Igreja 32x32_0
+      name: "Ch\xE3o do laboratorio 128x128_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9eaf3cf284770ed40800000000000000
-      internalID: 5611616287626361577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Quina Igreja 32x32_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6644d286fff23ade0800000000000000
-      internalID: -1323161091505830810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Quina Igreja 32x32_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 1
+        y: 131
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80b40e5c1c9003b458e0f4e72e177aa0
-      internalID: 1848079538
+      spriteID: 0982bfd8970fe9e43bb698c814d8fdd5
+      internalID: 72403631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Igreja 32x32_3
+      name: "Ch\xE3o do laboratorio 128x128_1"
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 131
+        y: 131
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d65357e02487ca747904987c9ace4a27
-      internalID: 859408465
+      spriteID: 8ed895139edd7304aa042aee746e4a70
+      internalID: 1922145052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Igreja 32x32_4
+      name: "Ch\xE3o do laboratorio 128x128_2"
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
+        x: 261
+        y: 131
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 198a63209c3a7ea458034ab8e543babb
-      internalID: 1833974355
+      spriteID: 10cb6b02618936a4dbffba2abdce9a72
+      internalID: -37934943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Igreja 32x32_5
+      name: "Ch\xE3o do laboratorio 128x128_3"
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
+        x: 391
+        y: 131
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 871fafe89c2d5bb4da4fed86706c5cc2
-      internalID: -144905225
+      spriteID: ea4db315f3741d144a581b2ddc706944
+      internalID: 1019676784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Igreja 32x32_6
+      name: "Ch\xE3o do laboratorio 128x128_4"
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
+        x: 521
+        y: 131
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b5dd49891e993f4fab943f9fed966d0
-      internalID: -1730767314
+      spriteID: fcc29ec1ce0ab6f479e0980e1079fe46
+      internalID: 1674192549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Igreja 32x32_7
+      name: "Ch\xE3o do laboratorio 128x128_5"
       rect:
         serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
+        x: 1
+        y: 1
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,8 +288,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddbd45dc0ce59c44cb7b1725a6d13bc0
-      internalID: 491274927
+      spriteID: 11b32d6a961bfcc45a34193a468ea8d0
+      internalID: -385087255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ch\xE3o do laboratorio 128x128_6"
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3bdded2e076a14aa126c90b294e9df
+      internalID: 1340330946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ch\xE3o do laboratorio 128x128_7"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a291126b036a34dbbb353c4d6f340c
+      internalID: -107205468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ch\xE3o do laboratorio 128x128_8"
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57ad27f51960f34fb82a46d011436e9
+      internalID: -1520654206
       vertices: []
       indices: 
       edges: []
@@ -295,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e29f09727c5f22e4fa3829c5eec95ad9
+    spriteID: 24cc610ba6b48554ebd49723513c3c5a
     internalID: 0
     vertices: []
     indices: 
@@ -305,14 +374,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Quina Igreja 32x32_0: 5611616287626361577
-      Quina Igreja 32x32_1: -1323161091505830810
-      Quina Igreja 32x32_2: 1848079538
-      Quina Igreja 32x32_3: 859408465
-      Quina Igreja 32x32_4: 1833974355
-      Quina Igreja 32x32_5: -144905225
-      Quina Igreja 32x32_6: -1730767314
-      Quina Igreja 32x32_7: 491274927
+      "Ch\xE3o do laboratorio 128x128_0": 72403631
+      "Ch\xE3o do laboratorio 128x128_1": 1922145052
+      "Ch\xE3o do laboratorio 128x128_2": -37934943
+      "Ch\xE3o do laboratorio 128x128_3": 1019676784
+      "Ch\xE3o do laboratorio 128x128_4": 1674192549
+      "Ch\xE3o do laboratorio 128x128_5": -385087255
+      "Ch\xE3o do laboratorio 128x128_6": 1340330946
+      "Ch\xE3o do laboratorio 128x128_7": -107205468
+      "Ch\xE3o do laboratorio 128x128_8": -1520654206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

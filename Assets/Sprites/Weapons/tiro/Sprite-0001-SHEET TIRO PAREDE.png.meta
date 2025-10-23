@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: a09a054c73e058642b54ac95546805b3
+guid: 2a189203ae6bf69458d69b2b6ddad328
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1019909357264224788
-    second: Quina Lab 32x32_0
+      213: -7972951966989145889
+    second: Sprite-0001-SHEET TIRO PAREDE_0
   - first:
-      213: 5582677525866526802
-    second: Quina Lab 32x32_1
+      213: -7541037407181552242
+    second: Sprite-0001-SHEET TIRO PAREDE_1
+  - first:
+      213: -8800211376250303024
+    second: Sprite-0001-SHEET TIRO PAREDE_2
+  - first:
+      213: -5314490586743144162
+    second: Sprite-0001-SHEET TIRO PAREDE_3
+  - first:
+      213: 7256575785905261643
+    second: Sprite-0001-SHEET TIRO PAREDE_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -99,30 +108,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Quina Lab 32x32_0
+      name: Sprite-0001-SHEET TIRO PAREDE_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 412c4de1822772e00800000000000000
-      internalID: 1019909357264224788
+      spriteID: fd82c54bd626a5190800000000000000
+      internalID: -7972951966989145889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_1
+      name: Sprite-0001-SHEET TIRO PAREDE_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +149,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 258b4d8a1a7a97d40800000000000000
-      internalID: 5582677525866526802
+      spriteID: e85c20bae6ad85790800000000000000
+      internalID: -7541037407181552242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_2
+      name: Sprite-0001-SHEET TIRO PAREDE_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 68
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddcf3af06e5fd580800000000000000
+      internalID: -8800211376250303024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001-SHEET TIRO PAREDE_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11840ff7f22f36b0800000000000000
+      internalID: -5314490586743144162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001-SHEET TIRO PAREDE_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c8594fa3984b460800000000000000
+      internalID: 7256575785905261643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001-SHEET TIRO PAREDE_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0da2a422a79c144680c528ffbc4a0b6
-      internalID: 770888273
+      spriteID: 3422ea6acadf47b4e8294eef57a0492e
+      internalID: 1285472056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_3
+      name: Sprite-0001-SHEET TIRO PAREDE_6
       rect:
         serializedVersion: 2
-        x: 96
+        x: 204
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87cd67c9623cf15489f67eb15997297b
-      internalID: 667583795
+      spriteID: b80610542958b4745a7a3dc1c0295603
+      internalID: -1263371872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_4
+      name: Sprite-0001-SHEET TIRO PAREDE_7
       rect:
         serializedVersion: 2
-        x: 128
+        x: 238
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d7d39bf67082d4a917204db2bc26af
-      internalID: 806072434
+      spriteID: 25729c383c832f446a92f30a0c064e6c
+      internalID: -1335641577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_5
+      name: Sprite-0001-SHEET TIRO PAREDE_8
       rect:
         serializedVersion: 2
-        x: 160
+        x: 272
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8acff34022792dc4384377570541a4a6
-      internalID: 1193821565
+      spriteID: a584c05b636705648916dc1423ff67ea
+      internalID: 897498478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_6
+      name: Sprite-0001-SHEET TIRO PAREDE_9
       rect:
         serializedVersion: 2
-        x: 192
+        x: 306
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +325,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eef1f0ef74bca6a449d0b7f8336c44b3
-      internalID: 352514246
+      spriteID: 8a408e64046c9f144a1e0e6997c591ef
+      internalID: 1418161765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Lab 32x32_7
+      name: Sprite-0001-SHEET TIRO PAREDE_10
       rect:
         serializedVersion: 2
-        x: 224
+        x: 340
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32ba7ee5b9e65148a5df738e6d8550a
-      internalID: -701174979
+      spriteID: 273b0a6191701d440abf033c5532bf82
+      internalID: 2128549246
       vertices: []
       indices: 
       edges: []
@@ -295,7 +357,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6b610aba06c6a414980c7890737eedb9
+    spriteID: 8425b352c33c17542b8ecccf2d42d68d
     internalID: 0
     vertices: []
     indices: 
@@ -305,14 +367,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Quina Lab 32x32_0: 1019909357264224788
-      Quina Lab 32x32_1: 5582677525866526802
-      Quina Lab 32x32_2: 770888273
-      Quina Lab 32x32_3: 667583795
-      Quina Lab 32x32_4: 806072434
-      Quina Lab 32x32_5: 1193821565
-      Quina Lab 32x32_6: 352514246
-      Quina Lab 32x32_7: -701174979
+      Sprite-0001-SHEET TIRO PAREDE_0: -7972951966989145889
+      Sprite-0001-SHEET TIRO PAREDE_1: -7541037407181552242
+      Sprite-0001-SHEET TIRO PAREDE_10: 2128549246
+      Sprite-0001-SHEET TIRO PAREDE_2: -8800211376250303024
+      Sprite-0001-SHEET TIRO PAREDE_3: -5314490586743144162
+      Sprite-0001-SHEET TIRO PAREDE_4: 7256575785905261643
+      Sprite-0001-SHEET TIRO PAREDE_5: 1285472056
+      Sprite-0001-SHEET TIRO PAREDE_6: -1263371872
+      Sprite-0001-SHEET TIRO PAREDE_7: -1335641577
+      Sprite-0001-SHEET TIRO PAREDE_8: 897498478
+      Sprite-0001-SHEET TIRO PAREDE_9: 1418161765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
