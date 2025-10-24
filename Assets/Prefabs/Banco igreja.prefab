@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &849112914743703567
+--- !u!1 &5550481989938747324
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 229696055989644152}
-  - component: {fileID: 4731585630287138549}
-  - component: {fileID: 5688669571270380952}
+  - component: {fileID: 5151961098812240389}
+  - component: {fileID: 4650663619917069110}
+  - component: {fileID: 3941827090586494867}
   m_Layer: 0
-  m_Name: Poltrona
+  m_Name: Banco igreja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &229696055989644152
+--- !u!4 &5151961098812240389
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849112914743703567}
+  m_GameObject: {fileID: 5550481989938747324}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.326, y: 11.189, z: 0}
-  m_LocalScale: {x: 3.5999997, y: 3.5999997, z: 3.5999997}
+  m_LocalPosition: {x: 30.52, y: -42.99, z: 0}
+  m_LocalScale: {x: 0.81, y: 0.81, z: 0.81}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4731585630287138549
+--- !u!212 &4650663619917069110
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849112914743703567}
+  m_GameObject: {fileID: 5550481989938747324}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,24 +77,24 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3238583057307366004, guid: a3f35d2e49e9be447b93e4ff19b5dbd0, type: 3}
+  m_Sprite: {fileID: -7847084746565420419, guid: 93ae8a0db9812c247a340dd6514e3739, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.37, y: 0.31}
+  m_Size: {x: 0.19, y: 0.61}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5688669571270380952
+--- !u!61 &3941827090586494867
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849112914743703567}
+  m_GameObject: {fileID: 5550481989938747324}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -126,11 +126,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.37, y: 0.31}
-    newSize: {x: 0.37, y: 0.31}
+    oldSize: {x: 0.76, y: 2.44}
+    newSize: {x: 0.19, y: 0.61}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.37, y: 0.31}
+  m_Size: {x: 0.76, y: 2.44}
   m_EdgeRadius: 0
