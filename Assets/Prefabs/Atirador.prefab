@@ -343,6 +343,6 @@ MonoBehaviour:
   speed: 3
   player: {fileID: 0}
   distanceBetween: 4
-  bulletPrefab: {fileID: 4194906159117577996, guid: df894cf6a9e44444cbbd1a6714ea0d00, type: 3}
+  bulletPrefab: {fileID: 4194906159117577996, guid: b9c5dae0a4a57684799dc4737d7adfd7, type: 3}
   firePoint: {fileID: 7328217463355751977}
   fireForce: 20
