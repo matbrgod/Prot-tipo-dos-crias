@@ -123,10 +123,11 @@ public class Player : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
         {            
                 if (collision.collider.CompareTag("Enemy"))
-                {
-                    SpawnParticlesSangue();
+        {
                     healthPlayer -= 10; // Diminui 10 de vida
                     healthText.text = "" + healthPlayer;
+                    SpawnParticlesSangue();
+                    
                     
                     StartCoroutine(InvincibilityCoroutine());
                     
