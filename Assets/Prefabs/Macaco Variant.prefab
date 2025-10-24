@@ -64,6 +64,14 @@ PrefabInstance:
       propertyPath: m_PointLightOuterRadius
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: -620505467
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -303,7 +311,6 @@ MonoBehaviour:
   healthEnemy: 0
   maxHealthEnemy: 3
   speed: 4
-  player: {fileID: 3974784362447125391, guid: dc15e3502593f9b4396aaf0efd75bef3, type: 3}
   distanceBetween: 7
 --- !u!1001 &4833414050835117846
 PrefabInstance:
@@ -364,6 +371,14 @@ PrefabInstance:
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_PointLightOuterRadius
       value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: -620505467
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -438,6 +453,14 @@ PrefabInstance:
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_PointLightOuterRadius
       value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: -620505467
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
