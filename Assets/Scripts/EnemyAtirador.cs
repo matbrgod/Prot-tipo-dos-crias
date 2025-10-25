@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyAtirador : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class EnemyAtirador : MonoBehaviour
     public float distanceBetween;
 
     private float distance;
-
     private Rigidbody2D rb;
     private bool atirar = false;
     private bool mirar = false;
@@ -21,6 +21,7 @@ public class EnemyAtirador : MonoBehaviour
     public Transform firePoint;
     public float fireForce = 20f;
     private bool detectado = false;
+    private NavMeshAgent agent;
 
     void Start()
     {
@@ -28,6 +29,10 @@ public class EnemyAtirador : MonoBehaviour
         healthEnemy = maxHealthEnemy;
         player = GameObject.FindWithTag("Player");
         playerPosition = GameObject.FindGameObjectWithTag("Player").transform;
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+        agent.destination = player.transform.position;
     }
     void Update()
     {
@@ -78,7 +83,9 @@ public class EnemyAtirador : MonoBehaviour
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        //transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        agent.SetDestination(player.transform.position);
+        agent.speed = speed;
         transform.rotation = Quaternion.Euler(this.transform.rotation.x, this.transform.rotation.y, angle - 90f);
     }
     public void Atirando()
@@ -116,7 +123,7 @@ public class EnemyAtirador : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Bullet"))
+        if (collision.collider.CompareTag("Bullet") ^ collision.collider.CompareTag("Bullet dos inimigos"))
         {
             healthEnemy -= 1;// Assuming each bullet reduces health by 1
             if (healthEnemy <= 0)
