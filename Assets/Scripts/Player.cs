@@ -73,6 +73,7 @@ public class Player : MonoBehaviour
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        healthText.text = "" + healthPlayer;
 
         if(moveX != 0 || moveY != 0)
         animator.SetBool("EstaAndando", true);
