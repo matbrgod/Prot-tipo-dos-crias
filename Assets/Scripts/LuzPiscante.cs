@@ -17,7 +17,7 @@ public class LuzPiscante : MonoBehaviour
     {
         if (!aumentando)
         {
-            luz.intensity -= 0.5f * Time.deltaTime;
+            luz.intensity -= 1f * Time.deltaTime;
             if (luz.intensity <= 0.0f)
             {
                 luz.intensity = 0.0f;
@@ -26,10 +26,9 @@ public class LuzPiscante : MonoBehaviour
         }
         else
         {
-            luz.intensity += 0.5f * Time.deltaTime;
-            if (luz.intensity >= 0.6f)
+            luz.intensity += 1f * Time.deltaTime;
+            if (luz.intensity >= 2f)
             {
-                luz.intensity = 0.6f;
                 aumentando = false;
             }
         }

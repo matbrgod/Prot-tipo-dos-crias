@@ -11,7 +11,6 @@ public class EnemyAtirador : MonoBehaviour
 
     private float distance;
     private Rigidbody2D rb;
-    private bool atirar = false;
     private bool mirar = false;
     private float fireCooldown = 1;
     private float fireTimer = 0f;
@@ -63,22 +62,21 @@ public class EnemyAtirador : MonoBehaviour
     {
         if (distance > distanceBetween)
         {
-            Perseguir();
+            IrAtras();
+            MirandoEAtirando(2f);
         }
         if (distance <= distanceBetween)
         {
-            Atirando();
-            CooldownTiro();
+            MirandoEAtirando();
         }
         if (distance < distanceBetween /2 + 1)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, -speed * Time.deltaTime);
         }
     }
-    public void Perseguir()
+    public void IrAtras()
     {
         mirar = false;
-        atirar = false;
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
@@ -88,10 +86,17 @@ public class EnemyAtirador : MonoBehaviour
         agent.speed = speed;
         transform.rotation = Quaternion.Euler(this.transform.rotation.x, this.transform.rotation.y, angle - 90f);
     }
-    public void Atirando()
+    public void MirandoEAtirando(float cooldown = 0)
     {
         mirar = true;
-        atirar = true;
+
+        //cooldown do tiro
+        fireTimer += Time.deltaTime;
+        if (fireTimer >= fireCooldown + cooldown)
+        {
+            Disparar();
+            fireTimer = 0f;
+        }
     }
 
     public void Disparar()
@@ -99,22 +104,10 @@ public class EnemyAtirador : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
     }
-    public void CooldownTiro()
-    {
-        if (atirar == true)
-        {
-            fireTimer += Time.deltaTime;
-            if (fireTimer >= fireCooldown)
-            {
-                Disparar();
-                fireTimer = 0f;
-            }
-        }
-    }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(/*float damage*/)
     {
-        healthEnemy -= damage;
+        healthEnemy -= /*damage*/1;
         if (healthEnemy <= 0)
         {
             Destroy(gameObject);
@@ -123,7 +116,7 @@ public class EnemyAtirador : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Bullet") ^ collision.collider.CompareTag("Bullet dos inimigos"))
+        if (collision.collider.CompareTag("Bullet") | collision.collider.CompareTag("Bullet dos inimigos"))
         {
             healthEnemy -= 1;// Assuming each bullet reduces health by 1
             if (healthEnemy <= 0)
@@ -135,7 +128,7 @@ public class EnemyAtirador : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") ^ collision.CompareTag("Bullet"))
+        if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
             detectado = true;
         }

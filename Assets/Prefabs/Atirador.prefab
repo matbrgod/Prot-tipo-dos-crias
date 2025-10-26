@@ -341,7 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthEnemy: 0
   maxHealthEnemy: 3
-  speed: 3
+  speed: 4
   player: {fileID: 0}
   distanceBetween: 8
   bulletPrefab: {fileID: 4194906159117577996, guid: 067cbc35d42da8b46b28a82e9711baee, type: 3}
