@@ -272,8 +272,6 @@ GameObject:
   - component: {fileID: 6824262236675331612}
   - component: {fileID: 6715247313659451361}
   - component: {fileID: 3381276863553110803}
-  - component: {fileID: -8470144960323204323}
-  - component: {fileID: 123100265616898903}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -428,66 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2900a11e2b987b74a8517e4b04bffb52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Impacto: {fileID: 1377765413481702254}
-  rastro: {fileID: 3726343489728354903}
---- !u!58 &-8470144960323204323
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4194906159117577996}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.33
---- !u!95 &123100265616898903
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4194906159117577996}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a2d5845503f757345a03153fba829e71, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  faiscas: {fileID: 6562167464934849033, guid: 9f8ea1818fd8e8a4691661f1a807f83a, type: 3}
 --- !u!1001 &3043716995671729578
 PrefabInstance:
   m_ObjectHideFlags: 0

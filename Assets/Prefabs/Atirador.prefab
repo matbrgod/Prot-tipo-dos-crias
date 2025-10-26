@@ -96,7 +96,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365495872072008412}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7c3e488ab4925e42ab7ef90c6ce17fb, type: 3}
   m_Name: 
@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 8775149282941638952}
   - component: {fileID: 5244574228244487922}
   - component: {fileID: 7213109338461693924}
+  - component: {fileID: 101830273411870774}
   m_Layer: 0
   m_Name: Atirador
   m_TagString: Untagged
@@ -215,7 +216,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.8620522, b: 0.37254906, a: 1}
   m_FlipX: 0
@@ -289,7 +290,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 10.79
+  m_Radius: 10
 --- !u!58 &5244574228244487922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -340,9 +341,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthEnemy: 0
   maxHealthEnemy: 3
-  speed: 3
+  speed: 4
   player: {fileID: 0}
-  distanceBetween: 4
+  distanceBetween: 7
   bulletPrefab: {fileID: 4194906159117577996, guid: 067cbc35d42da8b46b28a82e9711baee, type: 3}
   firePoint: {fileID: 7328217463355751977}
   fireForce: 20
+  sangue: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
+--- !u!195 &101830273411870774
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437616746859599721}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 0
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

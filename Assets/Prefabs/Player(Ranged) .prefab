@@ -415,7 +415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932745034271566461, guid: d05d53d19622ce24abe28623489a7340, type: 3}
       propertyPath: m_PointLightOuterRadius
-      value: 3.75
+      value: 1.4625897
       objectReference: {fileID: 0}
     - target: {fileID: 5698300108570208777, guid: d05d53d19622ce24abe28623489a7340, type: 3}
       propertyPath: m_LocalPosition.x
@@ -431,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5698300108570208777, guid: d05d53d19622ce24abe28623489a7340, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9999854
       objectReference: {fileID: 0}
     - target: {fileID: 5698300108570208777, guid: d05d53d19622ce24abe28623489a7340, type: 3}
       propertyPath: m_LocalRotation.x
@@ -443,7 +443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5698300108570208777, guid: d05d53d19622ce24abe28623489a7340, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.005404955
       objectReference: {fileID: 0}
     - target: {fileID: 5698300108570208777, guid: d05d53d19622ce24abe28623489a7340, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -617,11 +617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7528841754807665108, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.88
+      value: -36.699738
       objectReference: {fileID: 0}
     - target: {fileID: 7528841754807665108, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -28.85
+      value: 0.78973484
       objectReference: {fileID: 0}
     - target: {fileID: 7528841754807665108, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -683,6 +683,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7938646717110851491, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5024025877789638367}
+    - targetCorrespondingSourceObject: {fileID: 7938646717110851491, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9194837307171282635}
   m_SourcePrefab: {fileID: 100100000, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
 --- !u!4 &8083442239811244339 stripped
 Transform:
@@ -716,6 +719,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9194837307171282635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8538344875023681348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4630f5fbe4db39a47ba6ec1a82411485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lanternaFalhando: 1
+  light2D: {fileID: 350803212588197693}
+  lanterna: {fileID: 6359283995840361109}
 --- !u!1001 &4188140384734977678
 PrefabInstance:
   m_ObjectHideFlags: 0

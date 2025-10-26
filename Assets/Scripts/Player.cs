@@ -123,17 +123,16 @@ public class Player : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
         {            
                 if (collision.collider.CompareTag("Enemy"))
-        {
+                {
                     healthPlayer -= 10; // Diminui 10 de vida
-                    healthText.text = "" + healthPlayer;
                     SpawnParticlesSangue();
+                    healthText.text = "" + healthPlayer;
                     
                     
                     StartCoroutine(InvincibilityCoroutine());
                     
                     if (healthPlayer <= 0)
-                    {
-                        
+                    {   
                         SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
@@ -197,11 +196,11 @@ public class Player : MonoBehaviour
         if (spriteRenderer != null) spriteRenderer.color = Color.white;
     }
 
-    private IEnumerator EfeitoTiroCoroutine()
+    /*private IEnumerator EfeitoTiroCoroutine()
     {
         yield return new WaitForSeconds(0.2f);
         efeitoTiro.SetActive(false);
-    }
+    }*/
 
     private void OnDisable()
     {
