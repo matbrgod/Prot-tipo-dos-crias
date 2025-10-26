@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4511222451322488684}
   - component: {fileID: 701389237635052285}
   - component: {fileID: 6635151139883428472}
+  - component: {fileID: 2431122344531907617}
   m_Layer: 0
   m_Name: pedra atualizada_0
   m_TagString: Untagged
@@ -224,3 +225,19 @@ MonoBehaviour:
     - rid: 3931897992310161534
       type: {class: ShadowShape2DProvider_Collider2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data: 
+--- !u!114 &2431122344531907617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2535678562658328224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

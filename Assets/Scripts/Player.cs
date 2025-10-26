@@ -196,11 +196,11 @@ public class Player : MonoBehaviour
         if (spriteRenderer != null) spriteRenderer.color = Color.white;
     }
 
-    private IEnumerator EfeitoTiroCoroutine()
+    /*private IEnumerator EfeitoTiroCoroutine()
     {
         yield return new WaitForSeconds(0.2f);
         efeitoTiro.SetActive(false);
-    }
+    }*/
 
     private void OnDisable()
     {
