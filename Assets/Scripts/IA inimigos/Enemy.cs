@@ -52,6 +52,11 @@ public class Enemy : MonoBehaviour
             Patrulha();
         }
 
+        if (PatrolPoints == null || PatrolPoints.Length == 0)
+            {
+                detectado = true;
+            }
+
         if (detectado == true)
         {
             //Se o Player for detectado o inimigo começa a perseguir
