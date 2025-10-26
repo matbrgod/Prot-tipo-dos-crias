@@ -21,6 +21,8 @@ public class EnemyAtirador : MonoBehaviour
     public float fireForce = 20f;
     private bool detectado = false;
     private NavMeshAgent agent;
+    [SerializeField] private ParticleSystem sangue;
+    private ParticleSystem sangueParticleSystemInstance;
 
     void Start()
     {
@@ -105,9 +107,16 @@ public class EnemyAtirador : MonoBehaviour
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
     }
 
+    void SpawnParticlesSangue()
+    {
+        sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
+    }
+
     public void TakeDamage(/*float damage*/)
     {
+
         healthEnemy -= /*damage*/1;
+        SpawnParticlesSangue();
         if (healthEnemy <= 0)
         {
             Destroy(gameObject);
@@ -118,11 +127,7 @@ public class EnemyAtirador : MonoBehaviour
     {
         if (collision.collider.CompareTag("Bullet") | collision.collider.CompareTag("Bullet dos inimigos"))
         {
-            healthEnemy -= 1;// Assuming each bullet reduces health by 1
-            if (healthEnemy <= 0)
-            {
-                Destroy(gameObject);
-            }
+            TakeDamage();
         }
     }
     

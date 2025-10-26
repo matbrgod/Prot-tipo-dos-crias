@@ -343,10 +343,11 @@ MonoBehaviour:
   maxHealthEnemy: 3
   speed: 4
   player: {fileID: 0}
-  distanceBetween: 8
+  distanceBetween: 7
   bulletPrefab: {fileID: 4194906159117577996, guid: 067cbc35d42da8b46b28a82e9711baee, type: 3}
   firePoint: {fileID: 7328217463355751977}
   fireForce: 20
+  sangue: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
 --- !u!195 &101830273411870774
 NavMeshAgent:
   m_ObjectHideFlags: 0
