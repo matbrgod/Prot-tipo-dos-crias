@@ -8,7 +8,9 @@ public class spaceBar_trigger : MonoBehaviour
     {
         if (triggerCollider.gameObject.CompareTag("Player"))
         {
-            spaceBar.SetActive(!spaceBar.activeSelf);
+            if(spaceBar != null) 
+                spaceBar.SetActive(false);
+
             Object.Destroy(this.gameObject);
         }
     }
