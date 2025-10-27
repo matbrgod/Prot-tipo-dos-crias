@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 9bb3965711de55e4bb90548d600d23b2
+guid: b051434f3860c114481c0db7c93b3681
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5797398783512865666
-    second: Quina Biblioteca 32x32_0
-  - first:
-      213: -5711547478457292729
-    second: Quina Biblioteca 32x32_1
+      213: 7289880692522032306
+    second: tapete igreja 64x64_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,7 +97,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,57 +126,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Quina Biblioteca 32x32_0
+      name: tapete igreja 64x64_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e741f67b5808b8fa0800000000000000
-      internalID: -5797398783512865666
+      spriteID: 6a493f923217cf042a116ed2e8e92bc1
+      internalID: 727048769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Biblioteca 32x32_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74866c454d18cb0b0800000000000000
-      internalID: -5711547478457292729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Quina Biblioteca 32x32_2
+      name: tapete igreja 64x64_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,42 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc24990d9ee4f164ba68fea3b3f2f13f
-      internalID: -2091914903
+      spriteID: f090fa8dd33400440b040042e84def56
+      internalID: 1117539664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Biblioteca 32x32_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 579df6e7b2cf9c347a1e5732ffb782a7
-      internalID: -1875439154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Quina Biblioteca 32x32_4
+      name: tapete igreja 64x64_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,42 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da76d9409a5054f4f88109fcdd74ec81
-      internalID: -1396212610
+      spriteID: 171f8544f8c483d458a571f0d7e21315
+      internalID: 1920851390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Biblioteca 32x32_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7434a501b25eb8849a968c0a83cdf6cb
-      internalID: -1757422659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Quina Biblioteca 32x32_6
+      name: tapete igreja 64x64_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 316985106853d2e48bbfcdb7827ff1bc
-      internalID: -1252925207
+      spriteID: e2dc21ecaab94f54ebd29abfed34453a
+      internalID: 1496001300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quina Biblioteca 32x32_7
+      name: tapete igreja 64x64_4
       rect:
         serializedVersion: 2
-        x: 224
+        x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,8 +229,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fca73adcc30d674580b1a9b8d04c3a6
-      internalID: 1269758558
+      spriteID: b745ac9698a476348af1a2eebabcaf02
+      internalID: -294486603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tapete igreja 64x64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebdb650861ebdd45b10e6bc52ef0dc5
+      internalID: -2035372007
       vertices: []
       indices: 
       edges: []
@@ -295,7 +261,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 10ff2cab91ce72f46a17c7cd106fa215
+    spriteID: f1b32eb3201db194d954a56447d9f0ef
     internalID: 0
     vertices: []
     indices: 
@@ -305,14 +271,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Quina Biblioteca 32x32_0: -5797398783512865666
-      Quina Biblioteca 32x32_1: -5711547478457292729
-      Quina Biblioteca 32x32_2: -2091914903
-      Quina Biblioteca 32x32_3: -1875439154
-      Quina Biblioteca 32x32_4: -1396212610
-      Quina Biblioteca 32x32_5: -1757422659
-      Quina Biblioteca 32x32_6: -1252925207
-      Quina Biblioteca 32x32_7: 1269758558
+      tapete igreja 64x64_0: 727048769
+      tapete igreja 64x64_1: 1117539664
+      tapete igreja 64x64_2: 1920851390
+      tapete igreja 64x64_3: 1496001300
+      tapete igreja 64x64_4: -294486603
+      tapete igreja 64x64_5: -2035372007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

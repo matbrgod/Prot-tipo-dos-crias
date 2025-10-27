@@ -20,9 +20,15 @@ public class EnemyAtirador : MonoBehaviour
     public Transform firePoint;
     public float fireForce = 20f;
     private bool detectado = false;
+    private bool patrulhando = true;
+    private float espera = 0f;
+    public float tempoDeESpera = 2f;
+    private bool continuarPatrulha = true;
     private NavMeshAgent agent;
     [SerializeField] private ParticleSystem sangue;
     private ParticleSystem sangueParticleSystemInstance;
+    public Transform[] PatrolPoints;
+    private int currentPatrolIndex = 0;
 
     void Start()
     {
@@ -44,9 +50,22 @@ public class EnemyAtirador : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
-        
-        if(detectado == true)
+
+        if (detectado == false)
         {
+            //Se o Player não for detectado o inimigo patrulha
+            Patrulha();
+        }
+
+        if (PatrolPoints == null || PatrolPoints.Length == 0)
+        {
+            detectado = true;
+        }
+
+        if (detectado == true)
+        {
+            //Se o Player for detectado o inimigo começa a perseguir
+            patrulhando = false;
             Perseguicao();
         }
     }
@@ -58,6 +77,34 @@ public class EnemyAtirador : MonoBehaviour
             Vector2 aimDirection = (Vector2)playerPosition.position - rb.position;
             float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
             rb.rotation = aimAngle;
+        }
+    }
+
+    private void Patrulha()
+    {
+        if (patrulhando == true)
+        {
+            agent.speed = speed / 2;
+            if (PatrolPoints != null && PatrolPoints.Length > 0)
+            {
+                agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
+                if (!agent.pathPending && agent.remainingDistance < 2f)
+                {
+                    //Tempo de espera improvisado pq não dá pra usar WaitForSeconds em função e eu sou burro
+                    continuarPatrulha = false;
+                    espera += Time.deltaTime;
+                    if (espera >= tempoDeESpera)
+                    {
+                        continuarPatrulha = true;
+                        espera = 0f;
+                    }
+                    if (continuarPatrulha == true)
+                    {
+                        currentPatrolIndex = (currentPatrolIndex + 1) % PatrolPoints.Length;
+                        agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
+                    }
+                }
+            }
         }
     }
     public void Perseguicao()
@@ -103,7 +150,7 @@ public class EnemyAtirador : MonoBehaviour
 
     public void Disparar()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0,0,90));
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
     }
 
