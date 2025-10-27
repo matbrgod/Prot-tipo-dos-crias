@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: a3f35d2e49e9be447b93e4ff19b5dbd0
+guid: 235ca275965dd0d4a9084e22fc9e13ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1854301124726712394
-    second: Poltrona 48x48_0
+      213: 8851444968988105718
+    second: Livros Biblioteca 16x16_0
   - first:
-      213: 3238583057307366004
-    second: Poltrona 48x48_1
+      213: 5756020710059937607
+    second: Livros Biblioteca 16x16_1
+  - first:
+      213: -7504730783352397408
+    second: Livros Biblioteca 16x16_2
+  - first:
+      213: 6177675703585262831
+    second: Livros Biblioteca 16x16_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,7 +106,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Poltrona 48x48_0
+      name: Livros Biblioteca 16x16_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b79e0a93f23446e0800000000000000
-      internalID: -1854301124726712394
+      spriteID: 6fb54756d46a6da70800000000000000
+      internalID: 8851444968988105718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Poltrona 48x48_1
+      name: Livros Biblioteca 16x16_1
       rect:
         serializedVersion: 2
-        x: 52
+        x: 16
         y: 0
-        width: 37
-        height: 31
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +172,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4727762c122c1fc20800000000000000
-      internalID: 3238583057307366004
+      spriteID: 74f0aeec65e71ef40800000000000000
+      internalID: 5756020710059937607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livros Biblioteca 16x16_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a167534d17d9d790800000000000000
+      internalID: -7504730783352397408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livros Biblioteca 16x16_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecc2c952538bb550800000000000000
+      internalID: 6177675703585262831
       vertices: []
       indices: 
       edges: []
@@ -173,8 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Poltrona 48x48_0: -1854301124726712394
-      Poltrona 48x48_1: 3238583057307366004
+      Livros Biblioteca 16x16_0: 8851444968988105718
+      Livros Biblioteca 16x16_1: 5756020710059937607
+      Livros Biblioteca 16x16_2: -7504730783352397408
+      Livros Biblioteca 16x16_3: 6177675703585262831
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

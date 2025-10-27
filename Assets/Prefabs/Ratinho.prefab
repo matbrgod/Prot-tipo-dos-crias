@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1036273093148684099}
   - component: {fileID: 8172773653798837504}
   - component: {fileID: -1808618223401300644}
-  - component: {fileID: -8815643633525222793}
+  - component: {fileID: 3211417044571676133}
   m_Layer: 7
   m_Name: Ratinho
   m_TagString: Enemy
@@ -132,7 +132,7 @@ MonoBehaviour:
   speed: 4
   player: {fileID: 0}
   distanceBetween: 15
-  tempoDeESpera: 0
+  tempoDeESpera: 2
   PatrolPoints: []
 --- !u!61 &1036273093148684099
 BoxCollider2D:
@@ -269,7 +269,7 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
---- !u!195 &-8815643633525222793
+--- !u!195 &3211417044571676133
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
