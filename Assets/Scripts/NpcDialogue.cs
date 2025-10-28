@@ -17,6 +17,10 @@ public class NpcDialogue : MonoBehaviour
 
     public bool readyToSpeak;
     public bool startDialogue;
+    public GameObject hudArma;
+    public GameObject hudVida;
+    public GameObject armaPlayer;
+   
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -53,6 +57,7 @@ public class NpcDialogue : MonoBehaviour
             startDialogue = false;
             dialogueIndex = 0;
             FindObjectOfType<Player>().moveSpeed = 5f;
+            
         }
     }
 
@@ -63,6 +68,8 @@ public class NpcDialogue : MonoBehaviour
         startDialogue = true;
         dialogueIndex = 0;
         dialoguePanel.SetActive(true);
+        FindObjectOfType<Player>().moveSpeed = 0f;
+        
         StartCoroutine(ShowDialogue());
     }
     IEnumerator ShowDialogue()
@@ -80,6 +87,12 @@ public class NpcDialogue : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             readyToSpeak = true;
+            hudArma.SetActive(false);
+            armaPlayer.SetActive(false);
+            hudVida.SetActive(false);
+            var player = FindObjectOfType<Player>();
+            if (player != null) player.canAttack = false;
+                        
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -87,6 +100,11 @@ public class NpcDialogue : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             readyToSpeak = false;
+            hudArma.SetActive(true);
+            armaPlayer.SetActive(true);
+            hudVida.SetActive(true);
+            var player = FindObjectOfType<Player>();
+            if (player != null) player.canAttack = true;
         }
     }
 }

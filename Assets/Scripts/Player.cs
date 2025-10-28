@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
     
     public bool interact = false;
     public GameManager gameManager;
+    public bool canAttack = true;
 
     private float triggerTickTimer = 0f;
     public float triggerTickInterval = 1f;
@@ -86,12 +87,16 @@ public class Player : MonoBehaviour
         }
 
         timerTiro += Time.deltaTime;
-        if (Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
+        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
         {
             timerTiro = 0f;
             weapon.Fire();
-            
 
+
+        }
+        if (canAttack && Input.GetKeyDown(KeyCode.Space))
+        {
+            WeaponParent.Attack();            
         }
 
         if (reloadingUI != null)
@@ -100,11 +105,6 @@ public class Player : MonoBehaviour
         if(efeitoTiro != null)
             efeitoTiro.SetActive(timerTiro < 0.2f);
             
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            WeaponParent.Attack();            
-        }
         
         interact = Input.GetKeyDown(KeyCode.E);
 
