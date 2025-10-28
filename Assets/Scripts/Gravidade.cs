@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Gravidade : MonoBehaviour
@@ -14,7 +15,13 @@ public class Gravidade : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.G))
         {
-            
+            rb.gravityScale = 1;
+        }
+    }
+    void OnCollisionEnter2D(UnityEngine.Collision2D collision)
+    {
+        if(collision.collider.CompareTag("Enemy"))
+        {
             rb.gravityScale = 1;
         }
     }

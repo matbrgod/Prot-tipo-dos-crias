@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Poltrona 64x64_0: 1380679723936849250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
