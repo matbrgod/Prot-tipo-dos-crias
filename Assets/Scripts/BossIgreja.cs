@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 public class BossIgreja : MonoBehaviour
 {
-    public Camera Camera;
+    private Camera camera;
     public float healthEnemy;
     public float maxHealthEnemy = 3f;
     public float speed;
@@ -30,9 +30,13 @@ public class BossIgreja : MonoBehaviour
     private ParticleSystem sangueParticleSystemInstance;
     public Transform[] PatrolPoints;
     private int currentPatrolIndex = 0;
+    public GameObject bancoQBloqueiaSaida;
+    public planta planta;
+    public GameObject portaFuturo4;
 
     void Start()
     {
+        camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         healthEnemy = maxHealthEnemy;
         player = GameObject.FindWithTag("Player");
@@ -54,7 +58,7 @@ public class BossIgreja : MonoBehaviour
 
         if (detectado == false)
         {
-            //Se o Player não for detectado o inimigo patrulha
+            //Se o Player nï¿½o for detectado o inimigo patrulha
             Patrulha();
         }
 
@@ -65,9 +69,20 @@ public class BossIgreja : MonoBehaviour
 
         if (detectado == true)
         {
-            //Se o Player for detectado o Boss Começa a disparar
+            //Se o Player for detectado o Boss Comeï¿½a a disparar
+            camera.orthographicSize = 7f;
+            bancoQBloqueiaSaida.SetActive(true);
             Fight();
             Patrulha();
+        }
+
+        if (healthEnemy < 7)
+        {
+            planta.tempoEntreTiros = 1f;
+        }
+        if(healthEnemy < 1)
+        {
+            planta.tempoEntreTiros = 0.1f;
         }
     }
 
@@ -96,8 +111,10 @@ public class BossIgreja : MonoBehaviour
                 agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
                 if (!agent.pathPending && agent.remainingDistance < 2f)
                 {
-                    //Tempo de espera improvisado pq não dá pra usar WaitForSeconds em função e eu sou burro
-                    continuarPatrulha = false;
+                    currentPatrolIndex = (currentPatrolIndex + 1) % PatrolPoints.Length;
+                    agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
+                    //Tempo de espera improvisado pq nï¿½o dï¿½ pra usar WaitForSeconds em funï¿½ï¿½o e eu sou burro
+                    /*continuarPatrulha = false;
                     espera += Time.deltaTime;
                     if (espera >= tempoDeESpera)
                     {
@@ -108,7 +125,7 @@ public class BossIgreja : MonoBehaviour
                     {
                         currentPatrolIndex = (currentPatrolIndex + 1) % PatrolPoints.Length;
                         agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
-                    }
+                    }*/
                 }
             }
         }
@@ -144,6 +161,9 @@ public class BossIgreja : MonoBehaviour
         SpawnParticlesSangue();
         if (healthEnemy <= 0)
         {
+            camera.orthographicSize = 5f;
+            planta.tempoEntreTiros = 2f;
+            portaFuturo4.SetActive(true);
             Destroy(gameObject);
         }
     }

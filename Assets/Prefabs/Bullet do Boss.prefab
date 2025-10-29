@@ -428,7 +428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaDeImpacto: 2
   force: 3000
-  faiscas: {fileID: 6562167464934849033, guid: 9f8ea1818fd8e8a4691661f1a807f83a, type: 3}
+  faiscas: {fileID: 5967929361678684177, guid: a09c0e293d2c6d74eb74acf39d01d485, type: 3}
 --- !u!1001 &3043716995671729578
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -290,7 +290,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 10
+  m_Radius: 5
 --- !u!58 &5244574228244487922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -347,7 +347,9 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4194906159117577996, guid: 067cbc35d42da8b46b28a82e9711baee, type: 3}
   firePoint: {fileID: 7328217463355751977}
   fireForce: 20
+  tempoDeESpera: 2
   sangue: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
+  PatrolPoints: []
 --- !u!195 &101830273411870774
 NavMeshAgent:
   m_ObjectHideFlags: 0
