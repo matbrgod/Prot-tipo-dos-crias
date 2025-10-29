@@ -6,14 +6,14 @@ public class E : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D triggerCollider)
     {
-        if (triggerCollider.gameObject.CompareTag("Player") && !e.activeSelf)
+        if (triggerCollider.gameObject.CompareTag("Player"))
         {
             e.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D triggerCollider)
     {
-        if (triggerCollider.gameObject.CompareTag("Player") && e.activeSelf)
+        if (triggerCollider.gameObject.CompareTag("Player"))
         {
             e.SetActive(false);
         }
