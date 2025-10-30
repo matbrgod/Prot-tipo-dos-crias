@@ -412,7 +412,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &6497134198337712420
 MonoBehaviour:
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaDeImpacto: 2
-  force: 3000
+  force: 7000
   faiscas: {fileID: 5967929361678684177, guid: a09c0e293d2c6d74eb74acf39d01d485, type: 3}
 --- !u!1001 &3043716995671729578
 PrefabInstance:

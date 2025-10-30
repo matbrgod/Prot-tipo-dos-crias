@@ -23,16 +23,25 @@ public class BossIgreja : MonoBehaviour
     private bool detectado = false;
     private bool patrulhando = true;
     private float espera = 0f;
-    public float tempoDeESpera = 2f;
+    public float tempoDeEspera;
+    public float areaDeImpacto;
+    public float force;
     private bool continuarPatrulha = true;
     private NavMeshAgent agent;
     [SerializeField] private ParticleSystem sangue;
     private ParticleSystem sangueParticleSystemInstance;
+    [SerializeField] private ParticleSystem explosao;
+    private ParticleSystem explosaoParticleSystemInstance;
     public Transform[] PatrolPoints;
     private int currentPatrolIndex = 0;
     public GameObject bancoQBloqueiaSaida;
     public planta planta;
     public GameObject portaFuturo4;
+    public float ataqueEspecial;
+    public Transform pontoDeEXPLOSAO;
+    private bool kaBOOM = false;
+    public Transform explosaoExtra1;
+    public Transform explosaoExtra2;
 
     void Start()
     {
@@ -56,10 +65,9 @@ public class BossIgreja : MonoBehaviour
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
 
-        if (detectado == false)
+        //if (detectado == false)
         {
             //Se o Player n�o for detectado o inimigo patrulha
-            Patrulha();
         }
 
         if (PatrolPoints == null || PatrolPoints.Length == 0)
@@ -75,14 +83,49 @@ public class BossIgreja : MonoBehaviour
             Fight();
             Patrulha();
         }
-
-        if (healthEnemy < 7)
+        if (healthEnemy == maxHealthEnemy / 2 | healthEnemy == maxHealthEnemy / 4)
         {
-            planta.tempoEntreTiros = 1f;
+            patrulhando = false;
+            kaBOOM = true;
+            HomemBomba();
         }
-        if(healthEnemy < 1)
+        if (kaBOOM == false)
         {
-            planta.tempoEntreTiros = 0.1f;
+            if (healthEnemy <= 20 & healthEnemy >= 16)
+            {
+                planta.tempoEntreTiros = 3f;
+            }
+            if (healthEnemy <= 15 & healthEnemy >= 11)
+            {
+                planta.tempoEntreTiros = 2f;
+            }
+            if (healthEnemy <= 10 & healthEnemy >= 3)
+            {
+                planta.tempoEntreTiros = 1f;
+            }
+            if(healthEnemy <= 2)
+            {
+                ataqueEspecial += Time.deltaTime;
+                if (ataqueEspecial >0.5f & ataqueEspecial < 1.5f)
+                {
+                    planta.tempoEntreTiros = 0.1f;
+                }
+                if (ataqueEspecial >= 1.6f)
+                {
+                    planta.tempoEntreTiros = 1f;
+                }
+                if (ataqueEspecial >= 20f)
+                {
+                    ataqueEspecial = 0f;
+                }
+                espera += Time.deltaTime;
+                    if (espera >= tempoDeEspera)
+                    {
+                        ExplosaoExtra1();
+                        ExplosaoExtra2();
+                        espera = 0f;
+                    }
+            }
         }
     }
 
@@ -96,9 +139,34 @@ public class BossIgreja : MonoBehaviour
         }
     }
 
+    void HomemBomba()
+    {
+        if (kaBOOM == true)
+        {
+            patrulhando = false;
+            speed = 7f;
+            planta.tempoEntreTiros = 0.1f;
+            agent.SetDestination(pontoDeEXPLOSAO.position);
+            if (!agent.pathPending && agent.remainingDistance < 1f)
+            {
+                Explosao();
+                ExplosaoExtra1();
+                ExplosaoExtra2();
+                ExplosaoExtra1();
+                ExplosaoExtra2();
+                healthEnemy -= 1;
+                kaBOOM = false;
+                patrulhando = true;
+            }
+        }
+    }
+
     private void Fight()
     {
-        MirandoEAtirando();
+        if(kaBOOM == false)
+        {
+            MirandoEAtirando();
+        }
     }
 
     private void Patrulha()
@@ -153,6 +221,78 @@ public class BossIgreja : MonoBehaviour
     {
         sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
     }
+    void Explosao()
+    {
+        explosaoParticleSystemInstance = Instantiate(explosao, transform.position, Quaternion.identity);
+
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(transform.position, areaDeImpacto);
+        foreach (Collider2D colisor in objetos)
+        {
+            Rigidbody2D rb2D = colisor.GetComponent<Rigidbody2D>();
+            if (rb2D != null)
+            {
+                Vector2 direction = colisor.transform.position - transform.position;
+                direction.Normalize();
+                colisor.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                colisor.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
+                float distancia = 1 + direction.magnitude;
+                float forceFinal = force / distancia;
+                rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
+                if (colisor.CompareTag("Player"))
+                {
+                    rb2D.AddForce(direction * forceFinal);
+                }
+            }
+        }
+    }
+    void ExplosaoExtra1()
+    {
+        explosaoParticleSystemInstance = Instantiate(explosao, explosaoExtra1.transform.position, Quaternion.identity);
+
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(explosaoExtra1.transform.position, areaDeImpacto);
+        foreach (Collider2D colisor in objetos)
+        {
+            Rigidbody2D rb2D = colisor.GetComponent<Rigidbody2D>();
+            if (rb2D != null)
+            {
+                Vector2 direction = colisor.transform.position - explosaoExtra1.transform.position;
+                direction.Normalize();
+                colisor.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                colisor.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
+                float distancia = 1 + direction.magnitude;
+                float forceFinal = force / distancia;
+                rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
+                if (colisor.CompareTag("Player"))
+                {
+                    rb2D.AddForce(direction * forceFinal);
+                }
+            }
+        }
+    }
+    void ExplosaoExtra2()
+    {
+        explosaoParticleSystemInstance = Instantiate(explosao, explosaoExtra2.transform.position, Quaternion.identity);
+        
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(explosaoExtra2.transform.position, areaDeImpacto);
+        foreach (Collider2D colisor in objetos)
+        {
+            Rigidbody2D rb2D = colisor.GetComponent<Rigidbody2D>();
+            if (rb2D != null)
+            {
+                Vector2 direction = colisor.transform.position - explosaoExtra2.transform.position;
+                direction.Normalize();
+                colisor.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                colisor.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
+                float distancia = 1 + direction.magnitude;
+                float forceFinal = force / distancia;
+                rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
+                if (colisor.CompareTag("Player"))
+                {
+                    rb2D.AddForce(direction * forceFinal);
+                }
+            }
+        }
+    }
 
     public void TakeDamage(/*float damage*/)
     {
@@ -170,7 +310,7 @@ public class BossIgreja : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Bullet") | collision.collider.CompareTag("Bullet dos inimigos"))
+        if (collision.collider.CompareTag("Bullet"))
         {
             TakeDamage();
         }

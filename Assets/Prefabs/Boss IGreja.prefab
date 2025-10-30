@@ -223,7 +223,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &5080419300785641740
 CircleCollider2D:
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthEnemy: 0
-  maxHealthEnemy: 3
+  maxHealthEnemy: 10
   speed: 5
   player: {fileID: 0}
   distanceBetween: 7
@@ -318,7 +318,10 @@ MonoBehaviour:
   firePoint: {fileID: 9084256109541807298}
   fireForce: 20
   tempoDeESpera: 2
-  sangue: {fileID: 0}
+  areaDeImpacto: 10
+  force: 5000
+  sangue: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
+  explosao: {fileID: 8733133688918153228, guid: cc87d95a9e7f75a4f9d9a51b2768d189, type: 3}
   PatrolPoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -326,6 +329,14 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  bancoQBloqueiaSaida: {fileID: 0}
+  planta: {fileID: 2326583433745723132}
+  portaFuturo4: {fileID: 0}
+  ataqueEspecial: 0
+  pontoDeEXPLOSAO: {fileID: 0}
+  explosaoExtra1: {fileID: 0}
+  explosaoExtra2: {fileID: 0}
 --- !u!195 &685718948521062785
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -429,7 +440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1504039175670529510, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
       propertyPath: tempoEntreTiros
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1504039175670529510, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
       propertyPath: distanciaParaAtacar
@@ -439,6 +450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: planta 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8308197725167964053, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5505731596843123528, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
     - {fileID: 2806534529894606620, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
@@ -446,6 +461,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
+--- !u!114 &2326583433745723132 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1504039175670529510, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
+  m_PrefabInstance: {fileID: 3789432633946280730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb4b2279006b2647b2c9a758f7f68e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &3466163736570720839 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}

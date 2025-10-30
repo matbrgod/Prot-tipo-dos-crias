@@ -8,7 +8,6 @@ public class BulletBoss : MonoBehaviour
     private ParticleSystem faiscasParticleSystemInstance;
     void OnCollisionEnter2D(Collision2D collision)
     {
-        faiscasParticleSystemInstance = Instantiate(faiscas, transform.position, Quaternion.identity);
         Explosao();
         Destroy(gameObject);
 
@@ -16,8 +15,9 @@ public class BulletBoss : MonoBehaviour
 
     void Explosao()
     {
+        faiscasParticleSystemInstance = Instantiate(faiscas, transform.position, Quaternion.identity);
+        
         Collider2D[] objetos = Physics2D.OverlapCircleAll(transform.position, areaDeImpacto);
-
         foreach (Collider2D colisor in objetos)
         {
             Rigidbody2D rb2D = colisor.GetComponent<Rigidbody2D>();
