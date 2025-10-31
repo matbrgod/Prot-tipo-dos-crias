@@ -113,11 +113,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7773544926844473193}
+  - component: {fileID: 7642529979705694578}
   - component: {fileID: 358437771146985579}
   - component: {fileID: 1522319079113603433}
   - component: {fileID: 5080419300785641740}
   - component: {fileID: 4792762119452962825}
-  - component: {fileID: 7642529979705694578}
   - component: {fileID: 685718948521062785}
   m_Layer: 0
   m_Name: Boss IGreja
@@ -140,9 +140,54 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4959586273014712914}
-  - {fileID: 3466163736570720839}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7642529979705694578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4115998124615025551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da895c02b2ab4044e8d186094e2b8b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEnemy: 0
+  maxHealthEnemy: 20
+  speed: 5
+  player: {fileID: 0}
+  distanceBetween: 7
+  bulletPrefab: {fileID: 4194906159117577996, guid: 6a297f87bb809274d97d317eeb5562f7, type: 3}
+  firePoint: {fileID: 9084256109541807298}
+  fireForce: 20
+  tempoDeEspera: 20
+  areaDeImpacto: 60
+  force: 8000
+  sangue: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
+  explosao: {fileID: 8733133688918153228, guid: cc87d95a9e7f75a4f9d9a51b2768d189, type: 3}
+  explosaoPrefab: {fileID: 1709094163454032186, guid: b22f066e6119c5b46825549abd413282, type: 3}
+  localDeExplosao1: {fileID: 0}
+  localDeExplosao2: {fileID: 0}
+  localDeExplosao3: {fileID: 0}
+  localDeExplosao4: {fileID: 0}
+  PatrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bancoQBloqueiaSaida: {fileID: 0}
+  circuloDeDeteccao: {fileID: 5080419300785641740}
+  portaFuturo4: {fileID: 0}
+  ataqueEspecial: 0
+  pontoDeEXPLOSAO: {fileID: 0}
+  tempoEntreTiros: 2
+  projetilPrefab: {fileID: 1320350450539152995, guid: 2fe10c1f6e3ba4843b6fd47ce1fa18bd, type: 3}
+  pontoDeDisparoProjetil: {fileID: 0}
 --- !u!212 &358437771146985579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -297,46 +342,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &7642529979705694578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4115998124615025551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da895c02b2ab4044e8d186094e2b8b85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthEnemy: 0
-  maxHealthEnemy: 10
-  speed: 5
-  player: {fileID: 0}
-  distanceBetween: 7
-  bulletPrefab: {fileID: 4194906159117577996, guid: 6a297f87bb809274d97d317eeb5562f7, type: 3}
-  firePoint: {fileID: 9084256109541807298}
-  fireForce: 20
-  tempoDeESpera: 2
-  areaDeImpacto: 10
-  force: 5000
-  sangue: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
-  explosao: {fileID: 8733133688918153228, guid: cc87d95a9e7f75a4f9d9a51b2768d189, type: 3}
-  PatrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  bancoQBloqueiaSaida: {fileID: 0}
-  planta: {fileID: 2326583433745723132}
-  portaFuturo4: {fileID: 0}
-  ataqueEspecial: 0
-  pontoDeEXPLOSAO: {fileID: 0}
-  explosaoExtra1: {fileID: 0}
-  explosaoExtra2: {fileID: 0}
 --- !u!195 &685718948521062785
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -390,90 +395,3 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4959586273014712914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &3789432633946280730
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 7773544926844473193}
-    m_Modifications:
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504039175670529510, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: tempoEntreTiros
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504039175670529510, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: distanciaParaAtacar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2824952297856522052, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_Name
-      value: planta 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8308197725167964053, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5505731596843123528, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-    - {fileID: 2806534529894606620, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
---- !u!114 &2326583433745723132 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1504039175670529510, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-  m_PrefabInstance: {fileID: 3789432633946280730}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcb4b2279006b2647b2c9a758f7f68e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &3466163736570720839 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 327792363408154973, guid: eac824ff9eca8cc4fbb5eea2c9f5a0b0, type: 3}
-  m_PrefabInstance: {fileID: 3789432633946280730}
-  m_PrefabAsset: {fileID: 0}

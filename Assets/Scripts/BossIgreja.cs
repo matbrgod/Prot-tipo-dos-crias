@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
-
+using Random = System.Random;
 public class BossIgreja : MonoBehaviour
 {
     private Camera camera;
@@ -30,18 +30,30 @@ public class BossIgreja : MonoBehaviour
     private NavMeshAgent agent;
     [SerializeField] private ParticleSystem sangue;
     private ParticleSystem sangueParticleSystemInstance;
+
+    //Sistema de Explosão
     [SerializeField] private ParticleSystem explosao;
     private ParticleSystem explosaoParticleSystemInstance;
+    [SerializeField] private GameObject explosaoPrefab;
+    public Transform localDeExplosao1;
+    public Transform localDeExplosao2;
+    public Transform localDeExplosao3;
+    public Transform localDeExplosao4;
     public Transform[] PatrolPoints;
     private int currentPatrolIndex = 0;
     public GameObject bancoQBloqueiaSaida;
-    public planta planta;
+    public Collider2D circuloDeDeteccao;
     public GameObject portaFuturo4;
     public float ataqueEspecial;
     public Transform pontoDeEXPLOSAO;
     private bool kaBOOM = false;
-    public Transform explosaoExtra1;
-    public Transform explosaoExtra2;
+    
+
+    // Projeteis da Planta
+    private float tempoUltimoTiro;
+    public float tempoEntreTiros = 2f;
+    public GameObject projetilPrefab;
+    public Transform pontoDeDisparoProjetil;
 
     void Start()
     {
@@ -82,6 +94,7 @@ public class BossIgreja : MonoBehaviour
             bancoQBloqueiaSaida.SetActive(true);
             Fight();
             Patrulha();
+            Atacar();
         }
         if (healthEnemy == maxHealthEnemy / 2 | healthEnemy == maxHealthEnemy / 4)
         {
@@ -91,38 +104,61 @@ public class BossIgreja : MonoBehaviour
         }
         if (kaBOOM == false)
         {
+            espera += Time.deltaTime;
             if (healthEnemy <= 20 & healthEnemy >= 16)
             {
-                planta.tempoEntreTiros = 3f;
+                tempoEntreTiros = 3f;
+                if (espera >= tempoDeEspera + 30)
+                {
+                    Explosao(localDeExplosao1);
+                    Explosao(localDeExplosao2);
+                    espera = 0f;
+                }
             }
             if (healthEnemy <= 15 & healthEnemy >= 11)
             {
-                planta.tempoEntreTiros = 2f;
+                tempoEntreTiros = 2f;
+                if (espera >= tempoDeEspera + 20)
+                {
+                    Explosao(localDeExplosao1);
+                    Explosao(localDeExplosao2);
+                    espera = 0f;
+                }
             }
             if (healthEnemy <= 10 & healthEnemy >= 3)
             {
-                planta.tempoEntreTiros = 1f;
+                tempoEntreTiros = 1f;
+                espera += Time.deltaTime;
+                if (espera >= tempoDeEspera + 10)
+                {
+                    Explosao(localDeExplosao1);
+                    Explosao(localDeExplosao2);
+                    Explosao(localDeExplosao1);
+                    Explosao(localDeExplosao2);
+                    espera = 0f;
+                }
             }
             if(healthEnemy <= 2)
             {
                 ataqueEspecial += Time.deltaTime;
                 if (ataqueEspecial >0.5f & ataqueEspecial < 1.5f)
                 {
-                    planta.tempoEntreTiros = 0.1f;
+                    tempoEntreTiros = 0.1f;
                 }
                 if (ataqueEspecial >= 1.6f)
                 {
-                    planta.tempoEntreTiros = 1f;
+                    tempoEntreTiros = 1f;
                 }
                 if (ataqueEspecial >= 20f)
                 {
                     ataqueEspecial = 0f;
                 }
-                espera += Time.deltaTime;
                     if (espera >= tempoDeEspera)
                     {
-                        ExplosaoExtra1();
-                        ExplosaoExtra2();
+                        Explosao(localDeExplosao1);
+                        Explosao(localDeExplosao2);
+                        Explosao(localDeExplosao1);
+                        Explosao(localDeExplosao2);
                         espera = 0f;
                     }
             }
@@ -145,19 +181,28 @@ public class BossIgreja : MonoBehaviour
         {
             patrulhando = false;
             speed = 7f;
-            planta.tempoEntreTiros = 0.1f;
+            tempoEntreTiros = 0.1f;
             agent.SetDestination(pontoDeEXPLOSAO.position);
             if (!agent.pathPending && agent.remainingDistance < 1f)
             {
-                Explosao();
-                ExplosaoExtra1();
-                ExplosaoExtra2();
-                ExplosaoExtra1();
-                ExplosaoExtra2();
+                Explosao(transform);
+                Explosao(localDeExplosao1);
+                Explosao(localDeExplosao2);
+                Explosao(localDeExplosao1);
+                Explosao(localDeExplosao2);
                 healthEnemy -= 1;
                 kaBOOM = false;
                 patrulhando = true;
             }
+        }
+    }
+
+    void Atacar()
+    {
+        if (Time.time - tempoUltimoTiro >= tempoEntreTiros)
+        {
+            Instantiate(projetilPrefab, transform.position, Quaternion.identity);
+            tempoUltimoTiro = Time.time;
         }
     }
 
@@ -177,10 +222,12 @@ public class BossIgreja : MonoBehaviour
             if (PatrolPoints != null && PatrolPoints.Length > 0)
             {
                 agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
-                if (!agent.pathPending && agent.remainingDistance < 2f)
+                if (!agent.pathPending && agent.remainingDistance < 0.1f)
                 {
-                    currentPatrolIndex = (currentPatrolIndex + 1) % PatrolPoints.Length;
-                    agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
+                    //currentPatrolIndex = (currentPatrolIndex + 1) % PatrolPoints.Length;
+                    Random random = new Random();
+                    int randomPointPatrulha = random.Next(PatrolPoints.Length);
+                    currentPatrolIndex = randomPointPatrulha;
                     //Tempo de espera improvisado pq n�o d� pra usar WaitForSeconds em fun��o e eu sou burro
                     /*continuarPatrulha = false;
                     espera += Time.deltaTime;
@@ -221,65 +268,26 @@ public class BossIgreja : MonoBehaviour
     {
         sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
     }
-    void Explosao()
+    void Explosao(Transform local)
     {
-        explosaoParticleSystemInstance = Instantiate(explosao, transform.position, Quaternion.identity);
+        //explosaoParticleSystemInstance = Instantiate(explosao, transform.position, Quaternion.identity);
+        /*if (local == null)
+        {
+            Instantiate(explosaoPrefab, transform.position, Quaternion.identity);
+        }
+        if (local != null)
+        {
+            Instantiate(explosaoPrefab, local.transform.position, Quaternion.identity);
+        }*/
+        Instantiate(explosaoPrefab, local.transform.position, Quaternion.identity);
 
-        Collider2D[] objetos = Physics2D.OverlapCircleAll(transform.position, areaDeImpacto);
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(local.transform.position, areaDeImpacto);
         foreach (Collider2D colisor in objetos)
         {
             Rigidbody2D rb2D = colisor.GetComponent<Rigidbody2D>();
             if (rb2D != null)
             {
                 Vector2 direction = colisor.transform.position - transform.position;
-                direction.Normalize();
-                colisor.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-                colisor.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
-                float distancia = 1 + direction.magnitude;
-                float forceFinal = force / distancia;
-                rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
-                if (colisor.CompareTag("Player"))
-                {
-                    rb2D.AddForce(direction * forceFinal);
-                }
-            }
-        }
-    }
-    void ExplosaoExtra1()
-    {
-        explosaoParticleSystemInstance = Instantiate(explosao, explosaoExtra1.transform.position, Quaternion.identity);
-
-        Collider2D[] objetos = Physics2D.OverlapCircleAll(explosaoExtra1.transform.position, areaDeImpacto);
-        foreach (Collider2D colisor in objetos)
-        {
-            Rigidbody2D rb2D = colisor.GetComponent<Rigidbody2D>();
-            if (rb2D != null)
-            {
-                Vector2 direction = colisor.transform.position - explosaoExtra1.transform.position;
-                direction.Normalize();
-                colisor.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-                colisor.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
-                float distancia = 1 + direction.magnitude;
-                float forceFinal = force / distancia;
-                rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
-                if (colisor.CompareTag("Player"))
-                {
-                    rb2D.AddForce(direction * forceFinal);
-                }
-            }
-        }
-    }
-    void ExplosaoExtra2()
-    {
-        explosaoParticleSystemInstance = Instantiate(explosao, explosaoExtra2.transform.position, Quaternion.identity);
-        
-        Collider2D[] objetos = Physics2D.OverlapCircleAll(explosaoExtra2.transform.position, areaDeImpacto);
-        foreach (Collider2D colisor in objetos)
-        {
-            Rigidbody2D rb2D = colisor.GetComponent<Rigidbody2D>();
-            if (rb2D != null)
-            {
-                Vector2 direction = colisor.transform.position - explosaoExtra2.transform.position;
                 direction.Normalize();
                 colisor.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
                 colisor.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
@@ -302,7 +310,6 @@ public class BossIgreja : MonoBehaviour
         if (healthEnemy <= 0)
         {
             camera.orthographicSize = 5f;
-            planta.tempoEntreTiros = 2f;
             portaFuturo4.SetActive(true);
             Destroy(gameObject);
         }
@@ -321,6 +328,7 @@ public class BossIgreja : MonoBehaviour
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
             detectado = true;
+            circuloDeDeteccao.enabled = false;
         }
     }
 }
