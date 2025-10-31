@@ -4,8 +4,7 @@ public class BulletBoss : MonoBehaviour
 {
     public float areaDeImpacto;
     public float force;
-    [SerializeField] private ParticleSystem faiscas;
-    private ParticleSystem faiscasParticleSystemInstance;
+    [SerializeField] private GameObject explosaoPrefab;
     void OnCollisionEnter2D(Collision2D collision)
     {
         Explosao();
@@ -15,7 +14,7 @@ public class BulletBoss : MonoBehaviour
 
     void Explosao()
     {
-        faiscasParticleSystemInstance = Instantiate(faiscas, transform.position, Quaternion.identity);
+        Instantiate(explosaoPrefab, transform.position, Quaternion.identity);
         
         Collider2D[] objetos = Physics2D.OverlapCircleAll(transform.position, areaDeImpacto);
         foreach (Collider2D colisor in objetos)

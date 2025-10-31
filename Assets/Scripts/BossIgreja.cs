@@ -133,8 +133,8 @@ public class BossIgreja : MonoBehaviour
                 {
                     Explosao(localDeExplosao1);
                     Explosao(localDeExplosao2);
-                    Explosao(localDeExplosao1);
-                    Explosao(localDeExplosao2);
+                    //Explosao(localDeExplosao1);
+                    //Explosao(localDeExplosao2);
                     espera = 0f;
                 }
             }
@@ -157,8 +157,8 @@ public class BossIgreja : MonoBehaviour
                     {
                         Explosao(localDeExplosao1);
                         Explosao(localDeExplosao2);
-                        Explosao(localDeExplosao1);
-                        Explosao(localDeExplosao2);
+                        //Explosao(localDeExplosao1);
+                        //Explosao(localDeExplosao2);
                         espera = 0f;
                     }
             }
@@ -222,7 +222,7 @@ public class BossIgreja : MonoBehaviour
             if (PatrolPoints != null && PatrolPoints.Length > 0)
             {
                 agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
-                if (!agent.pathPending && agent.remainingDistance < 0.1f)
+                if (!agent.pathPending && agent.remainingDistance < 1f)
                 {
                     //currentPatrolIndex = (currentPatrolIndex + 1) % PatrolPoints.Length;
                     Random random = new Random();

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7915392008646015898}
   - component: {fileID: 3833205123237917418}
   m_Layer: 0
-  m_Name: Explosao
+  m_Name: ExplosaoEnorme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5018672524166354842, guid: cc87d95a9e7f75a4f9d9a51b2768d189, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5018672524166354842, guid: cc87d95a9e7f75a4f9d9a51b2768d189, type: 3}
       propertyPath: m_LocalScale.y
