@@ -20,13 +20,13 @@ public class LanternaHava : MonoBehaviour
         {
             lanterna.SetActive(!lanterna.activeSelf);
         }
-        if (lanternaFalhando == true)
+        /*if (lanternaFalhando == true)
         {
             LanternaFalhando();
-        }
+        }*/
     }
 
-    public void LanternaFalhando()
+    /*public void LanternaFalhando()
     {
         if (aumentando == true)
         {
@@ -44,5 +44,5 @@ public class LanternaHava : MonoBehaviour
                     aumentando = true;
                 }
         }
-    }
+    }*/
 }

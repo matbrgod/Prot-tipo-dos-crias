@@ -271,9 +271,9 @@ GameObject:
   - component: {fileID: 8107984985916517680}
   - component: {fileID: 6824262236675331612}
   - component: {fileID: 6715247313659451361}
-  - component: {fileID: 4288146977422025336}
+  - component: {fileID: 6497134198337712420}
   m_Layer: 7
-  m_Name: Bullet dos inimigos
+  m_Name: Bullet do Boss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -341,7 +341,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: -7500920966318902416, guid: c028d2602e5c9da40b4b592ac8d4c793, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.5244589, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -414,7 +414,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &4288146977422025336
+--- !u!114 &6497134198337712420
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -423,10 +423,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4194906159117577996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1336bb13425aea24d972b19a79629d89, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ea63a3af95ca464c9fbdfff6117f3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  faiscas: {fileID: 8959719092898216641, guid: 747ebea491ff9a04d92ff36db86fe59f, type: 3}
+  areaDeImpacto: 2
+  force: 7000
+  explosaoPrefab: {fileID: 7964705153263640207, guid: a09c0e293d2c6d74eb74acf39d01d485, type: 3}
 --- !u!1001 &3043716995671729578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -485,15 +487,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.35442543
       objectReference: {fileID: 0}
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_Intensity
