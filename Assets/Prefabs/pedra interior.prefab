@@ -13,6 +13,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 614707973455103433, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
+      propertyPath: m_ShadowsEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 614707973455103433, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -23,6 +27,10 @@ PrefabInstance:
     - target: {fileID: 1803131925041254079, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803131925041254079, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
+      propertyPath: m_ShadowsEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1803131925041254079, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
@@ -38,7 +46,7 @@ PrefabInstance:
       objectReference: {fileID: 6879537987087853268}
     - target: {fileID: 3118324176209747599, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ShadowMesh.m_LocalBounds.m_Center.x
-      value: -0.23197174
+      value: 0.011245728
       objectReference: {fileID: 0}
     - target: {fileID: 3118324176209747599, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ShadowMesh.m_LocalBounds.m_Center.y
@@ -46,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3118324176209747599, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ShadowMesh.m_LocalBounds.m_Extent.x
-      value: 0.7126236
+      value: 0.95584106
       objectReference: {fileID: 0}
     - target: {fileID: 3118324176209747599, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ShadowMesh.m_LocalBounds.m_Extent.y
@@ -55,6 +63,10 @@ PrefabInstance:
     - target: {fileID: 4281293620163736257, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281293620163736257, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
+      propertyPath: m_ShadowsEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4281293620163736257, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
@@ -71,6 +83,10 @@ PrefabInstance:
     - target: {fileID: 6810145505892022197, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810145505892022197, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
+      propertyPath: m_ShadowsEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6810145505892022197, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
@@ -125,6 +141,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7736491502814699502, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
+      propertyPath: m_ShadowsEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7736491502814699502, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -135,6 +155,10 @@ PrefabInstance:
     - target: {fileID: 8122743387706504813, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122743387706504813, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
+      propertyPath: m_ShadowsEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8122743387706504813, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
