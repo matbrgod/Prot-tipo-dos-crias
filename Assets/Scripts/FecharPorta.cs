@@ -7,6 +7,7 @@ public class FecharPorta : MonoBehaviour
     //public AudioClip closeClip;      // assign the sound in the Inspector
     //public AudioSource audioSource;  // optional: assign an AudioSource (not required)
     public AudioSource musicaRatao;
+    public AudioSource musicaAmbiente;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter2D(Collider2D objectThatEntered)
@@ -17,6 +18,7 @@ public class FecharPorta : MonoBehaviour
             ratao.SetActive(true);
 
             musicaRatao.Play();
+            musicaAmbiente.Stop();
             
             Object.Destroy(this.gameObject);
         }

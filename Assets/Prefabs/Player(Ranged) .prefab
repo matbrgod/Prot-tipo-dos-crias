@@ -963,8 +963,8 @@ MonoBehaviour:
   firePoint: {fileID: 2848873430796637949}
   fireForce: 20
   fireSound: {fileID: 2496868312559008144}
-  firePitchMin: 0.95
-  firePitchMax: 1.05
+  firePitchMin: 0.7
+  firePitchMax: 1.3
 --- !u!82 &2496868312559008144
 AudioSource:
   m_ObjectHideFlags: 0
@@ -978,7 +978,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 2fbc81a94e842254982b612d44460d09, type: 3}
   m_Resource: {fileID: 8300000, guid: 2fbc81a94e842254982b612d44460d09, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.337
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0

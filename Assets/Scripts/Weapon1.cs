@@ -8,8 +8,8 @@ public class Weapon : MonoBehaviour
     public AudioSource fireSound;
 
     // new: adjustable pitch range
-    [Range(0.5f, 2f)] public float firePitchMin = 0.95f;
-    [Range(0.5f, 2f)] public float firePitchMax = 1.05f;
+    [Range(0.5f, 2f)] public float firePitchMin;
+    [Range(0.5f, 2f)] public float firePitchMax;
 
     public void Start()
     {

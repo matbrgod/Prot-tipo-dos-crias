@@ -8,6 +8,9 @@ public class EnemyAtirador : MonoBehaviour
     public float speed;
     public GameObject player;
     public float distanceBetween;
+    public AudioSource tiro;
+    [Range(0.5f, 2f)] public float firePitchMin = 0.7f;
+    [Range(0.5f, 2f)] public float firePitchMax = 1.3f;
 
     private float distance;
     private Rigidbody2D rb;
@@ -43,7 +46,6 @@ public class EnemyAtirador : MonoBehaviour
     }
     void Update()
     {
-
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
@@ -150,6 +152,11 @@ public class EnemyAtirador : MonoBehaviour
 
     public void Disparar()
     {
+        if (tiro != null)
+        {
+            tiro.pitch = Random.Range(firePitchMin, firePitchMax);
+            tiro.Play();
+        }
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0,0,90));
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
     }

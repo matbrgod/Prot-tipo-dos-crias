@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     public float healthEnemy;
-    public float maxHealthEnemy = 3f;
+    public float maxHealthEnemy;
     public float speed;
     public GameObject player;
     public float distanceBetween;
