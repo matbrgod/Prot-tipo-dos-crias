@@ -14,13 +14,8 @@ GameObject:
   - component: {fileID: -8162440909723725289}
   - component: {fileID: 2712642356981157800}
   m_Layer: 0
-<<<<<<<< HEAD:Assets/Prefabs/Minerio passado.prefab
   m_Name: Minerio passado
   m_TagString: Untagged
-========
-  m_Name: Pedra2
-  m_TagString: Item
->>>>>>>> renan-3:Assets/Prefabs/Pedra2.prefab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

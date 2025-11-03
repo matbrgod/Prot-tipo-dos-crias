@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
@@ -19,7 +20,7 @@ public class Quest : ScriptableObject
         }
     }
 }
-[Serializable]
+[System.Serializable]
 public class QuestObjective
 {
     public string objectiveID;
@@ -33,8 +34,8 @@ public class QuestObjective
 
 public enum ObjectiveType { CollectItem, DefeatEnemy, ReachLocation, TalkNPC, Custom }
 
-[Serializable]
-public class QuestProgress //classe que acompanha o progresso da quest a qual ele pertence
+[System.Serializable]
+public class QuestProgress
 {
     public Quest quest;
     public List<QuestObjective> objectives;
@@ -60,10 +61,4 @@ public class QuestProgress //classe que acompanha o progresso da quest a qual el
     public bool IsCompleted => objectives.TrueForAll(o => o.IsCompleted);
 
     public string QuestID => quest.questID;
-
-    /*
-     objectiveID = 0 -> madeira
-     objectiveID = 1 -> pedra
-     objectiveID = 2 -> suco de maca
-     */
 }
