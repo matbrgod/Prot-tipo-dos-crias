@@ -47,6 +47,7 @@ public class BossIgreja : MonoBehaviour
     public float ataqueEspecial;
     public Transform pontoDeEXPLOSAO;
     private bool kaBOOM = false;
+    public GameObject musica;
     
 
     // Projeteis da Planta
@@ -311,6 +312,7 @@ public class BossIgreja : MonoBehaviour
         {
             camera.orthographicSize = 5f;
             portaFuturo4.SetActive(true);
+            musica.SetActive(false);
             Destroy(gameObject);
         }
     }
@@ -328,6 +330,7 @@ public class BossIgreja : MonoBehaviour
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
             detectado = true;
+            musica.SetActive(true);
             circuloDeDeteccao.enabled = false;
         }
     }
