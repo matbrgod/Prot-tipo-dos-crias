@@ -179,10 +179,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffects:
-  - groupID: Botao
+  - groupID: BotaoSelecionado
     clips:
     - {fileID: 8300000, guid: d18283bf23d8f5349adfbd2e66715b0f, type: 3}
     - {fileID: 8300000, guid: df68c88c3571e584fb34717f38aa1abf, type: 3}
+  - groupID: BotaoClicado
+    clips:
     - {fileID: 8300000, guid: 969ffaa5898e2d94b80b19648d27d268, type: 3}
   - groupID: Alarmes
     clips:

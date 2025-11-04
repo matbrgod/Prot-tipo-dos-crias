@@ -5370,8 +5370,12 @@ PrefabInstance:
       value: PlaySound2D
       objectReference: {fileID: 0}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: BotaoSelecionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Botao
+      value: BotaoClicado
       objectReference: {fileID: 0}
     - target: {fileID: 4133944692417777988, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5418,6 +5422,18 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -5447,11 +5463,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -709
+      value: -676.9
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -69
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5464,6 +5480,10 @@ PrefabInstance:
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7699613549281619329, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Transition
@@ -5535,8 +5555,12 @@ PrefabInstance:
       value: PlaySound2D
       objectReference: {fileID: 0}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: BotaoSelecionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Botao
+      value: BotaoClicado
       objectReference: {fileID: 0}
     - target: {fileID: 4133944692417777988, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5583,6 +5607,18 @@ PrefabInstance:
       value: 40.625
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -5612,11 +5648,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -752
+      value: -739.8
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -216
+      value: -450
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5629,6 +5665,10 @@ PrefabInstance:
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7699613549281619329, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Transition
@@ -6131,8 +6171,12 @@ PrefabInstance:
       value: PlaySound2D
       objectReference: {fileID: 0}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: BotaoSelecionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Botao
+      value: BotaoClicado
       objectReference: {fileID: 0}
     - target: {fileID: 4133944692417777988, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6179,6 +6223,18 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -6208,11 +6264,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -713
+      value: -681.8
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -142
+      value: -300
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6225,6 +6281,10 @@ PrefabInstance:
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7699613549281619329, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Transition
@@ -6647,11 +6707,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Botao
+      value: BotaoSelecionado
       objectReference: {fileID: 0}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Botao
+      value: BotaoClicado
       objectReference: {fileID: 0}
     - target: {fileID: 4362794954533874090, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Name
@@ -6690,6 +6750,18 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -6723,7 +6795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6736,6 +6808,10 @@ PrefabInstance:
     - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803331412114057153, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7699613549281619329, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Enabled
