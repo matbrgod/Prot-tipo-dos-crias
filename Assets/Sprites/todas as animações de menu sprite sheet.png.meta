@@ -1,0 +1,2662 @@
+fileFormatVersion: 2
+guid: 2fa99cac34b667843811ab5c72f3a2fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4569932953195181080
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_0"
+  - first:
+      213: -7491572260416257916
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_1"
+  - first:
+      213: -3190400354940698339
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_2"
+  - first:
+      213: 529683733172217891
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_3"
+  - first:
+      213: 2043890556463500791
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_4"
+  - first:
+      213: 8035292241963129028
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_5"
+  - first:
+      213: 3008173176242687830
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_6"
+  - first:
+      213: 2181791300751891134
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_7"
+  - first:
+      213: -303591714885067694
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_8"
+  - first:
+      213: -3388417590454875549
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_9"
+  - first:
+      213: -8773095615067515375
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_10"
+  - first:
+      213: 8401003463850507559
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_11"
+  - first:
+      213: 911155399700153104
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_12"
+  - first:
+      213: -5295485273511168765
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_13"
+  - first:
+      213: 1637020875620119411
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_14"
+  - first:
+      213: 6988443913838846155
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_15"
+  - first:
+      213: -1901292484409565940
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_16"
+  - first:
+      213: 7751535062862959897
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_17"
+  - first:
+      213: 3000556257080108279
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_18"
+  - first:
+      213: 3897302102211481037
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_19"
+  - first:
+      213: -1563793020652704389
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_20"
+  - first:
+      213: -4608502356237670889
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_21"
+  - first:
+      213: 6893175935730130138
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_22"
+  - first:
+      213: 5348106886305275448
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_23"
+  - first:
+      213: -6550310168754035494
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_24"
+  - first:
+      213: -2525766172173090729
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_25"
+  - first:
+      213: -3981364102233082663
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_26"
+  - first:
+      213: 8756194583845431470
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_27"
+  - first:
+      213: 7733691628610886771
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_28"
+  - first:
+      213: 1746484151854261697
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_29"
+  - first:
+      213: -423973092448862000
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_30"
+  - first:
+      213: -6596905487075193733
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_31"
+  - first:
+      213: -176452012711735753
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_32"
+  - first:
+      213: 4634119331968541274
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_33"
+  - first:
+      213: 1716668936084851511
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_34"
+  - first:
+      213: 6940376779146399738
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_35"
+  - first:
+      213: 2060275360583996537
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_36"
+  - first:
+      213: -3819530850066142572
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_37"
+  - first:
+      213: -5780109585984895501
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_38"
+  - first:
+      213: -1733544161931686372
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_39"
+  - first:
+      213: 3675961822018281960
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_40"
+  - first:
+      213: -4218886569295424145
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_41"
+  - first:
+      213: -5090979992155660136
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_42"
+  - first:
+      213: 702358176962594360
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_43"
+  - first:
+      213: 1034686979453189383
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_44"
+  - first:
+      213: -86140958908984377
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_45"
+  - first:
+      213: -1847561919570923433
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_46"
+  - first:
+      213: -1637626205827606751
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_47"
+  - first:
+      213: -2926789227172031397
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_48"
+  - first:
+      213: -8055282012476327211
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_49"
+  - first:
+      213: -7651321115649681821
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_50"
+  - first:
+      213: 913621153351330938
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_51"
+  - first:
+      213: 3616895309726995120
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_52"
+  - first:
+      213: 7987918899526528738
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_53"
+  - first:
+      213: 7096236908938499671
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_54"
+  - first:
+      213: 481038806209050771
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_55"
+  - first:
+      213: 2449671244970836679
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_56"
+  - first:
+      213: -1075993643292768342
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_57"
+  - first:
+      213: 9096418397429790220
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_58"
+  - first:
+      213: -2103416868162744811
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_59"
+  - first:
+      213: -6838897895264126229
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_60"
+  - first:
+      213: -5648604841319424115
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_61"
+  - first:
+      213: -6264084992093326177
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_62"
+  - first:
+      213: -6173505913310912076
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_63"
+  - first:
+      213: 2248098245665013303
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_64"
+  - first:
+      213: 2050301758983994336
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_65"
+  - first:
+      213: 8161771838685145097
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_66"
+  - first:
+      213: 365827943197649869
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_67"
+  - first:
+      213: -1253088612140822575
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_68"
+  - first:
+      213: -5548756426243204528
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_69"
+  - first:
+      213: -2382510812801411760
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_70"
+  - first:
+      213: 7460750751185846689
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_71"
+  - first:
+      213: 6164929232725876785
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_72"
+  - first:
+      213: -6317240808028620154
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_73"
+  - first:
+      213: -3074717543052669732
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_74"
+  - first:
+      213: -1887242807587996576
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_75"
+  - first:
+      213: 6472752103847904411
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_76"
+  - first:
+      213: -5770995944341837730
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_77"
+  - first:
+      213: 8697737389543483652
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_78"
+  - first:
+      213: 1823531162897391296
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_79"
+  - first:
+      213: -809165560441358170
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_80"
+  - first:
+      213: -3783147922528089216
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_81"
+  - first:
+      213: -5538049189015898210
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_82"
+  - first:
+      213: -7636640938697772705
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_83"
+  - first:
+      213: 5892158950148551067
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_84"
+  - first:
+      213: -3033179903376291889
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_85"
+  - first:
+      213: 7089747400765022827
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_86"
+  - first:
+      213: -8049125306674327058
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_87"
+  - first:
+      213: -388075158408529539
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_88"
+  - first:
+      213: -3591442013166696530
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_89"
+  - first:
+      213: 7400488789683817581
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_90"
+  - first:
+      213: -3335205659766464771
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_91"
+  - first:
+      213: -4191169517958698047
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_92"
+  - first:
+      213: -7410632170349882487
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_93"
+  - first:
+      213: -8861621090634362473
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_94"
+  - first:
+      213: 955299620188903002
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_95"
+  - first:
+      213: -3171050468882595253
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_96"
+  - first:
+      213: -4936637036010316712
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_97"
+  - first:
+      213: 6735593334943576851
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_98"
+  - first:
+      213: -1955684790230465320
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_99"
+  - first:
+      213: 1165477516876179159
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_100"
+  - first:
+      213: -7815202747378941065
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_101"
+  - first:
+      213: 1188924982813818972
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_102"
+  - first:
+      213: 2556476508277861850
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_103"
+  - first:
+      213: 2050637494451181303
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_104"
+  - first:
+      213: 8441286664683439485
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_105"
+  - first:
+      213: 7019108133685509958
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_106"
+  - first:
+      213: 3090842371316231563
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_107"
+  - first:
+      213: 7156535241037521357
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_108"
+  - first:
+      213: 4473546706407330776
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_109"
+  - first:
+      213: 3997140068749373183
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_110"
+  - first:
+      213: -4626173902500257118
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_111"
+  - first:
+      213: 7230359677402877743
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_112"
+  - first:
+      213: 5403853573290623551
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_113"
+  - first:
+      213: 9161502901594134452
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_114"
+  - first:
+      213: -2705571836761630952
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_115"
+  - first:
+      213: 2803590835911309336
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_116"
+  - first:
+      213: -5861875482212399401
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_117"
+  - first:
+      213: 6975173339168733828
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_118"
+  - first:
+      213: -4506036892109150120
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_119"
+  - first:
+      213: -6894911250877341386
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_120"
+  - first:
+      213: 1307900110014685929
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_121"
+  - first:
+      213: 114479936490047101
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_122"
+  - first:
+      213: -3485739153499681833
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_123"
+  - first:
+      213: -7398465663962889283
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_124"
+  - first:
+      213: -1021227146766098865
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_125"
+  - first:
+      213: 8923297956921615997
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_126"
+  - first:
+      213: 3574050969636588476
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_127"
+  - first:
+      213: 6423827444525514978
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_128"
+  - first:
+      213: 763735207175970364
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_129"
+  - first:
+      213: -7544703716120397960
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_130"
+  - first:
+      213: 2273442958346743290
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_131"
+  - first:
+      213: 3754023446352999280
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_132"
+  - first:
+      213: 1457067493912959902
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_133"
+  - first:
+      213: -2573711099997840108
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_134"
+  - first:
+      213: 4912620987507638963
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_135"
+  - first:
+      213: 3790268003619873840
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_136"
+  - first:
+      213: -80694179118754129
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_137"
+  - first:
+      213: -3199391122616706734
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_138"
+  - first:
+      213: -4975862893482141875
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_139"
+  - first:
+      213: 3747876323773688968
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_140"
+  - first:
+      213: -703800236624127551
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_141"
+  - first:
+      213: 4140632272843125587
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_142"
+  - first:
+      213: -7323068540765937611
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_143"
+  - first:
+      213: -6340116314144065794
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_144"
+  - first:
+      213: 1828885713349977399
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_145"
+  - first:
+      213: -6510625980537330192
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_146"
+  - first:
+      213: -3637816355415159179
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_147"
+  - first:
+      213: 3668145810293293727
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_148"
+  - first:
+      213: 1764046909927490345
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_149"
+  - first:
+      213: 3708139863297410373
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_150"
+  - first:
+      213: -7100194242927266323
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_151"
+  - first:
+      213: 210698627647004156
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_152"
+  - first:
+      213: -3470957754108025788
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_153"
+  - first:
+      213: -5955912091930072568
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_154"
+  - first:
+      213: -8045416355161965716
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_155"
+  - first:
+      213: 5016446657166596302
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_156"
+  - first:
+      213: -9086297729233614620
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_157"
+  - first:
+      213: -6253814669498487769
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_158"
+  - first:
+      213: 1584270761352978128
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_159"
+  - first:
+      213: -6338108100385445523
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_160"
+  - first:
+      213: 6793798643094157412
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_161"
+  - first:
+      213: 6902449268861587214
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_162"
+  - first:
+      213: 3782282726898212325
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_163"
+  - first:
+      213: 9006376265689257920
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_164"
+  - first:
+      213: 1362623438385512319
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_165"
+  - first:
+      213: -8446186308779009311
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_166"
+  - first:
+      213: 3093096584920542154
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_167"
+  - first:
+      213: -6371836742281891274
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_168"
+  - first:
+      213: 6429713420438105081
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_169"
+  - first:
+      213: 2140411827418421388
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_170"
+  - first:
+      213: -5763844228620931339
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_171"
+  - first:
+      213: 6553204869243661295
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_172"
+  - first:
+      213: -5005144342926193803
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_173"
+  - first:
+      213: -3030641864788479815
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_174"
+  - first:
+      213: -1051578160309703285
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_175"
+  - first:
+      213: -3762512460864064471
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_176"
+  - first:
+      213: 4826852653742234947
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_177"
+  - first:
+      213: -4621017610544644224
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_178"
+  - first:
+      213: -7446679191289303211
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_179"
+  - first:
+      213: -9173021108017177397
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_180"
+  - first:
+      213: -1429549969510247946
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_181"
+  - first:
+      213: 839000050663829661
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_182"
+  - first:
+      213: 525553964039300386
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_183"
+  - first:
+      213: -6886798258873314706
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_184"
+  - first:
+      213: 3214146332519328433
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_185"
+  - first:
+      213: 4797975109927132885
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_186"
+  - first:
+      213: 695764281838873291
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_187"
+  - first:
+      213: 5486325371585991609
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_188"
+  - first:
+      213: 7407615462869557222
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_189"
+  - first:
+      213: 8991226532784844614
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_190"
+  - first:
+      213: -7608795482757999916
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_191"
+  - first:
+      213: -2173489921760401111
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_192"
+  - first:
+      213: -8542713048754698925
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_193"
+  - first:
+      213: 5092489064036186397
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_194"
+  - first:
+      213: -3289628816642298306
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_195"
+  - first:
+      213: 1798627062042708102
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_196"
+  - first:
+      213: -7272960325141228694
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_197"
+  - first:
+      213: -1576216263475125274
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_198"
+  - first:
+      213: -1511687000605805926
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_199"
+  - first:
+      213: -9047428086070867132
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_200"
+  - first:
+      213: -2660601188609727400
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_201"
+  - first:
+      213: -81353625760998242
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_202"
+  - first:
+      213: -6790142997545739969
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_203"
+  - first:
+      213: 2500037781999393694
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_204"
+  - first:
+      213: 5414515090449226129
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_205"
+  - first:
+      213: -5691078635920019329
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_206"
+  - first:
+      213: -5112685942323564497
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_207"
+  - first:
+      213: -8227577833677449005
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_208"
+  - first:
+      213: -7719849750341334949
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_209"
+  - first:
+      213: 5244078050198835959
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_210"
+  - first:
+      213: 1018361533490281293
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_211"
+  - first:
+      213: -2373878657025505913
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_212"
+  - first:
+      213: -1362905533908419734
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_213"
+  - first:
+      213: 1707287064808684644
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_214"
+  - first:
+      213: 7949350011880657848
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_215"
+  - first:
+      213: 1090962809051307088
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_216"
+  - first:
+      213: 6960984146785202149
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_217"
+  - first:
+      213: 2506566696398881073
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_218"
+  - first:
+      213: 6223688096393197257
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_219"
+  - first:
+      213: -2677549756410669211
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_220"
+  - first:
+      213: -5936509470260369281
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_221"
+  - first:
+      213: -535575989723467336
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_222"
+  - first:
+      213: 1705137036383414676
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_223"
+  - first:
+      213: 2660220861362587276
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_224"
+  - first:
+      213: -4192121457041428436
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_225"
+  - first:
+      213: -2943284583555142855
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_226"
+  - first:
+      213: -3903365326906177790
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_227"
+  - first:
+      213: 5383518754663471243
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_228"
+  - first:
+      213: -861517053218064551
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_229"
+  - first:
+      213: -4588918285702720604
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_230"
+  - first:
+      213: 7784422555270169220
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_231"
+  - first:
+      213: 3441574848787003950
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_232"
+  - first:
+      213: 5030911855102454658
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_233"
+  - first:
+      213: 7887075186416350133
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_234"
+  - first:
+      213: 7042342943178349086
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_235"
+  - first:
+      213: -5122301617100158376
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_236"
+  - first:
+      213: -6514677407751219237
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_237"
+  - first:
+      213: 496815932561003692
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_238"
+  - first:
+      213: 5662805965938881272
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_239"
+  - first:
+      213: 8166252888286182753
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_240"
+  - first:
+      213: 434278757374587050
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_241"
+  - first:
+      213: 4951312488109173769
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_242"
+  - first:
+      213: -2666978730389276773
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_243"
+  - first:
+      213: 8985594409109452442
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_244"
+  - first:
+      213: 6228857270681866986
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_245"
+  - first:
+      213: 4819736527486828195
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_246"
+  - first:
+      213: 2802375325908574997
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_247"
+  - first:
+      213: 6749615527033145018
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_248"
+  - first:
+      213: 5119800322193869299
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_249"
+  - first:
+      213: 633981075782041619
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_250"
+  - first:
+      213: 706505715814236377
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_251"
+  - first:
+      213: 3512660470812675996
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_252"
+  - first:
+      213: 6674712654745958319
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_253"
+  - first:
+      213: 7602558147181275232
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_254"
+  - first:
+      213: -2612452765866136804
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_255"
+  - first:
+      213: -4976039109331688552
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_256"
+  - first:
+      213: 1783853262046582783
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_257"
+  - first:
+      213: -7719250840873090686
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_258"
+  - first:
+      213: -308695707189224123
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_259"
+  - first:
+      213: -4653821206884476341
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_260"
+  - first:
+      213: -7119611687965777725
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_261"
+  - first:
+      213: -7668674460890881385
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_262"
+  - first:
+      213: -1791006033962266438
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_263"
+  - first:
+      213: 4646146494310170622
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_264"
+  - first:
+      213: -8082232173322593411
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_265"
+  - first:
+      213: -1290747012692498526
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_266"
+  - first:
+      213: -1161625469625562550
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_267"
+  - first:
+      213: -7060037640671672836
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_268"
+  - first:
+      213: -6217005775342159671
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_269"
+  - first:
+      213: -8728963723800935681
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_270"
+  - first:
+      213: 8809663631978061919
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_271"
+  - first:
+      213: 831767663507219265
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_272"
+  - first:
+      213: -5951717854995769184
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_273"
+  - first:
+      213: 1876168325117736439
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_274"
+  - first:
+      213: 6872347646492640763
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_275"
+  - first:
+      213: -8744454664639958466
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_276"
+  - first:
+      213: -5953096418979249083
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_277"
+  - first:
+      213: -1144785921459899402
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_278"
+  - first:
+      213: -2897283413110465008
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_279"
+  - first:
+      213: 654509750307061943
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_280"
+  - first:
+      213: -8475486933457653407
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_281"
+  - first:
+      213: 3039304476319740046
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_282"
+  - first:
+      213: -9223125601404161763
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_283"
+  - first:
+      213: 2333727807354655822
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_284"
+  - first:
+      213: -7047621201205550094
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_285"
+  - first:
+      213: -7370867589086297265
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_286"
+  - first:
+      213: -7765743070645412982
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_287"
+  - first:
+      213: -6180492108617890405
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_288"
+  - first:
+      213: 7536620191594570156
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_289"
+  - first:
+      213: -5227821928486475386
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_290"
+  - first:
+      213: -6406425850156919234
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_291"
+  - first:
+      213: -3737962658180472621
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_292"
+  - first:
+      213: 3569574398093438417
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_293"
+  - first:
+      213: 2032778264487637533
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_294"
+  - first:
+      213: -3579111442035890501
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_295"
+  - first:
+      213: 5849876393520316540
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_296"
+  - first:
+      213: -7252143619617362656
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_297"
+  - first:
+      213: 5337328784807270497
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_298"
+  - first:
+      213: -7450183938801981240
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_299"
+  - first:
+      213: -1937149893771172783
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_300"
+  - first:
+      213: 5515375123338150234
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_301"
+  - first:
+      213: 5971159604142801755
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_302"
+  - first:
+      213: 861962673469136698
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_303"
+  - first:
+      213: -631110130223230810
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_304"
+  - first:
+      213: 1630785597098025825
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_305"
+  - first:
+      213: 5922937585075903476
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_306"
+  - first:
+      213: 728629646186458713
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_307"
+  - first:
+      213: 6057248326930885914
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_308"
+  - first:
+      213: -6823576000083977574
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_309"
+  - first:
+      213: -8877100302983632951
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_310"
+  - first:
+      213: -6372643680307783215
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_311"
+  - first:
+      213: 1767468094840632284
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_312"
+  - first:
+      213: -7185805001563799628
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_313"
+  - first:
+      213: -5641517039502193873
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_314"
+  - first:
+      213: 1130208438867034125
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_315"
+  - first:
+      213: 3869026628026777800
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_316"
+  - first:
+      213: -447536331394942970
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_317"
+  - first:
+      213: 437998553157186715
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_318"
+  - first:
+      213: 5010749855675679861
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_319"
+  - first:
+      213: 47023289142432903
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_320"
+  - first:
+      213: -2225523145706558724
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_321"
+  - first:
+      213: 6194317732332118263
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_322"
+  - first:
+      213: -1511049809539853873
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_323"
+  - first:
+      213: -8705553103292671349
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_324"
+  - first:
+      213: -4371360325568074474
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_325"
+  - first:
+      213: 8467423197984408265
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_326"
+  - first:
+      213: 5518464930998301446
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_327"
+  - first:
+      213: -4499638144522918691
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_328"
+  - first:
+      213: 485834009509235599
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_329"
+  - first:
+      213: -3486270450525792379
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_330"
+  - first:
+      213: 1657332912600294539
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_331"
+  - first:
+      213: -1905753316309610101
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_332"
+  - first:
+      213: 4963065358755728287
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_333"
+  - first:
+      213: 3598642244956299176
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_334"
+  - first:
+      213: 5246152958516138835
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_335"
+  - first:
+      213: -4854499963528173027
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_336"
+  - first:
+      213: 4099314951643974058
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_337"
+  - first:
+      213: 7454759739535068069
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_338"
+  - first:
+      213: -2470208088943175199
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_339"
+  - first:
+      213: -8020320757298895098
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_340"
+  - first:
+      213: 5222028597040985962
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_341"
+  - first:
+      213: 7884060107231119410
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_342"
+  - first:
+      213: -8213139296327038170
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_343"
+  - first:
+      213: 1384592984882939133
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_344"
+  - first:
+      213: 1400041949714895519
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_345"
+  - first:
+      213: 659102312757120675
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_346"
+  - first:
+      213: -6443405157476197981
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_347"
+  - first:
+      213: -7963712371210667914
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_348"
+  - first:
+      213: 586534779136062268
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_349"
+  - first:
+      213: 4975512886521120521
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_350"
+  - first:
+      213: 3628055181579191202
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_351"
+  - first:
+      213: -3645325697299468888
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_352"
+  - first:
+      213: 6236635720188278206
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_353"
+  - first:
+      213: -2296701379020627207
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_354"
+  - first:
+      213: 3871305879950931710
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_355"
+  - first:
+      213: 5583857369796900797
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_356"
+  - first:
+      213: -4277504251099492590
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_357"
+  - first:
+      213: 7145955587416131962
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_358"
+  - first:
+      213: -8453988484221782378
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_359"
+  - first:
+      213: 8900085995358306869
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_360"
+  - first:
+      213: -5723870696936409999
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_361"
+  - first:
+      213: 5921324743020777850
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_362"
+  - first:
+      213: -8291639222841864273
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_363"
+  - first:
+      213: 303014119389947934
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_364"
+  - first:
+      213: -2785098787462938603
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_365"
+  - first:
+      213: -90967749366365548
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_366"
+  - first:
+      213: 5190066167554438967
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_367"
+  - first:
+      213: -7244976514257104488
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_368"
+  - first:
+      213: -4968837290789137662
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_369"
+  - first:
+      213: 632456546999110126
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_370"
+  - first:
+      213: 4335139615866974415
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_371"
+  - first:
+      213: 5550222604088859593
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_372"
+  - first:
+      213: -5901275426071121153
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_373"
+  - first:
+      213: 2652039883795070569
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_374"
+  - first:
+      213: -3019142651548521997
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_375"
+  - first:
+      213: 4799458442633395703
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_376"
+  - first:
+      213: -2099626022840446562
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_377"
+  - first:
+      213: -2746501733430382235
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_378"
+  - first:
+      213: 7091177604338589363
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_379"
+  - first:
+      213: -4901712841988145941
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_380"
+  - first:
+      213: 613788443203968697
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_381"
+  - first:
+      213: 2674889378162967319
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_382"
+  - first:
+      213: -8056549287404620149
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_383"
+  - first:
+      213: 9124960784068083993
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_384"
+  - first:
+      213: 3723989545046624707
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_385"
+  - first:
+      213: 9113594396908040082
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_386"
+  - first:
+      213: -6897776199048984286
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_387"
+  - first:
+      213: -2540590945477640843
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_388"
+  - first:
+      213: 6003962147862768643
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_389"
+  - first:
+      213: 4250325181126076383
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_390"
+  - first:
+      213: -1625544128802584348
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_391"
+  - first:
+      213: 833999177318517768
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_392"
+  - first:
+      213: 96066141787942918
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_393"
+  - first:
+      213: 2071979972307308141
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_394"
+  - first:
+      213: 1117191690839444119
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_395"
+  - first:
+      213: -6865421307198567747
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_396"
+  - first:
+      213: -380365968131830973
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_397"
+  - first:
+      213: 6693952734863441464
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_398"
+  - first:
+      213: -529354956213790497
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_399"
+  - first:
+      213: 6297156167679189966
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_400"
+  - first:
+      213: 4083269889132270992
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_401"
+  - first:
+      213: 4170545549098905042
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_402"
+  - first:
+      213: 3654970527913545452
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_403"
+  - first:
+      213: 3437809827063143108
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_404"
+  - first:
+      213: 1990242238922330862
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_405"
+  - first:
+      213: 7364223761604791771
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_406"
+  - first:
+      213: 3149696807908806956
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_407"
+  - first:
+      213: -4399038236743418403
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_408"
+  - first:
+      213: -6419626690066571734
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_409"
+  - first:
+      213: 7022518208836699680
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_410"
+  - first:
+      213: -4973911786336017737
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_411"
+  - first:
+      213: 7182667059948764326
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_412"
+  - first:
+      213: -6988402841421035770
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_413"
+  - first:
+      213: -5696575494134514555
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_414"
+  - first:
+      213: 2306391603909173445
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_415"
+  - first:
+      213: 7214818254385090693
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_416"
+  - first:
+      213: -6785515623352371036
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_417"
+  - first:
+      213: 9068660686324598816
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_418"
+  - first:
+      213: -1547436333324901820
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_419"
+  - first:
+      213: 7570191832132246943
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_420"
+  - first:
+      213: 7661122850268623188
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_421"
+  - first:
+      213: -7752374243463137573
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_422"
+  - first:
+      213: 7028606920132223705
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_423"
+  - first:
+      213: 327263628730598194
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_424"
+  - first:
+      213: 3411513612025773231
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_425"
+  - first:
+      213: -2216506986945355112
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_426"
+  - first:
+      213: 5078480628508752348
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_427"
+  - first:
+      213: -7322652309705705114
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_428"
+  - first:
+      213: 5341694373890115421
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_429"
+  - first:
+      213: -6421490860850670798
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_430"
+  - first:
+      213: 1234239872715633873
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_431"
+  - first:
+      213: -3757987209049228434
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_432"
+  - first:
+      213: 2035163280608203149
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_433"
+  - first:
+      213: 6705275327496971219
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_434"
+  - first:
+      213: 1463782316474136739
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_435"
+  - first:
+      213: -1054992678009750164
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_436"
+  - first:
+      213: -725886848683518344
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_437"
+  - first:
+      213: 7849002683096976503
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_438"
+  - first:
+      213: -5668743053934592651
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_439"
+  - first:
+      213: 7007684474286952128
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_440"
+  - first:
+      213: -1557636529732328845
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_441"
+  - first:
+      213: 4739587986399207836
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_442"
+  - first:
+      213: 6140661469943634127
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_443"
+  - first:
+      213: -8229763019509417239
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_444"
+  - first:
+      213: -8134563047829143765
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_445"
+  - first:
+      213: -7088294833191297076
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_446"
+  - first:
+      213: -2443637384896781572
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_447"
+  - first:
+      213: 389777610758022724
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_448"
+  - first:
+      213: 308178648736978125
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_449"
+  - first:
+      213: 6876908172674279891
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_450"
+  - first:
+      213: -8983019752256901217
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_451"
+  - first:
+      213: 834166178352476677
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_452"
+  - first:
+      213: -480102884856283980
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_453"
+  - first:
+      213: 1743826518573436636
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_454"
+  - first:
+      213: -6845798471558575912
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_455"
+  - first:
+      213: -33662256433333900
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_456"
+  - first:
+      213: 7162810379117238269
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_457"
+  - first:
+      213: 7817317359197871404
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_458"
+  - first:
+      213: -9093053575369673612
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_459"
+  - first:
+      213: -1773032588666772725
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_460"
+  - first:
+      213: -6326535837222297690
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_461"
+  - first:
+      213: -1705839799648320961
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_462"
+  - first:
+      213: -3238254856363204144
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_463"
+  - first:
+      213: -3031209738182728534
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_464"
+  - first:
+      213: -570310113053398578
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_465"
+  - first:
+      213: -4322861392680690167
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_466"
+  - first:
+      213: -2578579084051680707
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_467"
+  - first:
+      213: -7780616181970435024
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_468"
+  - first:
+      213: -4384926518905412117
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_469"
+  - first:
+      213: -6031691474540395989
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_470"
+  - first:
+      213: -8725803441456639838
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_471"
+  - first:
+      213: -1424171630840016294
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_472"
+  - first:
+      213: 6304718489188406370
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_473"
+  - first:
+      213: 7331038685224318221
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_474"
+  - first:
+      213: -84309632172138719
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_475"
+  - first:
+      213: -6784629296204752212
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_476"
+  - first:
+      213: -5196262433449738244
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_477"
+  - first:
+      213: 5926018514697595651
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_478"
+  - first:
+      213: -9213223075395851153
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_479"
+  - first:
+      213: -8183319744533002485
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_480"
+  - first:
+      213: 3800698687861288085
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_481"
+  - first:
+      213: 9042029588841574511
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_482"
+  - first:
+      213: -5558575235103041359
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_483"
+  - first:
+      213: -2673771297426594214
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_484"
+  - first:
+      213: 391460809284781472
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_485"
+  - first:
+      213: -8734834381605860139
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_486"
+  - first:
+      213: -6131970637378237251
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_487"
+  - first:
+      213: 2176532220901597639
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_488"
+  - first:
+      213: 4984239797610698737
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_489"
+  - first:
+      213: -4982055013260180632
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_490"
+  - first:
+      213: -2451935801468308780
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_491"
+  - first:
+      213: 2681964165042896931
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_492"
+  - first:
+      213: 7235351490103439567
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_493"
+  - first:
+      213: -7748687507468964870
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_494"
+  - first:
+      213: 5480604687822237743
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_495"
+  - first:
+      213: -1142638275841403928
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_496"
+  - first:
+      213: -4135591149575880084
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_497"
+  - first:
+      213: 3096248536868247477
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_498"
+  - first:
+      213: -6156698512748017881
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_499"
+  - first:
+      213: -5608280028391418691
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_500"
+  - first:
+      213: -1712461197902521881
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_501"
+  - first:
+      213: 2684570159985175676
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_502"
+  - first:
+      213: 441306329400425525
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_503"
+  - first:
+      213: 5818116175326903783
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_504"
+  - first:
+      213: 8511136543517922978
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_505"
+  - first:
+      213: 7373336088713942473
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_506"
+  - first:
+      213: -5030716082437723212
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_507"
+  - first:
+      213: -1601723219988359623
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_508"
+  - first:
+      213: -4255141161326918377
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_509"
+  - first:
+      213: -4759006293407117337
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_510"
+  - first:
+      213: 5492705698862795759
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_511"
+  - first:
+      213: 6543761545034293415
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_512"
+  - first:
+      213: -5568397312283006843
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_513"
+  - first:
+      213: 2356864431917486914
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_514"
+  - first:
+      213: 6008454578208466639
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_515"
+  - first:
+      213: 6418362949166489469
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_516"
+  - first:
+      213: -6700640308647117229
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_517"
+  - first:
+      213: -2885926017762295485
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_518"
+  - first:
+      213: -3280858407381880208
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_519"
+  - first:
+      213: -2622867085589706364
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_520"
+  - first:
+      213: -2048279428248292582
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_521"
+  - first:
+      213: 6528065850920614709
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_522"
+  - first:
+      213: -3303125179653662230
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_523"
+  - first:
+      213: -159515130495477475
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_524"
+  - first:
+      213: 1758731974660299948
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_525"
+  - first:
+      213: -5087751815544264737
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_526"
+  - first:
+      213: 5962385726354378965
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_527"
+  - first:
+      213: 3168149524785049264
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_528"
+  - first:
+      213: -8325964884401053036
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_529"
+  - first:
+      213: -2239144051653924377
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_530"
+  - first:
+      213: 191321343738503129
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_531"
+  - first:
+      213: -7756970437978644311
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_532"
+  - first:
+      213: 6841652438660772650
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_533"
+  - first:
+      213: -4122894133878494128
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_534"
+  - first:
+      213: 6179118204869291516
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_535"
+  - first:
+      213: -1698914400947004696
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_536"
+  - first:
+      213: 5491925744621524007
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_537"
+  - first:
+      213: 4831473803291822099
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_538"
+  - first:
+      213: 581317989278104188
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_539"
+  - first:
+      213: 4117539764227419679
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_540"
+  - first:
+      213: 7121623590129277734
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_541"
+  - first:
+      213: 7557653560130349247
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_542"
+  - first:
+      213: 497378045646327023
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_543"
+  - first:
+      213: 9113562362357488485
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_544"
+  - first:
+      213: -554452530116947738
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_545"
+  - first:
+      213: -2356618130163558966
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_546"
+  - first:
+      213: 900872657089341184
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_547"
+  - first:
+      213: 5054691599698141414
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_548"
+  - first:
+      213: 3211929714121166043
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_549"
+  - first:
+      213: 469358071354754753
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_550"
+  - first:
+      213: 1843666932001643326
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_551"
+  - first:
+      213: -8975548061040714122
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_552"
+  - first:
+      213: -6390858126066850215
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_553"
+  - first:
+      213: -6198484425528119597
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_554"
+  - first:
+      213: -2636311685121997618
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_555"
+  - first:
+      213: 8054795736462569852
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_556"
+  - first:
+      213: 6599498110442231092
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_557"
+  - first:
+      213: -492802754440700576
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_558"
+  - first:
+      213: -4583931361348281459
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_559"
+  - first:
+      213: -416208515682190764
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_560"
+  - first:
+      213: 7033425219183932447
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_561"
+  - first:
+      213: -6215790269597104969
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_562"
+  - first:
+      213: -5109671786698454625
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_563"
+  - first:
+      213: -8141153706451126182
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_564"
+  - first:
+      213: -3849573631378299698
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_565"
+  - first:
+      213: 7941549060624319795
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_566"
+  - first:
+      213: -3248168446796213168
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_567"
+  - first:
+      213: -7633442804791692111
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_568"
+  - first:
+      213: 6697118950316004394
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_569"
+  - first:
+      213: -9140109424824187947
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_570"
+  - first:
+      213: -4297107302688823033
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_571"
+  - first:
+      213: 4834570593599549708
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_572"
+  - first:
+      213: -725589761234909237
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_573"
+  - first:
+      213: 4240386384265561005
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_574"
+  - first:
+      213: -7607814453454486752
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_575"
+  - first:
+      213: 5254565783228899381
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_576"
+  - first:
+      213: 9077434125317327760
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_577"
+  - first:
+      213: -1169207737101541087
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_578"
+  - first:
+      213: -8271470084392095548
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_579"
+  - first:
+      213: -2629088399423795961
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_580"
+  - first:
+      213: -4120053601763908039
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_581"
+  - first:
+      213: -8832139965458187168
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_582"
+  - first:
+      213: -2924593420464851059
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_583"
+  - first:
+      213: -4982077994265238677
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_584"
+  - first:
+      213: -1062772658385821446
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_585"
+  - first:
+      213: 7614362527973031420
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_586"
+  - first:
+      213: -232644429624919717
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_587"
+  - first:
+      213: -1066304766009475573
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_588"
+  - first:
+      213: -6363118905920750825
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_589"
+  - first:
+      213: -2998963644801306449
+    second: "todas as anima\xE7\xF5es de menu sprite sheet_590"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814fc82fec9ab6f30800000000000000
+      internalID: 4569932953195181080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48008b0a8b6980890800000000000000
+      internalID: -7491572260416257916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11ca78d7cb69b3d0800000000000000
+      internalID: -3190400354940698339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32868078c80d95700800000000000000
+      internalID: 529683733172217891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd48c1d1ab5d5c10800000000000000
+      internalID: 2043890556463500791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c81aa4a8b7138f60800000000000000
+      internalID: 8035292241963129028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fcdc8d09d2fb920800000000000000
+      internalID: 3008173176242687830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba9a5fd0a7474e10800000000000000
+      internalID: 2181791300751891134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c168d91fc69cbf0800000000000000
+      internalID: -303591714885067694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a8042772ce9f0d0800000000000000
+      internalID: -3388417590454875549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1161d5b1504bf3680800000000000000
+      internalID: -8773095615067515375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72db2a3d32c569470800000000000000
+      internalID: 8401003463850507559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0138e4e220315ac00800000000000000
+      internalID: 911155399700153104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305fd0f4338a286b0800000000000000
+      internalID: -5295485273511168765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3737c3520ddd7b610800000000000000
+      internalID: 1637020875620119411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0ea1996b0fbf060800000000000000
+      internalID: 6988443913838846155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dd5a41f804d95e0800000000000000
+      internalID: -1901292484409565940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9159eedf11cf29b60800000000000000
+      internalID: 7751535062862959897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4e5d7a40e14a920800000000000000
+      internalID: 3000556257080108279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_19"
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdc2b8fc9ff51630800000000000000
+      internalID: 3897302102211481037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_20"
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7da2c5788a4c4ae0800000000000000
+      internalID: -1563793020652704389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_21"
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71627ed168f4b00c0800000000000000
+      internalID: -4608502356237670889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_22"
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc177fedfa79af50800000000000000
+      internalID: 6893175935730130138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_23"
+      rect:
+        serializedVersion: 2
+        x: 7360
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83edb0ba0ea483a40800000000000000
+      internalID: 5348106886305275448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_24"
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad469c64b9f9815a0800000000000000
+      internalID: -6550310168754035494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_25"
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750cce96c0da2fcd0800000000000000
+      internalID: -2525766172173090729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_26"
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4b7e4717a5fb8c0800000000000000
+      internalID: -3981364102233082663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_27"
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea86e4ae490448970800000000000000
+      internalID: 8756194583845431470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_28"
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c93c5bf87935b60800000000000000
+      internalID: 7733691628610886771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_29"
+      rect:
+        serializedVersion: 2
+        x: 9280
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c56f153512cc3810800000000000000
+      internalID: 1746484151854261697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_30"
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0034ef7bebd1af0800000000000000
+      internalID: -423973092448862000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_31"
+      rect:
+        serializedVersion: 2
+        x: 9920
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cce0259651374a0800000000000000
+      internalID: -6596905487075193733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "todas as anima\xE7\xF5es de menu sprite sheet_32"
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e0a6e44dd1d8df0800000000000000
+      internalID: -176452012711735753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8bd4fc4dede9d884d9571ac2c8a241d2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "todas as anima\xE7\xF5es de menu sprite sheet_0": 4569932953195181080
+      "todas as anima\xE7\xF5es de menu sprite sheet_1": -7491572260416257916
+      "todas as anima\xE7\xF5es de menu sprite sheet_10": -8773095615067515375
+      "todas as anima\xE7\xF5es de menu sprite sheet_11": 8401003463850507559
+      "todas as anima\xE7\xF5es de menu sprite sheet_12": 911155399700153104
+      "todas as anima\xE7\xF5es de menu sprite sheet_13": -5295485273511168765
+      "todas as anima\xE7\xF5es de menu sprite sheet_14": 1637020875620119411
+      "todas as anima\xE7\xF5es de menu sprite sheet_15": 6988443913838846155
+      "todas as anima\xE7\xF5es de menu sprite sheet_16": -1901292484409565940
+      "todas as anima\xE7\xF5es de menu sprite sheet_17": 7751535062862959897
+      "todas as anima\xE7\xF5es de menu sprite sheet_18": 3000556257080108279
+      "todas as anima\xE7\xF5es de menu sprite sheet_19": 3897302102211481037
+      "todas as anima\xE7\xF5es de menu sprite sheet_2": -3190400354940698339
+      "todas as anima\xE7\xF5es de menu sprite sheet_20": -1563793020652704389
+      "todas as anima\xE7\xF5es de menu sprite sheet_21": -4608502356237670889
+      "todas as anima\xE7\xF5es de menu sprite sheet_22": 6893175935730130138
+      "todas as anima\xE7\xF5es de menu sprite sheet_23": 5348106886305275448
+      "todas as anima\xE7\xF5es de menu sprite sheet_24": -6550310168754035494
+      "todas as anima\xE7\xF5es de menu sprite sheet_25": -2525766172173090729
+      "todas as anima\xE7\xF5es de menu sprite sheet_26": -3981364102233082663
+      "todas as anima\xE7\xF5es de menu sprite sheet_27": 8756194583845431470
+      "todas as anima\xE7\xF5es de menu sprite sheet_28": 7733691628610886771
+      "todas as anima\xE7\xF5es de menu sprite sheet_29": 1746484151854261697
+      "todas as anima\xE7\xF5es de menu sprite sheet_3": 529683733172217891
+      "todas as anima\xE7\xF5es de menu sprite sheet_30": -423973092448862000
+      "todas as anima\xE7\xF5es de menu sprite sheet_31": -6596905487075193733
+      "todas as anima\xE7\xF5es de menu sprite sheet_32": -176452012711735753
+      "todas as anima\xE7\xF5es de menu sprite sheet_4": 2043890556463500791
+      "todas as anima\xE7\xF5es de menu sprite sheet_5": 8035292241963129028
+      "todas as anima\xE7\xF5es de menu sprite sheet_6": 3008173176242687830
+      "todas as anima\xE7\xF5es de menu sprite sheet_7": 2181791300751891134
+      "todas as anima\xE7\xF5es de menu sprite sheet_8": -303591714885067694
+      "todas as anima\xE7\xF5es de menu sprite sheet_9": -3388417590454875549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

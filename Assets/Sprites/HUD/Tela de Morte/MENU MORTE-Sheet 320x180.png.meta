@@ -1,0 +1,513 @@
+fileFormatVersion: 2
+guid: 96c8918153db82f43b4d7a6ec2d078ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8865445650861175447
+    second: MENU MORTE-Sheet 320x180_0
+  - first:
+      213: -832211126401652450
+    second: MENU MORTE-Sheet 320x180_1
+  - first:
+      213: 4130346519456169018
+    second: MENU MORTE-Sheet 320x180_2
+  - first:
+      213: 5516843241694816493
+    second: MENU MORTE-Sheet 320x180_3
+  - first:
+      213: 2263176692441888436
+    second: MENU MORTE-Sheet 320x180_4
+  - first:
+      213: -7831923393503798316
+    second: MENU MORTE-Sheet 320x180_5
+  - first:
+      213: 3247772603609412003
+    second: MENU MORTE-Sheet 320x180_6
+  - first:
+      213: 2714651250105310689
+    second: MENU MORTE-Sheet 320x180_7
+  - first:
+      213: -7146248603393380676
+    second: MENU MORTE-Sheet 320x180_8
+  - first:
+      213: 6507171832630575158
+    second: MENU MORTE-Sheet 320x180_9
+  - first:
+      213: 3296644527932347183
+    second: MENU MORTE-Sheet 320x180_10
+  - first:
+      213: -8036503287596074355
+    second: MENU MORTE-Sheet 320x180_11
+  - first:
+      213: 5536616831553972710
+    second: MENU MORTE-Sheet 320x180_12
+  - first:
+      213: 8956838553373212189
+    second: MENU MORTE-Sheet 320x180_13
+  - first:
+      213: -7878991955726237408
+    second: MENU MORTE-Sheet 320x180_14
+  - first:
+      213: -21376137067728423
+    second: MENU MORTE-Sheet 320x180_15
+  - first:
+      213: 4839607223149621458
+    second: MENU MORTE-Sheet 320x180_16
+  - first:
+      213: 1571891516918338025
+    second: MENU MORTE-Sheet 320x180_17
+  - first:
+      213: -1387734941934164960
+    second: MENU MORTE-Sheet 320x180_18
+  - first:
+      213: -5697541490934384806
+    second: MENU MORTE-Sheet 320x180_19
+  - first:
+      213: -1245903559490960799
+    second: MENU MORTE-Sheet 320x180_20
+  - first:
+      213: -7175391427039647662
+    second: MENU MORTE-Sheet 320x180_21
+  - first:
+      213: 80068534910344799
+    second: MENU MORTE-Sheet 320x180_22
+  - first:
+      213: -6992919251725416876
+    second: MENU MORTE-Sheet 320x180_23
+  - first:
+      213: 7342752914924979300
+    second: MENU MORTE-Sheet 320x180_24
+  - first:
+      213: -5958458837871280880
+    second: MENU MORTE-Sheet 320x180_25
+  - first:
+      213: 2954650881916879483
+    second: MENU MORTE-Sheet 320x180_26
+  - first:
+      213: -3392137454699292154
+    second: MENU MORTE-Sheet 320x180_27
+  - first:
+      213: 4279487263156533340
+    second: MENU MORTE-Sheet 320x180_28
+  - first:
+      213: -8029169636022573941
+    second: MENU MORTE-Sheet 320x180_29
+  - first:
+      213: 2935605101693916235
+    second: MENU MORTE-Sheet 320x180_30
+  - first:
+      213: -3324743577334161767
+    second: MENU MORTE-Sheet 320x180_31
+  - first:
+      213: 164347123765868761
+    second: MENU MORTE-Sheet 320x180_32
+  - first:
+      213: 181044278646237960
+    second: MENU MORTE-Sheet 320x180_33
+  - first:
+      213: -1603897345916286647
+    second: MENU MORTE-Sheet 320x180_34
+  - first:
+      213: 4605833499700521452
+    second: MENU MORTE-Sheet 320x180_35
+  - first:
+      213: 1532928327337655686
+    second: MENU MORTE-Sheet 320x180_36
+  - first:
+      213: 3699906796759404202
+    second: MENU MORTE-Sheet 320x180_37
+  - first:
+      213: 2475703952692921514
+    second: MENU MORTE-Sheet 320x180_38
+  - first:
+      213: 2300997080008722934
+    second: MENU MORTE-Sheet 320x180_39
+  - first:
+      213: 4128643880313024072
+    second: MENU MORTE-Sheet 320x180_40
+  - first:
+      213: -5993104323827718432
+    second: MENU MORTE-Sheet 320x180_41
+  - first:
+      213: 5564949518126423854
+    second: MENU MORTE-Sheet 320x180_42
+  - first:
+      213: -7637031001222890196
+    second: MENU MORTE-Sheet 320x180_43
+  - first:
+      213: -1512846217306763658
+    second: MENU MORTE-Sheet 320x180_44
+  - first:
+      213: 93994779552677300
+    second: MENU MORTE-Sheet 320x180_45
+  - first:
+      213: -4477016319487981409
+    second: MENU MORTE-Sheet 320x180_46
+  - first:
+      213: 2023597745063762598
+    second: MENU MORTE-Sheet 320x180_47
+  - first:
+      213: 7801908555080230961
+    second: MENU MORTE-Sheet 320x180_48
+  - first:
+      213: -5327244014576848726
+    second: MENU MORTE-Sheet 320x180_49
+  - first:
+      213: 8371415025055737630
+    second: MENU MORTE-Sheet 320x180_50
+  - first:
+      213: -1513854686835452276
+    second: MENU MORTE-Sheet 320x180_51
+  - first:
+      213: 4076672131632907275
+    second: MENU MORTE-Sheet 320x180_52
+  - first:
+      213: 28062413271839570
+    second: MENU MORTE-Sheet 320x180_53
+  - first:
+      213: 5770101158349477751
+    second: MENU MORTE-Sheet 320x180_54
+  - first:
+      213: -236284851205679281
+    second: MENU MORTE-Sheet 320x180_55
+  - first:
+      213: 7832390113516491682
+    second: MENU MORTE-Sheet 320x180_56
+  - first:
+      213: 7108612314871907612
+    second: MENU MORTE-Sheet 320x180_57
+  - first:
+      213: 1365816909963320592
+    second: MENU MORTE-Sheet 320x180_58
+  - first:
+      213: -8964943941032807724
+    second: MENU MORTE-Sheet 320x180_59
+  - first:
+      213: 916597835387148796
+    second: MENU MORTE-Sheet 320x180_60
+  - first:
+      213: -3857386932896308225
+    second: MENU MORTE-Sheet 320x180_61
+  - first:
+      213: -2138917695087095738
+    second: MENU MORTE-Sheet 320x180_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792bc1b29d3680b70800000000000000
+      internalID: 8865445650861175447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19a3b8c3646374f0800000000000000
+      internalID: -832211126401652450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cb473a640f15930800000000000000
+      internalID: 4130346519456169018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8ebb6e2b3cf8c40800000000000000
+      internalID: 5516843241694816493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b631f0063b686f10800000000000000
+      internalID: 2263176692441888436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db522e3b2b6f4390800000000000000
+      internalID: -7831923393503798316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1726db9f7621d20800000000000000
+      internalID: 3247772603609412003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edd89bdde06ca520800000000000000
+      internalID: 2714651250105310689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU MORTE-Sheet 320x180_8
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe2b16f1cc63dc90800000000000000
+      internalID: -7146248603393380676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4ed951ee47e09c04e89cecefbb025796
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MENU MORTE-Sheet 320x180_0: 8865445650861175447
+      MENU MORTE-Sheet 320x180_1: -832211126401652450
+      MENU MORTE-Sheet 320x180_2: 4130346519456169018
+      MENU MORTE-Sheet 320x180_3: 5516843241694816493
+      MENU MORTE-Sheet 320x180_4: 2263176692441888436
+      MENU MORTE-Sheet 320x180_5: -7831923393503798316
+      MENU MORTE-Sheet 320x180_6: 3247772603609412003
+      MENU MORTE-Sheet 320x180_7: 2714651250105310689
+      MENU MORTE-Sheet 320x180_8: -7146248603393380676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

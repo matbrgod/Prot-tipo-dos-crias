@@ -10,8 +10,8 @@ public class AbrirPorta : MonoBehaviour
     {
         if (objectThatEntered.CompareTag("Player"))
         {
-            player = objectThatEntered.GetComponent<Player>();
+           porta.SetActive(false);
         }
-        Object.Destroy(porta);
+        
     }
 }

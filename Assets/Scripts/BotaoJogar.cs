@@ -1,24 +1,44 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
 
 public class BotaoJogar : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //[SerializeField] private GameObject loadingScreen;
+    [SerializeField] private GameObject Error;
+    public GameObject yesButton;
+    public GameObject noButton;
+
+    public void Play()
     {
+        if (Error != null)
+            Error.SetActive(false);
         
+        if (yesButton != null)
+            yesButton.SetActive(false);
+        if (noButton != null)
+            noButton.SetActive(false);    
+        SceneManager.LoadScene("tutorial nave");
+        //StartCoroutine(systemLoading());
+            
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
+    public void Leave()
+    {
+        Application.Quit();
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator systemLoading()
     {
-        if(Input.anyKeyDown)
-        {
-        
-            SceneManager.LoadScene("tutorial nave");
-
-        }
-
+        yield return new WaitForSeconds(2.5f);
+        SceneManager.LoadScene("tutorial nave");
     }
 }

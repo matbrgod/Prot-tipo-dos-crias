@@ -64,6 +64,14 @@ PrefabInstance:
       propertyPath: m_PointLightOuterRadius
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: -620505467
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -171,6 +179,10 @@ PrefabInstance:
       value: -0.3938551
       objectReference: {fileID: 0}
     - target: {fileID: 4535638933284965045, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535638933284965045, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 2
       objectReference: {fileID: 0}
@@ -178,7 +190,9 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 347189647477551579, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+    - {fileID: 5275422660328130972, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3225656883133176054, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
@@ -194,6 +208,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2353996366314824284, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5541276831636748090}
+    - targetCorrespondingSourceObject: {fileID: 2353996366314824284, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2782582302293312282}
+    - targetCorrespondingSourceObject: {fileID: 2353996366314824284, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8835789812979261910}
+    - targetCorrespondingSourceObject: {fileID: 2353996366314824284, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2478983021752039542}
   m_SourcePrefab: {fileID: 100100000, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
 --- !u!4 &1233953704467946530 stripped
 Transform:
@@ -284,6 +307,83 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &2782582302293312282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123206131393619592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2544ea4afff272640b07f8e1d1c6c615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEnemy: 0
+  maxHealthEnemy: 6
+  speed: 5
+  player: {fileID: 0}
+  distanceBetween: 9
+  tempoDeESpera: 2
+  PatrolPoints: []
+--- !u!58 &8835789812979261910
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123206131393619592}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 5
+--- !u!195 &2478983021752039542
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123206131393619592}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1
+  m_Speed: 0
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &4833414050835117846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -343,6 +443,14 @@ PrefabInstance:
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_PointLightOuterRadius
       value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: -620505467
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -417,6 +525,14 @@ PrefabInstance:
     - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
       propertyPath: m_PointLightOuterRadius
       value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261988108562672062, guid: 34eafec2d82258f42b8123d74e0a21dc, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: -620505467
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 233421403377288235}
   - component: {fileID: 8148613169697507905}
   - component: {fileID: 5083351518209196579}
+  - component: {fileID: 3954574775395152411}
   m_Layer: 0
   m_Name: incubators_0
   m_TagString: Untagged
@@ -188,3 +189,19 @@ MonoBehaviour:
     - rid: 4319996764387278921
       type: {class: ShadowShape2DProvider_Collider2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data: 
+--- !u!114 &3954574775395152411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5073939713691108407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: New Quest
   m_EditorClassIdentifier: 
   questID: ff7df52a2-d819-4f4a-9537-a28dc6564bc6
-  questName: Colete Madeira
-  description: 
+  questName: Quest de Teste
+  description: tem que testar a quest
   objectives:
   - objectiveID: 2
-    description: Colete madeira
+    description: Quest que tem que testar
     type: 0
     requiredAmount: 0
     currentAmount: 0

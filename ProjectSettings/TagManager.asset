@@ -19,7 +19,7 @@ TagManager:
   - 
   - Water
   - UI
-  - PortaCavernada
+  - Player
   - Enemy
   - Melee
   - 
@@ -48,6 +48,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Agent
+    uniqueID: 3674461829
     locked: 0
   m_RenderingLayers:
   - Default

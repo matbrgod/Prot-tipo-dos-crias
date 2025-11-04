@@ -34,7 +34,7 @@ public class QuestObjective
 public enum ObjectiveType { CollectItem, DefeatEnemy, ReachLocation, TalkNPC, Custom }
 
 [Serializable]
-public class QuestProgress
+public class QuestProgress //classe que acompanha o progresso da quest a qual ele pertence
 {
     public Quest quest;
     public List<QuestObjective> objectives;
@@ -60,4 +60,10 @@ public class QuestProgress
     public bool IsCompleted => objectives.TrueForAll(o => o.IsCompleted);
 
     public string QuestID => quest.questID;
+
+    /*
+     objectiveID = 0 -> madeira
+     objectiveID = 1 -> pedra
+     objectiveID = 2 -> suco de maca
+     */
 }

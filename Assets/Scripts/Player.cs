@@ -3,10 +3,12 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.Mathematics;
+using UnityEditor;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
+
     public int healthPlayer;
 
     public int maxHealthPlayer = 100;
@@ -19,6 +21,8 @@ public class Player : MonoBehaviour
     Vector2 movement;
 
     public Weapon weapon;
+    public float timerTiro = 0f;
+    public float tiroCooldown = 1f;
  
     Vector2 moveDirection;
 
@@ -27,23 +31,42 @@ public class Player : MonoBehaviour
     
     public bool interact = false;
     public GameManager gameManager;
-
-    SpriteRenderer spriteRenderer;
-
-    //public GameObject trigger;
-
-    //public GameObject animacao;
+    public bool canAttack = true;
 
     private float triggerTickTimer = 0f;
     public float triggerTickInterval = 1f;
+    private float originalMoveSpeed;
     public Animator animator;
+    private bool isInvincible;                 
+    public float invincibleDuration;
+    public SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject reloadingUI;
+    [SerializeField] private GameObject efeitoTiro;
+    [SerializeField] private ParticleSystem sangue;
+    private ParticleSystem sangueParticleSystemInstance;
+
+    void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(instance.gameObject);
+        }
+        instance = this;
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     void Start()
     {
         healthPlayer = maxHealthPlayer;
-        rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
+        originalMoveSpeed = moveSpeed;
+        healthText.text = "" + healthPlayer;
+        isInvincible = false;
+
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, false);
     }
 
     void Update()
@@ -51,6 +74,7 @@ public class Player : MonoBehaviour
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        healthText.text = "" + healthPlayer;
 
         if(moveX != 0 || moveY != 0)
         animator.SetBool("EstaAndando", true);
@@ -59,18 +83,28 @@ public class Player : MonoBehaviour
 
         if (healthPlayer <= 0)
         {
-            SceneManager.LoadScene("Menu");
-        }
-      
-        if (Input.GetMouseButtonDown(0))
-        {
-            weapon.Fire();
+            SceneManager.LoadScene("Game Over");
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        timerTiro += Time.deltaTime;
+        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
+        {
+            timerTiro = 0f;
+            weapon.Fire();
+
+
+        }
+        if (canAttack && Input.GetKeyDown(KeyCode.Space))
         {
             WeaponParent.Attack();            
         }
+
+        if (reloadingUI != null)
+            reloadingUI.SetActive(timerTiro < tiroCooldown);
+
+        if(efeitoTiro != null)
+            efeitoTiro.SetActive(timerTiro < 0.2f);
+            
         
         interact = Input.GetKeyDown(KeyCode.E);
 
@@ -84,7 +118,6 @@ public class Player : MonoBehaviour
         else 
             transform.rotation = Quaternion.Euler(0, -180, 0);
 
-        healthText.text = "" + healthPlayer;    
         
     }
 
@@ -93,49 +126,103 @@ public class Player : MonoBehaviour
                 if (collision.collider.CompareTag("Enemy"))
                 {
                     healthPlayer -= 10; // Diminui 10 de vida
+                    SpawnParticlesSangue();
+                    healthText.text = "" + healthPlayer;
+                    
+                    
+                    StartCoroutine(InvincibilityCoroutine());
+                    
                     if (healthPlayer <= 0)
-                    {
-                        SceneManager.LoadScene("Menu"); 
+                    {   
+                        SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
+                    
                 }
             
         }
 
-    
+
 
     private void OnTriggerStay2D(Collider2D objectThatStayed)
-{
-    triggerTickTimer += Time.deltaTime;
-    if (triggerTickTimer >= triggerTickInterval)
     {
-        if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+        triggerTickTimer += Time.deltaTime;
+        if (triggerTickTimer >= triggerTickInterval)
         {
-            healthPlayer -= 10;
+            if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+            {
+                healthPlayer -= 10;
+                healthText.text = "" + healthPlayer;
+                StartCoroutine(InvincibilityCoroutine());
+            }
+            triggerTickTimer = 0f;
         }
-        triggerTickTimer = 0f;
+        
     }
 
-    if (objectThatStayed.CompareTag("fio") || objectThatStayed.CompareTag("Veneno"))
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        moveSpeed = 2f;
-    }
-    else
-    {
-        moveSpeed = 5f;
+        if (other.CompareTag("fio") || other.CompareTag("Veneno"))
+        {
+            moveSpeed = 2f;
+        }
     }
 
-    //if (objectThatStayed.CompareTag("rato"))
-    //{
-    //    if (animacao != null && !animacao.activeSelf)
-    //    {
-    //        animacao.SetActive(true);
-    //        StartCoroutine(ActivateTriggerWithDelay());
-    //    }
-    
-}
-    
-   
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("fio") || other.CompareTag("Veneno"))
+        {
+            moveSpeed = originalMoveSpeed;
+        }
+    }
+
+    private IEnumerator InvincibilityCoroutine()
+    {
+        isInvincible = true;
+
+        int playerLayer = gameObject.layer;
+        int enemyLayer = LayerMask.NameToLayer("Enemy"); // ensure your enemies use this layer
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
+
+        // optional visual feedback
+        if (spriteRenderer != null) spriteRenderer.color = Color.red;
+
+        yield return new WaitForSeconds(invincibleDuration);
+
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
+
+        isInvincible = false;
+        if (spriteRenderer != null) spriteRenderer.color = Color.white;
+    }
+
+    /*private IEnumerator EfeitoTiroCoroutine()
+    {
+        yield return new WaitForSeconds(0.2f);
+        efeitoTiro.SetActive(false);
+    }*/
+
+    private void OnDisable()
+    {
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, false);
+
+        // stop any running invincibility coroutine and reset visuals/state
+        StopAllCoroutines();
+        isInvincible = false;
+        if (spriteRenderer != null) spriteRenderer.color = Color.white;
+    }
+
+    private void OnDestroy()
+    {
+        // same safety on destroy
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        if (enemyLayer != -1)
+            Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, false);
+    }
+
 
     void FixedUpdate()
     {
@@ -148,6 +235,11 @@ public class Player : MonoBehaviour
 
     }
 
-    
-    
+    void SpawnParticlesSangue()
+    {
+        sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
+    }
+
+
+
 }
