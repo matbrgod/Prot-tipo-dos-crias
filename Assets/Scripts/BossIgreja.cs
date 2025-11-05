@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.AI;
 using Random = System.Random;
+using FirstGearGames.SmoothCameraShaker;
 public class BossIgreja : MonoBehaviour
 {
     private Camera camera;
+    public ShakeData explosionShakeData;
     public float healthEnemy;
     public float maxHealthEnemy = 3f;
     public float speed;
@@ -302,6 +304,7 @@ public class BossIgreja : MonoBehaviour
                 {
                     rb2D.AddForce(direction * forceFinal);
                 }
+                CameraShakerHandler.Shake(explosionShakeData);
             }
         }
     }
