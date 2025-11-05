@@ -20,6 +20,7 @@ public class NpcDialogue : MonoBehaviour
     public GameObject hudArma;
     public GameObject hudVida;
     public GameObject armaPlayer;
+    public GameObject questHud;
    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -90,6 +91,7 @@ public class NpcDialogue : MonoBehaviour
             hudArma.SetActive(false);
             armaPlayer.SetActive(false);
             hudVida.SetActive(false);
+            questHud.SetActive(false);
             var player = FindObjectOfType<Player>();
             if (player != null) player.canAttack = false;
                         
@@ -101,10 +103,11 @@ public class NpcDialogue : MonoBehaviour
         {
             readyToSpeak = false;
             hudArma.SetActive(true);
-            armaPlayer.SetActive(true);
+            //armaPlayer.SetActive(true);
             hudVida.SetActive(true);
-            var player = FindObjectOfType<Player>();
-            if (player != null) player.canAttack = true;
+            questHud.SetActive(true);
+            //var player = FindObjectOfType<Player>();
+            //if (player != null) player.canAttack = true;
         }
     }
 }
