@@ -15,9 +15,9 @@ INTEGRANTES:
 
 ## Sumário do Projeto 
 
-milestone 01 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_01.md"> documento </a> <br>
-milestone 02 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_02.md"> documento </a> <br>
-milestone 03 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_03_niveis.md"> documento </a> <br>
-milestone 04 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone04_boss.md"> documento </a> <br>
-milestone 05 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone05_testes.md"> documento </a>
+milestone 01 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_01.md"> Mecânica temporal e universo narrativo </a> <br>
+milestone 02 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_02.md"> Core Gameplay com protótipo navegável + concepts </a> <br>
+milestone 03 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_03_niveis.md"> Três níveis temáticos interconectados </a> <br>
+milestone 04 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone04_boss.md"> Boss, estrutura de esqueleto, menu, intro e seleção </a> <br>
+milestone 05 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone05_testes.md"> Testes de gameplay, ajustes de design </a>
 
