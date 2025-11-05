@@ -12,13 +12,15 @@ public class BossIgreja : MonoBehaviour
 
     private float distance;
     private Rigidbody2D rb;
-    private bool mirar = false;
+    //private bool mirar = false;
+    public ArmaQGira armaQGira;
     private float fireCooldown = 1;
     private float fireTimer = 0f;
     Vector2 moveDirection;
     private Transform playerPosition;
     public GameObject bulletPrefab;
     public Transform firePoint;
+    public Transform firePoint2;
     public float fireForce = 20f;
     private bool detectado = false;
     private bool patrulhando = true;
@@ -166,7 +168,7 @@ public class BossIgreja : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    /*void FixedUpdate()
     {
         if (mirar)
         {
@@ -174,7 +176,7 @@ public class BossIgreja : MonoBehaviour
             float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
             rb.rotation = aimAngle;
         }
-    }
+    }*/
 
     void HomemBomba()
     {
@@ -248,7 +250,7 @@ public class BossIgreja : MonoBehaviour
     }
     public void MirandoEAtirando(float cooldown = 0)
     {
-        mirar = true;
+        armaQGira.mirar = true;
 
         //cooldown do tiro
         fireTimer += Time.deltaTime;
@@ -263,6 +265,7 @@ public class BossIgreja : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0, 0, 90));
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
+        SoundManager.Instance.PlaySound2D("Tiros");
     }
 
     void SpawnParticlesSangue()
@@ -330,7 +333,6 @@ public class BossIgreja : MonoBehaviour
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
             detectado = true;
-            musica.SetActive(true);
             circuloDeDeteccao.enabled = false;
             MusicManager.Instance.PlayMusic("BossIgreja");
         }

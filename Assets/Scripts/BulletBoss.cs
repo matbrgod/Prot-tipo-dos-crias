@@ -28,10 +28,17 @@ public class BulletBoss : MonoBehaviour
                 colisor.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
                 float distancia = 1 + direction.magnitude;
                 float forceFinal = force / distancia;
-                rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
                 if (colisor.CompareTag("Player"))
                 {
                     rb2D.AddForce(direction * forceFinal);
+                }
+                if (colisor.CompareTag("Boss"))
+                {
+                    continue;
+                }
+                else if (!colisor.CompareTag("Boss"))
+                {
+                        rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
                 }
             }
         }
