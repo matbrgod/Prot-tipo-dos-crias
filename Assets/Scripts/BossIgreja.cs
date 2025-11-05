@@ -312,7 +312,7 @@ public class BossIgreja : MonoBehaviour
         {
             camera.orthographicSize = 5f;
             portaFuturo4.SetActive(true);
-            musica.SetActive(false);
+            MusicManager.Instance.PlayMusic("Cavernas");
             Destroy(gameObject);
         }
     }
@@ -332,6 +332,7 @@ public class BossIgreja : MonoBehaviour
             detectado = true;
             musica.SetActive(true);
             circuloDeDeteccao.enabled = false;
+            MusicManager.Instance.PlayMusic("BossIgreja");
         }
     }
 }
