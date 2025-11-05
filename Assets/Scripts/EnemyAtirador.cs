@@ -11,7 +11,8 @@ public class EnemyAtirador : MonoBehaviour
 
     private float distance;
     private Rigidbody2D rb;
-    private bool mirar = false;
+    //private bool mirar = false;
+    public ArmaQGira armaQGira;
     private float fireCooldown = 1;
     private float fireTimer = 0f;
     Vector2 moveDirection;
@@ -53,7 +54,7 @@ public class EnemyAtirador : MonoBehaviour
 
         if (detectado == false)
         {
-            //Se o Player não for detectado o inimigo patrulha
+            //Se o Player nï¿½o for detectado o inimigo patrulha
             Patrulha();
         }
 
@@ -64,19 +65,10 @@ public class EnemyAtirador : MonoBehaviour
 
         if (detectado == true)
         {
-            //Se o Player for detectado o inimigo começa a perseguir
+            //Se o Player for detectado o inimigo comeï¿½a a perseguir
             patrulhando = false;
             Perseguicao();
-        }
-    }
-
-    void FixedUpdate()
-    {
-        if (mirar)
-        {
-            Vector2 aimDirection = (Vector2)playerPosition.position - rb.position;
-            float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
-            rb.rotation = aimAngle;
+            armaQGira.mirar = true;
         }
     }
 
@@ -90,7 +82,7 @@ public class EnemyAtirador : MonoBehaviour
                 agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
                 if (!agent.pathPending && agent.remainingDistance < 2f)
                 {
-                    //Tempo de espera improvisado pq não dá pra usar WaitForSeconds em função e eu sou burro
+                    //Tempo de espera improvisado pq nï¿½o dï¿½ pra usar WaitForSeconds em funï¿½ï¿½o e eu sou burro
                     continuarPatrulha = false;
                     espera += Time.deltaTime;
                     if (espera >= tempoDeESpera)
@@ -125,7 +117,6 @@ public class EnemyAtirador : MonoBehaviour
     }
     public void IrAtras()
     {
-        mirar = false;
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
@@ -133,11 +124,10 @@ public class EnemyAtirador : MonoBehaviour
         //transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
         agent.SetDestination(player.transform.position);
         agent.speed = speed;
-        transform.rotation = Quaternion.Euler(this.transform.rotation.x, this.transform.rotation.y, angle - 90f);
+        //transform.rotation = Quaternion.Euler(this.transform.rotation.x, this.transform.rotation.y, angle - 90f);
     }
     public void MirandoEAtirando(float cooldown = 0)
     {
-        mirar = true;
 
         //cooldown do tiro
         fireTimer += Time.deltaTime;
@@ -180,7 +170,7 @@ public class EnemyAtirador : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
+        if (collision.CompareTag("Player") | collision.CompareTag("Enemy"))
         {
             detectado = true;
         }

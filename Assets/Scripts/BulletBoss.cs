@@ -38,7 +38,7 @@ public class BulletBoss : MonoBehaviour
                 }
                 else if (!colisor.CompareTag("Boss"))
                 {
-                        rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
+                    rb2D.AddForce(direction * forceFinal * 2, ForceMode2D.Impulse);
                 }
             }
         }
