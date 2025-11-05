@@ -1,7 +1,11 @@
-# Projeto "Fungas" (trabalho final segundo semestre 2025)
+# Projeto 2D Top Down - "Hava Nice Day"
+Este projeto é um jogo 2D top down, feito como trabalho final para o segundo semestre do curso de Jogos Digitais, da Puc-SP. 
+
+## Ideia geral
+
 
 INTEGRANTES:
-- André Luiz Lopes Silva Campos
+- André Luiz Lopes Silva Campos 
 - Matheus Costa Barroso
 - Gustavo Tashima Basílio
 - Renan Takeo Togashi
