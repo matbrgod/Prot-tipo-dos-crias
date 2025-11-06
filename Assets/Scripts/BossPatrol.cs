@@ -21,6 +21,7 @@ public class BossPatrol : MonoBehaviour
     [SerializeField] private GameObject TriggerDoE;
     [SerializeField] private GameObject spawnRatinhos;
     [SerializeField] private GameObject musica;
+    [SerializeField] private GameObject quest1;
     [SerializeField] private AudioSource musicaAmbiente;
     public GameObject quest;
 
@@ -89,6 +90,8 @@ private void Die()
     if (musica != null) musica.SetActive(false); else Debug.Log("musica is null");
     if (musicaAmbiente != null) musicaAmbiente.Play(); else Debug.Log("alarme is null");
     if (quest != null) quest.SetActive(true); else Debug.Log("quest is null");
+    if (quest1 != null) quest1.SetActive(false); else Debug.Log("quest1 is null");
+
 
     Destroy(gameObject);
 }

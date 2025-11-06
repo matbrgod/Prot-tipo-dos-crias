@@ -14,6 +14,7 @@ public class CameraZone : MonoBehaviour
     public float delay;
     public GameObject hudArma;
     public GameObject hudVida;
+    public GameObject quest0;
 
     private void Start()
     {
@@ -28,6 +29,7 @@ public class CameraZone : MonoBehaviour
         if (cameraFollow == null || cameraPoint == null) return;
         hudArma.SetActive(false);
         hudVida.SetActive(false);
+        quest0.SetActive(false);
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = false;
         FindObjectOfType<Player>().moveSpeed = 0f;
@@ -44,6 +46,7 @@ public class CameraZone : MonoBehaviour
         yield return new WaitForSeconds(delay);
         hudArma.SetActive(true);
         hudVida.SetActive(true);
+        quest0.SetActive(true);
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = true;
         FindObjectOfType<Player>().moveSpeed = 5f;

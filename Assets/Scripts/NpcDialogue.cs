@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class NpcDialogue : MonoBehaviour
 {
     public string[] dialogueNpc;
+    public string npcName;
     public int dialogueIndex;
 
     public GameObject dialoguePanel;
@@ -64,7 +65,7 @@ public class NpcDialogue : MonoBehaviour
 
     void StartDialogue()
     {
-        nameNpc.text = "Persephone";
+        nameNpc.text = npcName;
         imageNpc.sprite = spriteNpc;
         startDialogue = true;
         dialogueIndex = 0;
@@ -103,7 +104,10 @@ public class NpcDialogue : MonoBehaviour
         {
             readyToSpeak = false;
             hudArma.SetActive(true);
-            //armaPlayer.SetActive(true);
+
+            if (armaPlayer != null)
+            armaPlayer.SetActive(true);
+            
             hudVida.SetActive(true);
             questHud.SetActive(true);
             //var player = FindObjectOfType<Player>();

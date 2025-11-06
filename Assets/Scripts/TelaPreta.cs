@@ -9,6 +9,8 @@ public class TelaPreta : MonoBehaviour
     [SerializeField] private GameObject persephone;
     [SerializeField] private GameObject tumulo;
     [SerializeField] private GameObject triggerE;
+    [SerializeField] private GameObject newTrigger;
+    [SerializeField] private GameObject quest0;
     public float fadeDuration = 0.5f;
     public float holdDuration = 3f;
 
@@ -56,7 +58,9 @@ public class TelaPreta : MonoBehaviour
         // fade in
         yield return StartCoroutine(Fade(0f, 1f, fadeDuration));
         persephone.SetActive(false);
+        quest0.SetActive(false);
         tumulo.SetActive(true);
+        newTrigger.SetActive(true);
         // hold
         yield return new WaitForSeconds(holdDuration);
         // fade out
