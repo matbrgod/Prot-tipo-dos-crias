@@ -4,6 +4,7 @@ public class FecharPorta : MonoBehaviour
 {
     public GameObject porta;
     public GameObject ratao;
+    [SerializeField] private GameObject quest1;
     //public AudioClip closeClip;      // assign the sound in the Inspector
     //public AudioSource audioSource;  // optional: assign an AudioSource (not required)
     public AudioSource musicaRatao;
@@ -16,6 +17,7 @@ public class FecharPorta : MonoBehaviour
         {
             porta.SetActive(true);
             ratao.SetActive(true);
+            quest1.SetActive(false);
 
             musicaRatao.Play();
             musicaAmbiente.Stop();
