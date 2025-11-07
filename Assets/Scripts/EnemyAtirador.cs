@@ -50,7 +50,7 @@ public class EnemyAtirador : MonoBehaviour
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
 
@@ -70,9 +70,18 @@ public class EnemyAtirador : MonoBehaviour
             //Se o Player for detectado o inimigo come�a a perseguir
             patrulhando = false;
             Perseguicao();
-            armaQGira.mirar = true;
         }
     }
+
+    /*void FixedUpdate()
+    {
+        if (mirar)
+        {
+            Vector2 aimDirection = (Vector2)playerPosition.position - rb.position;
+            float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
+            rb.rotation = aimAngle;
+        }
+    }*/
 
     private void Patrulha()
     {
@@ -130,7 +139,8 @@ public class EnemyAtirador : MonoBehaviour
     }
     public void MirandoEAtirando(float cooldown = 0)
     {
-
+        armaQGira.mirar = true;
+        //mirar = true;
         //cooldown do tiro
         fireTimer += Time.deltaTime;
         if (fireTimer >= fireCooldown + cooldown)
@@ -144,8 +154,9 @@ public class EnemyAtirador : MonoBehaviour
     {
         if (tiro != null)
         {
-            tiro.pitch = Random.Range(firePitchMin, firePitchMax);
-            tiro.Play();
+            SoundManager.Instance.PlaySound2D("Tiros");
+            //tiro.pitch = Random.Range(firePitchMin, firePitchMax);
+            //tiro.Play();
         }
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0,0,90));
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
@@ -169,7 +180,7 @@ public class EnemyAtirador : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Bullet") | collision.collider.CompareTag("Bullet dos inimigos"))
+        if (collision.collider.CompareTag("Bullet"))// | collision.collider.CompareTag("Enemy"))
         {
             TakeDamage();
         }
@@ -177,7 +188,7 @@ public class EnemyAtirador : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") | collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
             detectado = true;
         }
