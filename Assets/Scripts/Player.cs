@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject reloadingUI;
     [SerializeField] private GameObject efeitoTiro;
     [SerializeField] private ParticleSystem sangue;
+
     private ParticleSystem sangueParticleSystemInstance;
 
     void Awake()
@@ -63,6 +64,7 @@ public class Player : MonoBehaviour
         originalMoveSpeed = moveSpeed;
         healthText.text = "" + healthPlayer;
         isInvincible = false;
+             
 
         int enemyLayer = LayerMask.NameToLayer("Enemy");
         if (enemyLayer != -1)
@@ -104,6 +106,9 @@ public class Player : MonoBehaviour
 
         if(efeitoTiro != null)
             efeitoTiro.SetActive(timerTiro < 0.2f);
+
+        //if(WeaponParent.isActiveAndEnabled)
+            //canAttack = true;
             
         
         interact = Input.GetKeyDown(KeyCode.E);
@@ -114,9 +119,19 @@ public class Player : MonoBehaviour
         
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (mouseWorldPos.x > transform.position.x)
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        else 
-            transform.rotation = Quaternion.Euler(0, -180, 0);
+        {
+            if(reloadingUI != null)
+                reloadingUI.transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(0, 0, 0);            
+        }
+        else
+        {
+            if(reloadingUI != null)
+                reloadingUI.transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(0, -180, 0);            
+        }
+            
+        
 
         
     }

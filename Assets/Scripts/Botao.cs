@@ -3,37 +3,29 @@ using UnityEngine;
 public class Botao : MonoBehaviour
 {
     private Player player;
+    private bool canPress;
+    [SerializeField] private GameObject triggerE;
     public GameObject porta;
 
-    //ao ENTRAR na área de trigger
-    private void OnTriggerEnter2D(Collider2D objectThatEntered)
+    void Update()
     {
-        //if (objectThatEntered.tag == "Jogador")//nojinho :(
-        if (objectThatEntered.CompareTag("Player"))//:)
+        if (canPress && Input.GetKeyDown(KeyCode.E))
         {
-            player = objectThatEntered.GetComponent<Player>();
-        }
-    }
-    //caso FIQUE na área de trigger
-    private void OnTriggerStay2D(Collider2D objectThatStayed)
-    {
-        if (objectThatStayed.CompareTag("Player") && player.interact)
-        {   
             if (porta != null)
             {
                 porta.SetActive(true);
             }
 
+            triggerE.SetActive(false);
             Destroy(gameObject, 0.15f);
         }
     }
-    //ao SAIR da área de trigger
-    private void OnTriggerExit2D(Collider2D objectThatExit)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (objectThatExit.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            //Debug.Log("Jogador saiu da área");
-            player = null;
+            canPress = true;
+
         }
     }
 }

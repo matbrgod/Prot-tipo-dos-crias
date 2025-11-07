@@ -180,7 +180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4535638933284965045, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.039581783
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4535638933284965045, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -320,10 +320,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthEnemy: 0
-  maxHealthEnemy: 3
-  speed: 4
+  maxHealthEnemy: 6
+  speed: 5
   player: {fileID: 0}
-  distanceBetween: 7
+  distanceBetween: 9
   tempoDeESpera: 2
   PatrolPoints: []
 --- !u!58 &8835789812979261910

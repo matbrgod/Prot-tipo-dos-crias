@@ -11,7 +11,7 @@ TagManager:
   - Slot
   - rato
   - fio
-  - Boss
+  - Item
   layers:
   - Default
   - TransparentFX

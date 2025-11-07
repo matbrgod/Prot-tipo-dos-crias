@@ -385,6 +385,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 268134612409388748, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
+      propertyPath: damage
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 674921110212286670, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_FlipX
       value: 1

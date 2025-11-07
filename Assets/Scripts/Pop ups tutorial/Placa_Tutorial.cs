@@ -4,12 +4,18 @@ public class Placa_Tutorial : MonoBehaviour
 {
     public GameObject placa;
 
-    private void OnTriggerStay2D(Collider2D triggerCollider)
+    private void OnTriggerEnter2D(Collider2D triggerCollider)
     {
         if (triggerCollider.gameObject.CompareTag("Player"))
         {
             placa.SetActive(true);
-            //Object.Destroy(this.gameObject);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D triggerCollider)
+    {
+        if (triggerCollider.gameObject.CompareTag("Player"))
+        {
+            placa.SetActive(false);
         }
     }
 }
