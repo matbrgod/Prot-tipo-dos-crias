@@ -5356,11 +5356,11 @@ PrefabInstance:
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlaySound2D
@@ -5606,11 +5606,11 @@ PrefabInstance:
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlaySound2D
@@ -6195,11 +6195,11 @@ PrefabInstance:
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlaySound2D
@@ -6472,6 +6472,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649590593}
   m_CullTransparentMesh: 1
+--- !u!114 &1784192671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5327788985294859724, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+  m_PrefabInstance: {fileID: 727935525}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25ca94018244964291033ca6ea88e6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1802748481
 GameObject:
   m_ObjectHideFlags: 0
@@ -6650,11 +6661,11 @@ PrefabInstance:
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1784192671}
     - target: {fileID: 3135952610563355910, guid: 0312bbfd7c4c7d34fbfc42c4ec07ab4d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlaySound2D

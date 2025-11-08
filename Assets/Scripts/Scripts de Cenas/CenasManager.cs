@@ -3,18 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class CenasManager : MonoBehaviour
 {
-    private string sceneName = "nada";
-    void Awake()
-    {
-        Time.timeScale = 1f; // Resume the game
-        Scene currentScene = SceneManager.GetActiveScene();
-        string sceneName = currentScene.name;
-    }
+    //private string sceneName = "nada";
     void Start()
     {
-        Time.timeScale = 1f; // Resume the game
         Scene currentScene = SceneManager.GetActiveScene();
-        string sceneName = currentScene.name;
+        string sceneName = currentScene.name;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+        Time.timeScale = 1f; // Resume the game
         if (sceneName == "Menu")
         {
             MusicManager.Instance.PlayMusic("Menu");
@@ -59,7 +53,7 @@ public class CenasManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-        {
-
-        }
+    {
+        
+    }
 }
