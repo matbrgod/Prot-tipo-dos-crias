@@ -33,7 +33,7 @@ public class CenasManager : MonoBehaviour
         {
             MusicManager.Instance.PlayMusic("CavernaTensa");
         }
-        if (sceneName == "Futuro 1") ;
+        if (SceneManager.GetActiveScene().name == "Futuro 1") ;
         {
             MusicManager.Instance.PlayMusic("MiniGame");
         }
@@ -54,6 +54,7 @@ public class CenasManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Scene currentScene = SceneManager.GetActiveScene();
+        Debug.Log("The active scene is: " + currentScene.name);
     }
 }
