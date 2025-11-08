@@ -25,6 +25,7 @@ public class BotaoJogar : MonoBehaviour
     }
     public void Credits()
     {
+        MusicManager.Instance.PlayMusic("Parar");
         SceneManager.LoadScene("Creditos");
     }
     public void Leave()

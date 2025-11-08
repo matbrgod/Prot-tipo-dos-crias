@@ -19,8 +19,8 @@ public class FecharPorta : MonoBehaviour
             ratao.SetActive(true);
             quest1.SetActive(false);
 
-            musicaRatao.Play();
-            musicaAmbiente.Stop();
+            MusicManager.Instance.PlayMusic("MiniBoss");
+            //musicaAmbiente.Stop();
             
             Object.Destroy(this.gameObject);
         }
