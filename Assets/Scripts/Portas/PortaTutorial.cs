@@ -23,7 +23,8 @@ public class PortaTutorial : MonoBehaviour
             //deleta ele da cena
             Debug.Log("Player dormiu na cama");
             MusicManager.Instance.PlayMusic("Parar");
-            SceneManager.LoadScene("Intro");
+            //SceneManager.LoadScene("Intro");
+            LevelManager.Instance.LoadScene("Intro", "CrossFade");
         }
     }
     //ao SAIR da área de trigger

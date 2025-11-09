@@ -35,12 +35,10 @@ public class LevelManager : MonoBehaviour
     public void LoadScene(string sceneName, string transitionName)
     {
         StartCoroutine(LoadSceneAsync(sceneName, transitionName));
-        crossFade.SetActive(true);
     }
  
     private IEnumerator LoadSceneAsync(string sceneName, string transitionName)
     {
-        crossFade.SetActive(true);
         SceneTransition transition = transitions.First(t => t.name == transitionName);
  
         AsyncOperation scene = SceneManager.LoadSceneAsync(sceneName);
