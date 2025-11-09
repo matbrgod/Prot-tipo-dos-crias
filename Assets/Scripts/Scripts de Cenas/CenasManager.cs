@@ -7,54 +7,67 @@ public class CenasManager : MonoBehaviour
     void Start()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        string sceneName = currentScene.name;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+        string sceneName = currentScene.name;
         Time.timeScale = 1f; // Resume the game
-        if (sceneName == "Menu")
+        Debug.Log("The active scene is: " + currentScene.name);
+        switch (sceneName)
         {
-            MusicManager.Instance.PlayMusic("Menu");
-        }
-        if (sceneName == "tutorial nave")
-        {
-            MusicManager.Instance.PlayMusic("CavernaTensa");
-        }
-        if (sceneName == "Cenario 01") ;
-        {
-            MusicManager.Instance.PlayMusic("Cavernas");
-        }
-        if (sceneName == "Caverna_cenario 01") ;
-        {
-            MusicManager.Instance.PlayMusic("CavernaTensa");
-        }
-        if (sceneName == "Clima2")
-        {
-            MusicManager.Instance.PlayMusic("Cavernas");
-        }
-        if (sceneName == "Caverna2")
-        {
-            MusicManager.Instance.PlayMusic("CavernaTensa");
-        }
-        if (SceneManager.GetActiveScene().name == "Futuro 1") ;
-        {
-            MusicManager.Instance.PlayMusic("MiniGame");
-        }
-        if (sceneName == "Futuro 2")
-        {
-            MusicManager.Instance.PlayMusic("Cavernas");
-        }
-        if (sceneName == "Caverna Tensa")
-        {
-            MusicManager.Instance.PlayMusic("CavernaTensa");
-        }
-        if (sceneName == "Futuro 4") ;
-        {
-            MusicManager.Instance.PlayMusic("Menu");
+            case "tutorial nave":
+            {
+                MusicManager.Instance.PlayMusic("CavernaTensa");
+                break;
+            }
+            case "Menu":
+            {
+                MusicManager.Instance.PlayMusic("Menu");
+                break;
+            }
+            case "Cenario 01":
+            {
+                    MusicManager.Instance.PlayMusic("Cavernas");
+                    break;
+            }
+            case"Caverna_cenario 01":
+                {
+                    MusicManager.Instance.PlayMusic("CavernaTensa");
+                    break;
+                }
+            case "Clima2":
+                {
+                    MusicManager.Instance.PlayMusic("Cavernas");
+                    break;
+                }
+            case "Caverna2":
+                {
+                    MusicManager.Instance.PlayMusic("CavernaTensa");
+                    break;
+                }
+            case "Futuro 1":
+                {
+                    MusicManager.Instance.PlayMusic("MiniGame");
+                    break;
+                }
+            case "Futuro 2":
+                {
+                    MusicManager.Instance.PlayMusic("Cavernas");
+                    break;
+                }
+                case "Caverna Tensa":
+                {
+                    MusicManager.Instance.PlayMusic("CavernaTensa");
+                    break;
+                }
+                case "Futuro 4":
+                {
+                    MusicManager.Instance.PlayMusic("Menu");
+                    break;
+                }
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Scene currentScene = SceneManager.GetActiveScene();
-        Debug.Log("The active scene is: " + currentScene.name);
+        
     }
 }
