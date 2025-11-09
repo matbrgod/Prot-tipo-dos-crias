@@ -22,6 +22,7 @@ public class PortaTutorial : MonoBehaviour
             //realiza a ação do coletável
             //deleta ele da cena
             Debug.Log("Player dormiu na cama");
+            MusicManager.Instance.PlayMusic("Parar");
             SceneManager.LoadScene("Intro");
         }
     }

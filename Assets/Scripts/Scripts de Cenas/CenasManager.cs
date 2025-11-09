@@ -4,7 +4,29 @@ using UnityEngine.SceneManagement;
 public class CenasManager : MonoBehaviour
 {
     //private string sceneName = "nada";
-    void Start()
+    public static CenasManager Instance;
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnMyCustomSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnMyCustomSceneLoaded;
+    }
+    void OnMyCustomSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
@@ -12,14 +34,14 @@ public class CenasManager : MonoBehaviour
         Debug.Log("The active scene is: " + currentScene.name);
         switch (sceneName)
         {
-            case "tutorial nave":
-            {
-                MusicManager.Instance.PlayMusic("CavernaTensa");
-                break;
-            }
             case "Menu":
             {
                 MusicManager.Instance.PlayMusic("Menu");
+                break;
+            }
+            case "tutorial nave":
+            {
+                MusicManager.Instance.PlayMusic("CavernaTensa");
                 break;
             }
             case "Cenario 01":
@@ -49,12 +71,12 @@ public class CenasManager : MonoBehaviour
                 }
             case "Futuro 2":
                 {
-                    MusicManager.Instance.PlayMusic("Cavernas");
+                    //MusicManager.Instance.PlayMusic("Cavernas");
                     break;
                 }
-                case "Caverna Tensa":
+                case "Futuro3":
                 {
-                    MusicManager.Instance.PlayMusic("CavernaTensa");
+                    //MusicManager.Instance.PlayMusic("CavernaTensa");
                     break;
                 }
                 case "Futuro 4":
