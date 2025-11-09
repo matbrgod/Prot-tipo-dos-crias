@@ -241,7 +241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -250,8 +250,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -320,6 +320,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91723265}
   m_CullTransparentMesh: 1
+--- !u!1001 &417659670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.078044415
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.42783028
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 141806080
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998671554726822305, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140457764944024953, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+--- !u!114 &417659671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5327788985294859724, guid: 21aa41096bc02ac4daa3ce80bdb3cc0d, type: 3}
+  m_PrefabInstance: {fileID: 417659670}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25ca94018244964291033ca6ea88e6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &423059458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -533,6 +601,7 @@ GameObject:
   - component: {fileID: 976458127}
   - component: {fileID: 976458126}
   - component: {fileID: 976458125}
+  - component: {fileID: 976458129}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -596,9 +665,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_NormalColor: {r: 0, g: 0.6138177, b: 1, a: 1}
+    m_HighlightedColor: {r: 0, g: 0.72218895, b: 1, a: 1}
+    m_PressedColor: {r: 0, g: 0.2565133, b: 0.46540874, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -669,6 +738,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976458123}
   m_CullTransparentMesh: 1
+--- !u!114 &976458129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976458123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 417659671}
+          m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+          m_MethodName: PlaySound2D
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: BotaoSelecionado
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 417659671}
+          m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+          m_MethodName: PlaySound2D
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: BotaoClicado
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1077375075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,3 +1149,4 @@ SceneRoots:
   - {fileID: 448804499}
   - {fileID: 1077375078}
   - {fileID: 423059458}
+  - {fileID: 417659670}
