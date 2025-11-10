@@ -13,6 +13,7 @@ public class LoadAct1 : MonoBehaviour
     IEnumerator LoadSceneAfterDelay()
     {
         yield return new WaitForSeconds(10f);
-        SceneManager.LoadScene("Cenario 01");
+        //SceneManager.LoadScene("Cenario 01");
+        LevelManager.Instance.LoadScene("Cenario 01", "CrossFade");
     }
 }

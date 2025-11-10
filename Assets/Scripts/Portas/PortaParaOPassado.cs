@@ -7,7 +7,8 @@ public class PortaParaOPassado : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Cima2");
+            //SceneManager.LoadScene("Cima2");
+            LevelManager.Instance.LoadScene("Cima2", "CrossFade");
             Debug.Log("Collision detected with" + collision.gameObject.name);
         }
 

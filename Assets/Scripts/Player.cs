@@ -148,7 +148,8 @@ public class Player : MonoBehaviour
                     StartCoroutine(InvincibilityCoroutine());
                     
                     if (healthPlayer <= 0)
-                    {   
+            {   
+                        MusicManager.Instance.PlayMusic("Parar");
                         SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
