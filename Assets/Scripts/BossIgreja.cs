@@ -65,6 +65,7 @@ public class BossIgreja : MonoBehaviour
     //Barra de vida
     public HealthBar healthBar;
     public GameObject vidaDoBoss;
+    public GameObject quest; //barra de quest desabilita no fim da batalha
 
     void Start()
     {
@@ -329,8 +330,17 @@ public class BossIgreja : MonoBehaviour
             portaFuturo4.SetActive(true);
             MusicManager.Instance.PlayMusic("Cavernas");
             if (vidaDoBoss != null) vidaDoBoss.SetActive(false); else Debug.Log("vidaDoBoss is null");
+            if (quest != null) quest.SetActive(false); else Debug.Log("quest is null");
             Destroy(gameObject);
         }
+    }
+
+    public void HoraDoDuelo()
+    {
+        detectado = true;
+        Destroy(cutscene);
+        circuloDeDeteccao.enabled = false;
+        MusicManager.Instance.PlayMusic("BossIgreja");
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -345,10 +355,7 @@ public class BossIgreja : MonoBehaviour
     {
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
-            detectado = true;
-            Destroy(cutscene);
-            circuloDeDeteccao.enabled = false;
-            MusicManager.Instance.PlayMusic("BossIgreja");
+            HoraDoDuelo();
         }
     }
 }

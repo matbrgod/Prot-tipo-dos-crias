@@ -15,6 +15,7 @@ public class CameraZone : MonoBehaviour
     public GameObject hudArma;
     public GameObject hudVida;
     public GameObject quest0;
+    public BossIgreja bossIgreja; // Na BossIgreja a batalha começa no fim da cutscene
 
     private void Start()
     {
@@ -50,6 +51,7 @@ public class CameraZone : MonoBehaviour
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = true;
         FindObjectOfType<Player>().moveSpeed = 5f;
+        bossIgreja.HoraDoDuelo();
         Destroy(this.gameObject);
     }
 }
