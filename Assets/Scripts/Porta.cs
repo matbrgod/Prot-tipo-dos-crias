@@ -13,19 +13,23 @@ public class Porta : MonoBehaviour
         {
             if (Futuro1 == true)
             {
-                SceneManager.LoadScene("Futuro 1");
+                //SceneManager.LoadScene("Futuro 1");
+                LevelManager.Instance.LoadScene("Futuro 1", "CrossFade");
             }
             if (Futuro2 == true)
             {
-                SceneManager.LoadScene("Futuro 2");
+                //SceneManager.LoadScene("Futuro 2");
+                LevelManager.Instance.LoadScene("Futuro 2", "CrossFade");
             }
             if (Futuro3 == true)
             {
-                SceneManager.LoadScene("Futuro 3");
+                //SceneManager.LoadScene("Futuro 3");
+                LevelManager.Instance.LoadScene("Futuro 3", "CrossFade");
             }
             if (Futuro4 == true)
             {
-                SceneManager.LoadScene("Futuro 4");
+                //SceneManager.LoadScene("Futuro 4");
+                LevelManager.Instance.LoadScene("Futuro 4", "CrossFade");
             }
         }
     }

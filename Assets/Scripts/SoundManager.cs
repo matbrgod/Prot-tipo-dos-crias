@@ -13,12 +13,13 @@ public class SoundManager : MonoBehaviour
     {
         if (Instance != null)
         {
-            Destroy(gameObject);
+          Destroy(gameObject);
         }
         else
+        if(Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
     }
  

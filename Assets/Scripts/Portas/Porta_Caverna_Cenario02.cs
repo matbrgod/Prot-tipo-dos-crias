@@ -7,7 +7,8 @@ public class Porta_Caverna_Cenario02 : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Caverna2");
+            //SceneManager.LoadScene("Caverna2");
+            LevelManager.Instance.LoadScene("Caverna2", "CrossFade");
             Debug.Log("Collision detected with" + collision.gameObject.name);
         }
 
