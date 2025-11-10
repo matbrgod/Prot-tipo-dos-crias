@@ -16,7 +16,8 @@ public class PortaCavernada : MonoBehaviour
         Collider2D collision = Physics2D.OverlapCircle(transform.position, 0.1f,64);
         if (collision != null)
         {
-            SceneManager.LoadScene("Caverna");
+            //SceneManager.LoadScene("Caverna");
+            LevelManager.Instance.LoadScene("Caverna", "CrossFade");
             Debug.Log("Collision detected with" + collision.gameObject.name);
         }
     }
