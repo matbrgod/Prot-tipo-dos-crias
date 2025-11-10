@@ -1,7 +1,11 @@
-# Projeto "Fungas" (trabalho final segundo semestre 2025)
+# Projeto 2D Top Down - "Hava Nice Day"
+Este projeto é um jogo 2D top down, feito como trabalho final para o segundo semestre do curso de Jogos Digitais, da Puc-SP. 
+
+## Ideia geral
+
 
 INTEGRANTES:
-- André Luiz Lopes Silva Campos
+- André Luiz Lopes Silva Campos 
 - Matheus Costa Barroso
 - Gustavo Tashima Basílio
 - Renan Takeo Togashi
@@ -11,8 +15,9 @@ INTEGRANTES:
 
 ## Sumário do Projeto 
 
-milestone 01 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_01.md"> documento </a> <br>
-milestone 02 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_02.md"> documento </a> <br>
-milestone 03 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_03_niveis.md"> documento </a> <br>
-milestone 04 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone04_boss.md"> documento </a>
+milestone 01 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_01.md"> Mecânica temporal e universo narrativo </a> <br>
+milestone 02 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_02.md"> Core Gameplay com protótipo navegável + concepts </a> <br>
+milestone 03 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_03_niveis.md"> Três níveis temáticos interconectados </a> <br>
+milestone 04 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone04_boss.md"> Boss, estrutura de esqueleto, menu, intro e seleção </a> <br>
+milestone 05 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone05_testes.md"> Testes de gameplay, ajustes de design </a>
 

@@ -3,14 +3,12 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [SerializeField] private ParticleSystem faiscas;
+    private ParticleSystem faiscasParticleSystemInstance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject Impacto;
-    public GameObject rastro;
-    private SpriteRenderer spriteRenderer;
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        Impacto.SetActive(false);
+        
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -20,17 +18,9 @@ public class Bullet : MonoBehaviour
         }
         else
         {
-            rastro.SetActive(false);
-            Impacto.SetActive(true);
-            this.spriteRenderer.enabled = false;
-            StartCoroutine(DestroyBulletAfterImpact());
-
+            faiscasParticleSystemInstance = Instantiate(faiscas, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
 
     }
-    private IEnumerator DestroyBulletAfterImpact()
-    {
-        yield return new WaitForSeconds(0.3f);
-        Destroy(gameObject);
-    } 
 }

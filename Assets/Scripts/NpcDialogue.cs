@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class NpcDialogue : MonoBehaviour
 {
     public string[] dialogueNpc;
+    public string npcName;
     public int dialogueIndex;
 
     public GameObject dialoguePanel;
@@ -17,6 +18,11 @@ public class NpcDialogue : MonoBehaviour
 
     public bool readyToSpeak;
     public bool startDialogue;
+    public GameObject hudArma;
+    public GameObject hudVida;
+    public GameObject armaPlayer;
+    public GameObject questHud;
+   
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -53,16 +59,19 @@ public class NpcDialogue : MonoBehaviour
             startDialogue = false;
             dialogueIndex = 0;
             FindObjectOfType<Player>().moveSpeed = 5f;
+            
         }
     }
 
     void StartDialogue()
     {
-        nameNpc.text = "Persephone";
+        nameNpc.text = npcName;
         imageNpc.sprite = spriteNpc;
         startDialogue = true;
         dialogueIndex = 0;
         dialoguePanel.SetActive(true);
+        FindObjectOfType<Player>().moveSpeed = 0f;
+        
         StartCoroutine(ShowDialogue());
     }
     IEnumerator ShowDialogue()
@@ -80,6 +89,13 @@ public class NpcDialogue : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             readyToSpeak = true;
+            hudArma.SetActive(false);
+            armaPlayer.SetActive(false);
+            hudVida.SetActive(false);
+            questHud.SetActive(false);
+            var player = FindObjectOfType<Player>();
+            if (player != null) player.canAttack = false;
+                        
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -87,6 +103,15 @@ public class NpcDialogue : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             readyToSpeak = false;
+            hudArma.SetActive(true);
+
+            if (armaPlayer != null)
+            armaPlayer.SetActive(true);
+            
+            hudVida.SetActive(true);
+            questHud.SetActive(true);
+            //var player = FindObjectOfType<Player>();
+            //if (player != null) player.canAttack = true;
         }
     }
 }

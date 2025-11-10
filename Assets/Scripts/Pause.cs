@@ -5,6 +5,10 @@ public class Pause : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject pauseMenu;
     public GameObject WeaponParent;
+    void Awake()
+    {
+        Time.timeScale = 1f; // Ensure the game is running at normal speed when starting
+    }
     void Start()
     {
         

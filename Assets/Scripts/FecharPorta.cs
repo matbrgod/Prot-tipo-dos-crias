@@ -4,9 +4,11 @@ public class FecharPorta : MonoBehaviour
 {
     public GameObject porta;
     public GameObject ratao;
+    [SerializeField] private GameObject quest1;
     //public AudioClip closeClip;      // assign the sound in the Inspector
     //public AudioSource audioSource;  // optional: assign an AudioSource (not required)
-    public GameObject musicaRatao;
+    public AudioSource musicaRatao;
+    public AudioSource musicaAmbiente;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter2D(Collider2D objectThatEntered)
@@ -15,8 +17,10 @@ public class FecharPorta : MonoBehaviour
         {
             porta.SetActive(true);
             ratao.SetActive(true);
+            quest1.SetActive(false);
 
-            musicaRatao.SetActive(true);
+            musicaRatao.Play();
+            musicaAmbiente.Stop();
             
             Object.Destroy(this.gameObject);
         }
