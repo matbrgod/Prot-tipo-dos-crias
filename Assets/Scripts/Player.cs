@@ -89,7 +89,7 @@ public class Player : MonoBehaviour
         }
 
         timerTiro += Time.deltaTime;
-        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
+        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown && weapon != null)
         {
             timerTiro = 0f;
             weapon.Fire();
