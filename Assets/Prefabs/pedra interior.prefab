@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: vidaMaxima
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 9145012403283281418, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
+      propertyPath: objetoADrop
+      value: 
+      objectReference: {fileID: 5306594900383082984, guid: 222b4c4ac771e744eb2b3369973cdc25, type: 3}
     m_RemovedComponents:
     - {fileID: 8433192828114979893, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
     m_RemovedGameObjects: []

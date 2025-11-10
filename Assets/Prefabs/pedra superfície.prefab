@@ -432,6 +432,10 @@ PrefabInstance:
       propertyPath: vidaMaxima
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 701389237635052285, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
+      propertyPath: objetoADrop
+      value: 
+      objectReference: {fileID: 5306594900383082984, guid: 222b4c4ac771e744eb2b3369973cdc25, type: 3}
     - target: {fileID: 1617503076424741647, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.172723
