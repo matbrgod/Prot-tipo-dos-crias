@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7212719146148454343}
   - component: {fileID: 5305853339604515604}
+  - component: {fileID: 8959160305376609470}
   m_Layer: 0
   m_Name: CenasManager
   m_TagString: Untagged
@@ -44,3 +45,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0606c10149a9ce14c8a445d0fda8c178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8959160305376609470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3791473990035518491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330aa3327a0fa2c47ac258a6c1128cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Error: {fileID: 0}
+  yesButton: {fileID: 0}
+  noButton: {fileID: 0}

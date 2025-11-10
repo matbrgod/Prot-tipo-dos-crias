@@ -14,7 +14,7 @@ public class CenasManager : MonoBehaviour
         else
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
     }
     void OnEnable()
@@ -71,12 +71,12 @@ public class CenasManager : MonoBehaviour
                 }
             case "Futuro 2":
                 {
-                    //MusicManager.Instance.PlayMusic("Cavernas");
+                    MusicManager.Instance.PlayMusic("Cavernas");
                     break;
                 }
                 case "Futuro3":
                 {
-                    //MusicManager.Instance.PlayMusic("CavernaTensa");
+                    MusicManager.Instance.PlayMusic("CavernaTensa");
                     break;
                 }
                 case "Futuro 4":
