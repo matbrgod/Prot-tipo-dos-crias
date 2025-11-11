@@ -326,6 +326,7 @@ public class BossIgreja : MonoBehaviour
         if (healthBar != null) healthBar.SetHealth(healthEnemy);
         if (healthEnemy <= 0)
         {
+            Explosao(transform);
             camera.orthographicSize = 5f;
             portaFuturo4.SetActive(true);
             MusicManager.Instance.PlayMusic("Cavernas");
