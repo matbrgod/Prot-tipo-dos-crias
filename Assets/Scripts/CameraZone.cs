@@ -16,11 +16,13 @@ public class CameraZone : MonoBehaviour
     public GameObject hudVida;
     public GameObject quest0;
     public GameObject quest01;
+    public Enemy enemy;
 
     private void Start()
     {
         if (cameraFollow == null)
             cameraFollow = FindObjectOfType<CameraFollow>();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -31,6 +33,7 @@ public class CameraZone : MonoBehaviour
         hudArma.SetActive(false);
         hudVida.SetActive(false);
         quest0.SetActive(false);
+        enemy.enemyAnimator.SetBool("IsEating", true);
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = false;
         FindObjectOfType<Player>().moveSpeed = 0f;
@@ -48,6 +51,7 @@ public class CameraZone : MonoBehaviour
         hudArma.SetActive(true);
         hudVida.SetActive(true);
         quest01.SetActive(true);
+        enemy.enemyAnimator.SetBool("IsEating", false);
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = true;
         FindObjectOfType<Player>().moveSpeed = 5f;

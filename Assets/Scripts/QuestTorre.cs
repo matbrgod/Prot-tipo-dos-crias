@@ -16,11 +16,33 @@ public class QuestTorre : MonoBehaviour
         // Encontra o objeto Inventory page na cena
         if (inventoryPage == null)
         {
-            Debug.LogError("Inventory page não encontrado na cena.");
+            Debug.LogError("Inventory page nï¿½o encontrado na cena.");
             return;
         }
 
         // Busca todos os slots filhos do Inventory page
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        ProcurarItemNoInventario();
+        if (item.quantity >= 40 && canCraft == true && player.interact)
+        {
+            torre.SetActive(true);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            canCraft = true;
+        }
+    }
+    void ProcurarItemNoInventario()
+    {
         Slot[] slots = inventoryPage.GetComponentsInChildren<Slot>(true);
 
         foreach (Slot s in slots)
@@ -32,23 +54,6 @@ public class QuestTorre : MonoBehaviour
                 item = itemNoSlot;
                 break;
             }
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (item.quantity >= 4 && canCraft == true && player.interact)
-        {
-            torre.SetActive(true);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            canCraft = true;
         }
     }
 }

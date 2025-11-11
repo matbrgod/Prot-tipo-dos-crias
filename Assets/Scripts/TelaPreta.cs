@@ -54,6 +54,14 @@ public class TelaPreta : MonoBehaviour
         }
     }
 
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            canPress = false;
+        }
+    }
+
     private IEnumerator FadeSequence()
     {
         // fade in
