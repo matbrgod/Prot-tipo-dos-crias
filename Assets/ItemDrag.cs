@@ -5,6 +5,9 @@ public class ItemDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 {
     Transform originalParent;
     CanvasGroup canvasGroup;
+    public float minDropDistance = 2f;
+    public float maxDropDistance = 3f;
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         originalParent = transform.parent;
@@ -44,7 +47,7 @@ public class ItemDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             }
             else
             {
-                               originalSlot.currentItem = null;
+                originalSlot.currentItem = null;
 
             }
             transform.SetParent(dropSlot.transform);
@@ -52,7 +55,14 @@ public class ItemDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         }
         else
         {
-            transform.SetParent(originalParent);
+            if (!IsWithinInventory(eventData.position))
+            {
+                DropItem(originalSlot);
+            }
+            else
+            {
+                transform.SetParent(originalParent);
+            }
         }
 
         GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
@@ -64,5 +74,25 @@ public class ItemDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         canvasGroup = GetComponent<CanvasGroup>();
     }
 
+    bool IsWithinInventory(Vector2 mousePosition)
+    {
+        RectTransform inventoryRect = originalParent.parent.GetComponent<RectTransform>();
+        return RectTransformUtility.RectangleContainsScreenPoint(inventoryRect, mousePosition);
+    }
 
+    void DropItem(Slot originalSlot)
+    {
+        originalSlot.currentItem = null;
+        Transform playerTransform = GameObject.FindGameObjectWithTag("Player")?.transform;
+        if(playerTransform == null)
+        {
+            Debug.LogError("Missing the 'Player' tag");
+            return;
+        }
+        Vector2 dropOffset = Random.insideUnitCircle.normalized * Random.Range(minDropDistance, maxDropDistance);
+        Vector2 dropPosition = (Vector2)playerTransform.position + dropOffset;
+
+        Instantiate(gameObject, dropPosition, Quaternion.identity);
+        Destroy(gameObject);
+    }
 }
