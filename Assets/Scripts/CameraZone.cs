@@ -34,6 +34,7 @@ public class CameraZone : MonoBehaviour
         hudArma.SetActive(false);
         hudVida.SetActive(false);
         quest0.SetActive(false);
+        MusicManager.Instance.PlayMusic("Parar");
         if(enemy != null)
             enemy.enemyAnimator.SetBool("IsEating", true);
         var player = FindObjectOfType<Player>();
