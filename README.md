@@ -2,7 +2,7 @@
 Este projeto é um jogo 2D top down, feito como trabalho final para o segundo semestre do curso de Jogos Digitais, da Puc-SP. 
 
 ## Ideia geral
-
+Em Hava Nice Day, os gêneros de Survival Horror, Build, e Bullet-Hell emergem em uma aventura sci-fi única. Como uma mulher grávida de gêmeos, sobreviva em um planeta alienígena hostil e cumpra uma missão de importância crítica para a humanidade.
 
 INTEGRANTES:
 - André Luiz Lopes Silva Campos 
