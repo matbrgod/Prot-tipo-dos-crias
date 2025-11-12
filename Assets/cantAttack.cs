@@ -5,6 +5,7 @@ public class cantAttack : MonoBehaviour
     public Player player;
     public GameObject triggerNave;
     [SerializeField] GameObject trigger;
+    [SerializeField] GameObject paredeCaverna;
 
     void OnTriggerExit2D(Collider2D other)
     {
@@ -20,6 +21,8 @@ public class cantAttack : MonoBehaviour
                 trigger.SetActive(false);
                 Destroy(gameObject, 0.1f);
             }
+            if (paredeCaverna != null)
+                paredeCaverna.SetActive(false);
             
         }
     }
