@@ -78,10 +78,13 @@ public class Player : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
         healthText.text = "" + healthPlayer;
 
-        if(moveX != 0 || moveY != 0)
-        animator.SetBool("EstaAndando", true);
+        if (moveX != 0 || moveY != 0)
+        {
+            animator.SetBool("EstaAndando", true);
+            //SoundManager.Instance.PlaySound2D("Passos");
+        }
         else
-        animator.SetBool("EstaAndando", false);
+            animator.SetBool("EstaAndando", false);
 
         if (healthPlayer <= 0)
         {

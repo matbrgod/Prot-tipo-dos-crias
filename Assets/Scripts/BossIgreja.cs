@@ -6,8 +6,8 @@ public class BossIgreja : MonoBehaviour
 {
     private Camera camera;
     public ShakeData explosionShakeData;
-    public float healthEnemy;
-    public float maxHealthEnemy = 3f;
+    public int healthEnemy;
+    public int maxHealthEnemy = 20;
     public float speed;
     public GameObject player;
     public float distanceBetween;
@@ -60,6 +60,13 @@ public class BossIgreja : MonoBehaviour
     public GameObject projetilPrefab;
     public Transform pontoDeDisparoProjetil;
 
+    //local da Cutscene
+    public GameObject cutscene;
+    //Barra de vida
+    public HealthBar healthBar;
+    public GameObject vidaDoBoss;
+    public GameObject quest; //barra de quest desabilita no fim da batalha
+
     void Start()
     {
         camera = Camera.main;
@@ -71,6 +78,7 @@ public class BossIgreja : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.destination = player.transform.position;
+        healthBar.SetMaxHealth(maxHealthEnemy);
     }
     void Update()
     {
@@ -81,6 +89,7 @@ public class BossIgreja : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
+        HomemBomba();
 
         //if (detectado == false)
         {
@@ -105,7 +114,7 @@ public class BossIgreja : MonoBehaviour
         {
             patrulhando = false;
             kaBOOM = true;
-            HomemBomba();
+            //HomemBomba();
         }
         if (kaBOOM == false)
         {
@@ -314,13 +323,25 @@ public class BossIgreja : MonoBehaviour
 
         healthEnemy -= /*damage*/1;
         SpawnParticlesSangue();
+        if (healthBar != null) healthBar.SetHealth(healthEnemy);
         if (healthEnemy <= 0)
         {
+            Explosao(transform);
             camera.orthographicSize = 5f;
             portaFuturo4.SetActive(true);
             MusicManager.Instance.PlayMusic("Cavernas");
+            if (vidaDoBoss != null) vidaDoBoss.SetActive(false); else Debug.Log("vidaDoBoss is null");
+            if (quest != null) quest.SetActive(false); else Debug.Log("quest is null");
             Destroy(gameObject);
         }
+    }
+
+    public void HoraDoDuelo()
+    {
+        detectado = true;
+        Destroy(cutscene);
+        circuloDeDeteccao.enabled = false;
+        MusicManager.Instance.PlayMusic("BossIgreja");
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -335,9 +356,7 @@ public class BossIgreja : MonoBehaviour
     {
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
-            detectado = true;
-            circuloDeDeteccao.enabled = false;
-            MusicManager.Instance.PlayMusic("BossIgreja");
+            HoraDoDuelo();
         }
     }
 }

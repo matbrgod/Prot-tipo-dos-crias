@@ -50,19 +50,19 @@ public class CenasManager : MonoBehaviour
             case "Cenario 01":
                 {
                 ultimaCenaCarregada = "Cenario 01";
-                    MusicManager.Instance.PlayMusic("Cavernas");
+                    MusicManager.Instance.PlayMusic("Mundo1");
                     break;
                 }
             case"Caverna_cenario 01":
                 {
                     ultimaCenaCarregada = "Caverna_cenario 01";
-                    MusicManager.Instance.PlayMusic("CavernaTensa");
+                    MusicManager.Instance.PlayMusic("Caverna1");
                     break;
                 }
             case "Cima2":
                 {
                     ultimaCenaCarregada = "Cima2";
-                    MusicManager.Instance.PlayMusic("Cavernas");
+                    MusicManager.Instance.PlayMusic("Caverna2");
                     break;
                 }
             case "Caverna2":
@@ -74,25 +74,25 @@ public class CenasManager : MonoBehaviour
             case "Futuro 1":
                 {
                     ultimaCenaCarregada = "Futuro 1";
-                    MusicManager.Instance.PlayMusic("MiniGame");
+                    MusicManager.Instance.PlayMusic("TiroteioTenso");
                     break;
                 }
             case "Futuro 2":
                 {
                     ultimaCenaCarregada = "Futuro 2";
-                    MusicManager.Instance.PlayMusic("Cavernas");
+                    MusicManager.Instance.PlayMusic("TiroteioTenso");
                     break;
                 }
                 case "Futuro 3":
                 {
                     ultimaCenaCarregada = "Futuro 3";
-                    MusicManager.Instance.PlayMusic("CavernaTensa");
+                    MusicManager.Instance.PlayMusic("Cavernas");
                     break;
                 }
                 case "Futuro 4":
                 {
                     ultimaCenaCarregada = "Futuro 4";
-                    MusicManager.Instance.PlayMusic("Menu");
+                    MusicManager.Instance.PlayMusic("Final");
                     break;
                 }
         }
