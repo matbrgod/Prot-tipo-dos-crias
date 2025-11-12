@@ -16,6 +16,7 @@ public class BossIgreja : MonoBehaviour
     private Rigidbody2D rb;
     //private bool mirar = false;
     public ArmaQGira armaQGira;
+    [SerializeField] private GameObject arma;
     private float fireCooldown = 1;
     private float fireTimer = 0f;
     Vector2 moveDirection;
@@ -339,6 +340,7 @@ public class BossIgreja : MonoBehaviour
     public void HoraDoDuelo()
     {
         detectado = true;
+        arma.SetActive(true);
         Destroy(cutscene);
         circuloDeDeteccao.enabled = false;
         MusicManager.Instance.PlayMusic("BossIgreja");
