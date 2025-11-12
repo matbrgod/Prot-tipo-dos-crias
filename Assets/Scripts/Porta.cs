@@ -7,6 +7,7 @@ public class Porta : MonoBehaviour
     public bool Futuro2;
     public bool Futuro3;
     public bool Futuro4;
+    public bool menu;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -30,6 +31,11 @@ public class Porta : MonoBehaviour
             {
                 //SceneManager.LoadScene("Futuro 4");
                 LevelManager.Instance.LoadScene("Futuro 4", "CrossFade");
+            }
+            if (menu == true)
+            {
+                //SceneManager.LoadScene("Menu");
+                LevelManager.Instance.LoadScene("Menu", "CrossFade");
             }
         }
     }
