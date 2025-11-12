@@ -45,6 +45,9 @@ public class Player : MonoBehaviour
 
     private ParticleSystem sangueParticleSystemInstance;
 
+    //Som de Caminhada
+    [SerializeField] private AudioSource caminhada;
+
     void Awake()
     {
         if (instance != null)
@@ -63,7 +66,7 @@ public class Player : MonoBehaviour
         originalMoveSpeed = moveSpeed;
         healthText.text = "" + healthPlayer;
         isInvincible = false;
-             
+        caminhada = GetComponent<AudioSource>();
 
         int enemyLayer = LayerMask.NameToLayer("Enemy");
         if (enemyLayer != -1)
@@ -80,7 +83,8 @@ public class Player : MonoBehaviour
         if (moveX != 0 || moveY != 0)
         {
             animator.SetBool("EstaAndando", true);
-            //SoundManager.Instance.PlaySound2D("Passos");
+            //tocar som de caminhada 1 vez
+            //StartCoroutine(PlayAudioAndContinue());
         }
         else
             animator.SetBool("EstaAndando", false);
@@ -95,47 +99,41 @@ public class Player : MonoBehaviour
         {
             timerTiro = 0f;
             weapon.Fire();
-
-
         }
         if (canAttack && Input.GetKeyDown(KeyCode.Space))
         {
-            WeaponParent.Attack();            
+            WeaponParent.Attack();
         }
 
         if (reloadingUI != null)
             reloadingUI.SetActive(timerTiro < tiroCooldown);
 
-        if(efeitoTiro != null)
+        if (efeitoTiro != null)
             efeitoTiro.SetActive(timerTiro < 0.2f);
 
         //if(WeaponParent.isActiveAndEnabled)
-            //canAttack = true;
-            
-        
+        //canAttack = true;
+
+
         interact = Input.GetKeyDown(KeyCode.E);
 
         moveDirection = new Vector2(moveX, moveY).normalized;
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        
+
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (mouseWorldPos.x > transform.position.x)
         {
-            if(reloadingUI != null)
+            if (reloadingUI != null)
                 reloadingUI.transform.rotation = Quaternion.identity;
-            transform.rotation = Quaternion.Euler(0, 0, 0);            
+            transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else
         {
-            if(reloadingUI != null)
+            if (reloadingUI != null)
                 reloadingUI.transform.rotation = Quaternion.identity;
-            transform.rotation = Quaternion.Euler(0, -180, 0);            
+            transform.rotation = Quaternion.Euler(0, -180, 0);
         }
-            
-        
-
-        
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -257,7 +255,4 @@ public class Player : MonoBehaviour
     {
         sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
     }
-
-
-
 }
