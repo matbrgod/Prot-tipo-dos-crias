@@ -28,6 +28,7 @@ public class Pause : MonoBehaviour
         {
             Time.timeScale = 1f; // Resume the game
         }
-        WeaponParent.SetActive(!WeaponParent.activeSelf);
+        if(WeaponParent != null)
+            WeaponParent.SetActive(!WeaponParent.activeSelf);
     }
 }

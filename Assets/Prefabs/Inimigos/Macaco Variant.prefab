@@ -331,7 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthEnemy: 0
   maxHealthEnemy: 6
-  speed: 5
+  speed: 6
   player: {fileID: 0}
   distanceBetween: 9
   enemyAnimator: {fileID: 0}
