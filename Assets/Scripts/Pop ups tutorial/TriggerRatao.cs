@@ -18,7 +18,8 @@ public class TriggerRatao : MonoBehaviour
                 animacao.SetActive(true);
                 StartCoroutine(ActivateTriggerWithDelay());
             }
-            SpawnerRatinhos.SetActive(true);
+            if(SpawnerRatinhos != null)
+                SpawnerRatinhos.SetActive(true);
             
         }
     }

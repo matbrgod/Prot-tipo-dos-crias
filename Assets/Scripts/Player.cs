@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 
@@ -78,10 +77,13 @@ public class Player : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
         healthText.text = "" + healthPlayer;
 
-        if(moveX != 0 || moveY != 0)
-        animator.SetBool("EstaAndando", true);
+        if (moveX != 0 || moveY != 0)
+        {
+            animator.SetBool("EstaAndando", true);
+            //SoundManager.Instance.PlaySound2D("Passos");
+        }
         else
-        animator.SetBool("EstaAndando", false);
+            animator.SetBool("EstaAndando", false);
 
         if (healthPlayer <= 0)
         {
@@ -89,7 +91,7 @@ public class Player : MonoBehaviour
         }
 
         timerTiro += Time.deltaTime;
-        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
+        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown && weapon != null)
         {
             timerTiro = 0f;
             weapon.Fire();

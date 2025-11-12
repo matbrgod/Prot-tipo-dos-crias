@@ -5,7 +5,7 @@ public class Q_off : MonoBehaviour
     public GameObject spaceBar;
     public GameObject Q;
 
-    private void OnTriggerEnter2D(Collider2D triggerCollider)
+    private void OnTriggerExit2D(Collider2D triggerCollider)
     {
         if (triggerCollider.gameObject.CompareTag("Player"))
         {

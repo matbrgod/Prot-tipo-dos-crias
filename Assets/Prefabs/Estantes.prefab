@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4810963288282066328}
   - component: {fileID: 4224937625870107023}
   - component: {fileID: 682741283349871246}
+  - component: {fileID: 2676827029382262587}
   m_Layer: 0
   m_Name: Estantes
   m_TagString: Untagged
@@ -188,3 +189,19 @@ MonoBehaviour:
     - rid: 8025323749670912073
       type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data: 
+--- !u!114 &2676827029382262587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3680239916109169468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

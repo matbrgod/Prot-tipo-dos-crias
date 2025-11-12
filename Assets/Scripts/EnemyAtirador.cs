@@ -11,7 +11,7 @@ public class EnemyAtirador : MonoBehaviour
     public AudioSource tiro;
     [Range(0.5f, 2f)] public float firePitchMin = 0.7f;
     [Range(0.5f, 2f)] public float firePitchMax = 1.3f;
-
+    private SpriteRenderer spriteRenderer;
     private float distance;
     private Rigidbody2D rb;
     //private bool mirar = false;
@@ -33,6 +33,7 @@ public class EnemyAtirador : MonoBehaviour
     private ParticleSystem sangueParticleSystemInstance;
     public Transform[] PatrolPoints;
     private int currentPatrolIndex = 0;
+    [SerializeField] private GameObject arma; // arma do inimigo
 
     void Start()
     {
@@ -40,6 +41,7 @@ public class EnemyAtirador : MonoBehaviour
         healthEnemy = maxHealthEnemy;
         player = GameObject.FindWithTag("Player");
         playerPosition = GameObject.FindGameObjectWithTag("Player").transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -53,6 +55,10 @@ public class EnemyAtirador : MonoBehaviour
         //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
+        if (direction.x > 0)
+            spriteRenderer.flipX = false; // Facing right
+        else if (direction.x < 0)
+            spriteRenderer.flipX = true;  // Facing left
 
         if (detectado == false)
         {
@@ -191,6 +197,7 @@ public class EnemyAtirador : MonoBehaviour
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
             detectado = true;
+            arma.SetActive(true);
         }
     }
 }

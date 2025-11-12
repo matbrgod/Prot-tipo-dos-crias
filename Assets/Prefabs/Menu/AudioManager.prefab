@@ -45,7 +45,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -199,6 +199,12 @@ MonoBehaviour:
   - groupID: Risada
     clips:
     - {fileID: 8300000, guid: 93a78dee8b417cf469fa81bff8e3e4ea, type: 3}
+  - groupID: Passos
+    clips:
+    - {fileID: 8300000, guid: c82170e199289364c843cdab274eaf7d, type: 3}
+  - groupID: Picaretada
+    clips:
+    - {fileID: 8300000, guid: 97a0ffd13af804642973356a5f3ce6dd, type: 3}
 --- !u!114 &5327788985294859724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,6 +244,16 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4941802a29bf4ef429e09059dd836f8f, type: 3}
   - trackName: CavernaTensa
     clip: {fileID: 8300000, guid: 6c5b8802abe89a84d9c0a40c6c8a8278, type: 3}
+  - trackName: Caverna2
+    clip: {fileID: 8300000, guid: d64ba9b23c57ba1408a60add04074f6c, type: 3}
+  - trackName: Caverna1
+    clip: {fileID: 8300000, guid: ae1dd33700d4fe34fa3e1db9782bd1b8, type: 3}
+  - trackName: Mundo1
+    clip: {fileID: 8300000, guid: 66c735fbc6c270b4a88204b2d84d911a, type: 3}
+  - trackName: Final
+    clip: {fileID: 8300000, guid: a854b08caf4bdfc49b208d47b302d33f, type: 3}
+  - trackName: TiroteioTenso
+    clip: {fileID: 8300000, guid: 6ad3c412c3bea3b428b5e8f7431a608f, type: 3}
 --- !u!114 &9174764024465420534
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -22,6 +22,7 @@ public class WeaponParent : MonoBehaviour
     public float rotation_z;
 
     public SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject rastro;
 
     
 
@@ -52,6 +53,7 @@ public class WeaponParent : MonoBehaviour
     {
         if (attackBlocked) return;
         animator.SetTrigger("Attack");
+        rastro.SetActive(true);
         attackBlocked = true;
         Melee.SetActive(true);
         var collider = Melee.GetComponent<Collider2D>();
@@ -71,6 +73,7 @@ public class WeaponParent : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         attackBlocked = false;
+        
     }
 
     void CheckMeleeTimer()
@@ -83,7 +86,8 @@ public class WeaponParent : MonoBehaviour
                 atkTimer = 0f;
                 isAttacking = false;
                 Melee.SetActive(false);
-                                
+                rastro.SetActive(false);
+
             }
         }
     }
