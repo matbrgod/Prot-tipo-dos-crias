@@ -15,6 +15,8 @@ public class CameraZone : MonoBehaviour
     public GameObject hudArma;
     public GameObject hudVida;
     public GameObject quest0;
+    public GameObject quest01;
+    public Enemy enemy;
     public BossIgreja bossIgreja; // Na BossIgreja a batalha começa no fim da cutscene
 
     private void Start()

@@ -52,6 +52,8 @@ public class QuestTorre : MonoBehaviour
             item.quantity -= 40;
             //slot.UpdateSlotUI();
             torre.SetActive(true);
+            if (quest5 != null)
+                quest5.SetActive(true);
         }
         
     }
@@ -72,8 +74,7 @@ public class QuestTorre : MonoBehaviour
             painelAnimator.SetBool("Desativar", true);
             painelAnimator.SetBool("Ativar", false);
 
-            if (quest5 != null)
-                quest5.SetActive(true);
+            
             
         }
     }
