@@ -8,7 +8,8 @@ public class PortaDeVolta : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Cenario 01");
+            //SceneManager.LoadScene("Cenario 01");
+            LevelManager.Instance.LoadScene("Cenario 01", "CrossFade");
             Debug.Log("Collision detected with" + collision.gameObject.name);
         }
 

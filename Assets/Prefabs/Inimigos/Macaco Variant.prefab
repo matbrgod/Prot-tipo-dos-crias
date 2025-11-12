@@ -92,7 +92,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4788999785456252627, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 347189647477551579, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       propertyPath: player
@@ -162,6 +162,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 550dd610a5ced7c4ebfa0631244eea97, type: 3}
+    - target: {fileID: 3943104722843533267, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4535638933284965045, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
       propertyPath: m_Size.x
       value: 1.1381564
@@ -218,6 +222,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2478983021752039542}
   m_SourcePrefab: {fileID: 100100000, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+--- !u!212 &820938646971775751 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3943104722843533267, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
+  m_PrefabInstance: {fileID: 4457498767211660500}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1233953704467946530 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3225656883133176054, guid: ca536e0fc6f382548bf61a35a3104b02, type: 3}
@@ -235,7 +244,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123206131393619592}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
   m_Name: 
@@ -283,30 +292,31 @@ MonoBehaviour:
   - {x: -0.8812742, y: -0.87099385, z: 0}
   m_ShapePathHash: 830718639
   m_InstanceId: 0
-  m_ShadowShape2DComponent: {fileID: 0}
+  m_ShadowShape2DComponent: {fileID: 820938646971775751}
   m_ShadowShape2DProvider:
-    rid: -2
-  m_ShadowCastingSource: 1
+    rid: 755491198555652196
+  m_ShadowCastingSource: 2
   m_ShadowMesh:
     m_Mesh: {fileID: 0}
     m_LocalBounds:
-      m_Center: {x: -0.079116344, y: -0.36008537, z: 0}
-      m_Extent: {x: 0.89336777, y: 0.58110964, z: 0}
+      m_Center: {x: 0.0625, y: -0.28125, z: 0}
+      m_Extent: {x: 0.8374939, y: 0.6187439, z: 0}
     m_EdgeProcessing: 1
     m_TrimEdge: 0.1
-    m_FlipX: 0
+    m_FlipX: 1
     m_FlipY: 0
-    m_InitialTrim: 0
+    m_InitialTrim: 0.1
   m_CastingOption: 1
   m_PreviousTrimEdge: 0.1
   m_PreviousEdgeProcessing: 1
-  m_PreviousShadowCastingSource: 1
-  m_PreviousShadowShape2DSource: {fileID: 0}
+  m_PreviousShadowCastingSource: 2
+  m_PreviousShadowShape2DSource: {fileID: 820938646971775751}
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 755491198555652196
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
 --- !u!114 &2782582302293312282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,10 +331,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthEnemy: 0
   maxHealthEnemy: 6
-  speed: 5
+  speed: 6
   player: {fileID: 0}
   distanceBetween: 9
+  enemyAnimator: {fileID: 0}
   tempoDeESpera: 2
+  walkThreshold: 0.05
   PatrolPoints: []
 --- !u!58 &8835789812979261910
 CircleCollider2D:

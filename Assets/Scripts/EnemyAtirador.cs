@@ -11,10 +11,11 @@ public class EnemyAtirador : MonoBehaviour
     public AudioSource tiro;
     [Range(0.5f, 2f)] public float firePitchMin = 0.7f;
     [Range(0.5f, 2f)] public float firePitchMax = 1.3f;
-
+    private SpriteRenderer spriteRenderer;
     private float distance;
     private Rigidbody2D rb;
-    private bool mirar = false;
+    //private bool mirar = false;
+    public ArmaQGira armaQGira;
     private float fireCooldown = 1;
     private float fireTimer = 0f;
     Vector2 moveDirection;
@@ -32,6 +33,7 @@ public class EnemyAtirador : MonoBehaviour
     private ParticleSystem sangueParticleSystemInstance;
     public Transform[] PatrolPoints;
     private int currentPatrolIndex = 0;
+    [SerializeField] private GameObject arma; // arma do inimigo
 
     void Start()
     {
@@ -39,6 +41,7 @@ public class EnemyAtirador : MonoBehaviour
         healthEnemy = maxHealthEnemy;
         player = GameObject.FindWithTag("Player");
         playerPosition = GameObject.FindGameObjectWithTag("Player").transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -49,13 +52,17 @@ public class EnemyAtirador : MonoBehaviour
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
+        if (direction.x > 0)
+            spriteRenderer.flipX = false; // Facing right
+        else if (direction.x < 0)
+            spriteRenderer.flipX = true;  // Facing left
 
         if (detectado == false)
         {
-            //Se o Player não for detectado o inimigo patrulha
+            //Se o Player nï¿½o for detectado o inimigo patrulha
             Patrulha();
         }
 
@@ -66,13 +73,13 @@ public class EnemyAtirador : MonoBehaviour
 
         if (detectado == true)
         {
-            //Se o Player for detectado o inimigo começa a perseguir
+            //Se o Player for detectado o inimigo comeï¿½a a perseguir
             patrulhando = false;
             Perseguicao();
         }
     }
 
-    void FixedUpdate()
+    /*void FixedUpdate()
     {
         if (mirar)
         {
@@ -80,7 +87,7 @@ public class EnemyAtirador : MonoBehaviour
             float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
             rb.rotation = aimAngle;
         }
-    }
+    }*/
 
     private void Patrulha()
     {
@@ -92,7 +99,7 @@ public class EnemyAtirador : MonoBehaviour
                 agent.SetDestination(PatrolPoints[currentPatrolIndex].position);
                 if (!agent.pathPending && agent.remainingDistance < 2f)
                 {
-                    //Tempo de espera improvisado pq não dá pra usar WaitForSeconds em função e eu sou burro
+                    //Tempo de espera improvisado pq nï¿½o dï¿½ pra usar WaitForSeconds em funï¿½ï¿½o e eu sou burro
                     continuarPatrulha = false;
                     espera += Time.deltaTime;
                     if (espera >= tempoDeESpera)
@@ -127,7 +134,6 @@ public class EnemyAtirador : MonoBehaviour
     }
     public void IrAtras()
     {
-        mirar = false;
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
@@ -135,12 +141,12 @@ public class EnemyAtirador : MonoBehaviour
         //transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
         agent.SetDestination(player.transform.position);
         agent.speed = speed;
-        transform.rotation = Quaternion.Euler(this.transform.rotation.x, this.transform.rotation.y, angle - 90f);
+        //transform.rotation = Quaternion.Euler(this.transform.rotation.x, this.transform.rotation.y, angle - 90f);
     }
     public void MirandoEAtirando(float cooldown = 0)
     {
-        mirar = true;
-
+        armaQGira.mirar = true;
+        //mirar = true;
         //cooldown do tiro
         fireTimer += Time.deltaTime;
         if (fireTimer >= fireCooldown + cooldown)
@@ -154,8 +160,9 @@ public class EnemyAtirador : MonoBehaviour
     {
         if (tiro != null)
         {
-            tiro.pitch = Random.Range(firePitchMin, firePitchMax);
-            tiro.Play();
+            SoundManager.Instance.PlaySound2D("Tiros");
+            //tiro.pitch = Random.Range(firePitchMin, firePitchMax);
+            //tiro.Play();
         }
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0,0,90));
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
@@ -179,7 +186,7 @@ public class EnemyAtirador : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Bullet") | collision.collider.CompareTag("Bullet dos inimigos"))
+        if (collision.collider.CompareTag("Bullet"))// | collision.collider.CompareTag("Enemy"))
         {
             TakeDamage();
         }
@@ -190,6 +197,7 @@ public class EnemyAtirador : MonoBehaviour
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
             detectado = true;
+            arma.SetActive(true);
         }
     }
 }

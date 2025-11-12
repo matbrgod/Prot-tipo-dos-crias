@@ -1,24 +1,28 @@
 using UnityEngine;
 using UnityEngine.AI;
 using Random = System.Random;
+using FirstGearGames.SmoothCameraShaker;
 public class BossIgreja : MonoBehaviour
 {
     private Camera camera;
-    public float healthEnemy;
-    public float maxHealthEnemy = 3f;
+    public ShakeData explosionShakeData;
+    public int healthEnemy;
+    public int maxHealthEnemy = 20;
     public float speed;
     public GameObject player;
     public float distanceBetween;
 
     private float distance;
     private Rigidbody2D rb;
-    private bool mirar = false;
+    //private bool mirar = false;
+    public ArmaQGira armaQGira;
     private float fireCooldown = 1;
     private float fireTimer = 0f;
     Vector2 moveDirection;
     private Transform playerPosition;
     public GameObject bulletPrefab;
     public Transform firePoint;
+    public Transform firePoint2;
     public float fireForce = 20f;
     private bool detectado = false;
     private bool patrulhando = true;
@@ -47,6 +51,7 @@ public class BossIgreja : MonoBehaviour
     public float ataqueEspecial;
     public Transform pontoDeEXPLOSAO;
     private bool kaBOOM = false;
+    public GameObject musica;
     
 
     // Projeteis da Planta
@@ -54,6 +59,13 @@ public class BossIgreja : MonoBehaviour
     public float tempoEntreTiros = 2f;
     public GameObject projetilPrefab;
     public Transform pontoDeDisparoProjetil;
+
+    //local da Cutscene
+    public GameObject cutscene;
+    //Barra de vida
+    public HealthBar healthBar;
+    public GameObject vidaDoBoss;
+    public GameObject quest; //barra de quest desabilita no fim da batalha
 
     void Start()
     {
@@ -66,6 +78,7 @@ public class BossIgreja : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.destination = player.transform.position;
+        healthBar.SetMaxHealth(maxHealthEnemy);
     }
     void Update()
     {
@@ -76,6 +89,7 @@ public class BossIgreja : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
 
+        HomemBomba();
 
         //if (detectado == false)
         {
@@ -100,7 +114,7 @@ public class BossIgreja : MonoBehaviour
         {
             patrulhando = false;
             kaBOOM = true;
-            HomemBomba();
+            //HomemBomba();
         }
         if (kaBOOM == false)
         {
@@ -165,7 +179,7 @@ public class BossIgreja : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    /*void FixedUpdate()
     {
         if (mirar)
         {
@@ -173,7 +187,7 @@ public class BossIgreja : MonoBehaviour
             float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
             rb.rotation = aimAngle;
         }
-    }
+    }*/
 
     void HomemBomba()
     {
@@ -247,7 +261,7 @@ public class BossIgreja : MonoBehaviour
     }
     public void MirandoEAtirando(float cooldown = 0)
     {
-        mirar = true;
+        armaQGira.mirar = true;
 
         //cooldown do tiro
         fireTimer += Time.deltaTime;
@@ -262,6 +276,7 @@ public class BossIgreja : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(0, 0, 90));
         bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
+        SoundManager.Instance.PlaySound2D("Tiros");
     }
 
     void SpawnParticlesSangue()
@@ -298,6 +313,7 @@ public class BossIgreja : MonoBehaviour
                 {
                     rb2D.AddForce(direction * forceFinal);
                 }
+                CameraShakerHandler.Shake(explosionShakeData);
             }
         }
     }
@@ -307,12 +323,25 @@ public class BossIgreja : MonoBehaviour
 
         healthEnemy -= /*damage*/1;
         SpawnParticlesSangue();
+        if (healthBar != null) healthBar.SetHealth(healthEnemy);
         if (healthEnemy <= 0)
         {
+            Explosao(transform);
             camera.orthographicSize = 5f;
             portaFuturo4.SetActive(true);
+            MusicManager.Instance.PlayMusic("Cavernas");
+            if (vidaDoBoss != null) vidaDoBoss.SetActive(false); else Debug.Log("vidaDoBoss is null");
+            if (quest != null) quest.SetActive(false); else Debug.Log("quest is null");
             Destroy(gameObject);
         }
+    }
+
+    public void HoraDoDuelo()
+    {
+        detectado = true;
+        Destroy(cutscene);
+        circuloDeDeteccao.enabled = false;
+        MusicManager.Instance.PlayMusic("BossIgreja");
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -327,8 +356,7 @@ public class BossIgreja : MonoBehaviour
     {
         if (collision.CompareTag("Player") | collision.CompareTag("Bullet"))
         {
-            detectado = true;
-            circuloDeDeteccao.enabled = false;
+            HoraDoDuelo();
         }
     }
 }

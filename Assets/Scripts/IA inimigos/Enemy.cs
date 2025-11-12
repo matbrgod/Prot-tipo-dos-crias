@@ -8,10 +8,13 @@ public class Enemy : MonoBehaviour
     public float speed;
     public GameObject player;
     public float distanceBetween;
+    public Animator enemyAnimator;
     private Transform playerPosition;
     private float distance;
     private float espera = 0f;
     public float tempoDeESpera = 2f;
+    public float walkThreshold = 0.05f;
+     private Vector3 lastPosition;
     private bool continuarPatrulha = true;
     private NavMeshAgent agent;
 
@@ -24,6 +27,7 @@ public class Enemy : MonoBehaviour
     
     void Start()
     {
+        enemyAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         healthEnemy = maxHealthEnemy;
         player = GameObject.FindWithTag("Player");
@@ -31,6 +35,7 @@ public class Enemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        lastPosition = transform.position;
        
     }
     void Update()
@@ -40,6 +45,28 @@ public class Enemy : MonoBehaviour
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+
+        // determine current speed: prefer NavMeshAgent velocity, fallback to position delta
+        float currentSpeed = 0f;
+        if (agent != null)
+        {
+            // ensure agent is moving the transform
+            agent.updatePosition = true;
+            // use agent.velocity (Vector3) magnitude
+            currentSpeed = agent.velocity.magnitude;
+        }
+        else
+        {
+            float movedThisFrame = Vector2.Distance(transform.position, lastPosition);
+            currentSpeed = movedThisFrame / Mathf.Max(Time.deltaTime, 0.0001f);
+        }
+
+        bool isWalking = currentSpeed > walkThreshold;
+
+        if (enemyAnimator != null && enemyAnimator.GetBool("IsWalking") != isWalking)
+            enemyAnimator.SetBool("IsWalking", isWalking);
+
+        lastPosition = transform.position;
 
         if (direction.x > 0)
             transform.rotation = Quaternion.Euler(0, -180, 0); // Facing right

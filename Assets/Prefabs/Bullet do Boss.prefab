@@ -428,6 +428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaDeImpacto: 2
   force: 7000
+  explosionShakeData: {fileID: 11400000, guid: c2f193a0fec9c8749ac5f6052e4d84a9, type: 2}
   explosaoPrefab: {fileID: 7964705153263640207, guid: a09c0e293d2c6d74eb74acf39d01d485, type: 3}
 --- !u!1001 &3043716995671729578
 PrefabInstance:

@@ -428,6 +428,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 701389237635052285, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
+      propertyPath: vidaMaxima
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 701389237635052285, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
+      propertyPath: objetoADrop
+      value: 
+      objectReference: {fileID: 5306594900383082984, guid: 222b4c4ac771e744eb2b3369973cdc25, type: 3}
     - target: {fileID: 1617503076424741647, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.172723
@@ -496,6 +504,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 1ad5b1d3ba3e98c47ab8bb6d4178ff5f, type: 3}
+    - target: {fileID: 4801871458848935372, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6635151139883428472, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
       propertyPath: m_Enabled
       value: 1

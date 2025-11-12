@@ -13,7 +13,7 @@ public class Monologue : MonoBehaviour
     public Text nameNpc;
     void Start()
     {
-        dialoguePanel.SetActive(true);
+        dialoguePanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -49,7 +49,7 @@ public class Monologue : MonoBehaviour
 
     void StartDialogue()
     {
-        nameNpc.text = "Fungo";
+        nameNpc.text = "Funghi";
         startDialogue = true;
         dialogueIndex = 0;
         dialoguePanel.SetActive(true);

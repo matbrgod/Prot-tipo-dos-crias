@@ -36,9 +36,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/Futuro/Laborat\xF3rio 2.unity"
     guid: 49759b14cfb07e04b8c04645c150f296
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
-    guid: e6672fdf6608da04ab489ca54c9cb253
-  - enabled: 1
     path: Assets/Scenes/Futuro/Futuro 1.unity
     guid: bca2c2cb74755af4a80a6b8d25b2b915
   - enabled: 1
@@ -50,6 +47,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Futuro/Futuro 4.unity
     guid: b3f547078ac741a4981a045112271df1
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 1cc6896aeba2f704086fdfeec86aff2b
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: e6672fdf6608da04ab489ca54c9cb253
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

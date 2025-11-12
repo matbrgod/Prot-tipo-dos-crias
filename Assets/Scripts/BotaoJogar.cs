@@ -18,14 +18,15 @@ public class BotaoJogar : MonoBehaviour
         if (yesButton != null)
             yesButton.SetActive(false);
         if (noButton != null)
-            noButton.SetActive(false);    
-        SceneManager.LoadScene("tutorial nave");
+            noButton.SetActive(false);
+        LevelManager.Instance.LoadScene("tutorial nave", "CrossFade");
         //StartCoroutine(systemLoading());
             
     }
     public void Credits()
     {
-        SceneManager.LoadScene("Creditos");
+        MusicManager.Instance.PlayMusic("Parar");
+        LevelManager.Instance.LoadScene("Creditos", "CrossFade");
     }
     public void Leave()
     {
@@ -33,12 +34,12 @@ public class BotaoJogar : MonoBehaviour
     }
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
+        LevelManager.Instance.LoadScene("Menu", "CrossFade");
     }
 
     private IEnumerator systemLoading()
     {
         yield return new WaitForSeconds(2.5f);
-        SceneManager.LoadScene("tutorial nave");
+        LevelManager.Instance.LoadScene("tutorial nave", "CrossFade");
     }
 }

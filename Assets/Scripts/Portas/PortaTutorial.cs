@@ -22,7 +22,9 @@ public class PortaTutorial : MonoBehaviour
             //realiza a ação do coletável
             //deleta ele da cena
             Debug.Log("Player dormiu na cama");
-            SceneManager.LoadScene("Intro");
+            MusicManager.Instance.PlayMusic("Parar");
+            //SceneManager.LoadScene("Intro");
+            LevelManager.Instance.LoadScene("Intro", "CrossFade");
         }
     }
     //ao SAIR da área de trigger

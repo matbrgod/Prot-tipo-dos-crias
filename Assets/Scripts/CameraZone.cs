@@ -14,11 +14,16 @@ public class CameraZone : MonoBehaviour
     public float delay;
     public GameObject hudArma;
     public GameObject hudVida;
+    public GameObject quest0;
+    public GameObject quest01;
+    public Enemy enemy;
+    public BossIgreja bossIgreja; // Na BossIgreja a batalha começa no fim da cutscene
 
     private void Start()
     {
         if (cameraFollow == null)
             cameraFollow = FindObjectOfType<CameraFollow>();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,6 +33,10 @@ public class CameraZone : MonoBehaviour
         if (cameraFollow == null || cameraPoint == null) return;
         hudArma.SetActive(false);
         hudVida.SetActive(false);
+        quest0.SetActive(false);
+        MusicManager.Instance.PlayMusic("Parar");
+        if(enemy != null)
+            enemy.enemyAnimator.SetBool("IsEating", true);
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = false;
         FindObjectOfType<Player>().moveSpeed = 0f;
@@ -44,9 +53,14 @@ public class CameraZone : MonoBehaviour
         yield return new WaitForSeconds(delay);
         hudArma.SetActive(true);
         hudVida.SetActive(true);
+        if (quest01 != null)
+            quest01.SetActive(true);
+        if (enemy != null)
+            enemy.enemyAnimator.SetBool("IsEating", false);
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = true;
         FindObjectOfType<Player>().moveSpeed = 5f;
+        bossIgreja.HoraDoDuelo();
         Destroy(this.gameObject);
     }
 }

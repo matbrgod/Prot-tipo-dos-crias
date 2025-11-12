@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 
@@ -43,6 +42,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject reloadingUI;
     [SerializeField] private GameObject efeitoTiro;
     [SerializeField] private ParticleSystem sangue;
+
     private ParticleSystem sangueParticleSystemInstance;
 
     void Awake()
@@ -63,6 +63,7 @@ public class Player : MonoBehaviour
         originalMoveSpeed = moveSpeed;
         healthText.text = "" + healthPlayer;
         isInvincible = false;
+             
 
         int enemyLayer = LayerMask.NameToLayer("Enemy");
         if (enemyLayer != -1)
@@ -76,10 +77,13 @@ public class Player : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
         healthText.text = "" + healthPlayer;
 
-        if(moveX != 0 || moveY != 0)
-        animator.SetBool("EstaAndando", true);
+        if (moveX != 0 || moveY != 0)
+        {
+            animator.SetBool("EstaAndando", true);
+            //SoundManager.Instance.PlaySound2D("Passos");
+        }
         else
-        animator.SetBool("EstaAndando", false);
+            animator.SetBool("EstaAndando", false);
 
         if (healthPlayer <= 0)
         {
@@ -87,7 +91,7 @@ public class Player : MonoBehaviour
         }
 
         timerTiro += Time.deltaTime;
-        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
+        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown && weapon != null)
         {
             timerTiro = 0f;
             weapon.Fire();
@@ -104,6 +108,9 @@ public class Player : MonoBehaviour
 
         if(efeitoTiro != null)
             efeitoTiro.SetActive(timerTiro < 0.2f);
+
+        //if(WeaponParent.isActiveAndEnabled)
+            //canAttack = true;
             
         
         interact = Input.GetKeyDown(KeyCode.E);
@@ -114,9 +121,19 @@ public class Player : MonoBehaviour
         
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (mouseWorldPos.x > transform.position.x)
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        else 
-            transform.rotation = Quaternion.Euler(0, -180, 0);
+        {
+            if(reloadingUI != null)
+                reloadingUI.transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(0, 0, 0);            
+        }
+        else
+        {
+            if(reloadingUI != null)
+                reloadingUI.transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(0, -180, 0);            
+        }
+            
+        
 
         
     }
@@ -133,7 +150,8 @@ public class Player : MonoBehaviour
                     StartCoroutine(InvincibilityCoroutine());
                     
                     if (healthPlayer <= 0)
-                    {   
+            {   
+                        MusicManager.Instance.PlayMusic("Parar");
                         SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional

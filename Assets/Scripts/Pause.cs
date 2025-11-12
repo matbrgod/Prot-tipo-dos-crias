@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Pause : MonoBehaviour
 {
@@ -9,26 +10,25 @@ public class Pause : MonoBehaviour
     {
         Time.timeScale = 1f; // Ensure the game is running at normal speed when starting
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            pauseMenu.SetActive(!pauseMenu.activeSelf);
-            if (pauseMenu.activeSelf)
-            {
-                Time.timeScale = 0f; // Pause the game
-            }
-            else
-            {
-                Time.timeScale = 1f; // Resume the game
-            }
-            WeaponParent.SetActive(!WeaponParent.activeSelf);
+            CanvaPause();
         }
+    }
+    public void CanvaPause()
+    {
+        pauseMenu.SetActive(!pauseMenu.activeSelf);
+        if (pauseMenu.activeSelf)
+        {
+            Time.timeScale = 0f; // Pause the game
+        }
+        else
+        {
+            Time.timeScale = 1f; // Resume the game
+        }
+        if(WeaponParent != null)
+            WeaponParent.SetActive(!WeaponParent.activeSelf);
     }
 }

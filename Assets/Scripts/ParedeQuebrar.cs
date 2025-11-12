@@ -47,8 +47,8 @@ public class ParedeQuebrar : MonoBehaviour
 
     private IEnumerator Piscar()
     {
-        rend.material.color = Color.white;
-        yield return new WaitForSeconds(0.1f);
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(0.3f);
         rend.material.color = corOriginal;
     }
 
