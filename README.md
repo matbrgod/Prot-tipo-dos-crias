@@ -7,7 +7,7 @@ Em Hava Nice Day, os gêneros de Survival Horror, Build, e Bullet-Hell emergem e
 ## Link da build do jogo no itch.io 
 [Hava Nice Day](https://luaninja.itch.io/hava-nice-day) <br>
 
-INTEGRANTES:
+## INTEGRANTES:
 - André Luiz Lopes Silva Campos 
 - Matheus Costa Barroso
 - Gustavo Tashima Basílio
