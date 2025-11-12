@@ -6,6 +6,7 @@ public class Botao : MonoBehaviour
     private bool canPress;
     [SerializeField] private GameObject triggerE;
     public GameObject porta;
+    public GameObject porta2;
 
     void Update()
     {
@@ -15,6 +16,8 @@ public class Botao : MonoBehaviour
             {
                 porta.SetActive(true);
             }
+            if (porta2 != null)
+                porta2.SetActive(true);
 
             triggerE.SetActive(false);
             Destroy(gameObject, 0.15f);
