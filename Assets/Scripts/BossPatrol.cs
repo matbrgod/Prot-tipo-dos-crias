@@ -22,7 +22,7 @@ public class BossPatrol : MonoBehaviour
     [SerializeField] private GameObject spawnRatinhos;
     [SerializeField] private GameObject musica;
     [SerializeField] private GameObject quest1;
-    [SerializeField] private AudioSource musicaAmbiente;
+    //[SerializeField] private AudioSource musicaAmbiente;
     public GameObject quest;
 
     void Start()

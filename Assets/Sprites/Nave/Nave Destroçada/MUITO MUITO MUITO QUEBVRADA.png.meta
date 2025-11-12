@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a17846549458a924b997fb10eeceaf02
+guid: 8f89c735cca29124a9ad769525536308
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7392447799363050477
-    second: pilastra_0
+      213: -474068279789251758
+    second: MUITO MUITO MUITO QUEBVRADA_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,43 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pilastra_0
+      name: MUITO MUITO MUITO QUEBVRADA_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 30
-        height: 192
+        x: 13
+        y: 53
+        width: 224
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 314e852b4efb86990800000000000000
-      internalID: -7392447799363050477
+      spriteID: 25391e74965cb69f0800000000000000
+      internalID: -474068279789251758
       vertices: []
       indices: 
       edges: []
@@ -161,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pilastra_0: -7392447799363050477
+      MUITO MUITO MUITO QUEBVRADA_0: -474068279789251758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 
@@ -92,7 +91,7 @@ public class Player : MonoBehaviour
         }
 
         timerTiro += Time.deltaTime;
-        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
+        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown && weapon != null)
         {
             timerTiro = 0f;
             weapon.Fire();
