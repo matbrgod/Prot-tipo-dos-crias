@@ -1,4 +1,4 @@
-# Milestone 06
+a# Milestone 06
 
 ## Informações gerais
 
@@ -20,7 +20,7 @@ INTEGRANTES:
 ## Proposta
 - Versão final + publicação no Itch.io <br>
 
-Link da build do jogo no itch.io: <"luaninja.itch.io/hava-nice-day"> <br>
+Link da build do jogo no itch.io: [Hava Nice Day](https://luaninja.itch.io/hava-nice-day) <br>
 
 O jogo, agora em um estado de Alpha avançado, já está com boa parte da experiência condensada em cada uma de suas fases. Missões foram colocadas no tutorial e no primeiro mundo para ajudar o jogador em sua progressão, enquanto o restante dos cenários dão a ele liberdade e curiosidade de explorar e encontrar maneiras de seguir a história apresentada sem ajuda dos desenvolvedores. 
 
