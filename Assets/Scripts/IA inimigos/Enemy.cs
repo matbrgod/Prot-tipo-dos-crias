@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -24,6 +25,12 @@ public class Enemy : MonoBehaviour
     public Transform[] PatrolPoints;
     private int currentPatrolIndex = 0;
 
+    //Dano
+    private Renderer rend;
+    private Color corOriginal;
+    [SerializeField] private ParticleSystem sangue;
+    private ParticleSystem sangueParticleSystemInstance;
+
     
     void Start()
     {
@@ -36,6 +43,9 @@ public class Enemy : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         lastPosition = transform.position;
+        rend = GetComponent<Renderer>();
+        if (rend != null)
+            corOriginal = rend.material.color;
        
     }
     void Update()
@@ -148,10 +158,19 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)
     {
         healthEnemy -= damage;
+        if (rend != null)
+            StartCoroutine(Piscar());
+        sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
         if (healthEnemy <= 0)
         {
             Destroy(gameObject);
         }
+    }
+    private IEnumerator Piscar()
+    {
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(0.3f);
+        rend.material.color = corOriginal;
     }
 
     void OnCollisionEnter2D(Collision2D collision)

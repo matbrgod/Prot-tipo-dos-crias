@@ -303,9 +303,9 @@ MonoBehaviour:
       m_Extent: {x: 0.8374939, y: 0.6187439, z: 0}
     m_EdgeProcessing: 1
     m_TrimEdge: 0.1
-    m_FlipX: 1
+    m_FlipX: 0
     m_FlipY: 0
-    m_InitialTrim: 0.1
+    m_InitialTrim: 0
   m_CastingOption: 1
   m_PreviousTrimEdge: 0.1
   m_PreviousEdgeProcessing: 1
@@ -338,6 +338,7 @@ MonoBehaviour:
   tempoDeESpera: 2
   walkThreshold: 0.05
   PatrolPoints: []
+  sangue: {fileID: 4897215281484936675, guid: 77d731ffc0fe3e24789893ccd9195464, type: 3}
 --- !u!58 &8835789812979261910
 CircleCollider2D:
   m_ObjectHideFlags: 0
