@@ -15,9 +15,10 @@ INTEGRANTES:
 
 ## Sumário do Projeto 
 
-milestone 01 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_01.md"> Mecânica temporal e universo narrativo </a> <br>
-milestone 02 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_02.md"> Core Gameplay com protótipo navegável + concepts </a> <br>
-milestone 03 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone_03_niveis.md"> Três níveis temáticos interconectados </a> <br>
+milestone 01 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone01_universo.md"> Mecânica temporal e universo narrativo </a> <br>
+milestone 02 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone02_prototipo.md"> Core Gameplay com protótipo navegável + concepts </a> <br>
+milestone 03 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone03_niveis.md"> Três níveis temáticos interconectados </a> <br>
 milestone 04 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone04_boss.md"> Boss, estrutura de esqueleto, menu, intro e seleção </a> <br>
-milestone 05 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone05_testes.md"> Testes de gameplay, ajustes de design </a>
+milestone 05 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone05_testes.md"> Testes de gameplay, ajustes de design </a> <br>
+milestone 06 - <a href="https://github.com/matbrgod/Prot-tipo-dos-crias/blob/main/doc/milestone06_final.md"> Versão final + publicação no Itch.io </a>
 
