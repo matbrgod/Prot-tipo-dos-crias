@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Atirador Ruivo-Curto_0: -4535303510559896317
+      Atirador Ruivo-Curto_1: 3097075032559258365
+      Atirador Ruivo-Curto_2: -2559591587850928497
+      Atirador Ruivo-Curto_3: -5697793785469977927
+      Atirador Ruivo-Curto_4: -924704877704391885
+      Atirador Ruivo-Curto_5: -353848358952666555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

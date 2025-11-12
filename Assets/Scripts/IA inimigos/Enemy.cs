@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     private float espera = 0f;
     public float tempoDeESpera = 2f;
     public float walkThreshold = 0.05f;
-     private Vector3 lastPosition;
+    private Vector3 lastPosition;
     private bool continuarPatrulha = true;
     private NavMeshAgent agent;
 
