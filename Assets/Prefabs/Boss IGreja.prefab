@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4959586273014712914
 Transform:
   m_ObjectHideFlags: 0
@@ -166,6 +166,7 @@ MonoBehaviour:
   player: {fileID: 0}
   distanceBetween: 7
   armaQGira: {fileID: 1648018463560554997}
+  arma: {fileID: 3568669790991094543}
   bulletPrefab: {fileID: 4194906159117577996, guid: 6a297f87bb809274d97d317eeb5562f7, type: 3}
   firePoint: {fileID: 9084256109541807298}
   firePoint2: {fileID: 3331075442707655547}

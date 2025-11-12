@@ -429,6 +429,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 701389237635052285, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
+      propertyPath: pedras
+      value: 
+      objectReference: {fileID: 3562851131366870989, guid: a745cca730082e547b26fd3268ccbb69, type: 3}
+    - target: {fileID: 701389237635052285, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
       propertyPath: vidaMaxima
       value: 1.5
       objectReference: {fileID: 0}
@@ -511,6 +515,10 @@ PrefabInstance:
     - target: {fileID: 6635151139883428472, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635151139883428472, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
+      propertyPath: m_Priority
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6635151139883428472, guid: 644638cc5a23fba4eb7a8d76e876f725, type: 3}
       propertyPath: m_HasRenderer
