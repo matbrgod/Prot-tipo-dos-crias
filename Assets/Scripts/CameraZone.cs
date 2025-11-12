@@ -60,7 +60,7 @@ public class CameraZone : MonoBehaviour
         var player = FindObjectOfType<Player>();
         if (player != null) player.canAttack = true;
         FindObjectOfType<Player>().moveSpeed = 5f;
-        bossIgreja.HoraDoDuelo();
+        if(bossIgreja != null) bossIgreja.HoraDoDuelo();
         Destroy(this.gameObject);
     }
 }
