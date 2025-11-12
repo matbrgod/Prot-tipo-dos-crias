@@ -5,20 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class BotaoJogar : MonoBehaviour
 {
-    [SerializeField] private GameObject loadingScreen;
+    //[SerializeField] private GameObject loadingScreen;
     [SerializeField] private GameObject Error;
+    public GameObject yesButton;
+    public GameObject noButton;
+
     public void Play()
     {
         if (Error != null)
             Error.SetActive(false);
-        if (loadingScreen != null)
-            loadingScreen.SetActive(true);
-        StartCoroutine(systemLoading());
+        
+        if (yesButton != null)
+            yesButton.SetActive(false);
+        if (noButton != null)
+            noButton.SetActive(false);
+        LevelManager.Instance.LoadScene("tutorial nave", "CrossFade");
+        //StartCoroutine(systemLoading());
             
     }
     public void Credits()
     {
-        SceneManager.LoadScene("Game Over");
+        MusicManager.Instance.PlayMusic("Parar");
+        LevelManager.Instance.LoadScene("Creditos", "CrossFade");
     }
     public void Leave()
     {
@@ -26,12 +34,12 @@ public class BotaoJogar : MonoBehaviour
     }
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
+        LevelManager.Instance.LoadScene("Menu", "CrossFade");
     }
 
     private IEnumerator systemLoading()
     {
-        yield return new WaitForSeconds(2.67f);
-        SceneManager.LoadScene("tutorial nave");
+        yield return new WaitForSeconds(2.5f);
+        LevelManager.Instance.LoadScene("tutorial nave", "CrossFade");
     }
 }

@@ -6,7 +6,8 @@ public class PortaParaOFuturo : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Laboratório 1");
+            //SceneManager.LoadScene("Futuro 1");
+            LevelManager.Instance.LoadScene("Futuro 1", "CrossFade");
             Debug.Log("Collision detected with" + collision.gameObject.name);
         }
 

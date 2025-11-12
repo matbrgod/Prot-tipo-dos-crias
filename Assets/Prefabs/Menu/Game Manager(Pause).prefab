@@ -59,3 +59,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330aa3327a0fa2c47ac258a6c1128cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Error: {fileID: 0}
+  yesButton: {fileID: 0}
+  noButton: {fileID: 0}

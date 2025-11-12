@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 
 public class Player : MonoBehaviour
 {
@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
     
     public bool interact = false;
     public GameManager gameManager;
+    public bool canAttack = true;
 
     private float triggerTickTimer = 0f;
     public float triggerTickInterval = 1f;
@@ -39,6 +40,10 @@ public class Player : MonoBehaviour
     public float invincibleDuration;
     public SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject reloadingUI;
+    [SerializeField] private GameObject efeitoTiro;
+    [SerializeField] private ParticleSystem sangue;
+
+    private ParticleSystem sangueParticleSystemInstance;
 
     void Awake()
     {
@@ -58,6 +63,7 @@ public class Player : MonoBehaviour
         originalMoveSpeed = moveSpeed;
         healthText.text = "" + healthPlayer;
         isInvincible = false;
+             
 
         int enemyLayer = LayerMask.NameToLayer("Enemy");
         if (enemyLayer != -1)
@@ -69,11 +75,15 @@ public class Player : MonoBehaviour
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        healthText.text = "" + healthPlayer;
 
-        if(moveX != 0 || moveY != 0)
-        animator.SetBool("EstaAndando", true);
+        if (moveX != 0 || moveY != 0)
+        {
+            animator.SetBool("EstaAndando", true);
+            //SoundManager.Instance.PlaySound2D("Passos");
+        }
         else
-        animator.SetBool("EstaAndando", false);
+            animator.SetBool("EstaAndando", false);
 
         if (healthPlayer <= 0)
         {
@@ -81,19 +91,27 @@ public class Player : MonoBehaviour
         }
 
         timerTiro += Time.deltaTime;
-        if (Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown)
+        if (canAttack && Input.GetMouseButtonDown(0) && timerTiro >= tiroCooldown && weapon != null)
         {
             timerTiro = 0f;
             weapon.Fire();
+
+
+        }
+        if (canAttack && Input.GetKeyDown(KeyCode.Space))
+        {
+            WeaponParent.Attack();            
         }
 
         if (reloadingUI != null)
             reloadingUI.SetActive(timerTiro < tiroCooldown);
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            WeaponParent.Attack();            
-        }
+        if(efeitoTiro != null)
+            efeitoTiro.SetActive(timerTiro < 0.2f);
+
+        //if(WeaponParent.isActiveAndEnabled)
+            //canAttack = true;
+            
         
         interact = Input.GetKeyDown(KeyCode.E);
 
@@ -103,9 +121,19 @@ public class Player : MonoBehaviour
         
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (mouseWorldPos.x > transform.position.x)
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        else 
-            transform.rotation = Quaternion.Euler(0, -180, 0);
+        {
+            if(reloadingUI != null)
+                reloadingUI.transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(0, 0, 0);            
+        }
+        else
+        {
+            if(reloadingUI != null)
+                reloadingUI.transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(0, -180, 0);            
+        }
+            
+        
 
         
     }
@@ -115,13 +143,15 @@ public class Player : MonoBehaviour
                 if (collision.collider.CompareTag("Enemy"))
                 {
                     healthPlayer -= 10; // Diminui 10 de vida
+                    SpawnParticlesSangue();
                     healthText.text = "" + healthPlayer;
+                    
                     
                     StartCoroutine(InvincibilityCoroutine());
                     
                     if (healthPlayer <= 0)
-                    {
-                        
+            {   
+                        MusicManager.Instance.PlayMusic("Parar");
                         SceneManager.LoadScene("Game Over"); 
                     }
                     //Destroy(collision.gameObject); // Opcional
@@ -185,6 +215,12 @@ public class Player : MonoBehaviour
         if (spriteRenderer != null) spriteRenderer.color = Color.white;
     }
 
+    /*private IEnumerator EfeitoTiroCoroutine()
+    {
+        yield return new WaitForSeconds(0.2f);
+        efeitoTiro.SetActive(false);
+    }*/
+
     private void OnDisable()
     {
         int enemyLayer = LayerMask.NameToLayer("Enemy");
@@ -217,6 +253,11 @@ public class Player : MonoBehaviour
 
     }
 
-    
-    
+    void SpawnParticlesSangue()
+    {
+        sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
+    }
+
+
+
 }

@@ -10,6 +10,9 @@ public class BossPatrol : MonoBehaviour
     public int maxHealthEnemy;
     private bool atacar = false;
     public GameObject player;
+    [SerializeField] private ParticleSystem sangue;
+    private ParticleSystem sangueParticleSystemInstance;
+
 
     public HealthBar healthBar;
     [Header("Componentes para desativar/ativar ao morrer")]
@@ -18,14 +21,15 @@ public class BossPatrol : MonoBehaviour
     [SerializeField] private GameObject TriggerDoE;
     [SerializeField] private GameObject spawnRatinhos;
     [SerializeField] private GameObject musica;
-    //[SerializeField] private GameObject alarme;
+    [SerializeField] private GameObject quest1;
+    //[SerializeField] private AudioSource musicaAmbiente;
     public GameObject quest;
 
     void Start()
     {
         targetPoint = 0;
-        healthBar.SetMaxHealth(maxHealthEnemy);
         healthEnemy = maxHealthEnemy;
+        healthBar.SetMaxHealth(maxHealthEnemy);
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -64,6 +68,7 @@ public class BossPatrol : MonoBehaviour
     // centralize damage + death handling
     public void TakeDamage(int damage)
 {
+    SpawnParticlesSangue();
     healthEnemy -= damage;
     Debug.Log($"{name} took {damage} dmg, health now {healthEnemy} (object={gameObject.name})");
     if (healthBar != null) healthBar.SetHealth(healthEnemy);
@@ -83,8 +88,11 @@ private void Die()
     if (TriggerDoE != null) TriggerDoE.SetActive(true); else Debug.Log("TriggerDoE is null");
     if (spawnRatinhos != null) spawnRatinhos.SetActive(false); else Debug.Log("spawnRatinhos is null");
     if (musica != null) musica.SetActive(false); else Debug.Log("musica is null");
-    //if (alarme != null) alarme.SetActive(false); else Debug.Log("alarme is null");
+    //if (musicaAmbiente != null) musicaAmbiente.Play(); else Debug.Log("alarme is null");
+    MusicManager.Instance.PlayMusic("CavernaTensa");
     if (quest != null) quest.SetActive(true); else Debug.Log("quest is null");
+    if (quest1 != null) quest1.SetActive(false); else Debug.Log("quest1 is null");
+
 
     Destroy(gameObject);
 }
@@ -101,6 +109,11 @@ private void Die()
         {
             atacar = false;
         }
+    }
+
+    void SpawnParticlesSangue()
+    {
+        sangueParticleSystemInstance = Instantiate(sangue,transform.position, Quaternion.identity);
     }
 
     // If bullets are triggers, uncomment and use this instead:

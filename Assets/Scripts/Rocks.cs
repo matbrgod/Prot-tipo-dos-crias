@@ -32,6 +32,7 @@ public class Rocks : MonoBehaviour
         if (barraDeVida != null)
         {
             barraDeVida.value = vidaAtual;
+            SoundManager.Instance.PlaySound2D("Picaretada"); //Nao ta tocando nao sei pq
         }
 
         if (vidaAtual <= 0)
