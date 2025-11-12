@@ -37,19 +37,19 @@ public class CenasManager : MonoBehaviour
         {
             case "Menu":
                 {
-                ultimaCenaCarregada = "Menu";
-                MusicManager.Instance.PlayMusic("Menu");
-                break;
+                    ultimaCenaCarregada = "Menu";
+                    MusicManager.Instance.PlayMusic("Menu");
+                    break;
                 }
             case "tutorial nave":
                 {
-                ultimaCenaCarregada = "tutorial nave";
-                MusicManager.Instance.PlayMusic("CavernaTensa");
-                break;
+                    ultimaCenaCarregada = "tutorial nave";
+                    MusicManager.Instance.PlayMusic("CavernaTensa");
+                    break;
                 }
             case "Cenario 01":
                 {
-                ultimaCenaCarregada = "Cenario 01";
+                    ultimaCenaCarregada = "Cenario 01";
                     MusicManager.Instance.PlayMusic("Mundo1");
                     break;
                 }
