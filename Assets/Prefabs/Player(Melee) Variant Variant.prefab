@@ -237,7 +237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6246575885521624393
 Transform:
   m_ObjectHideFlags: 0
@@ -300,7 +300,7 @@ TrailRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Time: 0.1
-  m_PreviewTimeScale: 0
+  m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -626,7 +626,7 @@ PrefabInstance:
       objectReference: {fileID: 7740303367426421371}
     - target: {fileID: 268134612409388748, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: damage
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 674921110212286670, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_FlipX
@@ -679,6 +679,10 @@ PrefabInstance:
     - target: {fileID: 3616490175660205125, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779951379253333325, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4176014514911060414, guid: 1b4677bfd7cd53a4c96de0d35692411d, type: 3}
       propertyPath: m_ShadowSoftness

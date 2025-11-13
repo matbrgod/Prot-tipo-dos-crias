@@ -4,6 +4,7 @@ using System.Collections;
 public class MenuController : MonoBehaviour
 {
     public GameObject menuCanvas;
+    public GameObject qHud;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     IEnumerator Start()
     {
@@ -18,6 +19,7 @@ public class MenuController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Q))
         {
             menuCanvas.SetActive(!menuCanvas.activeSelf);
+            qHud.SetActive(false);
         }
     }
 }

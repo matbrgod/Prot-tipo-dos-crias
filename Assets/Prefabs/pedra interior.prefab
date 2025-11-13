@@ -170,7 +170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9145012403283281418, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: vidaMaxima
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9145012403283281418, guid: 1353a63153db95e4b84a1ccc7bb242ac, type: 3}
       propertyPath: objetoADrop

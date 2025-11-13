@@ -1,20 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 using System.Collections.Generic;
 
 public class InventoryController : MonoBehaviour
 {
     private ItemDictionary itemDictionary;
 
+    [Header("Inventory UI")]
     public GameObject inventoryPanel;
     public GameObject slotPrefab;
     public int slotCount;
     public GameObject[] ItemPrefabs;
 
+    [Tooltip("Nome do objeto que contém os slots de inventário")]
     public string inventoryPanelObjectName = "InventoryPanel";
 
     private static InventoryController instance;
-    public static InventoryController Instance => instance; // exposto para outros scripts
+    public static InventoryController Instance => instance;
 
     private bool slotsInitialized = false;
     private List<InventorySaveData> cachedInventory = new List<InventorySaveData>();
@@ -23,6 +26,7 @@ public class InventoryController : MonoBehaviour
 
     private void Awake()
     {
+        // Singleton persistente
         if (instance != null && instance != this)
         {
             Destroy(gameObject);
@@ -33,6 +37,8 @@ public class InventoryController : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         itemDictionary = FindObjectOfType<ItemDictionary>();
+
+        // tenta encontrar o painel caso não tenha sido atribuído no inspetor
         if (inventoryPanel == null)
         {
             var found = GameObject.Find(inventoryPanelObjectName);
@@ -53,35 +59,50 @@ public class InventoryController : MonoBehaviour
             SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    // ---------------------------
+    // CENA NOVA CARREGADA
+    // ---------------------------
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         itemDictionary = FindObjectOfType<ItemDictionary>();
+        StartCoroutine(RebindInventoryPanelWhenSceneIsReady(scene));
+    }
 
-        if (inventoryPanel == null || inventoryPanel.scene != scene)
+    private IEnumerator RebindInventoryPanelWhenSceneIsReady(Scene scene)
+    {
+        // Espera 1 frame para garantir que toda a hierarquia da cena foi carregada
+        yield return null;
+
+        inventoryPanel = GameObject.Find(inventoryPanelObjectName);
+
+        if (inventoryPanel == null)
         {
-            var found = GameObject.Find(inventoryPanelObjectName);
-            if (found != null)
-                inventoryPanel = found;
-            else
-            {
-                var slotInScene = FindObjectOfType<Slot>();
-                if (slotInScene != null)
-                    inventoryPanel = slotInScene.transform.parent.gameObject;
-            }
-
-            slotsInitialized = false;
-            IsReady = false;
+            var slotInScene = FindObjectOfType<Slot>();
+            if (slotInScene != null)
+                inventoryPanel = slotInScene.transform.parent.gameObject;
         }
+
+        if (inventoryPanel == null)
+        {
+            Debug.LogWarning($"InventoryController: não foi possível encontrar '{inventoryPanelObjectName}' na cena '{scene.name}'.");
+            yield break;
+        }
+
+        slotsInitialized = false;
+        IsReady = false;
 
         TryInitializeSlots();
     }
 
+    // ---------------------------
+    // INICIALIZAÇÃO DOS SLOTS
+    // ---------------------------
     private void TryInitializeSlots()
     {
         if (slotsInitialized) return;
         if (inventoryPanel == null)
         {
-            Debug.LogWarning("InventoryController: inventoryPanel n�o encontrado para inicializar slots.");
+            Debug.LogWarning("InventoryController: inventoryPanel não encontrado para inicializar slots.");
             return;
         }
 
@@ -92,14 +113,19 @@ public class InventoryController : MonoBehaviour
 
         slotsInitialized = true;
         IsReady = true;
+
+        Debug.Log($"InventoryController: slots inicializados ({slotCount} slots).");
     }
 
+    // ---------------------------
+    // SALVAR / RESTAURAR ITENS
+    // ---------------------------
     public List<InventorySaveData> GetInventoryItems()
     {
         List<InventorySaveData> invData = new List<InventorySaveData>();
         if (inventoryPanel == null)
         {
-            Debug.LogWarning("GetInventoryItems: inventoryPanel � null.");
+            Debug.LogWarning("GetInventoryItems: inventoryPanel é null.");
             return invData;
         }
 
@@ -123,7 +149,7 @@ public class InventoryController : MonoBehaviour
     {
         if (inventoryPanel == null)
         {
-            Debug.LogWarning("InventoryController: inventoryPanel n�o atribu�do ao SetInventoryItems.");
+            Debug.LogWarning("InventoryController: inventoryPanel não atribuído ao SetInventoryItems.");
             return;
         }
 
@@ -151,7 +177,7 @@ public class InventoryController : MonoBehaviour
                     }
                     else if (itemPrefab == null)
                     {
-                        Debug.LogWarning($"InventoryController: prefab para itemID {data.itemID} n�o encontrado no ItemDictionary.");
+                        Debug.LogWarning($"InventoryController: prefab para itemID {data.itemID} não encontrado no ItemDictionary.");
                     }
                 }
             }
@@ -168,10 +194,21 @@ public class InventoryController : MonoBehaviour
         Debug.Log($"SetInventoryItems: aplicados {cachedInventory.Count} itens ao painel.");
     }
 
+    // ---------------------------
+    // ADICIONAR ITENS
+    // ---------------------------
     public bool AddItem(GameObject itemPrefab)
     {
+        if (!IsReady)
+        {
+            Debug.LogWarning("AddItem chamado antes do inventário estar pronto!");
+            return false;
+        }
+
         Item itemToAdd = itemPrefab.GetComponent<Item>();
         if (itemToAdd == null) return false;
+
+        // Tenta empilhar item igual
         foreach (Transform slotTransform in inventoryPanel.transform)
         {
             Slot slot = slotTransform.GetComponent<Slot>();
@@ -188,6 +225,7 @@ public class InventoryController : MonoBehaviour
             }
         }
 
+        // Tenta achar slot vazio
         foreach (Transform slotTransform in inventoryPanel.transform)
         {
             Slot slot = slotTransform.GetComponent<Slot>();
@@ -202,8 +240,7 @@ public class InventoryController : MonoBehaviour
             }
         }
 
-        Debug.Log("Inventory Full");
+        Debug.Log("Inventário cheio");
         return false;
     }
 }
-
