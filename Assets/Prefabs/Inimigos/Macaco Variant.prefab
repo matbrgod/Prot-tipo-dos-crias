@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthEnemy: 0
-  maxHealthEnemy: 6
+  maxHealthEnemy: 5
   speed: 6
   player: {fileID: 0}
   distanceBetween: 9
