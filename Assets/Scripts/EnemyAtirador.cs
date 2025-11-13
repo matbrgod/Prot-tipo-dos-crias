@@ -35,6 +35,11 @@ public class EnemyAtirador : MonoBehaviour
     private int currentPatrolIndex = 0;
     [SerializeField] private GameObject arma; // arma do inimigo
 
+    //animacao andar
+    public Animator enemyAtiradorAnimator;
+    private Vector3 lastPosition;
+    public float walkThreshold = 0.3f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -46,6 +51,7 @@ public class EnemyAtirador : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.destination = player.transform.position;
+        enemyAtiradorAnimator = GetComponent<Animator>();
     }
     void Update()
     {
@@ -54,6 +60,27 @@ public class EnemyAtirador : MonoBehaviour
         direction.Normalize();
         //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+
+        float currentSpeed = 0f;
+        if (agent != null)
+        {
+            // ensure agent is moving the transform
+            agent.updatePosition = true;
+            // use agent.velocity (Vector3) magnitude
+            currentSpeed = agent.velocity.magnitude;
+        }
+        else
+        {
+            float movedThisFrame = Vector2.Distance(transform.position, lastPosition);
+            currentSpeed = movedThisFrame / Mathf.Max(Time.deltaTime, 0.0001f);
+        }
+
+        bool isWalking = currentSpeed > walkThreshold;
+
+        if (enemyAtiradorAnimator != null && enemyAtiradorAnimator.GetBool("IsWalking") != isWalking)
+            enemyAtiradorAnimator.SetBool("IsWalking", isWalking);
+
+        lastPosition = transform.position;
 
         if (direction.x > 0)
             spriteRenderer.flipX = false; // Facing right

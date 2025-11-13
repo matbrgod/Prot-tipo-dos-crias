@@ -8,7 +8,7 @@ public class Item : MonoBehaviour
     public int ID;
     public int quantity = 1;
 
-    private TMP_Text quantityText;
+    public TMP_Text quantityText;
 
     private void Awake()
     {
