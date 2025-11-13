@@ -55,6 +55,10 @@ public class Enemy : MonoBehaviour
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+        if (healthEnemy <= 0)
+        {
+            Destroy(gameObject);
+        }
 
         // determine current speed: prefer NavMeshAgent velocity, fallback to position delta
         float currentSpeed = 0f;
