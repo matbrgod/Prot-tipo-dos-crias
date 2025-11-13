@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class AudioMixer : MonoBehaviour
 {
-    public AudioMixer masterMixer;
+    /*public AudioMixer audioMixer;
     public Slider musicSlider;
     public Slider sfxSlider;
 
@@ -12,12 +12,11 @@ public class AudioMixer : MonoBehaviour
     {
         LoadVolume();
     }
-    public void UpdateMusicVolume(float volume)
+    public void UpdateMusicVolume (float volume)
     {
         audioMixer.SetFloat("MusicVolume", volume);
     }
- 
-    public void UpdateSoundVolume(float volume)
+    public void UpdateSoundVolume (float volume)
     {
         audioMixer.SetFloat("SFXVolume", volume);
     }
@@ -34,5 +33,5 @@ public class AudioMixer : MonoBehaviour
     {
         musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
         sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
-    }
+    }*/
 }
