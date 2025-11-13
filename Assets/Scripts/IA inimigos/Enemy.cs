@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class Enemy : MonoBehaviour
     private float espera = 0f;
     public float tempoDeESpera = 2f;
     public float walkThreshold = 0.05f;
-     private Vector3 lastPosition;
+    private Vector3 lastPosition;
     private bool continuarPatrulha = true;
     private NavMeshAgent agent;
 
@@ -23,6 +24,12 @@ public class Enemy : MonoBehaviour
     private bool patrulhando = true;
     public Transform[] PatrolPoints;
     private int currentPatrolIndex = 0;
+
+    //Dano
+    private Renderer rend;
+    private Color corOriginal;
+    [SerializeField] private ParticleSystem sangue;
+    private ParticleSystem sangueParticleSystemInstance;
 
     
     void Start()
@@ -36,6 +43,9 @@ public class Enemy : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         lastPosition = transform.position;
+        rend = GetComponent<Renderer>();
+        if (rend != null)
+            corOriginal = rend.material.color;
        
     }
     void Update()
@@ -45,6 +55,10 @@ public class Enemy : MonoBehaviour
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+        if (healthEnemy <= 0)
+        {
+            Destroy(gameObject);
+        }
 
         // determine current speed: prefer NavMeshAgent velocity, fallback to position delta
         float currentSpeed = 0f;
@@ -148,10 +162,19 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)
     {
         healthEnemy -= damage;
+        if (rend != null)
+            StartCoroutine(Piscar());
+        sangueParticleSystemInstance = Instantiate(sangue, transform.position, Quaternion.identity);
         if (healthEnemy <= 0)
         {
             Destroy(gameObject);
         }
+    }
+    private IEnumerator Piscar()
+    {
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(0.3f);
+        rend.material.color = corOriginal;
     }
 
     void OnCollisionEnter2D(Collision2D collision)

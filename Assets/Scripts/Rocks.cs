@@ -7,6 +7,10 @@ public class Rocks : MonoBehaviour
     public float vidaMaxima=5f;
     public float vidaAtual;
 
+    //Sistema de Particulas
+    [SerializeField] private ParticleSystem pedras;
+    private ParticleSystem pedrasParticleSystemInstance;
+
     public Slider barraDeVida; // para adicionar uma barra de vida futuramente (ignorar por enquanto)   
 
     void Start()
@@ -29,10 +33,11 @@ public class Rocks : MonoBehaviour
     public void ReceberDano(float damage)
     {
         vidaAtual -= damage;
+        pedrasParticleSystemInstance = Instantiate(pedras, transform.position, Quaternion.identity);
+        SoundManager.Instance.PlaySound2D("Picaretada");
         if (barraDeVida != null)
         {
             barraDeVida.value = vidaAtual;
-            SoundManager.Instance.PlaySound2D("Picaretada"); //Nao ta tocando nao sei pq
         }
 
         if (vidaAtual <= 0)

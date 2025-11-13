@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4959586273014712914
 Transform:
   m_ObjectHideFlags: 0
@@ -28,8 +28,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.86, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.7, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9084256109541807298}
   m_Father: {fileID: 6692466215972359371}
@@ -41,7 +41,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3568669790991094543}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 898671639, guid: bbec393805529904f93f6d165e370c51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,8 +105,8 @@ MonoBehaviour:
   firePoint: {fileID: 9084256109541807298}
   fireForce: 20
   fireSound: {fileID: 0}
-  firePitchMin: 0
-  firePitchMax: 0
+  firePitchMin: 0.5
+  firePitchMax: 0.5
 --- !u!1 &4115998124615025551
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 5080419300785641740}
   - component: {fileID: 4792762119452962825}
   - component: {fileID: 685718948521062785}
+  - component: {fileID: 7203750445629873102}
   m_Layer: 9
   m_Name: Boss IGreja
   m_TagString: Boss
@@ -165,6 +166,7 @@ MonoBehaviour:
   player: {fileID: 0}
   distanceBetween: 7
   armaQGira: {fileID: 1648018463560554997}
+  arma: {fileID: 3568669790991094543}
   bulletPrefab: {fileID: 4194906159117577996, guid: 6a297f87bb809274d97d317eeb5562f7, type: 3}
   firePoint: {fileID: 9084256109541807298}
   firePoint2: {fileID: 3331075442707655547}
@@ -204,6 +206,10 @@ MonoBehaviour:
   tempoEntreTiros: 2
   projetilPrefab: {fileID: 1320350450539152995, guid: 2fe10c1f6e3ba4843b6fd47ce1fa18bd, type: 3}
   pontoDeDisparoProjetil: {fileID: 0}
+  cutscene: {fileID: 0}
+  healthBar: {fileID: 0}
+  vidaDoBoss: {fileID: 0}
+  quest: {fileID: 0}
 --- !u!212 &358437771146985579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -390,7 +396,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 95b11d31492c8ff46ae5d832aef2e5af, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 95b11d31492c8ff46ae5d832aef2e5af, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.61
